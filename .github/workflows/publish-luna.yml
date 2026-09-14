@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "LUNA Build"
           git config user.email "luna-build@users.noreply.github.com"
-          git add Luna-Korpus.html Luna.html index.html
+          git add Luna-Korpus.html index.html
           if git diff --cached --quiet; then
             echo "Generated Pages files already current."
           else
