@@ -34,3 +34,9 @@ Source integrity: [SOURCE-INTEGRITY.json](../SOURCE-INTEGRITY.json). App/source 
 Tabelle == Gridline original HTML: **YES**.
 
 Public Pages validation has its own [live/results.json](live/results.json); no local result is substituted for a live result. Upstream baseline results are [13 catalog tests](upstream/catalog-tests.txt) and [54 browser checks](upstream/browser-smoke.txt). These tests do not certify production WAWI, server integrations or every feature in each original program.
+
+## Public Pages acceptance
+
+**PAGES PASS — 84/84**, zero uncaught JavaScript exceptions, zero failed network requests. The same 19 original apps were launched and their executed HTML hashes checked on the public HTTPS URL. [Deployment receipt](live/DEPLOYMENT.json), [results](live/results.json), [visual review](live/VISION.md). The published document is 10,669,028 bytes, SHA-256 `9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e`. The independently inspected live native-Snap screenshot shows Gridline, Quire and Formalyth together.
+
+LOCAL PASS / PAGES PASS.

@@ -1,0 +1,26 @@
+{
+  "observed_at_utc": "2026-09-14T10:34:42.099055+00:00",
+  "local": "PASS",
+  "pages": "PASS",
+  "local_checks": 84,
+  "live_checks": 84,
+  "uncaught_javascript_exceptions": 0,
+  "failed_requests": 0,
+  "original_apps": 19,
+  "catalog_records_retained": 84,
+  "visible_builtin_apps_retained": 20,
+  "desktop_shortcuts": 13,
+  "gridline_original_html": true,
+  "published_html_sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+  "source_branch": "release/aster-originals-20260914",
+  "pages_url": "https://martin-hausleitner.github.io/Luna-Korpus/",
+  "visual_reviews": [
+    "VISION.md",
+    "live/VISION.md"
+  ],
+  "git_byte_audit": {
+    "checked": 706,
+    "mismatches": []
+  },
+  "package_note": "The themed Aster shell is one HTML. Six original multipart apps require the included Apps/resources directory over HTTP/HTTPS."
+}

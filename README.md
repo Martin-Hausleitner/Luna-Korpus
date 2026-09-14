@@ -13,6 +13,8 @@ This is the real **Aster Desktop**, with its Windows profile selected, a Luna th
 
 Active delivery branch: `release/aster-originals-20260914` (repository default and Pages source). Concurrent `main` work remains untouched; see [preserved deliveries](ARCHIVED-DELIVERIES.md).
 
+[Download the complete verified ZIP](https://github.com/Martin-Hausleitner/Luna-Korpus/releases/download/v2026.09.14-aster-originals/Luna-Korpus.zip) · [Release and checksums](https://github.com/Martin-Hausleitner/Luna-Korpus/releases/tag/v2026.09.14-aster-originals)
+
 ## Run the complete delivery
 
 Download the full repository/archive, keep the `Apps/` directory, then run:
@@ -92,6 +94,6 @@ This is an unofficial Aster skin and original-app distribution, **not licensed W
 
 Unmodified Aster baseline: **13/13 catalog tests and 54/54 browser smoke checks**. The baseline browser harness's occupied localhost port was changed in memory from 8766 to 18766; its test logic and application source were not changed. Logs are in `qa/upstream/`.
 
-This delivery's local integration QA: **84/84 checks passed** at 1920×1080 in real Chromium/Chrome. `qa/results.json` includes per-app executed HTML hashes, frame titles, element counts, actual Snap geometry, storage checks and all request errors. Public Pages is tested separately; see `qa/live/results.json` once published. This is smoke/integration QA, not certification of every upstream feature.
+This delivery's local integration QA: **84/84 checks passed** at 1920×1080 in real Chromium/Chrome. `qa/results.json` includes per-app executed HTML hashes, frame titles, element counts, actual Snap geometry, storage checks and all request errors. Public Pages passed the same **84/84 checks** independently, with zero uncaught JavaScript exceptions and zero failed requests; see `qa/live/results.json`. The root HTTP document SHA-256 matches the local build, and the live multiwindow screenshot was visually inspected. This is smoke/integration QA, not certification of every upstream feature.
 
 Copyright and credit remain with Aster and each linked upstream repository. Original licenses/notices are in `LICENSE`, `theme-source/LICENSE`, `theme-source/third-party/` and `licenses/<Repo>/`; vendored dependency notices remain with their resources. Some upstream snapshots contain no top-level license; their `SOURCE-NOTICE.md` states that absence instead of inventing an MIT grant. The Luna integration is MIT. Aster reference: https://wieslawsoltes.github.io/Aster/ .

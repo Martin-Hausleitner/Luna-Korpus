@@ -1,0 +1,4205 @@
+{
+  "url": "https://martin-hausleitner.github.io/Luna-Korpus/",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "fixtures": false,
+  "checks": [
+    {
+      "name": "Aster boots with 19 byte-verified installed original apps",
+      "pass": true,
+      "details": 132
+    },
+    {
+      "name": "Complete original catalog retained",
+      "pass": true,
+      "details": 84
+    },
+    {
+      "name": "Mines and Win32 remain available",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "All visible application launcher titles use parentheses",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Exactly 13 requested desktop pins",
+      "pass": true,
+      "details": [
+        {
+          "app": "files",
+          "title": "Explorer (File Explorer)"
+        },
+        {
+          "app": "custom-luna-dateien",
+          "title": "Dateien (TwinForge)"
+        },
+        {
+          "app": "custom-luna-tabelle",
+          "title": "Tabelle (Gridline)"
+        },
+        {
+          "app": "custom-luna-planung",
+          "title": "Planung (MeridianPlan)"
+        },
+        {
+          "app": "calendar",
+          "title": "Kalender (Calendar)"
+        },
+        {
+          "app": "custom-luna-mail",
+          "title": "Mail (Quire)"
+        },
+        {
+          "app": "custom-luna-akte",
+          "title": "Akte (Folio)"
+        },
+        {
+          "app": "custom-luna-zeichnung",
+          "title": "Zeichnung (Draftline)"
+        },
+        {
+          "app": "custom-luna-cad",
+          "title": "CAD (KestrelCAD)"
+        },
+        {
+          "app": "custom-luna-korpus",
+          "title": "Korpus (Formalyth)"
+        },
+        {
+          "app": "custom-luna-material",
+          "title": "Material (StrataForge)"
+        },
+        {
+          "app": "custom-luna-aufmass",
+          "title": "Aufmaß (PlanforgeReview)"
+        },
+        {
+          "app": "settings",
+          "title": "Einstellungen (Settings)"
+        }
+      ]
+    },
+    {
+      "name": "Luna is selected on the actual Windows profile",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Taskbar product word is LUNA, not Aster",
+      "pass": true,
+      "details": "LUNA\nSearch\n12:30\n14.09.2026"
+    },
+    {
+      "name": "Taskbar branding survives native taskbar rerender",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Durable IndexedDB is available",
+      "pass": true,
+      "details": "IndexedDB"
+    },
+    {
+      "name": "One Aster shell, no second desktop",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Real desktop double-click launches the installed Gridline original",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "App Center has full discovery, installed and built-in views",
+      "pass": true,
+      "details": [
+        "Katalog",
+        "Installiert",
+        "Favoriten",
+        "Aster-Programme"
+      ]
+    },
+    {
+      "name": "App Store built-in view includes Mines and Win32",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "App Store installed view contains all 19 originals",
+      "pass": true,
+      "details": 19
+    },
+    {
+      "name": "Explorer uses the upstream Aster File Explorer DOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: Gridline",
+      "pass": true,
+      "details": "31aa5e1ed31ba6e428ffd86c7ed4c734b71b3589d89a8f5d909b68e037c2d6de"
+    },
+    {
+      "name": "Original app mounts: Gridline",
+      "pass": true,
+      "details": {
+        "title": "Revenue operations · FY2026 — Gridline",
+        "elements": 372,
+        "controls": 81,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: Gridline",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Tabelle == Gridline original HTML",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Gridline ribbon, formula bar and sheet tabs exist",
+      "pass": true,
+      "details": [
+        {
+          "id": "workbook-title",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "name-box",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "formula-input",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "cell-editor",
+          "cls": "cell-editor",
+          "placeholder": ""
+        },
+        {
+          "id": "zoom-slider",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "file-input",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "fill-picker",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "text-picker",
+          "cls": "",
+          "placeholder": ""
+        }
+      ]
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: MeridianPlan",
+      "pass": true,
+      "details": "56df9a77c12c603e5ffb6a25d009933c7d71950565583e1bf910eea3b9afdfd3"
+    },
+    {
+      "name": "Original app mounts: MeridianPlan",
+      "pass": true,
+      "details": {
+        "title": "Meridian Plan · Project scheduling",
+        "elements": 515,
+        "controls": 69,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: MeridianPlan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: MeridianOffice",
+      "pass": true,
+      "details": "3a0e4675ee91caf6e30f21085c227bcaf237f2a536cd17d6ea6387cd38cfa885"
+    },
+    {
+      "name": "Original app mounts: MeridianOffice",
+      "pass": true,
+      "details": {
+        "title": "Meridian Office — A little more possible.",
+        "elements": 410,
+        "controls": 71,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: MeridianOffice",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: TwinForge",
+      "pass": true,
+      "details": "4500f74c6bbd142a7dd42589c56cc31e8b0b3af6c32e112714ea7572ed82ac87"
+    },
+    {
+      "name": "Original app mounts: TwinForge",
+      "pass": true,
+      "details": {
+        "title": "TwinForge — Dual-pane file manager",
+        "elements": 329,
+        "controls": 75,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: TwinForge",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: Folio",
+      "pass": true,
+      "details": "a3f7154e814b9a5d235be6dfdc495728e01e4f084f19fccda6b7caf5ea7cf7a5"
+    },
+    {
+      "name": "Original app mounts: Folio",
+      "pass": true,
+      "details": {
+        "title": "Workspace home — Folio",
+        "elements": 277,
+        "controls": 70,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: Folio",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: FolioPro",
+      "pass": true,
+      "details": "b97a999c900eaf7cb29ffa583606a5ff278f091a06861491352c965a563266bf"
+    },
+    {
+      "name": "Original app mounts: FolioPro",
+      "pass": true,
+      "details": {
+        "title": "Northstar — Strategy 2026.pdf — Folio Pro",
+        "elements": 559,
+        "controls": 102,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: FolioPro",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: Quire",
+      "pass": true,
+      "details": "926a26348f2a38c012b112d2e7bcbe779ada5dd290f56a4e3cf08388e5cf52a8"
+    },
+    {
+      "name": "Original app mounts: Quire",
+      "pass": true,
+      "details": {
+        "title": "Quire — The clarity report",
+        "elements": 534,
+        "controls": 97,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: Quire",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: NotepadXP",
+      "pass": true,
+      "details": "44e40442a9369f3b25f8c36081dee70492e05feb92c59f23d2eba577b887f401"
+    },
+    {
+      "name": "Original app mounts: NotepadXP",
+      "pass": true,
+      "details": {
+        "title": "Untitled - Notepad",
+        "elements": 75,
+        "controls": 15,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: NotepadXP",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: LatticeAnalytics",
+      "pass": true,
+      "details": "b8bf1e6b70e782896ccb14c642d661b79247b449be8a7b9be4e64f11a29a8f6f"
+    },
+    {
+      "name": "Original app mounts: LatticeAnalytics",
+      "pass": true,
+      "details": {
+        "title": "Lattice Analytics — Commerce workbook",
+        "elements": 479,
+        "controls": 77,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: LatticeAnalytics",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: AxiomWorksheet",
+      "pass": true,
+      "details": "a35994b859c598628a25089cec5fa220c7f3504953af9237d4a8156b24e09062"
+    },
+    {
+      "name": "Original app mounts: AxiomWorksheet",
+      "pass": true,
+      "details": {
+        "title": "Axiom Worksheet — Cantilever beam",
+        "elements": 791,
+        "controls": 97,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: AxiomWorksheet",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: Draftline",
+      "pass": true,
+      "details": "f60d7a4e4a326c8284d991d97fee8adc2361e71ef97a72063efc8cb4c7692278"
+    },
+    {
+      "name": "Original app mounts: Draftline",
+      "pass": true,
+      "details": {
+        "title": "Meridian House.dxf — Draftline",
+        "elements": 624,
+        "controls": 124,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: Draftline",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: KestrelCAD",
+      "pass": true,
+      "details": "2b0540122c005c6930592136e0420aedb61163ad6bb2e34a12ce5e25e764c886"
+    },
+    {
+      "name": "Original app mounts: KestrelCAD",
+      "pass": true,
+      "details": {
+        "title": "Kestrel CAD",
+        "elements": 781,
+        "controls": 143,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: KestrelCAD",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: PlanforgeReview",
+      "pass": true,
+      "details": "8bfde19ee7e113a87a5c93de218819038b5af8b6d753869d5960d1f3ceec6aef"
+    },
+    {
+      "name": "Original app mounts: PlanforgeReview",
+      "pass": true,
+      "details": {
+        "title": "Planforge Review",
+        "elements": 533,
+        "controls": 65,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: PlanforgeReview",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: Orivane",
+      "pass": true,
+      "details": "af0ed56a09db28ab9dfbfb2de6c73540c4d2dbf21cc8d62bd302a6a5dbd6dce6"
+    },
+    {
+      "name": "Original app mounts: Orivane",
+      "pass": true,
+      "details": {
+        "title": "Atlas · Product discovery · Orivane",
+        "elements": 194,
+        "controls": 39,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: Orivane",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: VeyraWorkspace",
+      "pass": true,
+      "details": "18c9b4148c58adf79c63851c07ac821adcc67fe28dbb349efde23ee3742e7795"
+    },
+    {
+      "name": "Original app mounts: VeyraWorkspace",
+      "pass": true,
+      "details": {
+        "title": "Veyra · Your space to work together",
+        "elements": 339,
+        "controls": 58,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: VeyraWorkspace",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: Velsign",
+      "pass": true,
+      "details": "93c39f71808185dd5e1f2daff06a6648bf49d815cbed7cd50ca90fe45b868e97"
+    },
+    {
+      "name": "Original app mounts: Velsign",
+      "pass": true,
+      "details": {
+        "title": "Velsign — Browser-local signing workspace",
+        "elements": 258,
+        "controls": 27,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: Velsign",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: Formalyth",
+      "pass": true,
+      "details": "1385d5092a32e2ca78a1c9b252d650b144b7bcb04eb98307fe990122f34df4ef"
+    },
+    {
+      "name": "Original app mounts: Formalyth",
+      "pass": true,
+      "details": {
+        "title": "Formalyth — Design & Manufacturing",
+        "elements": 293,
+        "controls": 64,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: Formalyth",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: StrataForge",
+      "pass": true,
+      "details": "75fe77825d6e3165bdb42ece7277c31be935e6beec788029d84ef9f28b79227e"
+    },
+    {
+      "name": "Original app mounts: StrataForge",
+      "pass": true,
+      "details": {
+        "title": "Oxidized Copper — StrataForge",
+        "elements": 601,
+        "controls": 125,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: StrataForge",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Executed HTML is byte-identical to upstream: AvolithStudio",
+      "pass": true,
+      "details": "9406611dcc750711a215b446cd16102249479be394711d651b080de6f749e531"
+    },
+    {
+      "name": "Original app mounts: AvolithStudio",
+      "pass": true,
+      "details": {
+        "title": "Actuator housing — Avolith Studio",
+        "elements": 584,
+        "controls": 103,
+        "errors": []
+      }
+    },
+    {
+      "name": "Original app loads locally: AvolithStudio",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Calendar is the real Aster Calendar",
+      "pass": true,
+      "details": "Kalender (Calendar)\nSeptember 2026\nToday\nMon\nTue\nWed\nThu\nFri\nSat\nSun\n31\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\nMONTAG\n14. September\nNew event\n\nNothing planned. A little room in your day.\n\nStored locally in this browser."
+    },
+    {
+      "name": "Settings still offers Windows, macOS, Ubuntu and Luna",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "First-class Luna preset exports using Aster theme format",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Theme switching preserves the same Settings window",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Native Aster Snap arranges three nonoverlapping original apps",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Three original programs share the Aster window manager",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Focused caption is Luna blue #0078C8",
+      "pass": true,
+      "details": "rgb(0, 120, 200)"
+    },
+    {
+      "name": "Alt+Tab leaves the real multiwindow session alive",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "VFS original HTML and user document survive reload",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "No uncaught JavaScript exceptions",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "apps": [
+    {
+      "title": "Revenue operations · FY2026 — Gridline",
+      "text": "Gridline\nAutoSave\nSaved on this device\nSearch tools, actions, and help\n⌘ K\nGL\nFile\nHome\nInsert\nPage Layout\nFormulas\nData\nReview\nView\nHelp\nNotes\nEditing\nExport\n⌄\nPaste\n⌄\nCut\nCopy\nFormat painter\nClipboard\nAptos\nArial\nGeorgia\nVerdana\nCourier New\n8\n9\n10\n11\n12\n14\n16\n18\n20\n24\n28\n32\n36\n48\nA⁺\nA⁻\nB\nI\nU\nA\nFont\nWrap text\nMerge & center\nAlignment\nGeneral\nNumber\nCurrency\nPercentage\nShort date\nInteger\n$\n,\n.0←\n→.00\nNumber\nConditional\nformatting\n⌄\nFormat as\ntable\n⌄\nNormal\nGood\nHeading\nWarning\nStyles\nInsert\n⌄\nDelete\n⌄\nCells\nAutoSum\nClear\nSort &\nfilter\n⌄\nFind &\nselect\n⌄\nEditing\n⌄\n×\n✓\nƒx\n⌄\nRevenue momentum\nMonthly revenue · USD\n×\n0\n300k\n600k\n900k\n657k\n726k\n804k\nJanuary\nFebruary\nMarch\nA balanced portfolio\nQ1 revenue by sales channel\n×\nEnterprise\n555k\nDirect sales\n408k\nE-commerce\n319k\nPartnerships\n259k\nMid-market\n221k\nResellers\n176k\nMarketplace\n144k\nSelf-service\n105k\nRevenue overview. G13. $408,000. Formula =SUM(D13:F13)\n‹\n›\nRevenue overview\nSales data\nAssumptions\n＋\nYour data stays on your device\nReady\nWebGPU accelerated\n−\n＋\n100%",
+      "elements": 372,
+      "controls": 81,
+      "canvases": 1,
+      "url": "blob:https://martin-hausleitner.github.io/58cc82b6-0846-45e8-b149-eb583fa37e10",
+      "ribbon": true,
+      "inputs": [
+        {
+          "id": "workbook-title",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "name-box",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "formula-input",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "cell-editor",
+          "cls": "cell-editor",
+          "placeholder": ""
+        },
+        {
+          "id": "zoom-slider",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "file-input",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "fill-picker",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "text-picker",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "app",
+        "titlebar",
+        "brand",
+        "brand-mark",
+        "title-divider",
+        "autosave",
+        "toggle on",
+        "quick-actions",
+        {},
+        {},
+        "document-title",
+        "save-status",
+        "global-search",
+        {},
+        "avatar",
+        "tabs-row",
+        "ribbon-tabs",
+        "file-tab",
+        "selected",
+        "document-actions",
+        {},
+        "editing-label",
+        {},
+        "export-button",
+        {},
+        "chevron",
+        "ribbon",
+        "ribbon-group ",
+        "group-content",
+        "big-tool",
+        {},
+        "chevron",
+        "tool-stack",
+        "small-tool",
+        {},
+        "small-tool",
+        {},
+        "tool-stack",
+        "small-tool",
+        {}
+      ],
+      "repo": "Gridline",
+      "file": "Apps/tabelle.html",
+      "sha256": "31aa5e1ed31ba6e428ffd86c7ed4c734b71b3589d89a8f5d909b68e037c2d6de",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "31aa5e1ed31ba6e428ffd86c7ed4c734b71b3589d89a8f5d909b68e037c2d6de"
+    },
+    {
+      "title": "Meridian Plan · Project scheduling",
+      "text": "M\nProjects\nActivities\nWBS\nResources\nReports\nCalendars\nSettings\nHelp\nMP\nMeridian plan\nPROJECT CONTROLS\nENTERPRISE PROJECTS\nCapital delivery\nNorthline Transit Hub\nNL-2026\nRiverside Solar Farm\nRS-2026\nEastbank Mobility Center\nEM-2026\nWORK BREAKDOWN\nALL\nAll activities\n31\n01\nInitiation & design\n6\n02\nProcurement\n4\n03\nEnabling & substructure\n5\n04\nSuperstructure & envelope\n5\n05\nMEP & fit-out\n6\n06\nTesting & handover\n5\nPROJECT TOOLS\nBaselines & scenarios\nImport workbook or CSV\nExport & reports\nLocal workspace\nIndexedDB · stored in this browser\nCapital delivery\nNL-2026\n⌘ K\nMP\nInfrastructure & mobility\nNorthline Transit Hub\nActive\nNL-2026 / Integrated station upgrade, public realm and multimodal interchange.\nSet baseline\nSchedule\nF9\nSchedule finish\n04 Dec 2026\n+2d\nvs. approved baseline\nTotal activities\n31\n4 completed · 3 in progress\nCritical activities\n12\n0 with negative float\nDuration-weighted progress\n14.2%\nResource alerts\n39\nOverallocated resource-days\nActivity schedule\n31\nWBS structure\nResources\nBaselines & scenarios\nReports\nAuto-schedule on\nAdd activity\nAll activities\nCritical only\nIn progress\nNot started\nCompleted\nMilestones\nGroup by\nWBS\nNo grouping\nBaseline\nLinks\nActivity ID\nActivity name\nDuration\nStart\nFinish\nFloat\nDone\n01\nInitiation & design\n6\n35d\n06 Jul 26\n21 Aug 26\n61%\nA1000\nNotice to proceed\n0d\n06 Jul 26\n06 Jul 26\n—\n100%\nA1010\nTopographical & site surveys\n5d\n06 Jul 26\n10 Jul 26\n—\n100%\nA1020\nConcept design & stakeholder review\n8d\n06 Jul 26\n15 Jul 26\n—\n100%\nA1030\nDetailed design coordination\n15d\n16 Jul 26\n07 Aug 26\n20d\n67%\nA1040\nAuthority approvals\n10d\n10 Aug 26\n21 Aug 26\n20d\n0%\nA1050\nDesign freeze\n0d\n21 Aug 26\n21 Aug 26\n20d\n0%\n02\nProcurement\n4\n47d\n23 Jul 26\n28 Sept 26\n10%\nA2010\nLong-lead equipment procurement\n18d\n23 Jul 26\n18 Aug 26\n0d\n33%\nA2020\nOff-site steel fabrication\n15d\n19 Aug 26\n09 Sept 26\n0d\n0%\nA2030\nDelivery & incoming inspection\n3d\n10 Sept 26\n14 Sept 26\n0d\n0%\nCritical\nIn progress\nNot started\nComplete\nMilestone\nBaseline\nData date: 03 Aug 2026\n31 activities\nA1030Detailed design coordination\nGeneral\nRelationships\nResources\nNotebook\nCalculations\nOriginal duration (days)\nRemaining duration (days)\nPhysical complete (%)\nWorking calendar\nStandard · 5-day / 8-ho",
+      "elements": 515,
+      "controls": 69,
+      "canvases": 3,
+      "url": "blob:https://martin-hausleitner.github.io/54c75ad7-7e81-4cce-bb4a-38824a3dc7d5",
+      "ribbon": false,
+      "inputs": [
+        {
+          "id": "global-search",
+          "cls": "",
+          "placeholder": "Search activities…"
+        },
+        {
+          "id": "show-baseline",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "show-links",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "f-duration",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "f-remaining",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "f-percent",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "f-actualStart",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "f-actualFinish",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "import-file",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "shell",
+        "rail",
+        "brand-mark",
+        "rail-item ",
+        "rail-item active",
+        "rail-item ",
+        "rail-item ",
+        "rail-item ",
+        "rail-bottom",
+        "rail-item",
+        "rail-item",
+        "rail-item",
+        "rail-avatar",
+        "avatar",
+        "explorer",
+        "explorer-top",
+        "wordmark",
+        "edition",
+        "explorer-content",
+        "section-label",
+        "tree-title",
+        "project-tree",
+        "project-item active",
+        "project-name",
+        "project-code",
+        "project-item ",
+        "project-name",
+        "project-code",
+        "project-item ",
+        "project-name",
+        "project-code",
+        "explorer-divider",
+        "section-label",
+        "scope-item active",
+        "wbs-code",
+        "scope-count",
+        "scope-item ",
+        "wbs-code",
+        "scope-count",
+        "scope-item "
+      ],
+      "repo": "MeridianPlan",
+      "file": "Apps/planung.html",
+      "sha256": "56df9a77c12c603e5ffb6a25d009933c7d71950565583e1bf910eea3b9afdfd3",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "56df9a77c12c603e5ffb6a25d009933c7d71950565583e1bf910eea3b9afdfd3"
+    },
+    {
+      "title": "Meridian Office — A little more possible.",
+      "text": "M\nW\nWrite\nG\nGrid\nP\nPresent\nME\nMeridian Office\nNorthstar · 2026 strategy\nSaved on this device\nSearch anything\n⌘ K\nComments\nExport\nME\nFile\nHome\nInsert\nLayout\nReview\nView\nPaste\nCut\nCopy\nClipboard\nArial\nGeorgia\nTimes New Roman\nVerdana\nCourier New\n10\n11\n12\n13\n14\n16\n18\n20\n24\n28\n32\n36\n48\n64\n72\nA\n▧\nFont\nParagraph\nAaBb\nNormal\nAaBb\nHeading 1\nAaBb\nHeading 2\nStyles\nFind\nReplace\nEditing\nComment\nReview\nNavigation\nHeadings\nPages\n▾\nGood ideas. Great outcomes.\n•\nThree priorities. One direction.\n•\nBuilt for sustainable growth.\n▾\nFrom direction to delivery.\n•\nWhat success looks like\n•\nOur operating rhythm\n•\nThe next step is ours.\nA LITTLE MORE POSSIBLE\n\nYour documents, numbers, and ideas. Beautifully in sync, in one workspace.\n\nExplore your workbook\nNorthstar workspace\n2026 strategy brief\n   Local workspace\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n\nN O R T H S T A R   /   STRATEGY & OPERATIONS\n\nFY 2026   •   STRATEGIC BRIEF   •   SEPTEMBER 2026\n\nGood ideas.\nGreat outcomes.\n\nA shared direction for our next chapter.\n\nEvery great year starts with a simple question: what matters most? For Northstar, the answer is clear. Build products people love, make every interaction count, and turn our momentum into lasting value.\n\nThree priorities. One direction.\n\nOur 2026 plan connects ambitious thinking with focused execution. We are investing in the work that brings us closer to our customers—and closer to the company we want to become.\n\n01   Build with purpose\t02   Grow together\t03   Make it simpler\nDeliver thoughtful products that solve meaningful problems.\tDeepen relationships with customers, partners, and our team.\tRemove friction. Create space for our best work.\nBuilt for sustainable growth.\n\nOur operating plan balances healthy growth with discipline. We will measure progress by the value we create—not only by the milestones we complete.\n\n“Do fewer things, better. Make the important things matter.”\n\nPREPARED BY THE NORTHSTAR TEAM   /   INTERNAL WORKING DOCUMENT\n\nNORTHSTAR   /   2026 STRATEGY BRIEF\n01\n\nNORTHSTAR / THE PLAN IN PRACTICE\n\nFrom direction\nto delivery.\n\nA practical roadmap for the year ahead.\n\nWhat success looks like\nA product experience our customers recommend.\nA durable, predictable",
+      "elements": 410,
+      "controls": 71,
+      "canvases": 0,
+      "url": "blob:https://martin-hausleitner.github.io/35f33f89-7008-4f38-8bac-0fde4ab869bc",
+      "ribbon": true,
+      "inputs": [
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "document-search",
+          "cls": "",
+          "placeholder": "Search in document"
+        },
+        {
+          "id": "zoom-range",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "file-input",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "image-input",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "shell",
+        "rail",
+        "brand-mark",
+        "rail-btn active",
+        "app-icon write",
+        "rail-btn ",
+        "app-icon grid",
+        "rail-btn ",
+        "app-icon present",
+        "spacer",
+        "round-icon",
+        {},
+        "round-icon",
+        {},
+        "avatar",
+        "topbar",
+        "suite-name",
+        "top-divider",
+        "title-area",
+        "project-title",
+        "save-state",
+        {},
+        "search-button",
+        {},
+        "top-actions",
+        "btn outlined comments-toggle",
+        {},
+        "btn primary",
+        {},
+        {},
+        "avatar",
+        "tabbar",
+        "ribbon-tab file",
+        "ribbon-tab active",
+        "ribbon-tab ",
+        "ribbon-tab ",
+        "ribbon-tab ",
+        "ribbon-tab ",
+        "tab-spacer",
+        "quick-actions"
+      ],
+      "repo": "MeridianOffice",
+      "file": "Apps/office.html",
+      "sha256": "3a0e4675ee91caf6e30f21085c227bcaf237f2a536cd17d6ea6387cd38cfa885",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "3a0e4675ee91caf6e30f21085c227bcaf237f2a536cd17d6ea6387cd38cfa885"
+    },
+    {
+      "title": "TwinForge — Dual-pane file manager",
+      "text": "TwinForge\nThe dual-pane workspace\nLocal. Private. Yours.\n1.0\nFiles\nMark\nCommands\nView\nTabs\nConfiguration\nHelp\nKeyboard-first. Always.\nConnect folder\nCopy\nMove\nNew folder\nPack\nExtract\nCompare\nSync\nSearch\nCommands\n⌘ K\nFILE WORKSPACE\nOPFS · persistent\nHidden files\n◐\nLight\nWorkspace\nInbox\nBROWSER\nWorkspace\n×\nProjects\n×\n+\nName\n▴\nExt\nSize\nDate modified\nArchivesFolder\nDocumentsFolder\nExportsFolder\nImagesFolder\nLogsFolder\nProjectsFolder\npackage.json—\nREADME.md—\n⌘ / Ctrl F\n2 files, 6 folders\nLEFT / SOURCE\nWorkspace\nInbox\nBROWSER\nInbox\n×\nBackups\n×\n+\nName\n▴\nExt\nSize\nDate modified\nBackupsFolder\nIncomingFolder\nProject brief.md—\nStart here.txt—\n⌘ / Ctrl F\n2 files, 2 folders\nRIGHT / TARGET\n❯\nworkspace:/\nBUILT-IN COMMANDS\n↵\nF2\nRename\nF3\nView\nF4\nEdit\nF5\nCopy\nF6\nMove\nF7\nNew folder\nF8\nDelete\nF9\nQueue\nF10\nTools\nWebGPU · virtualized\n|\nReady · connect a local folder or explore the workspace\nCtrl + click to mark · Tab to switch panes\n?\nLeft pane, workspace:/, 8 items",
+      "elements": 329,
+      "controls": 75,
+      "canvases": 2,
+      "url": "blob:https://martin-hausleitner.github.io/71823c04-6db3-4d3f-90f5-387bd5191ecd",
+      "ribbon": true,
+      "inputs": [
+        {
+          "id": "",
+          "cls": "path-input",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": "Quick filter…"
+        },
+        {
+          "id": "",
+          "cls": "path-input",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": "Quick filter…"
+        },
+        {
+          "id": "command-input",
+          "cls": "",
+          "placeholder": "Type a command…  cd, mkdir, copy, find, help"
+        },
+        {
+          "id": "import-input",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "titlebar",
+        "brand",
+        "brand-logo",
+        "brand-divider",
+        "brand-caption",
+        "title-status",
+        "privacy-dot",
+        "version",
+        "menubar",
+        "menu-end",
+        "toolbar",
+        "primary",
+        "tool-label primary",
+        "divider",
+        "icon-only",
+        "icon-only",
+        "icon-only",
+        "divider",
+        "",
+        "tool-label ",
+        "",
+        "tool-label ",
+        "",
+        "tool-label optional",
+        "divider",
+        "",
+        "tool-label optional",
+        "",
+        "tool-label optional",
+        "divider",
+        "",
+        "tool-label optional",
+        "",
+        "tool-label optional",
+        "",
+        "tool-label ",
+        "divider",
+        "icon-only",
+        "icon-only",
+        "toolbar-spacer"
+      ],
+      "repo": "TwinForge",
+      "file": "Apps/dateien.html",
+      "sha256": "4500f74c6bbd142a7dd42589c56cc31e8b0b3af6c32e112714ea7572ed82ac87",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "4500f74c6bbd142a7dd42589c56cc31e8b0b3af6c32e112714ea7572ed82ac87"
+    },
+    {
+      "title": "Workspace home — Folio",
+      "text": "Folio\nM\nMy workspace\nSearch\n⌘ K\nHome\nInbox\nFavorites\n🏡\nWorkspace home\n◈\nProjects\n📚\nTeam wiki\nWorkspace\n◈\nProjects\n📚\nTeam wiki\n📝\nMeeting notes\n💡\nIdeas & inspiration\n👋\nGetting started\nAdd a page\nTemplates\nImport\nSettings & members\nTrash\nY\nYou\nMy workspace\n/\n🏡\nWorkspace home\nSaved on this device\nOn this device\nY\nShare\nChange cover\n🏡\nAdd icon\nChange cover\nAdd comment\nWorkspace home\n\nA place for everything you’re working on. And everything that’s next.\n\nJump back in\n◈\nProjects\n6 projects · Your shared work\n📚\nTeam wiki\nYour shared workspace\n📝\nMeeting notes\nYour shared workspace\n✨\nGood work starts with a little clarity. This is your space to think, plan, and build something great.\nMake room for your best work\nKeep your team in sync, your projects moving, and your ideas close. Everything here is editable — make yourself at home.\nThis week’s focus\nBring the team together for our weekly kickoff\nRefine the next release with the product team\nLeave a little space for something unexpected\n+ Click to add a block, or type / for commands\n🌱\nA fresh start, every day.\nGood ideas need a place to grow. Capture a thought, start a project, or make this space your own.\nExplore templates\nA little more connected. A lot more possible.\nMade for your team.",
+      "elements": 277,
+      "controls": 70,
+      "canvases": 0,
+      "url": "https://martin-hausleitner.github.io/Luna-Korpus/Apps/resources/Folio/index.html",
+      "ribbon": false,
+      "inputs": [
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "app-shell",
+        "sidebar ",
+        "brand-row",
+        "brand-mark",
+        "brand-name",
+        "icon-button",
+        {},
+        "workspace-switch",
+        "workspace-initial",
+        "nav-title",
+        {},
+        "nav-row",
+        {},
+        "shortcut",
+        "nav-row active",
+        {},
+        "nav-row",
+        {},
+        "sidebar-scroll",
+        "nav-heading",
+        "page-nav active",
+        "nav-row active",
+        "nav-title",
+        "row-actions",
+        "icon-button",
+        {},
+        "page-nav ",
+        "nav-row ",
+        "nav-title",
+        "row-actions",
+        "icon-button",
+        {},
+        "page-nav ",
+        "nav-row ",
+        "nav-title",
+        "row-actions",
+        "icon-button",
+        {},
+        "nav-heading",
+        "icon-button"
+      ],
+      "repo": "Folio",
+      "file": "Apps/akte.html",
+      "sha256": "a3f7154e814b9a5d235be6dfdc495728e01e4f084f19fccda6b7caf5ea7cf7a5",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "a3f7154e814b9a5d235be6dfdc495728e01e4f084f19fccda6b7caf5ea7cf7a5"
+    },
+    {
+      "title": "Northstar — Strategy 2026.pdf — Folio Pro",
+      "text": "f\nFolio Pro\nNorthstar — Strategy 2026.pdf\nLocal workspace\nFP\nAll tools\nEdit\nConvert\nFill & sign\nOrganize\nOpen\nExport PDF\nAll tools\n/\nCREATE & EDIT\nEdit a PDF\n›\nAdd text\nAdd an image\nCombine files\nOrganize pages\n›\nREVIEW & APPROVE\nAdd comments\nHighlight text\nFill & sign\n›\nRedact a PDF\nDOCUMENT TOOLS\nCrop pages\nExport a PDF\n›\nYour files stay yours.\n\nOpen, edit, and export locally.\nNo account. No document uploads.\n\nInside Folio\n↗\nPAGES\n4\n1\n1\n2\n1\n3\n4\nAdd page\nNorthstar - Strategy & Outlook 2026\n612 × 792 pt\nNORTHSTAR\nSTRATEGY & OUTLOOK\nTHE 2026 EDITION\nClear direction.\nLasting impact.\nA considered approach to what comes next.\nOur priorities, our progress, and the possibilities ahead.\nA clearer view\nof tomorrow.\nBuilt on purpose.\nDesigned for progress.\n2026\nANNUAL STRATEGY BRIEF\nPrepared for the leadership team\nNORTHSTAR  /  EXAMPLE DOCUMENT\n01\nNORTHSTAR\nSTRATEGY & OUTLOOK / 2026\nProgress with purpose.\nNORTHSTAR  /  ILLUSTRATIVE STRATEGY BRIEF\n02\nEXECUTIVE SUMMARY\nStrong foundations create room for bold decisions. This year, our focus is\non doing fewer things exceptionally well: serving our customers, investing\nin our people, and building a business that is ready for the future.\n24%\nRevenue growth\n92%\nCustomer satisfaction\n18\nMarkets served\nA year of steady momentum\nIllustrative performance index\n160\n120\n80\n40\nJAN\nMAR\nMAY\nJUL\nSEP\nNOV\nAll figures are fictional and shown for demonstration.\nNORTHSTAR\nSTRATEGY & OUTLOOK / 2026\nThree priorities. One direction.\nNORTHSTAR  /  ILLUSTRATIVE STRATEGY BRIEF\n03\nOur next chapter is defined by focused investment, measurable outcomes,\nand a shared commitment to making work better.\n01\nPut customers first.\nListen closely. Deliver consistently.\n-  Expand customer research across every market.\n-  Make product journeys simpler and more useful.\n-  Measure success through long-term relationships.\n02\nBuild for what is next.\nTurn ambition into durable capability.\n-  Invest in resilient systems and shared platforms.\n-  Create space for experimentation and learning.\n-  Bring the best ideas into everyday operations.\n03\nGrow together.\nMake progress a team sport.\n-  Develop leaders at every level of the organization.\n-  Make knowledge easier to ",
+      "elements": 559,
+      "controls": 102,
+      "canvases": 9,
+      "url": "blob:https://martin-hausleitner.github.io/3f2c75d0-ea12-46da-998e-02a87d3d49d7",
+      "ribbon": true,
+      "inputs": [
+        {
+          "id": "tool-filter",
+          "cls": "",
+          "placeholder": "Find a tool"
+        },
+        {
+          "id": "find-input",
+          "cls": "",
+          "placeholder": "Find text in this document"
+        },
+        {
+          "id": "page-number",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "zoom-range",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "open-input",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "merge-input",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "image-input",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "gpu-on",
+        "app-shell",
+        "titlebar",
+        "brand",
+        "brand-mark",
+        "plain menu-trigger",
+        {},
+        "document-tab",
+        "tab-file",
+        {},
+        "unsaved-dot",
+        "plain tab-more",
+        {},
+        "plain",
+        {},
+        "title-spacer",
+        "local-pill",
+        "local-dot",
+        "avatar",
+        "globalbar",
+        "tabs",
+        "tab active",
+        "tab",
+        "tab",
+        "tab",
+        "tab",
+        "global-actions",
+        "plain",
+        {},
+        "divider",
+        "plain",
+        {},
+        "plain",
+        {},
+        "plain",
+        {},
+        "secondary small",
+        {},
+        "primary small",
+        {}
+      ],
+      "repo": "FolioPro",
+      "file": "Apps/pdf.html",
+      "sha256": "b97a999c900eaf7cb29ffa583606a5ff278f091a06861491352c965a563266bf",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "b97a999c900eaf7cb29ffa583606a5ff278f091a06861491352c965a563266bf"
+    },
+    {
+      "title": "Quire — The clarity report",
+      "text": "q\nQuire\nSaved on this device\nSearch tools and commands\nCtrl K\nY\nFile\nHome\nInsert\nDraw\nDesign\nLayout\nReferences\nReview\nView\nComments\n0\nEditing\nExport\nPaste\nCut\nCopy\nFormat painter\nClipboard\nSegoe UI\nArial\nCalibri\nGeorgia\nTimes New Roman\nVerdana\nTrebuchet MS\nCourier New\n8\n9\n10\n11\n12\n14\n16\n18\n20\n24\n28\n32\n36\n48\n60\n72\nA\n+\nA\n−\nAa\nx₂\nx²\nFont\n¶\nParagraph\nAaBb\nNormal\nAa\nTitle\nAaBb\nHeading 1\nAaBb\nHeading 2\nAaBb\nQuote\nStyles\nFind\nReplace\nSelect all\nEditing\nNavigation\nCtrl F\nHeadings\nPages\nResults\nIN THIS DOCUMENT\nExecutive summary01   The opportunityWhat we heard02   What we learned03   A way forwardStart with the essentialsBuild, listen, refine04   Next stepsClosing thoughts\nYour words. Your workspace.\n\nPrivate by default. Saved locally.\n\nTHE CLARITY REPORT\n/\nDocument\nA4\n·\nPortrait\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\nNORTHSTAR   /   RESEARCH & STRATEGY\nWORKING PAPER   ·   2026\n\nPERSPECTIVES   /   01\n\nA little clarity.\nA world of possibility.\n\nGood ideas deserve room to grow. A perspective on building\nmore thoughtful products, teams, and everyday experiences.\n\nPrepared by\nDesign & Research\nPublished\nSeptember 2026\nReading time\n4 minutes\n24\nConversations\n\nReal people, real perspectives\n\n06\nEmerging themes\n\nFrom complexity to clarity\n\n01\nShared direction\n\nA more considered future\n\nExecutive summary\n\nThe best work does not start with more. It starts with a better question. As our tools become more capable and our days more connected, the opportunity is not simply to move faster. It is to make space for what matters.\n\nThis report explores a simple idea: clarity is a competitive advantage. When we remove unnecessary friction, connect our decisions to real needs, and give people room to think, better outcomes follow.\n\n“Make the important things clear, and the clear things meaningful.”\n\nAn editable sample document. All research figures in this report are illustrative.\n\n\n\nThe clarity report   /   2026\n01\nNORTHSTAR   /   RESEARCH & STRATEGY\nTHE CLARITY REPORT   ·   02\n\nUNDERSTANDING THE OPPORTUNITY\n\nLess noise.\nMore intention.\n01   The opportunity\n\nEvery handoff, approval, and interface asks for a little of our attention. Individually, these demands seem small. Together, they shape ho",
+      "elements": 534,
+      "controls": 97,
+      "canvases": 1,
+      "url": "blob:https://martin-hausleitner.github.io/c6168e09-622d-40b3-8cf7-c7ccefb3c41a",
+      "ribbon": true,
+      "inputs": [
+        {
+          "id": "document-title",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "nav-search",
+          "cls": "",
+          "placeholder": "Find in document"
+        },
+        {
+          "id": "replace-input",
+          "cls": "",
+          "placeholder": "Replace with"
+        },
+        {
+          "id": "zoom",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "file-input",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "image-input",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "gpu-ready",
+        "titlebar",
+        "brand",
+        "brand-mark",
+        "top-divider",
+        "document-title",
+        "title-chevron",
+        "save-indicator",
+        "quick-actions",
+        "command-search",
+        "top-help",
+        "avatar",
+        "menu-row",
+        "ribbon-tabs",
+        "file-tab",
+        "active",
+        "menu-actions",
+        "count-badge",
+        "primary small",
+        "ribbon",
+        "ribbon-group ",
+        "ribbon-group-content",
+        "ribbon-tall",
+        "ribbon-stack",
+        "group-label",
+        "ribbon-group ",
+        "ribbon-group-content",
+        "font-controls",
+        "ribbon-row",
+        "letter-icon",
+        "letter-icon",
+        "text-tiny",
+        "ribbon-row",
+        "text-tiny",
+        "text-tiny",
+        "mini-separator",
+        "color-tool",
+        "color-tool",
+        "group-label",
+        "ribbon-group "
+      ],
+      "repo": "Quire",
+      "file": "Apps/mail.html",
+      "sha256": "926a26348f2a38c012b112d2e7bcbe779ada5dd290f56a4e3cf08388e5cf52a8",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "926a26348f2a38c012b112d2e7bcbe779ada5dd290f56a4e3cf08388e5cf52a8"
+    },
+    {
+      "title": "Untitled - Notepad",
+      "text": "Untitled - Notepad\nFile\nEdit\nFormat\nView\nHelp",
+      "elements": 75,
+      "controls": 15,
+      "canvases": 2,
+      "url": "blob:https://martin-hausleitner.github.io/858e02ed-e176-4c78-abe3-5caf912c939a",
+      "ribbon": false,
+      "inputs": [
+        {
+          "id": "text-input",
+          "cls": "text-input",
+          "placeholder": ""
+        },
+        {
+          "id": "file-input",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "xp-window",
+        "titlebar",
+        "app-icon",
+        "window-controls",
+        "caption-button minimize",
+        "caption-button maximize",
+        "caption-button close",
+        "menubar",
+        "editor-frame",
+        "editor",
+        "text-input",
+        "selection-handle",
+        "selection-handle",
+        "scrollbar vertical disabled",
+        "scroll-arrow first",
+        "scroll-track",
+        "scroll-thumb",
+        "scroll-arrow last",
+        "scrollbar horizontal disabled",
+        "scroll-arrow first",
+        "scroll-track",
+        "scroll-thumb",
+        "scroll-arrow last",
+        "scroll-corner",
+        "statusbar",
+        "restore-task",
+        "busy-box",
+        "busy-icon",
+        "sr-only"
+      ],
+      "repo": "NotepadXP",
+      "file": "Apps/text.html",
+      "sha256": "44e40442a9369f3b25f8c36081dee70492e05feb92c59f23d2eba577b887f401",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "44e40442a9369f3b25f8c36081dee70492e05feb92c59f23d2eba577b887f401"
+    },
+    {
+      "title": "Lattice Analytics — Commerce workbook",
+      "text": "lattice.\nANALYTICS\nCommerce workbook\n⌄\nSaved locally\nLocal workspace\n?\nLA\nFile\nData\nWorksheet\nDashboard\nAnalysis\nFormat\nHelp\nLive connection\n|\nRetail transactions\nConnect data\n⌄\nƒx\nEntire view\nPresentation width\nCompact view\nExport\nShow Me\nData\nAnalytics\n+\nRetail transactions\nRegional targets\n✓\n7,200 rows\nView data ↗\n⌕\nDIMENSIONS\n8\nAbc\nOrder ID\n⌄\n▦\nOrder Date\n⌄\nAbc\nMonth\n⌄\nAbc\nCategory\n⌄\nAbc\nSub-Category\n⌄\nAbc\nRegion\n⌄\nAbc\nSegment\n⌄\nAbc\nCustomer ID\n⌄\nMEASURES\n5\n#\nSales\n⌄\n#\nProfit\n⌄\n#\nQuantity\n⌄\n#\nDiscount\n⌄\n#\nShipping Days\n⌄\nDrag a field to a shelf to explore.\nDouble-click to add it automatically.\nƒx\nCreate calculated field\n0.76 MB · Columnar extract\nⓘ\nEXECUTIVE OVERVIEW\n/\nRETAIL INTELLIGENCE\nCommerce, in focus.\n\nA complete view of revenue, profitability, and the customers behind them.\n\nJan 2024 – Dec 2025\n⌄\nEdit layout\nTotal sales\n$5M\nAggregate\nSUM(Sales)\nTotal profit\n$903.9K\nAggregate\nSUM(Profit)\nProfit margin\n18.25%\nCalculated\nRatio of sums, not averages\nTotal records\n7,200\nLive\nAcross the current extract\nRevenue by category\nGrouped insights\nTechnology\nFurniture\nOffice Supplies\n•••\nRevenue over time\nGrouped insights\nFurniture\nOffice Supplies\nTechnology\n•••\nSales & profitability\nIndividual transactions\nTechnology\nFurniture\nOffice Supplies\n•••\nProfit by market\nSegment × region\n•••\n74.3K\n71.1K\n76.3K\n67.1K\n80.2K\n70.1K\n68.3K\n73.8K\n73.8K\n83.4K\n79.9K\n85.7K\nViews are linked. Click a mark to explore across the dashboard.\nSynthetic sample · Computed from transactions\nShow Me\n×\nVISUALIZATION\nBars\nLines\nScatter\nHeatmap\nText table\nDashboard\n\nSelect a view or open a worksheet to refine its marks.\n\nSELECTED VIEW\nRevenue by category\nShow mark labels\nOpacity\nSort by\nValue ↓\nValue ↑\nA → Z\nUnsorted\nMark limit\nDASHBOARD\nUse views as filters\nEdit layout\nRow height\nCATEGORY\nTechnology\nFurniture\nOffice Supplies\nA connected perspective\nClick any mark to filter the other views. Ctrl / ⌘-click to select more.\nData Source\nRevenue by category\nRevenue over time\nSales & profitability\nProfit by market\nOverview\n+\n+\n7,287 marks\n|\n7,200 source rows\n9.0 ms · 28,800 rows scanned\n|\nCanvas2D fallback\nQuery plan ↗",
+      "elements": 479,
+      "controls": 77,
+      "canvases": 8,
+      "url": "blob:https://martin-hausleitner.github.io/45027d76-adc9-461d-a1a6-7ef3fbb14ed0",
+      "ribbon": false,
+      "inputs": [
+        {
+          "id": "field-search",
+          "cls": "",
+          "placeholder": "Find a field"
+        },
+        {
+          "id": "option-labels",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "option-opacity",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "option-limit",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "option-linked",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "option-layout",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "option-row-height",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "data-file-input",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "workbook-file-input",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "append-file-input",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "topbar",
+        "brand",
+        "brand-dot",
+        "workbook-title",
+        "title-chevron",
+        "header-actions",
+        "local-badge",
+        "header-help",
+        "avatar",
+        "menubar",
+        "menubar-right",
+        "live-dot",
+        "menu-separator",
+        "toolbar",
+        "tool-group",
+        {},
+        {},
+        "tool-group",
+        {},
+        "tool-label",
+        {},
+        "tiny-chevron",
+        "tool-group",
+        {},
+        {},
+        {},
+        "tool-group",
+        {},
+        {},
+        {},
+        "tool-group toolbar-secondary",
+        "calculation-tool",
+        {},
+        {},
+        "tool-group toolbar-secondary",
+        "toolbar-spacer",
+        "tool-label export-tool",
+        {},
+        "show-me-toggle",
+        {}
+      ],
+      "repo": "LatticeAnalytics",
+      "file": "Apps/auswertung.html",
+      "sha256": "b8bf1e6b70e782896ccb14c642d661b79247b449be8a7b9be4e64f11a29a8f6f",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "b8bf1e6b70e782896ccb14c642d661b79247b449be8a7b9be4e64f11a29a8f6f"
+    },
+    {
+      "title": "Axiom Worksheet — Cantilever beam",
+      "text": "AxiomWorksheet\nCantilever beam\n⌄\nSaved on this device\nFind a command\n⌘ K\nAW\nFile\nMath\nMatrices & Tables\nCalculus\nPlots\nDocument\nView\nGetting started\n=\nCalculate\nAutomatic\nCheck errors\nCalculation\nƒx\nMath\nText\nXY plot\nImage\nRegions\n≔\n=\n÷\nxⁿ\n√\n|x|\n≤\nΣ\nOperators\nπ\nα\nβ\nδ\nθ\nσ\nω\nλ\nSymbols\n▦\nMatrix\nƒ(x)\nFunction\n{ }\nSolve\nStructures\nSI system\n⌄\nBrowse units ↗\nUnits\nParameter\nInteractive\nCantilever beam.axw\n+\nLocal-first workspace\nExport\n⌄\nWORKSHEET\nCantilever beam\n2 pages · engineering\nOUTLINE\n4\n01\nDesign parameters\n02\nDeflection response\n03\nServiceability verification\n04\nAssumptions & references\nDEFINED VARIABLES\n10\nL\n3 m\nqload\n4 kN/m\nE\n210 GPa\nb\n100 mm\nh\n180 mm\nI\n4.86e7 mm^4\nv\nfunction\nδmax\n3.9683 mm\nδallow\n12 mm\nutilization\n33.069 pct\n∴\nMake your work add up.\n\nCalculate, explore, and document\nin one living worksheet.\n\nExplore examples\n↗\nWorksheets\n/\nCantilever beam\nA4 · Portrait\nAXIOM WORKSHEET\nCalculation note · Cantilever beam\n01 / 02\nSTRUCTURAL ENGINEERING  /  CALCULATION NOTE\n1\nCantilever beam\n2\nElastic response under a uniformly distributed load\n3\nPROJECT  AW–024     /     REVISION  01     /     METHOD  Euler–Bernoulli\n4\nq = 4 kN/m\nL = 3 m\n5\n01   Design parameters\n6\nSpan length\n𝐿\n≔\n3\n·\nm\n7\nDistributed load\n𝑞\nload\n≔\n4\n·\nkN\nm\n⠿\n8\nYoung’s modulus\n𝐸\n≔\n210\n·\nGPa\n9\nSection width\n𝑏\n≔\n100\n·\nmm\n10\nSection height\nℎ\n≔\n180\n·\nmm\n11\nSecond moment of area\n𝐼\n≔\n𝑏\n·\nℎ\n3\n12\n=\n4.86\n×\n10\n7\nmm\n4\n12\n02   Deflection response\n13\nElastic curve\nv\n(\n𝑥\n)\n≔\n𝑞\nload\n·\n𝑥\n2\n·\n(\n6\n·\n𝐿\n2\n−\n4\n·\n𝐿\n·\n𝑥\n+\n𝑥\n2\n)\n24\n·\n𝐸\n·\n𝐼\n14\nDeflection along the span\nDesign load\n60% load\n0\n1\n2\n3\n4\n0\n1\n2\n3\nmm\nSpan (m)\n15\nCantilever beam\nENGINEERING WORKSHEET\nAXIOM WORKSHEET\nCalculation note · Cantilever beam\n02 / 02\n03   Serviceability verification\n16\nCompare the maximum elastic deflection at the free end with the project’s span / 250 serviceability limit.\n17\nMaximum tip deflection\n𝛿\nmax\n≔\nv\n(\n𝐿\n)\n=\n3.9683\nmm\n18\nAllowable deflection\n𝛿\nallow\n≔\n𝐿\n250\n=\n12\nmm\n19\nDeflection utilization\nutilization\n≔\n𝛿\nmax\n𝛿\nallow\n=\n33.069\npct\n20\nServiceability requirement\n𝛿\nmax\n≤\n𝛿\nallow\n=\ntrue\n21\n04   Assumptions & references\n22\nLinear-elastic, homogeneous material. Prismatic rectangular cross-section. Small displa",
+      "elements": 791,
+      "controls": 97,
+      "canvases": 1,
+      "url": "blob:https://martin-hausleitner.github.io/b2e9cdb3-1ffc-4a51-854d-14f9035426d9",
+      "ribbon": true,
+      "inputs": [
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "zoom-slider",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "command-input",
+          "cls": "",
+          "placeholder": "Search commands, functions, or regions…"
+        },
+        {
+          "id": "open-file",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "image-file",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "csv-file",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "titlebar",
+        "brand",
+        "brand-mark",
+        "brand-secondary",
+        "quick-actions",
+        "icon-button",
+        "vertical-rule",
+        "icon-button",
+        "icon-button",
+        "titlebar-document",
+        "title-chevron",
+        "save-state",
+        "titlebar-right",
+        "search-launch",
+        "icon-button",
+        "local-avatar",
+        "ribbon-tabs",
+        "file-tab",
+        "ribbon-tab active",
+        "ribbon-tab",
+        "ribbon-tab",
+        "ribbon-tab",
+        "ribbon-tab",
+        "ribbon-tab",
+        "ribbon-tabs-fill",
+        "ribbon-tab ribbon-help",
+        "ribbon",
+        "ribbon-group",
+        "ribbon-items",
+        "ribbon-button primary",
+        "ribbon-symbol",
+        "ribbon-small-stack",
+        "ribbon-group-label",
+        "ribbon-group",
+        "ribbon-items",
+        "ribbon-button ",
+        "ribbon-symbol",
+        "ribbon-button ",
+        "ribbon-button ",
+        "ribbon-button "
+      ],
+      "repo": "AxiomWorksheet",
+      "file": "Apps/rechenblatt.html",
+      "sha256": "a35994b859c598628a25089cec5fa220c7f3504953af9237d4a8156b24e09062",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "a35994b859c598628a25089cec5fa220c7f3504953af9237d4a8156b24e09062"
+    },
+    {
+      "title": "Meridian House.dxf — Draftline",
+      "text": "draftline\nCAD WORKSPACE\nWorkspace\nMeridian House.dxf\nSaved locally\nOpen\nExport\nWS\nHome\nInsert\nAnnotate\nView\nManage\n2D drafting & annotation\nSelect\nSELECT\nLine\nPolyline\nRectangle\nCircle\n3-point arc\nEllipse\nPolygon\nDRAW\nMove\nCopy\nRotate\nMirror\nTrim\nOffset\nScale\nExtend\nMODIFY\nText\nDimension\nHatch\nANNOTATE\nA-WALL\nA-DOOR\nA-GLAZING\nA-FURNITURE\nA-FIXTURES\nA-ANNOTATION\nA-DIMENSION\nA-LANDSCAPE\nA-SITE\nA-HATCH\nBy layer\nLAYERS\nMeasure\nMEASURE\nLayers\n10\n⌕\nLAYER NAME\nSTATE\nA-WALL\nA-DOOR\nA-GLAZING\nA-FURNITURE\nA-FIXTURES\nA-ANNOTATION\nA-DIMENSION\nA-LANDSCAPE\nA-SITE\nA-HATCH\nNew layer\nOrganize with precision\nClick a name to set the current layer.\nMODEL SPACE\nGround floor plan\n/\nTop · 2D Wireframe\nN\nTOP\nWCS ⌄\nY\nX\nScroll to zoom·Middle-drag to pan\nCOMMAND\nSelect an object or enter a command\n›_\nLINE, CIRCLE, MOVE…\n↵\nProperties\nNo selection\nGENERAL\nLayer\nA-WALL\nA-DOOR\nA-GLAZING\nA-FURNITURE\nA-FIXTURES\nA-ANNOTATION\nA-DIMENSION\nA-LANDSCAPE\nA-SITE\nA-HATCH\nColor\nBy layer\nLinetype\nBYLAYER\nCONTINUOUS\nDASHED\nCENTER\nLineweight\nBy layer\nTransparency\n0%\nDRAWING\nUnits\nMillimetres\nView\nTop / World\nScale\nModel space 1:1\nPrecision\n0.000\n308\nDRAWING ENTITIES\n10\nLAYERS\nEvery detail, in your control.\n\nSelect an object to inspect its geometry and edit its properties.\n\nShift to add to selection\nDrag left → right for a window.\n\nLocal-first workspace\nYour drawing stays on this device.\nModel\nPrint preview\n0.000, 0.000, 0.000\nGRID\nORTHO\nOSNAP\nDYN\nMillimetres\nWebGPU\n0.7 ms",
+      "elements": 624,
+      "controls": 124,
+      "canvases": 4,
+      "url": "blob:https://martin-hausleitner.github.io/f189aa16-ad11-485f-88f0-10781c2b9cf6",
+      "ribbon": true,
+      "inputs": [
+        {
+          "id": "layerSearch",
+          "cls": "",
+          "placeholder": "Search layers"
+        },
+        {
+          "id": "commandInput",
+          "cls": "",
+          "placeholder": "Type a command…"
+        },
+        {
+          "id": "propColor",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "fileInput",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "topbar",
+        "brand",
+        "brand-mark",
+        "brand-name",
+        "brand-tag",
+        "tiny-icon",
+        {},
+        "top-divider",
+        "breadcrumb",
+        "tiny-icon",
+        {},
+        "file-title",
+        "edited-dot",
+        "top-actions",
+        "save-state",
+        "status-dot",
+        "top-divider short",
+        "icon-button",
+        {},
+        "icon-button",
+        {},
+        "icon-button",
+        {},
+        "outline-button top-open",
+        {},
+        "primary-button",
+        {},
+        {},
+        "avatar",
+        "ribbon-tabs",
+        "ribbon-tab-list",
+        "ribbon-tab active",
+        "ribbon-tab",
+        "ribbon-tab",
+        "ribbon-tab",
+        "ribbon-tab",
+        "ribbon-meta",
+        "tiny-dot",
+        "icon-button small",
+        {}
+      ],
+      "repo": "Draftline",
+      "file": "Apps/zeichnung.html",
+      "sha256": "f60d7a4e4a326c8284d991d97fee8adc2361e71ef97a72063efc8cb4c7692278",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "f60d7a4e4a326c8284d991d97fee8adc2361e71ef97a72063efc8cb4c7692278"
+    },
+    {
+      "title": "Kestrel CAD",
+      "text": "Skip to command line\nKESTRELCAD\n⌄\nCourtyard House · Ground floor\n—\nKestrel CAD\nAutosaved locally\nFind a command\n⌘ K\nHome\nInsert\nAnnotate\nModel\nView\nManage\nDrafting\nSolids\nParametric\nAssembly\nBlocks\nText\nExchange\nProductivity\nDrafting & annotation\n3D modeling\nLine\nCircle\nPolyline\nRectangle\n3-point arc\nEllipse\nSpline\nPolygon\nDraw\nMove\nCopy\nRotate\nMirror\nScale\nOffset\nTrim\nExtend\nErase\nFillet\nChamfer\nArray\nModify\nDimension\nText\nHatch boundary\nDistance\nAnnotation\n0\nA-WALL\nA-OPENING\nA-FURNITURE\nA-DIMENSION\nA-ANNOTATION\nA-HATCH\nA-CENTER\nA-LANDSCAPE\nManager\nShow all\nLayers\n↗\nByLayer\nCustom color\nByLayer\n0.13 mm\n0.25 mm\n0.35 mm\n0.50 mm\n0.70 mm\nProperties\nSelect all\nGroup\nMatch properties\nSelection\nCourtyard House · Ground floor\n×\n+\nMODEL SPACE\nMillimeters\nDrawing explorer\nLayers\n9\nObjects\n265\n/\nLAYER NAME\n0\n—\nA-WALL\n23\nA-OPENING\n48\nA-FURNITURE\n68\nA-DIMENSION\n8\nA-ANNOTATION\n15\nA-HATCH\n54\nA-CENTER\n21\nA-LANDSCAPE\n28\nCourtyard House · Ground floor\nEntities\n265\nSelected\n0\nDrawing units\nmm\nStored on this device. No uploads.\n[−]\nTop\nSE isometric\nFront\nRight\nLeft\nBack\nBottom\n2D wireframe\nShaded with edges\nShaded\nX-ray\nN\nTOP\nFRONT\nRIGHT\nWCS ⌄\nWheel to zoom · Middle drag to pan · Shift to add selection\nWebGPU · GPU pipeline\nProperties\nNo selection\n⌄\nGENERAL\nCurrent layer\n0\nA-WALL\nA-OPENING\nA-FURNITURE\nA-DIMENSION\nA-ANNOTATION\nA-HATCH\nA-CENTER\nA-LANDSCAPE\nColor\nByLayer\nUnits\nMillimeters\nVisual style\nwireframe\nWorkspace\n2D drafting\nDRAFTING SETTINGS\nSnap spacing\nText height\nDim. height\nGrid display\nAdaptive\nSelect an object to inspect it\nClick geometry, or drag a selection window. Hold Shift to add or remove objects.\n\nBlue grips edit points directly.\nKestrel CAD\nPrecision starts here. Open a drawing or choose a tool.\nRenderer\nWebGPU active · 4× MSAA · instanced lines · depth-tested meshes\nReady\nL line · C circle · REC rectangle · M move · Ctrl+K commands.\n›_\nCommand:\nCtrl + K\nModel\nSheet A3\n0.000, 0.000, 0.000\nGRID\nSNAP\nORTHO\nPOLAR\nOSNAP\nLWT\nNo selection\nmm\n4.3 ms",
+      "elements": 781,
+      "controls": 143,
+      "canvases": 2,
+      "url": "blob:https://martin-hausleitner.github.io/febf4d42-47c8-4806-aef5-ef8d4c71db3a",
+      "ribbon": true,
+      "inputs": [
+        {
+          "id": "draw-color",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "explorer-search",
+          "cls": "",
+          "placeholder": "Filter layers…"
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "command-input",
+          "cls": "",
+          "placeholder": "Type a command or search…"
+        },
+        {
+          "id": "palette-search",
+          "cls": "",
+          "placeholder": "Find a command, tool, or view…"
+        },
+        {
+          "id": "file-input",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "skip-link",
+        "brand-button",
+        {},
+        "brand-cad",
+        "chevron",
+        "quick-access",
+        "icon-button",
+        {},
+        "icon-button",
+        {},
+        "icon-button",
+        {},
+        "icon-button",
+        {},
+        "icon-button",
+        {},
+        "title-document",
+        "title-separator",
+        "muted",
+        "title-right",
+        "local-indicator",
+        "title-search",
+        {},
+        "icon-button",
+        {},
+        "icon-button",
+        {},
+        "active",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "repo": "KestrelCAD",
+      "file": "Apps/cad.html",
+      "sha256": "2b0540122c005c6930592136e0420aedb61163ad6bb2e34a12ce5e25e764c886",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "2b0540122c005c6930592136e0420aedb61163ad6bb2e34a12ce5e25e764c886"
+    },
+    {
+      "title": "Planforge Review",
+      "text": "P\nplanforge\nREVIEW\nFile\nEdit\nView\nMeasure\nMarkup\nDocument\nHelp\n LOCAL WORKSPACE\nRV\nOpen\nLength\nArea\nCount\nPolyline\nCloud\nCallout\nStamp\nExport quantities\nRiverside House — Drawing Set.pdf\nSaving locally…\nPDF.js 5.4.624\nWebGPU\nThumbnails\n3 sheets\nA-101\n11 markups\nGROUND FLOOR PLAN\nA-201\n0 markups\nREFLECTED CEILING PLAN\nA-301\n0 markups\nDRAWING SHEET 3\n3 sheets · local project\nDrawing review\nA-101 · Ground floor plan\n58%\n64 m²\n35 m²\n18 m\n12.17 m\n1\n1\n1\n1\nVerify 900 mm clear\nopening with architect.\nFOR COORDINATION\n-640\n-512\n-384\n-256\n-128\n0\n128\n256\n384\n512\n640\n768\n896\n1024\n1152\n1280\n1408\n1536\n1664\n-128\n0\n128\n256\n384\n512\n640\n768\nDrag to move · Drag a handle to reshape · Shift to multi-select\n/ 3\nProperties\nSelect properties\nDefaults for new markups\nSubject\nComment / text\nAPPEARANCE\nColor\n#E6545B\nLine width · pt\nText size · pt\nOpacity\nORGANIZATION\nLayer\nDesign review\nQuantity takeoff\nReview status\nOpen\nIn progress\nAccepted\nRejected\nCompleted\nAuthor\nCURRENT SHEET SCALE\nCalibrated\n\nCalibrated · 18.00 m\n\nMeasurements & scale\nYour drawings stay yours.\n\nFiles stay in your browser or local PDF service. No project uploads to a cloud.\n\nMarkups List\n11\nAll sheets\nAll statuses\nOpen\nIn progress\nAccepted\nRejected\nCompleted\nSubject\tPage\tType\tQuantity\tStatus\tLayer\tAuthor\tComment\nOak flooring · Living\t1\tArea\t64 m²\tAccepted\tQuantity takeoff\tJordan Miller\t\nPorcelain tile · Kitchen\t1\tArea\t35 m²\tOpen\tQuantity takeoff\tJordan Miller\t\nExternal wall · South\t1\tLength\t18 m\tAccepted\tQuantity takeoff\tJordan Miller\t\nInternal partition\t1\tPolyline\t12.17 m\tIn progress\tQuantity takeoff\tJordan Miller\t\nRecessed downlight\t1\tCount\t1 ea\tOpen\tQuantity takeoff\tJordan Miller\t\nRecessed downlight\t1\tCount\t1 ea\tOpen\tQuantity takeoff\tJordan Miller\t\nRecessed downlight\t1\tCount\t1 ea\tOpen\tQuantity takeoff\tJordan Miller\t\nRecessed downlight\t1\tCount\t1 ea\tOpen\tQuantity takeoff\tJordan Miller\t\nDoor clearance revision\t1\tCloud\t—\tOpen\tDesign review\tJordan Miller\t\nVerify clear opening\t1\tCallout\t—\tOpen\tDesign review\tJordan Miller\tVerify 900 mm clear opening with architect.\nFOR COORDINATION\t1\tStamp\t—\tAccepted\tDesign review\tJordan Miller\tFOR COORDINATION\nTAKEOFF TOTALS\nAll sheets · filtered rows\n99\nm²\nAREA\n30.17\nm\nLENGTH\n4\nea\nCOU",
+      "elements": 533,
+      "controls": 65,
+      "canvases": 1,
+      "url": "https://martin-hausleitner.github.io/Luna-Korpus/Apps/resources/PlanforgeReview/index.html",
+      "ribbon": false,
+      "inputs": [
+        {
+          "id": "page-number",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "prop-subject",
+          "cls": "",
+          "placeholder": "Automatic tool subject"
+        },
+        {
+          "id": "prop-label",
+          "cls": "",
+          "placeholder": "Add a review comment…"
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "filter",
+          "cls": "",
+          "placeholder": "Filter markups…"
+        },
+        {
+          "id": "file-input",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "overlay-input",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "topbar",
+        "brand",
+        "brand-icon",
+        "brand-sub",
+        "top-spacer",
+        "local-badge",
+        "avatar",
+        "toolbar",
+        "toolgroup",
+        {},
+        {},
+        "toolgroup",
+        {},
+        {},
+        "toolgroup",
+        "active",
+        {},
+        {},
+        "toolgroup markup-tools",
+        {},
+        "tool-label",
+        {},
+        "tool-label",
+        {},
+        "tool-label",
+        {},
+        "tool-label",
+        {},
+        "tool-label",
+        {},
+        "tool-label",
+        {},
+        "tool-label",
+        {},
+        {},
+        "top-spacer",
+        "export-button",
+        {},
+        "documentbar",
+        "sidebar-toggle"
+      ],
+      "repo": "PlanforgeReview",
+      "file": "Apps/aufmass.html",
+      "sha256": "8bfde19ee7e113a87a5c93de218819038b5af8b6d753869d5960d1f3ceec6aef",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "8bfde19ee7e113a87a5c93de218819038b5af8b6d753869d5960d1f3ceec6aef"
+    },
+    {
+      "title": "Atlas · Product discovery · Orivane",
+      "text": "orivane.\nAtlas · Product discovery\nSaved to this browser\nYO\nPresent\nShare\nWorkspace\nTemplates\nWebGPU\nA little space for your next big idea.\n54%",
+      "elements": 194,
+      "controls": 39,
+      "canvases": 3,
+      "url": "blob:https://martin-hausleitner.github.io/0ef907a1-6897-44a9-9b28-558a34554457",
+      "ribbon": false,
+      "inputs": [
+        {
+          "id": "file-input",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "boardbar glass",
+        "brand",
+        "brand-mark",
+        "brand-name",
+        "brand-dot",
+        "divider",
+        "board-identity",
+        "title-button",
+        "board-subtitle",
+        "status-dot",
+        "icon-button",
+        "collabbar glass",
+        "participants",
+        "avatar",
+        "divider",
+        "icon-button desktop",
+        "icon-button desktop",
+        "secondary-button present-button",
+        "primary-button",
+        "workshopbar glass",
+        "workshop-button connected-launch",
+        "workshop-button",
+        "divider",
+        "icon-button",
+        "icon-button",
+        "icon-button",
+        "icon-button",
+        "icon-button",
+        "toolbar glass",
+        "tool-button active",
+        "tool-button ",
+        "tool-separator",
+        "tool-button ",
+        "tool-button ",
+        "tool-button ",
+        "tool-extra",
+        "tool-button ",
+        "tool-button ",
+        "tool-button ",
+        "tool-button "
+      ],
+      "repo": "Orivane",
+      "file": "Apps/tafel.html",
+      "sha256": "af0ed56a09db28ab9dfbfb2de6c73540c4d2dbf21cc8d62bd302a6a5dbd6dce6",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "af0ed56a09db28ab9dfbfb2de6c73540c4d2dbf21cc8d62bd302a6a5dbd6dce6"
+    },
+    {
+      "title": "Veyra · Your space to work together",
+      "text": "Skip to conversation\nVeyra\nVeyra Studio\n⌘ K\nAM\nActivity\nChat\nTeams\nCalendar\nCalls\nFiles\nWhiteboard\nSettings\nHelp\nChat\nAll\nUnread\nChats\nChannels\nFAVORITES\nMC\nMaya Chen\nWhat do you think of the new direction?\n9:46\n2\nProduct & Design\nPerfect. Bring your ideas, and we’ll figure out the rest together\n9:45\nCHATS\nWebsite launch\nThe launch checklist is ready for review 🚀\n9:38\n3\nOJ\nOliver James\nThanks! I’ll take a look at the components.\n8:52\nSM\nSophie Martin\nSee you at the design sync!\n8:30\nTEAMS & CHANNELS\nVeyra Studio\nThe coffee corner\nDesign system\n1\nGeneral\nLOCAL SAMPLE · THIS DEVICE\nConnect your workspace\nThe coffee corner\nChannel\n·\nA space to create, together\nAM\nMC\nOJ\n+3\nMeet\nChat\nShared\nNotes\nWhiteboard\nLocal example · fictional people · messages stay on this device until you connect a workspace\nToday\nMC\nMaya Chen\n8:20\nToday’s important question: pour-over or espresso? ☕\nWrite a message\nNew line with Shift + Enter\n\nA little kindness goes a long way. Make this a good place to work.\n\nAbout this chat\n\nA shared space for conversations, decisions, and everything in between.\n\nMembers\nView all\nAM\nAlex Morgan (you)\nProduct designer\nMC\nMaya Chen\nDesign lead\nsample\nOJ\nOliver James\nFrontend engineer\nsample\nSM\nSophie Martin\nProduct manager\nsample\n+ 2 more members\nPinned for you\nPin an important message here. Your pins are private to you.\nShared files\nSee all\n\nFiles you share appear here.",
+      "elements": 339,
+      "controls": 58,
+      "canvases": 0,
+      "url": "https://martin-hausleitner.github.io/Luna-Korpus/Apps/resources/VeyraWorkspace/index.html",
+      "ribbon": true,
+      "inputs": [
+        {
+          "id": "global-search",
+          "cls": "",
+          "placeholder": "Search messages, people, and more"
+        },
+        {
+          "id": "sidebar-filter",
+          "cls": "sidebar-filter",
+          "placeholder": "Find a conversation"
+        },
+        {
+          "id": "composer-input",
+          "cls": "",
+          "placeholder": "Write a message…"
+        },
+        {
+          "id": "file-input",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "skip-link",
+        "topbar",
+        "brand",
+        {},
+        "brand-name",
+        "brand-divider",
+        "workspace-name",
+        {},
+        "global-search",
+        {},
+        "topbar-actions",
+        "icon-button ",
+        {},
+        "icon-button ",
+        {},
+        "avatar",
+        "presence available",
+        "workspace-shell",
+        "rail",
+        "rail-item",
+        {},
+        "rail-count",
+        "rail-item active",
+        {},
+        "rail-item",
+        {},
+        "rail-item",
+        {},
+        "rail-item",
+        {},
+        "rail-item",
+        {},
+        "rail-item",
+        {},
+        "rail-spacer",
+        "rail-item",
+        {},
+        "rail-item",
+        {},
+        "sidebar"
+      ],
+      "repo": "VeyraWorkspace",
+      "file": "Apps/gespraech.html",
+      "sha256": "18c9b4148c58adf79c63851c07ac821adcc67fe28dbb349efde23ee3742e7795",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "18c9b4148c58adf79c63851c07ac821adcc67fe28dbb349efde23ee3742e7795"
+    },
+    {
+      "title": "Velsign — Browser-local signing workspace",
+      "text": "velsign\n✳\nMW\nMy workspace\nAgreement workspace\nOverview\nAgreements\n0\nTemplates\nReports\nContacts\nWORKSPACE\nSettings\nYour work, all together.\n\nPrepare agreements, keep track of signatures, and move work forward.\n\nExplore Velsign\nHelp & resources\nLU\nLocal user\nPersonal workspace\nOverview\n⌘ K\nBrowser-local demo\nLU\nWelcome back, Local ✧\n\nHere’s what’s happening with your agreements.\n\nMon, 14 September 2026\n↗\n0\nNeeds your signature\n↗\n0\nWaiting for others\n↗\n0\nCompleted\n↗\n0\nDrafts\nReady for your next agreement?\n\nAdd your document. Choose your recipients. Get it signed.\n\nNew agreement\nUse a template\nRecent agreements\nRefresh\nAll agreements0\nIn progress\nCompleted\nDrafts\nLast updated\nName A–Z\n\tAGREEMENT\tSTATUS\tRECIPIENTS\tLAST UPDATED\t\nNo agreements here yet\n\nUpload a document to prepare your first agreement.\n\nNew agreement\n0 agreements\nView all agreements\nStart with a template\nView templates\nNon-disclosure agreement\nBusiness · 1 document\nConsulting agreement\nServices · 1 document\nEmployment offer\nPeople · 1 document\n\nSample documents to help you get started. Review and adapt before use.\n\nMake yourself at home\n\nYour workspace is ready. Upload your first agreement, or explore the signing flow with a few sample documents.\n\nStart your own\nUpload a PDF and prepare it for signature.\nExplore samples\nTry the editor and sign a sample yourself.\nAdd sample agreements\nUpload a document",
+      "elements": 258,
+      "controls": 27,
+      "canvases": 0,
+      "url": "https://martin-hausleitner.github.io/Luna-Korpus/Apps/resources/Velsign/index.html",
+      "ribbon": false,
+      "inputs": [
+        {
+          "id": "global-search",
+          "cls": "",
+          "placeholder": "Search your agreements"
+        },
+        {
+          "id": "select-all",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "shell",
+        "sidebar",
+        "brand",
+        "workspace-switch",
+        "avatar",
+        "grow",
+        {},
+        "nav-item active",
+        {},
+        "nav-item ",
+        {},
+        "nav-count",
+        "nav-item ",
+        {},
+        "nav-item ",
+        {},
+        "nav-item ",
+        {},
+        "nav-label",
+        "nav-item ",
+        {},
+        "sidebar-bottom",
+        "sidebar-note",
+        {},
+        "mt",
+        "text-link",
+        {},
+        "nav-item",
+        {},
+        "user-block",
+        "avatar ",
+        "grow",
+        "icon-btn",
+        {},
+        "main",
+        "topbar",
+        "breadcrumb",
+        {},
+        "mobile-nav",
+        "top-actions"
+      ],
+      "repo": "Velsign",
+      "file": "Apps/signatur.html",
+      "sha256": "93c39f71808185dd5e1f2daff06a6648bf49d815cbed7cd50ca90fe45b868e97",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "93c39f71808185dd5e1f2daff06a6648bf49d815cbed7cd50ca90fe45b868e97"
+    },
+    {
+      "title": "Formalyth — Design & Manufacturing",
+      "text": "F\nFormalyth\n\nInitializing local engineering engines…\n\nF\nFormalyth\nEdit\nView\nHelp\nBearing housing\nLOCAL PROJECT\nDesign\nSurface\nMesh\nSheet Metal\nAssemble\nManufacture\nAdditive\nSimulation\nDrawing\nElectronics\nSOLID\nSURFACE\nMESH\nSHEET METAL\n0.6\nDESIGN & MANUFACTURE\nCreate sketch\nSKETCH\n⌄\nExtrude / cut\nBox\nCREATE\n⌄\nEdge chamfer\nShell / hollow\nMODIFY\n⌄\nConstruction plane\nCONSTRUCT\n⌄\nMeasure distance\nINSPECT\n⌄\nPick bodies\nPick faces\nPick edges\nSELECT\n⌄\nParameter table\nMANAGE\n⌄\nAll tools\nS\nBROWSER\nBearing housing\n›\nFeatures\n6\nSaved locally · 12:31:26\nBearing housing\nDesign · orthographic · WebGPU\nFRONT\nTOP\nRIGHT\nISO\nFORMALYTH / DESIGN & MANUFACTURING\nDrag to orbit · Shift-drag to pan · Wheel or pinch to zoom\nRebuilding model\nIsolated worker · cancel stops computation\nCancel\nPROPERTIES\nDesign\nReady to design\n0\nbodies\n6\nfeatures\n\nSelect a body, face or feature to edit. Press S to find any tool.\n\nCreate sketch\nParameter table\nLocal projects\nVIEW\nNamed views\nFit model\nRECENT TOOLS\n\nLocal project · mm · Experimental geometry. Review manufacturing and analysis output independently.\n\nFEATURE HISTORY\nRight-click for actions\n6 features · End\nComputing in worker\nWebGPU\nmm",
+      "elements": 293,
+      "controls": 64,
+      "canvases": 1,
+      "url": "https://martin-hausleitner.github.io/Luna-Korpus/Apps/resources/Formalyth/index.html",
+      "ribbon": true,
+      "inputs": [
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": "Find features or workspace data"
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "boot-mark",
+        "titlebar",
+        "brand",
+        "brand-mark",
+        "main-menus",
+        "main-menu-button",
+        "main-menu-button",
+        "main-menu-button",
+        "icon-button",
+        "icon-button",
+        "icon-button",
+        "icon-button",
+        "icon-button",
+        "document-title",
+        "spacer",
+        "local-badge",
+        "icon-button",
+        "icon-button",
+        "icon-button",
+        "workspacebar",
+        "workspace-select",
+        "workspace-tabs",
+        "workspace-tab active",
+        "workspace-tab ",
+        "workspace-tab ",
+        "workspace-tab ",
+        "workspace-hint",
+        "release-chip",
+        "ribbon",
+        "ribbon-group",
+        "ribbon-tools",
+        "tool-button",
+        "ribbon-menu-label",
+        "menu-chevron",
+        "ribbon-group",
+        "ribbon-tools",
+        "tool-button",
+        "tool-button",
+        "ribbon-menu-label",
+        "menu-chevron"
+      ],
+      "repo": "Formalyth",
+      "file": "Apps/korpus.html",
+      "sha256": "1385d5092a32e2ca78a1c9b252d650b144b7bcb04eb98307fe990122f34df4ef",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "1385d5092a32e2ca78a1c9b252d650b144b7bcb04eb98307fe990122f34df4ef"
+    },
+    {
+      "title": "Oxidized Copper — StrataForge",
+      "text": "STRATAFORGE\nMATERIAL STUDIO\nOxidized Copper\n— Procedural Material\n?\nFile\nEdit\nGraph\nView\nPublish\nHelp\nLOCAL WORKSPACE\n● All changes saved\n＋ New\n▱ Open\n▣ Save\n↶\n↷\nOUTPUT SIZE\n128 × 128\n256 × 256\n512 × 512\n1K × 1K\n2K × 2K\n⚄ Randomize\n⌘ Shader\nWEBGPU ACTIVE\n↗ Export textures\nEXPLORER\n＋\n▣\noxidized_copper.sforge\n⌄\n◇\nOxidized Copper\nGRAPH\nBase Color\nsRGB\nNormal\nDATA\nRoughness\nDATA\nMetallic\nDATA\nHeight\nDATA\nAmbient Occlusion\nDATA\nRESOURCES\n＋\nNo bitmap resources\nLIBRARY\n22 nodes\nNodes\nMaterials\nGraphs\n⌕\nTab\nAll\nGenerators\nPatterns\nFilters\nCompositing\nMasks\nMaterial\nAdjustments\nInputs\nFractal Noise\nGENERATORS\nCells / Voronoi\nGENERATORS\nClouds\nGENERATORS\nBrick Pattern\nPATTERNS\nTile Pattern\nPATTERNS\nChecker\nPATTERNS\nShape Scatter\nPATTERNS\nGradient\nGENERATORS\nUniform Grayscale\nGENERATORS\nUniform Color\nGENERATORS\nBitmap\nINPUTS\nBlend\nCOMPOSITING\nLevels\nADJUSTMENTS\nInvert\nADJUSTMENTS\nGrayscale\nADJUSTMENTS\nHistogram Scan\nMASKS\nGradient Map\nCOMPOSITING\nBlur\nFILTERS\nDirectional Warp\nFILTERS\nTransform 2D\nFILTERS\nNormal from Height\nMATERIAL\nAmbient Occlusion\nMATERIAL\nDouble-click or drag into the graph\n◈ 3D VIEW\nMaterial\n⚙\n◉ Sphere\n◇ Cube\n▱ Plane\nStudio · Warm\nStudio · Cool\n⌖\nPBR · METALLIC / ROUGHNESS\nX\nY\nZ\nDrag to orbit · Scroll to zoom\nOxidized Copper\nGGX / Smith / Schlick\n▧ 2D VIEW\nsRGB display\nBase Color\nNormal\nRoughness\nMetallic\nHeight\nAmbient Occlusion\nSelected node\n▦\n⌖\n↗\nBase Color\nDouble-click a node to inspect its output\n512 × 512\nRGBA16F · LINEAR WORKING SPACE\n⌘\nGRAPH\nOxidized Copper\n×\n＋ Add node\n▧ Subgraph\n⌖\n☷\n◈\nOxidation field\n512²\nSCALAR\n◈\nSurface grain\n512²\nSCALAR\n◈\nOrganic distortion\nSour\nInte\n512²\nSCALAR\n◈\nPatina coverage\nSour\n512²\nSCALAR\n◈\nCopper / verdigris\nSour\n512²\nBASE COLOR\n◈\nCorrosion relief\nBack\nFore\nMask\n512²\nHEIGHT\n◇\nMicro-surface normal\nHeig\n512²\nNORMAL\n◈\nOxide roughness\nSour\n512²\nROUGHNESS\n◈\nExposed metal\nSour\n512²\nMETALLIC\n◇\nCavity occlusion\nHeig\n512²\nAO\n▣\nOxidized Copper\n/ Material graph\nPan: middle mouse / Space · Connect: drag ports · Disconnect: Alt-click input\n−\n48%\n＋\n10 nodes · 10 connections\n10 evaluated · 0 cached · 378.3 ms\nPROPERTIES\n⌂\nSelection\nMaterial\nPROCEDURAL MATERIAL\nOxidized Copper\n\nLayered verdigris over warm, exposed copper.\n\nGRAPH ",
+      "elements": 601,
+      "controls": 125,
+      "canvases": 34,
+      "url": "https://martin-hausleitner.github.io/Luna-Korpus/Apps/resources/StrataForge/index.html",
+      "ribbon": false,
+      "inputs": [
+        {
+          "id": "library-search",
+          "cls": "",
+          "placeholder": "Search library…"
+        },
+        {
+          "id": "exposure",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "uv-tiling",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "material-name",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "project-seed",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "palette-search",
+          "cls": "",
+          "placeholder": "Search nodes…"
+        },
+        {
+          "id": "open-file",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "bitmap-file",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "titlebar",
+        "brand",
+        "edition",
+        "title-project",
+        "tiny-dot",
+        "muted",
+        "icon-button",
+        "menubar",
+        "menu-spacer",
+        "session-label",
+        "save-state",
+        "toolbar",
+        "tool-group",
+        "tool-group",
+        "tool-group",
+        "toolbar-label",
+        "tool-group",
+        "menu-spacer",
+        "engine-chip",
+        "primary-button",
+        "workspace",
+        "left-column",
+        "explorer panel",
+        "panel-header",
+        "icon-button",
+        "package-line",
+        "accent",
+        "tree-row active",
+        "accent",
+        "tree-badge",
+        "tree-outputs",
+        "tree-output",
+        "channel-badge",
+        "tree-output",
+        "channel-badge",
+        "tree-output",
+        "channel-badge",
+        "tree-output",
+        "channel-badge",
+        "tree-output"
+      ],
+      "repo": "StrataForge",
+      "file": "Apps/material.html",
+      "sha256": "75fe77825d6e3165bdb42ece7277c31be935e6beec788029d84ef9f28b79227e",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "75fe77825d6e3165bdb42ece7277c31be935e6beec788029d84ef9f28b79227e"
+    },
+    {
+      "title": "Actuator housing — Avolith Studio",
+      "text": "AVOLITH\nSTUDIO\nActuator housing\n—\nDirect Modeling\nFind a command\nCtrl K\nL\nFile\nDesign\nSketch\nDisplay\nAssembly\nMeasure\nRepair\nPrepare\nSheet Metal\nDrawing\nOFFLINE FACETED EDITION\n0.2\nSelect\nSketch mode\nMode\nPull\nMove\nFill\nEdit\nCombine\n⌄\nSplit body\nProject face\nIntersect\nRound corners\nChamfer\nShell\nMirror\nPattern\n⌄\nScale\nCreate\nBox\n⌄\nCylinder\nSphere\nTorus\nHole\nBody\nExtrude\nRevolve\nSweep\nBlend / loft\nShape\nActuator housing\nDrawing sheet\n+\nSaved on this device\n✓\nStructure\n/\nActuator housing\nHousing assembly\n6\nActuator housing\nFront mounting flange\nBearing retainer\nRear bearing carrier\nService cover\nLubrication port\nDrive components\n2\nDrive sleeve\nSleeve retaining ring\nMounting hardware\n1\nMounting plate\nFasteners · M6\n10\nStructure\nLayers\nGroups\nProperties\nFACETED SOLID\nName\nMaterial\nAluminum · bead blasted\nSteel · machined\nAluminum · blue anodized\nBrass · satin\nPolymer · graphite\nCopper\nCoated steel · vermilion\nColor\nCustom appearance\nBOUNDING DIMENSIONS · MM\nX · WIDTH\n88.00\nY · DEPTH\n57.00\nZ · HEIGHT\n51.00\nPHYSICAL PROPERTIES\nVolume\n195,239.5 mm³\nMass\n527.15 g\nSurface area\n28,638.4 mm²\nIndependent faceted-solid kernel\nDesign 1\n›\nHousing assembly\nShaded with edges\n⌄\nTOP\nFRONT\nRIGHT\nORTHOGRAPHIC\nXYZ WORLD\n20 mm\nClick to select · drag right to orbit · scroll to zoom\nTool options\nSelect\n\nDIRECT MODELING\n\nSelect geometry in the viewport or structure tree. Start with a body, then work down to a face or an edge.\n\nSELECTION FILTER\nBody\nFace\nEdge\nVertex\nActuator housing\n1 body selected\nQUICK ACTIONS\nPull\nMove\nNAVIGATION\nOrbit view\nRight drag\nPan view\nMiddle drag\nAdd to selection\nCtrl + click\nFit model\nF\nModel without a feature tree\nPull a face, move a body, or combine solids. Every document edit is recorded in undo history.\n◈\nYour model stays here.\nLocal files. No account. No uploads.\nEDIT HISTORY\nInitial geometry\nOpened Actuator housing\n1 body selected\n19 bodies · 0 sketches\nWebGPU\n0.2 ms CPU\nMillimeters\nInches",
+      "elements": 584,
+      "controls": 103,
+      "canvases": 2,
+      "url": "blob:https://martin-hausleitner.github.io/d57a985e-8b5d-4418-bd57-92d407bfe8f6",
+      "ribbon": true,
+      "inputs": [
+        {
+          "id": "tree-filter",
+          "cls": "",
+          "placeholder": "Filter model tree"
+        },
+        {
+          "id": "prop-name",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "prop-color",
+          "cls": "",
+          "placeholder": ""
+        },
+        {
+          "id": "palette-query",
+          "cls": "",
+          "placeholder": "Find a tool, view, or file command…"
+        },
+        {
+          "id": "file-input",
+          "cls": "",
+          "placeholder": ""
+        }
+      ],
+      "classes": [
+        "titlebar",
+        "brand",
+        "quick-access",
+        {},
+        {},
+        {},
+        {},
+        {},
+        "title-document",
+        "document-dot",
+        "title-divider",
+        "command-search",
+        {},
+        "icon-button",
+        {},
+        "icon-button",
+        {},
+        "local-avatar",
+        "tabs",
+        "ribbon-tab active",
+        "ribbon-tab ",
+        "ribbon-tab ",
+        "ribbon-tab ",
+        "ribbon-tab ",
+        "ribbon-tab ",
+        "ribbon-tab ",
+        "ribbon-tab ",
+        "ribbon-tab ",
+        "workspace-label",
+        "version-badge",
+        "ribbon",
+        "ribbon-group",
+        "ribbon-tools",
+        "ribbon-button large active",
+        {},
+        "ribbon-button large ",
+        {},
+        "ribbon-group-name",
+        "ribbon-group",
+        "ribbon-tools"
+      ],
+      "repo": "AvolithStudio",
+      "file": "Apps/modell.html",
+      "sha256": "9406611dcc750711a215b446cd16102249479be394711d651b080de6f749e531",
+      "errors": [],
+      "request_failures": [],
+      "executed_html_sha256": "9406611dcc750711a215b446cd16102249479be394711d651b080de6f749e531"
+    }
+  ],
+  "errors": [],
+  "request_failures": [],
+  "screenshots": [
+    "01-desktop.png",
+    "02-appstore.png",
+    "02b-appstore-builtins.png",
+    "02c-appstore-installed.png",
+    "03-explorer.png",
+    "04-tabelle.png",
+    "05-mail.png",
+    "06-korpus.png",
+    "07-kalender.png",
+    "08-themes.png",
+    "09-multiwindow.png"
+  ],
+  "boot": {
+    "apps": [
+      {
+        "id": "clipboard-tools",
+        "title": "Kopieren (Clipboard Utilities)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "files",
+        "title": "Explorer (File Explorer)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "notepad",
+        "title": "Notizen (Notepad)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "terminal",
+        "title": "Eingabe (Terminal)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "paint",
+        "title": "Farbe (Paint)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "photos",
+        "title": "Fotos (Photos)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "media",
+        "title": "Medien (Media Player)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "code",
+        "title": "Code (Code Studio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "snips",
+        "title": "Ausschnitt (Snips)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "calculator",
+        "title": "Rechner (Calculator)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "calendar",
+        "title": "Kalender (Calendar)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "clock",
+        "title": "Uhr (Clock)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "tasks",
+        "title": "Aufgaben (Tasks)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "mines",
+        "title": "Minen (Mines)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "settings",
+        "title": "Einstellungen (Settings)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "taskmanager",
+        "title": "Prozesse (Task Manager)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "welcome",
+        "title": "Willkommen (Welcome)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "clipboard",
+        "title": "Zwischenablage (Clipboard History)",
+        "hidden": true,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "focus",
+        "title": "Fokus (Focus Sessions)",
+        "hidden": true,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "widgets",
+        "title": "Übersicht (Widget Board)",
+        "hidden": true,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "workspaces",
+        "title": "Fenstergruppen (Window Groups)",
+        "hidden": true,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "history",
+        "title": "Dateiverlauf (File History)",
+        "hidden": true,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "storage",
+        "title": "Speicher (Storage Manager)",
+        "hidden": true,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "archives",
+        "title": "Archive (ZIP Archives)",
+        "hidden": true,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "accessibility",
+        "title": "Bedienhilfen (Accessibility Tools)",
+        "hidden": true,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "recorder",
+        "title": "Aufnahme (Screen Recorder)",
+        "hidden": true,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "win32",
+        "title": "Win32 (Win32 Lab)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "web-vellum",
+        "title": "Vellum (Vellum)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-forma",
+        "title": "Forma (Forma)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-vectora",
+        "title": "Vectora (Vectora)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-lumaforge",
+        "title": "LumaForge (LumaForge)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-prismforge",
+        "title": "PrismForge (PrismForge)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-prismstudio",
+        "title": "PrismStudio (PrismStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-paintxp",
+        "title": "PaintXP (PaintXP)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-selvedgestudio",
+        "title": "SELVEDGEStudio (SELVEDGEStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-aethermotion",
+        "title": "AetherMotion (AetherMotion)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-celestastudio",
+        "title": "CelestaStudio (CelestaStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-kinetrastudio",
+        "title": "KinetraStudio (KinetraStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-lithicsculpt",
+        "title": "LithicSculpt (LithicSculpt)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-vertexforge",
+        "title": "VertexForge (VertexForge)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-vortexfx",
+        "title": "VortexFX (VortexFX)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-strataforge",
+        "title": "Material (StrataForge)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-alloystudio",
+        "title": "AlloyStudio (AlloyStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-aureoncad",
+        "title": "AureonCAD (AureonCAD)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-axiomcad",
+        "title": "AxiomCAD (AxiomCAD)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-axiomcam",
+        "title": "AxiomCAM (AxiomCAM)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-draftline",
+        "title": "Zeichnung (Draftline)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-kestrelcad",
+        "title": "CAD (KestrelCAD)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-stratumcad",
+        "title": "StratumCAD (StratumCAD)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-asterioneda",
+        "title": "Asterion EDA (AsterionEDA)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-formalyth",
+        "title": "Korpus (Formalyth)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-aetherdiscovery",
+        "title": "AetherDiscovery (AetherDiscovery)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-aetherfield",
+        "title": "AetherField (AetherField)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-aetheroptics",
+        "title": "AetherOptics (AetherOptics)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-fluxlab",
+        "title": "FluxLab (FluxLab)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-fluxworksstudio",
+        "title": "FluxWorksStudio (FluxWorksStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-stratumframe",
+        "title": "StratumFrame (StratumFrame)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-astercas",
+        "title": "AsterCAS (AsterCAS)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-axiomstudio",
+        "title": "AxiomStudio (AxiomStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-axiomworksheet",
+        "title": "Rechenblatt (AxiomWorksheet)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-aureliaprocess",
+        "title": "AureliaProcess (AureliaProcess)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-vaporaprocessstudio",
+        "title": "VaporaProcessStudio (VaporaProcessStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-axiompid",
+        "title": "AxiomPID (AxiomPID)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-axiomplant",
+        "title": "AxiomPlant (AxiomPlant)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-nexoraengineering",
+        "title": "NexoraEngineering (NexoraEngineering)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-relayforgeautomation",
+        "title": "RelayForgeAutomation (RelayForgeAutomation)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-voltweave",
+        "title": "VoltWeave (VoltWeave)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-voltweavestudio",
+        "title": "VoltWeaveStudio (VoltWeaveStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-silicorestudio",
+        "title": "SilicoreStudio (SilicoreStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-kineforgestudio",
+        "title": "KineforgeStudio (KineforgeStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-convergestudio",
+        "title": "ConvergeStudio (ConvergeStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-stratumbim",
+        "title": "StratumBIM (StratumBIM)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-planforgereview",
+        "title": "Aufmaß (PlanforgeReview)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-meridiangisstudio",
+        "title": "MeridianGISStudio (MeridianGISStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-wayline",
+        "title": "Wayline (Wayline)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-meridianoffice",
+        "title": "Office (MeridianOffice)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-quire",
+        "title": "Mail (Quire)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-gridline",
+        "title": "Tabelle (Gridline)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-aureliaslides",
+        "title": "AureliaSlides (AureliaSlides)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-folioforge",
+        "title": "FolioForge (FolioForge)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-foliopro",
+        "title": "PDF (FolioPro)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-meridianplan",
+        "title": "Planung (MeridianPlan)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-nexoradiagram",
+        "title": "NexoraDiagram (NexoraDiagram)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-veyraworkspace",
+        "title": "Gespräch (Veyra Workspace)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-twinforge",
+        "title": "Dateien (TwinForge)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-notepadxp",
+        "title": "Text (NotepadXP)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-forgestudio",
+        "title": "ForgeStudio (ForgeStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-pageforgestudio",
+        "title": "PageForgeStudio (PageForgeStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-asteria",
+        "title": "Asteria (Asteria)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-fluxweave",
+        "title": "Fluxweave (Fluxweave)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-latticeanalytics",
+        "title": "Auswertung (LatticeAnalytics)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-aureonterminal",
+        "title": "AureonTerminal (AureonTerminal)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-branchglass",
+        "title": "Branchglass (Branchglass)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-jailbreak",
+        "title": "Jailbreak (Jailbreak)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-frameforge",
+        "title": "Frameforge (Frameforge)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-pulsegridstudio",
+        "title": "PulsegridStudio (PulsegridStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-sonorastudio",
+        "title": "SonoraStudio (SonoraStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-signalforgestudio",
+        "title": "SignalForgeStudio (SignalForgeStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-railbound",
+        "title": "Railbound (Classic) (Railbound)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-railboundadventures",
+        "title": "RailboundAdventures (RailboundAdventures)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-vantaforge",
+        "title": "VantaForge (VantaForge)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-voltweavecircuitstudio",
+        "title": "VoltWeave Circuit Studio (VoltWeaveCircuitStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-stratumintelligence",
+        "title": "Stratum Intelligence (StratumIntelligence)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-veldra3d",
+        "title": "Veldra 3D + Weave (Veldra3D)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-avolithstudio",
+        "title": "Modell (Avolith Studio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-aureonstudio",
+        "title": "Aureon Studio (AureonStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-velsign",
+        "title": "Signatur (Velsign)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-folio",
+        "title": "Akte (Folio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-mirevastudio",
+        "title": "Mireva Studio (MirevaStudio)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-orivane",
+        "title": "Tafel (Orivane)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "web-velora",
+        "title": "Velora Design Studio (Velora)",
+        "hidden": false,
+        "custom": false,
+        "webApp": true
+      },
+      {
+        "id": "store",
+        "title": "App Store (App Center)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "browser",
+        "title": "Browser (Orbit Browser)",
+        "hidden": false,
+        "custom": false,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-tabelle",
+        "title": "Tabelle (Gridline)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-planung",
+        "title": "Planung (MeridianPlan)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-office",
+        "title": "Office (MeridianOffice)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-dateien",
+        "title": "Dateien (TwinForge)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-akte",
+        "title": "Akte (Folio)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-pdf",
+        "title": "PDF (FolioPro)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-mail",
+        "title": "Mail (Quire)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-text",
+        "title": "Text (NotepadXP)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-auswertung",
+        "title": "Auswertung (LatticeAnalytics)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-rechenblatt",
+        "title": "Rechenblatt (AxiomWorksheet)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-zeichnung",
+        "title": "Zeichnung (Draftline)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-cad",
+        "title": "CAD (KestrelCAD)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-aufmass",
+        "title": "Aufmaß (PlanforgeReview)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-tafel",
+        "title": "Tafel (Orivane)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-gespraech",
+        "title": "Gespräch (Veyra Workspace)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-signatur",
+        "title": "Signatur (Velsign)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-korpus",
+        "title": "Korpus (Formalyth)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-material",
+        "title": "Material (StrataForge)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      },
+      {
+        "id": "custom-luna-modell",
+        "title": "Modell (Avolith Studio)",
+        "hidden": false,
+        "custom": true,
+        "webApp": false
+      }
+    ],
+    "catalog": [
+      {
+        "id": "web-vellum",
+        "repo": "Vellum",
+        "title": "Vellum (Vellum)"
+      },
+      {
+        "id": "web-forma",
+        "repo": "Forma",
+        "title": "Forma (Forma)"
+      },
+      {
+        "id": "web-vectora",
+        "repo": "Vectora",
+        "title": "Vectora (Vectora)"
+      },
+      {
+        "id": "web-lumaforge",
+        "repo": "LumaForge",
+        "title": "LumaForge (LumaForge)"
+      },
+      {
+        "id": "web-prismforge",
+        "repo": "PrismForge",
+        "title": "PrismForge (PrismForge)"
+      },
+      {
+        "id": "web-prismstudio",
+        "repo": "PrismStudio",
+        "title": "PrismStudio (PrismStudio)"
+      },
+      {
+        "id": "web-paintxp",
+        "repo": "PaintXP",
+        "title": "PaintXP (PaintXP)"
+      },
+      {
+        "id": "web-selvedgestudio",
+        "repo": "SELVEDGEStudio",
+        "title": "SELVEDGEStudio (SELVEDGEStudio)"
+      },
+      {
+        "id": "web-aethermotion",
+        "repo": "AetherMotion",
+        "title": "AetherMotion (AetherMotion)"
+      },
+      {
+        "id": "web-celestastudio",
+        "repo": "CelestaStudio",
+        "title": "CelestaStudio (CelestaStudio)"
+      },
+      {
+        "id": "web-kinetrastudio",
+        "repo": "KinetraStudio",
+        "title": "KinetraStudio (KinetraStudio)"
+      },
+      {
+        "id": "web-lithicsculpt",
+        "repo": "LithicSculpt",
+        "title": "LithicSculpt (LithicSculpt)"
+      },
+      {
+        "id": "web-vertexforge",
+        "repo": "VertexForge",
+        "title": "VertexForge (VertexForge)"
+      },
+      {
+        "id": "web-vortexfx",
+        "repo": "VortexFX",
+        "title": "VortexFX (VortexFX)"
+      },
+      {
+        "id": "web-strataforge",
+        "repo": "StrataForge",
+        "title": "Material (StrataForge)"
+      },
+      {
+        "id": "web-alloystudio",
+        "repo": "AlloyStudio",
+        "title": "AlloyStudio (AlloyStudio)"
+      },
+      {
+        "id": "web-aureoncad",
+        "repo": "AureonCAD",
+        "title": "AureonCAD (AureonCAD)"
+      },
+      {
+        "id": "web-axiomcad",
+        "repo": "AxiomCAD",
+        "title": "AxiomCAD (AxiomCAD)"
+      },
+      {
+        "id": "web-axiomcam",
+        "repo": "AxiomCAM",
+        "title": "AxiomCAM (AxiomCAM)"
+      },
+      {
+        "id": "web-draftline",
+        "repo": "Draftline",
+        "title": "Zeichnung (Draftline)"
+      },
+      {
+        "id": "web-kestrelcad",
+        "repo": "KestrelCAD",
+        "title": "CAD (KestrelCAD)"
+      },
+      {
+        "id": "web-stratumcad",
+        "repo": "StratumCAD",
+        "title": "StratumCAD (StratumCAD)"
+      },
+      {
+        "id": "web-asterioneda",
+        "repo": "AsterionEDA",
+        "title": "Asterion EDA (AsterionEDA)"
+      },
+      {
+        "id": "web-formalyth",
+        "repo": "Formalyth",
+        "title": "Korpus (Formalyth)"
+      },
+      {
+        "id": "web-aetherdiscovery",
+        "repo": "AetherDiscovery",
+        "title": "AetherDiscovery (AetherDiscovery)"
+      },
+      {
+        "id": "web-aetherfield",
+        "repo": "AetherField",
+        "title": "AetherField (AetherField)"
+      },
+      {
+        "id": "web-aetheroptics",
+        "repo": "AetherOptics",
+        "title": "AetherOptics (AetherOptics)"
+      },
+      {
+        "id": "web-fluxlab",
+        "repo": "FluxLab",
+        "title": "FluxLab (FluxLab)"
+      },
+      {
+        "id": "web-fluxworksstudio",
+        "repo": "FluxWorksStudio",
+        "title": "FluxWorksStudio (FluxWorksStudio)"
+      },
+      {
+        "id": "web-stratumframe",
+        "repo": "StratumFrame",
+        "title": "StratumFrame (StratumFrame)"
+      },
+      {
+        "id": "web-astercas",
+        "repo": "AsterCAS",
+        "title": "AsterCAS (AsterCAS)"
+      },
+      {
+        "id": "web-axiomstudio",
+        "repo": "AxiomStudio",
+        "title": "AxiomStudio (AxiomStudio)"
+      },
+      {
+        "id": "web-axiomworksheet",
+        "repo": "AxiomWorksheet",
+        "title": "Rechenblatt (AxiomWorksheet)"
+      },
+      {
+        "id": "web-aureliaprocess",
+        "repo": "AureliaProcess",
+        "title": "AureliaProcess (AureliaProcess)"
+      },
+      {
+        "id": "web-vaporaprocessstudio",
+        "repo": "VaporaProcessStudio",
+        "title": "VaporaProcessStudio (VaporaProcessStudio)"
+      },
+      {
+        "id": "web-axiompid",
+        "repo": "AxiomPID",
+        "title": "AxiomPID (AxiomPID)"
+      },
+      {
+        "id": "web-axiomplant",
+        "repo": "AxiomPlant",
+        "title": "AxiomPlant (AxiomPlant)"
+      },
+      {
+        "id": "web-nexoraengineering",
+        "repo": "NexoraEngineering",
+        "title": "NexoraEngineering (NexoraEngineering)"
+      },
+      {
+        "id": "web-relayforgeautomation",
+        "repo": "RelayForgeAutomation",
+        "title": "RelayForgeAutomation (RelayForgeAutomation)"
+      },
+      {
+        "id": "web-voltweave",
+        "repo": "VoltWeave",
+        "title": "VoltWeave (VoltWeave)"
+      },
+      {
+        "id": "web-voltweavestudio",
+        "repo": "VoltWeaveStudio",
+        "title": "VoltWeaveStudio (VoltWeaveStudio)"
+      },
+      {
+        "id": "web-silicorestudio",
+        "repo": "SilicoreStudio",
+        "title": "SilicoreStudio (SilicoreStudio)"
+      },
+      {
+        "id": "web-kineforgestudio",
+        "repo": "KineforgeStudio",
+        "title": "KineforgeStudio (KineforgeStudio)"
+      },
+      {
+        "id": "web-convergestudio",
+        "repo": "ConvergeStudio",
+        "title": "ConvergeStudio (ConvergeStudio)"
+      },
+      {
+        "id": "web-stratumbim",
+        "repo": "StratumBIM",
+        "title": "StratumBIM (StratumBIM)"
+      },
+      {
+        "id": "web-planforgereview",
+        "repo": "PlanforgeReview",
+        "title": "Aufmaß (PlanforgeReview)"
+      },
+      {
+        "id": "web-meridiangisstudio",
+        "repo": "MeridianGISStudio",
+        "title": "MeridianGISStudio (MeridianGISStudio)"
+      },
+      {
+        "id": "web-wayline",
+        "repo": "Wayline",
+        "title": "Wayline (Wayline)"
+      },
+      {
+        "id": "web-meridianoffice",
+        "repo": "MeridianOffice",
+        "title": "Office (MeridianOffice)"
+      },
+      {
+        "id": "web-quire",
+        "repo": "Quire",
+        "title": "Mail (Quire)"
+      },
+      {
+        "id": "web-gridline",
+        "repo": "Gridline",
+        "title": "Tabelle (Gridline)"
+      },
+      {
+        "id": "web-aureliaslides",
+        "repo": "AureliaSlides",
+        "title": "AureliaSlides (AureliaSlides)"
+      },
+      {
+        "id": "web-folioforge",
+        "repo": "FolioForge",
+        "title": "FolioForge (FolioForge)"
+      },
+      {
+        "id": "web-foliopro",
+        "repo": "FolioPro",
+        "title": "PDF (FolioPro)"
+      },
+      {
+        "id": "web-meridianplan",
+        "repo": "MeridianPlan",
+        "title": "Planung (MeridianPlan)"
+      },
+      {
+        "id": "web-nexoradiagram",
+        "repo": "NexoraDiagram",
+        "title": "NexoraDiagram (NexoraDiagram)"
+      },
+      {
+        "id": "web-veyraworkspace",
+        "repo": "VeyraWorkspace",
+        "title": "Gespräch (Veyra Workspace)"
+      },
+      {
+        "id": "web-twinforge",
+        "repo": "TwinForge",
+        "title": "Dateien (TwinForge)"
+      },
+      {
+        "id": "web-notepadxp",
+        "repo": "NotepadXP",
+        "title": "Text (NotepadXP)"
+      },
+      {
+        "id": "web-forgestudio",
+        "repo": "ForgeStudio",
+        "title": "ForgeStudio (ForgeStudio)"
+      },
+      {
+        "id": "web-pageforgestudio",
+        "repo": "PageForgeStudio",
+        "title": "PageForgeStudio (PageForgeStudio)"
+      },
+      {
+        "id": "web-asteria",
+        "repo": "Asteria",
+        "title": "Asteria (Asteria)"
+      },
+      {
+        "id": "web-fluxweave",
+        "repo": "Fluxweave",
+        "title": "Fluxweave (Fluxweave)"
+      },
+      {
+        "id": "web-latticeanalytics",
+        "repo": "LatticeAnalytics",
+        "title": "Auswertung (LatticeAnalytics)"
+      },
+      {
+        "id": "web-aureonterminal",
+        "repo": "AureonTerminal",
+        "title": "AureonTerminal (AureonTerminal)"
+      },
+      {
+        "id": "web-branchglass",
+        "repo": "Branchglass",
+        "title": "Branchglass (Branchglass)"
+      },
+      {
+        "id": "web-jailbreak",
+        "repo": "Jailbreak",
+        "title": "Jailbreak (Jailbreak)"
+      },
+      {
+        "id": "web-frameforge",
+        "repo": "Frameforge",
+        "title": "Frameforge (Frameforge)"
+      },
+      {
+        "id": "web-pulsegridstudio",
+        "repo": "PulsegridStudio",
+        "title": "PulsegridStudio (PulsegridStudio)"
+      },
+      {
+        "id": "web-sonorastudio",
+        "repo": "SonoraStudio",
+        "title": "SonoraStudio (SonoraStudio)"
+      },
+      {
+        "id": "web-signalforgestudio",
+        "repo": "SignalForgeStudio",
+        "title": "SignalForgeStudio (SignalForgeStudio)"
+      },
+      {
+        "id": "web-railbound",
+        "repo": "Railbound",
+        "title": "Railbound (Classic) (Railbound)"
+      },
+      {
+        "id": "web-railboundadventures",
+        "repo": "RailboundAdventures",
+        "title": "RailboundAdventures (RailboundAdventures)"
+      },
+      {
+        "id": "web-vantaforge",
+        "repo": "VantaForge",
+        "title": "VantaForge (VantaForge)"
+      },
+      {
+        "id": "web-voltweavecircuitstudio",
+        "repo": "VoltWeaveCircuitStudio",
+        "title": "VoltWeave Circuit Studio (VoltWeaveCircuitStudio)"
+      },
+      {
+        "id": "web-stratumintelligence",
+        "repo": "StratumIntelligence",
+        "title": "Stratum Intelligence (StratumIntelligence)"
+      },
+      {
+        "id": "web-veldra3d",
+        "repo": "Veldra3D",
+        "title": "Veldra 3D + Weave (Veldra3D)"
+      },
+      {
+        "id": "web-avolithstudio",
+        "repo": "AvolithStudio",
+        "title": "Modell (Avolith Studio)"
+      },
+      {
+        "id": "web-aureonstudio",
+        "repo": "AureonStudio",
+        "title": "Aureon Studio (AureonStudio)"
+      },
+      {
+        "id": "web-velsign",
+        "repo": "Velsign",
+        "title": "Signatur (Velsign)"
+      },
+      {
+        "id": "web-folio",
+        "repo": "Folio",
+        "title": "Akte (Folio)"
+      },
+      {
+        "id": "web-mirevastudio",
+        "repo": "MirevaStudio",
+        "title": "Mireva Studio (MirevaStudio)"
+      },
+      {
+        "id": "web-orivane",
+        "repo": "Orivane",
+        "title": "Tafel (Orivane)"
+      },
+      {
+        "id": "web-velora",
+        "repo": "Velora",
+        "title": "Velora Design Studio (Velora)"
+      }
+    ],
+    "installed": [
+      {
+        "schema": 2,
+        "id": "custom-luna-tabelle",
+        "kind": "html",
+        "title": "Tabelle (Gridline)",
+        "description": "Original Gridline · official portable HTML · dab377510f5e",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "dab377510f5e",
+        "favorite": true,
+        "installedAt": 1789381841890,
+        "updatedAt": 1789381841890,
+        "revision": 1,
+        "path": "/Apps/tabelle.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-planung",
+        "kind": "html",
+        "title": "Planung (MeridianPlan)",
+        "description": "Original MeridianPlan · official portable HTML · 3704572d1d19",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "3704572d1d19",
+        "favorite": true,
+        "installedAt": 1789381841899,
+        "updatedAt": 1789381841899,
+        "revision": 1,
+        "path": "/Apps/planung.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-office",
+        "kind": "html",
+        "title": "Office (MeridianOffice)",
+        "description": "Original MeridianOffice · official portable HTML · ab77468b2a0a",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "ab77468b2a0a",
+        "favorite": true,
+        "installedAt": 1789381841909,
+        "updatedAt": 1789381841909,
+        "revision": 1,
+        "path": "/Apps/office.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-dateien",
+        "kind": "html",
+        "title": "Dateien (TwinForge)",
+        "description": "Original TwinForge · official portable HTML · 3aa545597ac6",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "3aa545597ac6",
+        "favorite": true,
+        "installedAt": 1789381841924,
+        "updatedAt": 1789381841924,
+        "revision": 1,
+        "path": "/Apps/dateien.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-akte",
+        "kind": "html",
+        "title": "Akte (Folio)",
+        "description": "Original Folio · official HTML entry + unmodified local runtime assets · f4aa4ece80c8",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "f4aa4ece80c8",
+        "favorite": true,
+        "installedAt": 1789381841927,
+        "updatedAt": 1789381841927,
+        "revision": 1,
+        "path": "/Apps/akte.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-pdf",
+        "kind": "html",
+        "title": "PDF (FolioPro)",
+        "description": "Original FolioPro · official portable HTML · 588b26b15d05",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "588b26b15d05",
+        "favorite": true,
+        "installedAt": 1789381841934,
+        "updatedAt": 1789381841934,
+        "revision": 1,
+        "path": "/Apps/pdf.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-mail",
+        "kind": "html",
+        "title": "Mail (Quire)",
+        "description": "Original Quire · official portable HTML · 2b132ed2c279",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "2b132ed2c279",
+        "favorite": true,
+        "installedAt": 1789381841940,
+        "updatedAt": 1789381841940,
+        "revision": 1,
+        "path": "/Apps/mail.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-text",
+        "kind": "html",
+        "title": "Text (NotepadXP)",
+        "description": "Original NotepadXP · official portable HTML · 7bf4eb24426e",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "7bf4eb24426e",
+        "favorite": true,
+        "installedAt": 1789381841945,
+        "updatedAt": 1789381841945,
+        "revision": 1,
+        "path": "/Apps/text.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-auswertung",
+        "kind": "html",
+        "title": "Auswertung (LatticeAnalytics)",
+        "description": "Original LatticeAnalytics · official portable HTML · 553295d74c43",
+        "category": "Development & Data",
+        "icon": "code",
+        "color": "violet",
+        "publisher": "wieslawsoltes",
+        "version": "553295d74c43",
+        "favorite": true,
+        "installedAt": 1789381841950,
+        "updatedAt": 1789381841950,
+        "revision": 1,
+        "path": "/Apps/auswertung.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-rechenblatt",
+        "kind": "html",
+        "title": "Rechenblatt (AxiomWorksheet)",
+        "description": "Original AxiomWorksheet · official portable HTML · 483dcf606e68",
+        "category": "Science & Simulation",
+        "icon": "spark",
+        "color": "teal",
+        "publisher": "wieslawsoltes",
+        "version": "483dcf606e68",
+        "favorite": true,
+        "installedAt": 1789381841956,
+        "updatedAt": 1789381841956,
+        "revision": 1,
+        "path": "/Apps/rechenblatt.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-zeichnung",
+        "kind": "html",
+        "title": "Zeichnung (Draftline)",
+        "description": "Original Draftline · official portable HTML · cdb4f81a832b",
+        "category": "CAD & Manufacturing",
+        "icon": "rect",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "cdb4f81a832b",
+        "favorite": true,
+        "installedAt": 1789381841963,
+        "updatedAt": 1789381841963,
+        "revision": 1,
+        "path": "/Apps/zeichnung.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-cad",
+        "kind": "html",
+        "title": "CAD (KestrelCAD)",
+        "description": "Original KestrelCAD · official portable HTML · 7a1e84c67fd2",
+        "category": "CAD & Manufacturing",
+        "icon": "rect",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "7a1e84c67fd2",
+        "favorite": true,
+        "installedAt": 1789381841986,
+        "updatedAt": 1789381841986,
+        "revision": 1,
+        "path": "/Apps/cad.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-aufmass",
+        "kind": "html",
+        "title": "Aufmaß (PlanforgeReview)",
+        "description": "Original PlanforgeReview · official HTML entry + unmodified local runtime assets · f6b4978c65ef",
+        "category": "Buildings & Maps",
+        "icon": "globe",
+        "color": "green",
+        "publisher": "wieslawsoltes",
+        "version": "f6b4978c65ef",
+        "favorite": true,
+        "installedAt": 1789381841990,
+        "updatedAt": 1789381841990,
+        "revision": 1,
+        "path": "/Apps/aufmass.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-tafel",
+        "kind": "html",
+        "title": "Tafel (Orivane)",
+        "description": "Original Orivane · official portable HTML · af71000f3b44",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "af71000f3b44",
+        "favorite": true,
+        "installedAt": 1789381841997,
+        "updatedAt": 1789381841997,
+        "revision": 1,
+        "path": "/Apps/tafel.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-gespraech",
+        "kind": "html",
+        "title": "Gespräch (Veyra Workspace)",
+        "description": "Original Veyra Workspace · official HTML entry + unmodified local runtime assets · 328dbc75cb75",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "328dbc75cb75",
+        "favorite": true,
+        "installedAt": 1789381841999,
+        "updatedAt": 1789381841999,
+        "revision": 1,
+        "path": "/Apps/gespraech.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-signatur",
+        "kind": "html",
+        "title": "Signatur (Velsign)",
+        "description": "Original Velsign · official HTML entry + unmodified local runtime assets · 8365539ca7c1",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "8365539ca7c1",
+        "favorite": true,
+        "installedAt": 1789381842000,
+        "updatedAt": 1789381842000,
+        "revision": 1,
+        "path": "/Apps/signatur.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-korpus",
+        "kind": "html",
+        "title": "Korpus (Formalyth)",
+        "description": "Original Formalyth · official HTML entry + unmodified local runtime assets · 14f32d9fa468",
+        "category": "CAD & Manufacturing",
+        "icon": "rect",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "14f32d9fa468",
+        "favorite": true,
+        "installedAt": 1789381842002,
+        "updatedAt": 1789381842002,
+        "revision": 1,
+        "path": "/Apps/korpus.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-material",
+        "kind": "html",
+        "title": "Material (StrataForge)",
+        "description": "Original StrataForge · official HTML entry + unmodified local runtime assets · b4e16db998aa",
+        "category": "3D & Animation",
+        "icon": "gpu",
+        "color": "teal",
+        "publisher": "wieslawsoltes",
+        "version": "b4e16db998aa",
+        "favorite": true,
+        "installedAt": 1789381842003,
+        "updatedAt": 1789381842003,
+        "revision": 1,
+        "path": "/Apps/material.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-modell",
+        "kind": "html",
+        "title": "Modell (Avolith Studio)",
+        "description": "Original Avolith Studio · official portable HTML · d91304cc8007",
+        "category": "CAD & Manufacturing",
+        "icon": "rect",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "d91304cc8007",
+        "favorite": true,
+        "installedAt": 1789381842007,
+        "updatedAt": 1789381842007,
+        "revision": 1,
+        "path": "/Apps/modell.html"
+      }
+    ],
+    "desktop": [
+      {
+        "app": "files",
+        "title": "Explorer (File Explorer)"
+      },
+      {
+        "app": "custom-luna-dateien",
+        "title": "Dateien (TwinForge)"
+      },
+      {
+        "app": "custom-luna-tabelle",
+        "title": "Tabelle (Gridline)"
+      },
+      {
+        "app": "custom-luna-planung",
+        "title": "Planung (MeridianPlan)"
+      },
+      {
+        "app": "calendar",
+        "title": "Kalender (Calendar)"
+      },
+      {
+        "app": "custom-luna-mail",
+        "title": "Mail (Quire)"
+      },
+      {
+        "app": "custom-luna-akte",
+        "title": "Akte (Folio)"
+      },
+      {
+        "app": "custom-luna-zeichnung",
+        "title": "Zeichnung (Draftline)"
+      },
+      {
+        "app": "custom-luna-cad",
+        "title": "CAD (KestrelCAD)"
+      },
+      {
+        "app": "custom-luna-korpus",
+        "title": "Korpus (Formalyth)"
+      },
+      {
+        "app": "custom-luna-material",
+        "title": "Material (StrataForge)"
+      },
+      {
+        "app": "custom-luna-aufmass",
+        "title": "Aufmaß (PlanforgeReview)"
+      },
+      {
+        "app": "settings",
+        "title": "Einstellungen (Settings)"
+      }
+    ],
+    "profile": "windows",
+    "theme": "Luna Korpus",
+    "storage": "IndexedDB",
+    "bar": "LUNA\nSearch\n12:30\n14.09.2026",
+    "root": "shell-integrated theme-managed theme-accent-title luna-active gpu-active",
+    "gpu": true
+  },
+  "explorer_text": "Apps\nNew\nSort\nView\nApps\nHome\nGallery\nDesktop\nDownloads\nDocuments\nPictures\nMusic\nVideos\nProjects\nThis PC\nLocal folders\nRecycle Bin\nName ↑\n\t\nDate modified\n\t\nType\n\t\nSize\n\n\nakte.html\n\t14. Sep. 2026\tHTML document\t567 B\n\naufmass.html\n\t14. Sep. 2026\tHTML document\t7.2 KB\n\nauswertung.html\n\t14. Sep. 2026\tHTML document\t225.4 KB\n\ncad.html\n\t14. Sep. 2026\tHTML document\t1.3 MB\n\ndateien.html\n\t14. Sep. 2026\tHTML document\t177.1 KB\n\ngespraech.html\n\t14. Sep. 2026\tHTML document\t1.5 KB\n\nkorpus.html\n\t14. Sep. 2026\tHTML document\t702 B\n\nmail.html\n\t14. Sep. 2026\tHTML document\t237.2 KB\n\nmaterial.html\n\t14. Sep. 2026\tHTML document\t10.6 KB\n\nmodell.html\n\t14. Sep. 2026\tHTML document\t284.4 KB\n\noffice.html\n\t14. Sep. 2026\tHTML document\t253.5 KB\n\npdf.html\n\t14. Sep. 2026\tHTML document\t274.7 KB\n\nplanung.html\n\t14. Sep. 2026\tHTML document\t229.4 KB\n\nrechenblatt.html\n\t14. Sep. 2026\tHTML document\t224.9 KB\n\nsignatur.html\n\t14. Sep. 2026\tHTML document\t690 B\n\ntabelle.html\n\t14. Sep. 2026\tHTML document\t227.7 KB\n\ntafel.html\n\t14. Sep. 2026\tHTML document\t354.5 KB\n\ntext.html\n\t14. Sep. 2026\tHTML document\t180.2 KB\n\nzeichnung.html\n\t14. Sep. 2026\tHTML document\t219.7 KB\nA little more detail\n\nSelect a file to see its information.\nPress Space for Quick Preview.\n\nLocal-first, always\n19 items · Browser-local storage",
+  "passed": 84,
+  "failed": 0,
+  "window_methods": [
+    {
+      "id": "20ff3d78-c52b-476a-aef1-ea3869ca01d1",
+      "app": "custom-luna-tabelle",
+      "rect": {
+        "x": 8,
+        "y": 8,
+        "w": 948,
+        "h": 1014
+      },
+      "methods": [
+        "constructor",
+        "addCleanup",
+        "on",
+        "setTitle",
+        "constrain",
+        "stackOrder",
+        "sync",
+        "focus",
+        "minimize",
+        "restore",
+        "toggleMaximize",
+        "snap",
+        "beginDrag",
+        "beginResize",
+        "setAlwaysOnTop",
+        "center",
+        "beginKeyboardTransform",
+        "titleMenu",
+        "dismissSnapLayouts",
+        "showSnapLayouts",
+        "close"
+      ]
+    },
+    {
+      "id": "d357efaf-5146-482b-962b-f0fdfc34771d",
+      "app": "custom-luna-mail",
+      "rect": {
+        "x": 964,
+        "y": 8,
+        "w": 948,
+        "h": 503
+      },
+      "methods": [
+        "constructor",
+        "addCleanup",
+        "on",
+        "setTitle",
+        "constrain",
+        "stackOrder",
+        "sync",
+        "focus",
+        "minimize",
+        "restore",
+        "toggleMaximize",
+        "snap",
+        "beginDrag",
+        "beginResize",
+        "setAlwaysOnTop",
+        "center",
+        "beginKeyboardTransform",
+        "titleMenu",
+        "dismissSnapLayouts",
+        "showSnapLayouts",
+        "close"
+      ]
+    },
+    {
+      "id": "511cb152-a8f9-4046-8f35-daf490550db2",
+      "app": "custom-luna-korpus",
+      "rect": {
+        "x": 964,
+        "y": 519,
+        "w": 948,
+        "h": 503
+      },
+      "methods": [
+        "constructor",
+        "addCleanup",
+        "on",
+        "setTitle",
+        "constrain",
+        "stackOrder",
+        "sync",
+        "focus",
+        "minimize",
+        "restore",
+        "toggleMaximize",
+        "snap",
+        "beginDrag",
+        "beginResize",
+        "setAlwaysOnTop",
+        "center",
+        "beginKeyboardTransform",
+        "titleMenu",
+        "dismissSnapLayouts",
+        "showSnapLayouts",
+        "close"
+      ]
+    }
+  ]
+}

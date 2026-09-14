@@ -1,0 +1,6 @@
+# Preserve original application and delivery bytes on every clone platform.
+Apps/** -text
+Luna-Korpus.html -text
+index.html -text
+Luna-Korpus.astertheme -text
+theme-source/src/** -text
