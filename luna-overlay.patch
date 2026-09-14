@@ -60,7 +60,7 @@ index 260b3e3..f1092b4 100644
  <script src="src/shell-experience.js"></script>
  <script src="src/theme-shell.js"></script>
 diff --git a/src/shell.js b/src/shell.js
-index 14c2e28..134ec96 100644
+index 14c2e28..30a63a5 100644
 --- a/src/shell.js
 +++ b/src/shell.js
 @@ -29,19 +29,20 @@
@@ -176,6 +176,15 @@ index 14c2e28..134ec96 100644
          center.append(start, search, taskview);
          const apps = [...new Set([...OS.pins.filter(id => OS.apps.has(id) && !OS.apps.get(id).systemFeature), ...Array.from(OS.windows.values()).map(w => w.appId)])];
          const max = innerWidth > 1200 ? 11 : innerWidth > 900 ? 8 : innerWidth > 700 ? 6 : 5;
+@@ -435,7 +446,7 @@
+             else if (entry.app === 'trash')
+                 OS.openApp('files', { path: '/.Trash' });
+             else if (entry.app === 'files')
+-                OS.openApp('files', { path: '/' });
++                OS.openApp('files', { path: OS.luna ? 'home' : '/' });
+             else
+                 OS.openApp(entry.app); };
+             b.onclick = e => { if (!e.ctrlKey && !e.metaKey)
 @@ -602,7 +613,7 @@
              }
              OS.switchDesktop(OS.desktops[0].id);

@@ -11320,7 +11320,7 @@ OS.register('win32',{title:'Win32 Lab',description:'Run a limited set of real x8
             else if (entry.app === 'trash')
                 OS.openApp('files', { path: '/.Trash' });
             else if (entry.app === 'files')
-                OS.openApp('files', { path: '/' });
+                OS.openApp('files', { path: OS.luna ? 'home' : '/' });
             else
                 OS.openApp(entry.app); };
             b.onclick = e => { if (!e.ctrlKey && !e.metaKey)
