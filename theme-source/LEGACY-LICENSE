@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 LUNA KORPUS contributors
+Copyright (c) 2026 Aster Desktop contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Aster's code, icons, procedural wallpaper, sample SVG illustrations, and
+synthesized sample audio are original to this project. No Microsoft logos,
+wallpapers, proprietary system files, or font files are included. Windows
+and Windows 11 are trademarks of Microsoft; this project is not affiliated
+with or endorsed by Microsoft.
+
+Bundled third-party Windows applications are not covered by the Aster MIT
+license. See third-party/README.md and the included TinyCC LGPL license and
+corresponding source. 7zr is the public-domain LZMA SDK reduced console.
