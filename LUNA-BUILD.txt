@@ -1,0 +1,6 @@
+LUNA · EDV Hausleitner
+Published build: modern LUNA branding on real Aster
+Generated Pages commit: 7427cb84d43b986004751e75d1cbba76bad829df
+Desktop: 30 launchers · Start: 24 grouped pins
+Architecture: Aster + 19 byte-verified original applications + full catalog
+Date: 2026-09-14
