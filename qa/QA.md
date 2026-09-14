@@ -14,4 +14,4 @@ Independent reference: 8 panels, 2.60338 m², 6.31 m ABS, 13 hardware pieces, EU
 
 ## Release gates
 
-Local automated gate: PASS. Native captured-pixel review and deployed-browser gate are pending release verification; they are not claimed as complete in this initial evidence commit.
+Local automated gate: PASS. Native screenshots 01–08 and 1440×900 were visually reviewed: PASS. Deployed browser: 70 checks PASS, 0 FAIL, 0 BLOCKED, including native WebGPU, handoff and reload. Captured live-pixel review is the remaining release verification step, not yet claimed complete in this evidence commit.
