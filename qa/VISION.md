@@ -16,3 +16,14 @@ The nine required browser screenshots were opened and visually inspected. The fi
 The reviewed standalone has SHA-256 `1879e3bba5b607579046e337bd16f414757271e1c465b174f3138f81d588afe3`, 27,344,848 bytes. The final local HTTP and direct file tests each pass 23/23; all nineteen mapped original applications also open offline with no uncaught JavaScript errors.
 
 Live Pages review is appended after deployment; local inspection alone is not a live PASS claim.
+
+
+## Live Pages: PASS
+
+The public URL https://martin-hausleitner.github.io/Luna-Korpus/ served the exact 27,344,848-byte HTML, SHA-256 `1879e3bba5b607579046e337bd16f414757271e1c465b174f3138f81d588afe3`, at 2026-09-14T10:40:13Z. The subsequent live browser test passed all 23 checks with no uncaught JavaScript errors.
+
+The nine live screenshots in `qa/live/` were visually inspected from the GitHub Actions artifact for commit `339538a4a124e257cbaa1646dee9e02e0a2e88d5`. The complete native Store, Gridline and multiwindow views were reviewed individually. Desktop, native Explorer, original Quire, original Formalyth, Aster Calendar and native theme selection were reviewed in contact sheets made from those same unaltered live captures. Layout and original application identity match the accepted local build; no fallback toy UI or remote-only app substitution is present.
+
+**LOCAL PASS / PAGES PASS**
+
+**Tabelle == Gridline original HTML: YES**

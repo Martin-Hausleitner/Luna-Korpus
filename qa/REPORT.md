@@ -37,7 +37,7 @@ The required nine 1920×1080 captures are available both directly under `qa/` an
 
 Additional Store captures demonstrate Mines, Win32 and unpinned Office; `qa/file/` contains the same tests from direct disk opening. The captures show real rendered browser output, not mockups or image-generated interfaces.
 
-Initial visual inspection confirmed the original Windows shell, full Store, original Explorer, Gridline ribbon/formula bar/sheet tabs, original Quire document editor, original Formalyth WebGPU workbench and Aster Calendar. Final theme/multiwindow inspection and live verification are recorded separately in `VISION.md` and `live/results.json` after completion.
+Initial visual inspection confirmed the original Windows shell, full Store, original Explorer, Gridline ribbon/formula bar/sheet tabs, original Quire document editor, original Formalyth WebGPU workbench and Aster Calendar. Final theme/multiwindow inspection and live verification passed; see `VISION.md`, `live/results.json` and `pages-deployment.json`.
 
 ## Boundaries
 
