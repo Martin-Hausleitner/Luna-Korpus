@@ -1,0 +1,162 @@
+{
+  "url": "https://martin-hausleitner.github.io/Luna-Korpus/",
+  "expectedSha256": "1879e3bba5b607579046e337bd16f414757271e1c465b174f3138f81d588afe3",
+  "releaseCommit": "bc6fbc78d7431d49035fdeab92e327395630981b",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:36:10.788414+00:00"
+    },
+    {
+      "attempt": 2,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:36:21.409971+00:00"
+    },
+    {
+      "attempt": 3,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:36:31.925692+00:00"
+    },
+    {
+      "attempt": 4,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:36:42.748003+00:00"
+    },
+    {
+      "attempt": 5,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:36:52.592492+00:00"
+    },
+    {
+      "attempt": 6,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:37:07.640267+00:00"
+    },
+    {
+      "attempt": 7,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:37:19.427839+00:00"
+    },
+    {
+      "attempt": 8,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:37:32.915791+00:00"
+    },
+    {
+      "attempt": 9,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:37:43.978562+00:00"
+    },
+    {
+      "attempt": 10,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:37:57.168226+00:00"
+    },
+    {
+      "attempt": 11,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:38:10.346379+00:00"
+    },
+    {
+      "attempt": 12,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:38:23.216630+00:00"
+    },
+    {
+      "attempt": 13,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:38:33.612876+00:00"
+    },
+    {
+      "attempt": 14,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:38:43.833070+00:00"
+    },
+    {
+      "attempt": 15,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:38:54.350403+00:00"
+    },
+    {
+      "attempt": 16,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:39:04.947879+00:00"
+    },
+    {
+      "attempt": 17,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:39:17.742275+00:00"
+    },
+    {
+      "attempt": 18,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:39:28.776876+00:00"
+    },
+    {
+      "attempt": 19,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:39:38.569618+00:00"
+    },
+    {
+      "attempt": 20,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:39:48.649069+00:00"
+    },
+    {
+      "attempt": 21,
+      "status": 200,
+      "bytes": 10669028,
+      "sha256": "9734116c8200490c71378da7cae613a98f80f971245514ee91d1d9eb50a9b47e",
+      "observedAt": "2026-09-14T10:39:58.807719+00:00"
+    },
+    {
+      "attempt": 22,
+      "status": 200,
+      "bytes": 27344848,
+      "sha256": "1879e3bba5b607579046e337bd16f414757271e1c465b174f3138f81d588afe3",
+      "observedAt": "2026-09-14T10:40:13.143350+00:00"
+    }
+  ],
+  "exactArtifactMatch": true
+}

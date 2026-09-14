@@ -14,6 +14,7 @@ The runtime is `Luna-Korpus.html`; Pages `index.html` is identical. There are ni
 | Pristine upstream Aster catalog suite before changes | 13/13 PASS | Assembly baseline log |
 | Luna source/artifact/theme integrity | 35/35 PASS | `integrity.json` |
 | Label-aware catalog and platform-preservation suite | 16/16 PASS | `catalog-luna-tests.log`, `catalog-luna.cjs` |
+| Live Pages desktop/browser acceptance | 23/23 PASS | `live/results.json`, `pages-deployment.json` |
 | Local HTTP desktop/browser acceptance | 23/23 PASS | `local/results.json` |
 | Direct single-file `file://` acceptance | 23/23 PASS | `file/results.json` |
 | Mapped applications opened with network disabled after boot | 19/19 PASS | `offline-results.json` |
