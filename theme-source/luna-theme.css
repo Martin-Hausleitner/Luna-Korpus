@@ -32,3 +32,11 @@
 #boot{background:#0b3a5b!important;color:#f3f6f9!important}#boot .aster-symbol{display:none}#boot strong{font-size:22px;letter-spacing:1px}#boot small{color:#b8d0df;font-size:12px;letter-spacing:.5px}
 @media(max-width:780px){.luna-workspace #desktop-icons{grid-auto-columns:126px;padding-left:8px;column-gap:0}.luna-workspace .desktop-icon{width:123px}#luna-desktop-sign{display:none}.luna-workspace .pinned-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.luna-workspace .pinned-app{height:80px;min-height:80px}}
 @media(max-height:740px){.luna-workspace #desktop-icons{grid-template-rows:repeat(auto-fill,100px);row-gap:2px;padding-top:14px}.luna-workspace .desktop-icon{height:98px}#luna-disclaimer{font-size:9px;bottom:8px}.luna-workspace .pinned-app{height:70px;min-height:70px}}
+
+/* Visual review 1: readable product line and complete Start pin groups. */
+#luna-desktop-sign .luna-brand-words small{color:#d4e8f7;opacity:1;font-weight:600}
+.luna-workspace .start-footer .luna-brand-words small{color:#d4e8f7;opacity:1}
+.luna-workspace[data-profile=windows] .start-menu{width:min(800px,calc(100vw - 24px));height:780px}
+.luna-workspace[data-profile=windows] .pinned-grid{grid-template-columns:repeat(7,minmax(0,1fr))}
+.luna-workspace[data-profile=windows] .pinned-app{height:76px;min-height:76px}
+@media(max-width:780px){.luna-workspace[data-profile=windows] .pinned-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}

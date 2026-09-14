@@ -60,7 +60,7 @@ index 260b3e3..f1092b4 100644
  <script src="src/shell-experience.js"></script>
  <script src="src/theme-shell.js"></script>
 diff --git a/src/shell.js b/src/shell.js
-index 14c2e28..38feb87 100644
+index 14c2e28..134ec96 100644
 --- a/src/shell.js
 +++ b/src/shell.js
 @@ -29,19 +29,20 @@
@@ -163,7 +163,7 @@ index 14c2e28..38feb87 100644
          main.onkeydown = e => { if (webMode) return; if (!['ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight'].includes(e.key))
              return; const items = OS.$$('button.pinned-app,button.search-result', main), index = items.indexOf(document.activeElement); if (index < 0)
 -            return; const columns = input.value || all ? 1 : innerWidth <= 500 ? 4 : 6, delta = { ArrowDown: columns, ArrowUp: -columns, ArrowLeft: -1, ArrowRight: 1 }[e.key]; e.preventDefault(); const next = index + delta; if (next < 0)
-+            return; const columns = input.value || all ? 1 : innerWidth <= (OS.luna?780:500) ? 4 : 6, delta = { ArrowDown: columns, ArrowUp: -columns, ArrowLeft: -1, ArrowRight: 1 }[e.key]; e.preventDefault(); const next = index + delta; if (next < 0)
++            return; const columns = input.value || all ? 1 : innerWidth <= (OS.luna?780:500) ? 4 : OS.luna ? 7 : 6, delta = { ArrowDown: columns, ArrowUp: -columns, ArrowLeft: -1, ArrowRight: 1 }[e.key]; e.preventDefault(); const next = index + delta; if (next < 0)
              input.focus();
          else
              items[Math.min(items.length - 1, next)]?.focus(); };

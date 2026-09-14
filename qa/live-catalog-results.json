@@ -1,0 +1,1199 @@
+{
+  "mode": "live deployed iframe startup",
+  "injected": false,
+  "tests": [],
+  "errors": [
+    "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.",
+    "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.",
+    "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.",
+    "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.",
+    "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.",
+    "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.",
+    "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag.",
+    "Failed to read the 'serviceWorker' property from 'Navigator': Service worker is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag."
+  ],
+  "apps": [
+    {
+      "repo": "Vellum",
+      "url": "https://wieslawsoltes.github.io/Vellum/",
+      "status": "PASS",
+      "ms": 1047,
+      "document": {
+        "title": "Vellum \u2014 a little more possible.",
+        "url": "https://wieslawsoltes.github.io/Vellum/",
+        "elements": 115,
+        "textLength": 309,
+        "canvases": 3,
+        "controls": 38
+      }
+    },
+    {
+      "repo": "Forma",
+      "url": "https://wieslawsoltes.github.io/Forma/",
+      "status": "PASS",
+      "ms": 305,
+      "document": {
+        "title": "Forma \u2014 A little more possible.",
+        "url": "https://wieslawsoltes.github.io/Forma/",
+        "elements": 236,
+        "textLength": 299,
+        "canvases": 3,
+        "controls": 52
+      }
+    },
+    {
+      "repo": "Vectora",
+      "url": "https://wieslawsoltes.github.io/Vectora/",
+      "status": "PASS",
+      "ms": 335,
+      "document": {
+        "title": "Form & Feeling \u2014 Vectora",
+        "url": "https://wieslawsoltes.github.io/Vectora/",
+        "elements": 444,
+        "textLength": 958,
+        "canvases": 4,
+        "controls": 127
+      }
+    },
+    {
+      "repo": "LumaForge",
+      "url": "https://wieslawsoltes.github.io/LumaForge/",
+      "status": "PASS",
+      "ms": 889,
+      "document": {
+        "title": "LumaForge \u2014 Photo Studio",
+        "url": "https://wieslawsoltes.github.io/LumaForge/",
+        "elements": 772,
+        "textLength": 925,
+        "canvases": 6,
+        "controls": 186
+      }
+    },
+    {
+      "repo": "PrismForge",
+      "url": "https://wieslawsoltes.github.io/PrismForge/",
+      "status": "PASS",
+      "ms": 292,
+      "document": {
+        "title": "PrismForge \u2014 Image Studio",
+        "url": "https://wieslawsoltes.github.io/PrismForge/",
+        "elements": 335,
+        "textLength": 566,
+        "canvases": 7,
+        "controls": 109
+      }
+    },
+    {
+      "repo": "PrismStudio",
+      "url": "https://wieslawsoltes.github.io/PrismStudio/",
+      "status": "PASS",
+      "ms": 353,
+      "document": {
+        "title": "Prism Studio \u2014 Visual interface design",
+        "url": "https://wieslawsoltes.github.io/PrismStudio/",
+        "elements": 781,
+        "textLength": 1321,
+        "canvases": 2,
+        "controls": 170
+      }
+    },
+    {
+      "repo": "PaintXP",
+      "url": "https://wieslawsoltes.github.io/PaintXP/",
+      "status": "PASS",
+      "ms": 832,
+      "document": {
+        "title": "untitled - Paint",
+        "url": "https://wieslawsoltes.github.io/PaintXP/",
+        "elements": 227,
+        "textLength": 111,
+        "canvases": 3,
+        "controls": 67
+      }
+    },
+    {
+      "repo": "SELVEDGEStudio",
+      "url": "https://wieslawsoltes.github.io/SELVEDGEStudio/",
+      "status": "PASS",
+      "ms": 646,
+      "document": {
+        "title": "SELVEDGE Studio \u2014 Garment workspace",
+        "url": "https://wieslawsoltes.github.io/SELVEDGEStudio/",
+        "elements": 206,
+        "textLength": 992,
+        "canvases": 1,
+        "controls": 64
+      }
+    },
+    {
+      "repo": "AetherMotion",
+      "url": "https://wieslawsoltes.github.io/AetherMotion/",
+      "status": "PASS",
+      "ms": 732,
+      "document": {
+        "title": "Orbit \u2014 Brand Film \u2014 Aether Motion",
+        "url": "https://wieslawsoltes.github.io/AetherMotion/",
+        "elements": 1006,
+        "textLength": 2282,
+        "canvases": 3,
+        "controls": 191
+      }
+    },
+    {
+      "repo": "CelestaStudio",
+      "url": "https://wieslawsoltes.github.io/CelestaStudio/",
+      "status": "PASS",
+      "ms": 207,
+      "document": {
+        "title": "A little space \u2014 Celesta",
+        "url": "https://wieslawsoltes.github.io/CelestaStudio/",
+        "elements": 364,
+        "textLength": 752,
+        "canvases": 3,
+        "controls": 78
+      }
+    },
+    {
+      "repo": "KinetraStudio",
+      "url": "https://wieslawsoltes.github.io/KinetraStudio/",
+      "status": "PASS",
+      "ms": 192,
+      "document": {
+        "title": "Kinetra Studio \u2014 3D creation, in motion",
+        "url": "https://wieslawsoltes.github.io/KinetraStudio/",
+        "elements": 243,
+        "textLength": 900,
+        "canvases": 3,
+        "controls": 72
+      }
+    },
+    {
+      "repo": "LithicSculpt",
+      "url": "https://wieslawsoltes.github.io/LithicSculpt/",
+      "status": "PASS",
+      "ms": 914,
+      "document": {
+        "title": "Lithic Sculpt \u2014 Digital sculpting studio",
+        "url": "https://wieslawsoltes.github.io/LithicSculpt/",
+        "elements": 474,
+        "textLength": 1099,
+        "canvases": 2,
+        "controls": 81
+      }
+    },
+    {
+      "repo": "VertexForge",
+      "url": "https://wieslawsoltes.github.io/VertexForge/",
+      "status": "PASS",
+      "ms": 942,
+      "document": {
+        "title": "Astra \u2022 exploration rover \u2014 Vertex Forge",
+        "url": "https://wieslawsoltes.github.io/VertexForge/",
+        "elements": 709,
+        "textLength": 1450,
+        "canvases": 2,
+        "controls": 139
+      }
+    },
+    {
+      "repo": "VortexFX",
+      "url": "https://wieslawsoltes.github.io/VortexFX/",
+      "status": "PASS",
+      "ms": 533,
+      "document": {
+        "title": "Copper Bloom \u2014 Vortex FX",
+        "url": "https://wieslawsoltes.github.io/VortexFX/",
+        "elements": 705,
+        "textLength": 1546,
+        "canvases": 1,
+        "controls": 114
+      }
+    },
+    {
+      "repo": "StrataForge",
+      "url": "https://wieslawsoltes.github.io/StrataForge/",
+      "status": "PASS",
+      "ms": 657,
+      "document": {
+        "title": "Oxidized Copper \u2014 StrataForge",
+        "url": "https://wieslawsoltes.github.io/StrataForge/",
+        "elements": 591,
+        "textLength": 3319,
+        "canvases": 34,
+        "controls": 125
+      }
+    },
+    {
+      "repo": "AlloyStudio",
+      "url": "https://wieslawsoltes.github.io/AlloyStudio/",
+      "status": "PASS",
+      "ms": 332,
+      "document": {
+        "title": "Alloy Studio \u2014 Orbital bearing mount",
+        "url": "https://wieslawsoltes.github.io/AlloyStudio/",
+        "elements": 473,
+        "textLength": 795,
+        "canvases": 2,
+        "controls": 78
+      }
+    },
+    {
+      "repo": "AureonCAD",
+      "url": "https://wieslawsoltes.github.io/AureonCAD/",
+      "status": "PASS",
+      "ms": 595,
+      "document": {
+        "title": "Aureon CAD \u2014 Precision, by design.",
+        "url": "https://wieslawsoltes.github.io/AureonCAD/",
+        "elements": 317,
+        "textLength": 674,
+        "canvases": 3,
+        "controls": 53
+      }
+    },
+    {
+      "repo": "AxiomCAD",
+      "url": "https://wieslawsoltes.github.io/AxiomCAD/",
+      "status": "PASS",
+      "ms": 656,
+      "document": {
+        "title": "Bearing support assembly \u00b7 Axiom CAD",
+        "url": "https://wieslawsoltes.github.io/AxiomCAD/",
+        "elements": 601,
+        "textLength": 1592,
+        "canvases": 1,
+        "controls": 94
+      }
+    },
+    {
+      "repo": "AxiomCAM",
+      "url": "https://wieslawsoltes.github.io/AxiomCAM/",
+      "status": "PASS",
+      "ms": 825,
+      "document": {
+        "title": "AxiomCAM \u00b7 Precision in every path",
+        "url": "https://wieslawsoltes.github.io/AxiomCAM/",
+        "elements": 417,
+        "textLength": 2351,
+        "canvases": 3,
+        "controls": 94
+      }
+    },
+    {
+      "repo": "Draftline",
+      "url": "https://wieslawsoltes.github.io/Draftline/",
+      "status": "PASS",
+      "ms": 868,
+      "document": {
+        "title": "Meridian House.dxf \u2014 Draftline",
+        "url": "https://wieslawsoltes.github.io/Draftline/",
+        "elements": 614,
+        "textLength": 859,
+        "canvases": 4,
+        "controls": 124
+      }
+    },
+    {
+      "repo": "KestrelCAD",
+      "url": "https://wieslawsoltes.github.io/KestrelCAD/",
+      "status": "PASS",
+      "ms": 1791,
+      "document": {
+        "title": "Kestrel CAD",
+        "url": "https://wieslawsoltes.github.io/KestrelCAD/",
+        "elements": 765,
+        "textLength": 1783,
+        "canvases": 2,
+        "controls": 143
+      }
+    },
+    {
+      "repo": "StratumCAD",
+      "url": "https://wieslawsoltes.github.io/StratumCAD/",
+      "status": "PASS",
+      "ms": 247,
+      "document": {
+        "title": "Stratum CAD \u00b7 Riverside Studio",
+        "url": "https://wieslawsoltes.github.io/StratumCAD/",
+        "elements": 551,
+        "textLength": 1741,
+        "canvases": 2,
+        "controls": 106
+      }
+    },
+    {
+      "repo": "AsterionEDA",
+      "url": "https://wieslawsoltes.github.io/AsterionEDA/",
+      "status": "PASS",
+      "ms": 252,
+      "document": {
+        "title": "Asterion EDA \u00b7 Aurora Sensor Hub",
+        "url": "https://wieslawsoltes.github.io/AsterionEDA/",
+        "elements": 969,
+        "textLength": 3958,
+        "canvases": 3,
+        "controls": 145
+      }
+    },
+    {
+      "repo": "Formalyth",
+      "url": "https://wieslawsoltes.github.io/Formalyth/",
+      "status": "PASS",
+      "ms": 1125,
+      "document": {
+        "title": "Formalyth \u2014 Design & Manufacturing",
+        "url": "https://wieslawsoltes.github.io/Formalyth/",
+        "elements": 124,
+        "textLength": 432,
+        "canvases": 1,
+        "controls": 25
+      }
+    },
+    {
+      "repo": "AetherDiscovery",
+      "url": "https://wieslawsoltes.github.io/AetherDiscovery/",
+      "status": "PASS",
+      "ms": 223,
+      "document": {
+        "title": "Aether Discovery \u2014 Engineering, in flow.",
+        "url": "https://wieslawsoltes.github.io/AetherDiscovery/",
+        "elements": 253,
+        "textLength": 568,
+        "canvases": 1,
+        "controls": 42
+      }
+    },
+    {
+      "repo": "AetherField",
+      "url": "https://wieslawsoltes.github.io/AetherField/",
+      "status": "PASS",
+      "ms": 1039,
+      "document": {
+        "title": "Perforated resistive heater \u2014 AetherField",
+        "url": "https://wieslawsoltes.github.io/AetherField/",
+        "elements": 418,
+        "textLength": 2741,
+        "canvases": 2,
+        "controls": 107
+      }
+    },
+    {
+      "repo": "AetherOptics",
+      "url": "https://wieslawsoltes.github.io/AetherOptics/",
+      "status": "PASS",
+      "ms": 287,
+      "document": {
+        "title": "Aurora \u00b7 air-spaced achromat \u00b7 Aether Optics",
+        "url": "https://wieslawsoltes.github.io/AetherOptics/",
+        "elements": 678,
+        "textLength": 2117,
+        "canvases": 2,
+        "controls": 143
+      }
+    },
+    {
+      "repo": "FluxLab",
+      "url": "https://wieslawsoltes.github.io/FluxLab/",
+      "status": "PASS",
+      "ms": 704,
+      "document": {
+        "title": "FluxLab \u2014 Fluid dynamics workbench",
+        "url": "https://wieslawsoltes.github.io/FluxLab/",
+        "elements": 521,
+        "textLength": 2140,
+        "canvases": 3,
+        "controls": 90
+      }
+    },
+    {
+      "repo": "FluxWorksStudio",
+      "url": "https://wieslawsoltes.github.io/FluxWorksStudio/",
+      "status": "PASS",
+      "ms": 863,
+      "document": {
+        "title": "Fulfillment center \u00b7 FluxWorks Studio",
+        "url": "https://wieslawsoltes.github.io/FluxWorksStudio/",
+        "elements": 687,
+        "textLength": 2126,
+        "canvases": 2,
+        "controls": 78
+      }
+    },
+    {
+      "repo": "StratumFrame",
+      "url": "https://wieslawsoltes.github.io/StratumFrame/",
+      "status": "PASS",
+      "ms": 701,
+      "document": {
+        "title": "Atrium Office \u00b7 6-story frame \u2014 Stratum Frame",
+        "url": "https://wieslawsoltes.github.io/StratumFrame/",
+        "elements": 498,
+        "textLength": 2230,
+        "canvases": 4,
+        "controls": 86
+      }
+    },
+    {
+      "repo": "AsterCAS",
+      "url": "https://wieslawsoltes.github.io/AsterCAS/",
+      "status": "PASS",
+      "ms": 414,
+      "document": {
+        "title": "Symbolic exploration \u00b7 Aster CAS",
+        "url": "https://wieslawsoltes.github.io/AsterCAS/",
+        "elements": 778,
+        "textLength": 2479,
+        "canvases": 3,
+        "controls": 171
+      }
+    },
+    {
+      "repo": "AxiomStudio",
+      "url": "https://wieslawsoltes.github.io/AxiomStudio/",
+      "status": "PASS",
+      "ms": 254,
+      "document": {
+        "title": "Axiom Studio \u00b7 Compute. Model. Understand.",
+        "url": "https://wieslawsoltes.github.io/AxiomStudio/",
+        "elements": 811,
+        "textLength": 1710,
+        "canvases": 3,
+        "controls": 108
+      }
+    },
+    {
+      "repo": "AxiomWorksheet",
+      "url": "https://wieslawsoltes.github.io/AxiomWorksheet/",
+      "status": "PASS",
+      "ms": 261,
+      "document": {
+        "title": "Axiom Worksheet \u2014 Cantilever beam",
+        "url": "https://wieslawsoltes.github.io/AxiomWorksheet/",
+        "elements": 674,
+        "textLength": 1787,
+        "canvases": 1,
+        "controls": 87
+      }
+    },
+    {
+      "repo": "AureliaProcess",
+      "url": "https://wieslawsoltes.github.io/AureliaProcess/",
+      "status": "PASS",
+      "ms": 825,
+      "document": {
+        "title": "Wet limestone FGD \u00b7 forced oxidation \u00b7 Aurelia Process",
+        "url": "https://wieslawsoltes.github.io/AureliaProcess/",
+        "elements": 1599,
+        "textLength": 5599,
+        "canvases": 3,
+        "controls": 200
+      }
+    },
+    {
+      "repo": "VaporaProcessStudio",
+      "url": "https://wieslawsoltes.github.io/VaporaProcessStudio/",
+      "status": "PASS",
+      "ms": 706,
+      "document": {
+        "title": "Vapora \u2014 Process Studio",
+        "url": "https://wieslawsoltes.github.io/VaporaProcessStudio/",
+        "elements": 605,
+        "textLength": 1834,
+        "canvases": 2,
+        "controls": 101
+      }
+    },
+    {
+      "repo": "AxiomPID",
+      "url": "https://wieslawsoltes.github.io/AxiomPID/",
+      "status": "PASS",
+      "ms": 246,
+      "document": {
+        "title": "Axiom P&ID \u2014 Process Engineering",
+        "url": "https://wieslawsoltes.github.io/AxiomPID/",
+        "elements": 722,
+        "textLength": 2446,
+        "canvases": 4,
+        "controls": 109
+      }
+    },
+    {
+      "repo": "AxiomPlant",
+      "url": "https://wieslawsoltes.github.io/AxiomPlant/",
+      "status": "PASS",
+      "ms": 550,
+      "document": {
+        "title": "Axiom Plant \u2014 Piping Engineering",
+        "url": "https://wieslawsoltes.github.io/AxiomPlant/",
+        "elements": 749,
+        "textLength": 2375,
+        "canvases": 1,
+        "controls": 116
+      }
+    },
+    {
+      "repo": "NexoraEngineering",
+      "url": "https://wieslawsoltes.github.io/NexoraEngineering/",
+      "status": "PASS",
+      "ms": 644,
+      "document": {
+        "title": "Nexora Engineering \u00b7 Plant intelligence, connected.",
+        "url": "https://wieslawsoltes.github.io/NexoraEngineering/",
+        "elements": 1488,
+        "textLength": 4103,
+        "canvases": 5,
+        "controls": 167
+      }
+    },
+    {
+      "repo": "RelayForgeAutomation",
+      "url": "https://wieslawsoltes.github.io/RelayForgeAutomation/",
+      "status": "PASS",
+      "ms": 867,
+      "document": {
+        "title": "Bottling_Cell \u2014 RelayForge Automation",
+        "url": "https://wieslawsoltes.github.io/RelayForgeAutomation/",
+        "elements": 593,
+        "textLength": 2023,
+        "canvases": 3,
+        "controls": 128
+      }
+    },
+    {
+      "repo": "VoltWeave",
+      "url": "https://wieslawsoltes.github.io/VoltWeave/",
+      "status": "PASS",
+      "ms": 278,
+      "document": {
+        "title": "Conveyor drive \u00b7 MCC-01 \u00b7 VoltWeave",
+        "url": "https://wieslawsoltes.github.io/VoltWeave/",
+        "elements": 1160,
+        "textLength": 2075,
+        "canvases": 4,
+        "controls": 104
+      }
+    },
+    {
+      "repo": "VoltWeaveStudio",
+      "url": "https://wieslawsoltes.github.io/VoltWeaveStudio/",
+      "status": "PASS",
+      "ms": 642,
+      "document": {
+        "title": "Signal Integrity Bench \u00b7 VoltWeave Studio",
+        "url": "https://wieslawsoltes.github.io/VoltWeaveStudio/",
+        "elements": 1225,
+        "textLength": 2688,
+        "canvases": 4,
+        "controls": 213
+      }
+    },
+    {
+      "repo": "SilicoreStudio",
+      "url": "https://wieslawsoltes.github.io/SilicoreStudio/",
+      "status": "PASS",
+      "ms": 407,
+      "document": {
+        "title": "Silicore Studio \u00b7 Aurora",
+        "url": "https://wieslawsoltes.github.io/SilicoreStudio/",
+        "elements": 984,
+        "textLength": 1916,
+        "canvases": 3,
+        "controls": 93
+      }
+    },
+    {
+      "repo": "KineforgeStudio",
+      "url": "https://wieslawsoltes.github.io/KineforgeStudio/",
+      "status": "PASS",
+      "ms": 720,
+      "document": {
+        "title": "Kineforge Studio \u00b7 Robotic Cell Engineering",
+        "url": "https://wieslawsoltes.github.io/KineforgeStudio/",
+        "elements": 840,
+        "textLength": 3038,
+        "canvases": 1,
+        "controls": 159
+      }
+    },
+    {
+      "repo": "ConvergeStudio",
+      "url": "https://wieslawsoltes.github.io/ConvergeStudio/",
+      "status": "PASS",
+      "ms": 1071,
+      "document": {
+        "title": "Converge Studio \u00b7 Model Coordination",
+        "url": "https://wieslawsoltes.github.io/ConvergeStudio/",
+        "elements": 597,
+        "textLength": 2927,
+        "canvases": 1,
+        "controls": 87
+      }
+    },
+    {
+      "repo": "StratumBIM",
+      "url": "https://wieslawsoltes.github.io/StratumBIM/",
+      "status": "PASS",
+      "ms": 828,
+      "document": {
+        "title": "Stratum BIM \u00b7 Atelier House",
+        "url": "https://wieslawsoltes.github.io/StratumBIM/",
+        "elements": 607,
+        "textLength": 1741,
+        "canvases": 2,
+        "controls": 114
+      }
+    },
+    {
+      "repo": "PlanforgeReview",
+      "url": "https://wieslawsoltes.github.io/PlanforgeReview/",
+      "status": "PASS",
+      "ms": 524,
+      "document": {
+        "title": "Planforge Review",
+        "url": "https://wieslawsoltes.github.io/PlanforgeReview/",
+        "elements": 262,
+        "textLength": 698,
+        "canvases": 1,
+        "controls": 52
+      }
+    },
+    {
+      "repo": "MeridianGISStudio",
+      "url": "https://wieslawsoltes.github.io/MeridianGISStudio/",
+      "status": "PASS",
+      "ms": 1011,
+      "document": {
+        "title": "Meridian GIS Studio",
+        "url": "https://wieslawsoltes.github.io/MeridianGISStudio/",
+        "elements": 292,
+        "textLength": 468,
+        "canvases": 4,
+        "controls": 46
+      }
+    },
+    {
+      "repo": "Wayline",
+      "url": "https://wieslawsoltes.github.io/Wayline/",
+      "status": "PASS",
+      "ms": 214,
+      "document": {
+        "title": "Wayline \u2014 Your world, a little closer",
+        "url": "https://wieslawsoltes.github.io/Wayline/",
+        "elements": 245,
+        "textLength": 798,
+        "canvases": 1,
+        "controls": 32
+      }
+    },
+    {
+      "repo": "MeridianOffice",
+      "url": "https://wieslawsoltes.github.io/MeridianOffice/",
+      "status": "PASS",
+      "ms": 381,
+      "document": {
+        "title": "Meridian Office \u2014 A little more possible.",
+        "url": "https://wieslawsoltes.github.io/MeridianOffice/",
+        "elements": 400,
+        "textLength": 3201,
+        "canvases": 0,
+        "controls": 68
+      }
+    },
+    {
+      "repo": "Quire",
+      "url": "https://wieslawsoltes.github.io/Quire/",
+      "status": "PASS",
+      "ms": 234,
+      "document": {
+        "title": "Quire \u2014 The clarity report",
+        "url": "https://wieslawsoltes.github.io/Quire/",
+        "elements": 524,
+        "textLength": 5268,
+        "canvases": 1,
+        "controls": 92
+      }
+    },
+    {
+      "repo": "Gridline",
+      "url": "https://wieslawsoltes.github.io/Gridline/",
+      "status": "PASS",
+      "ms": 226,
+      "document": {
+        "title": "Revenue operations \u00b7 FY2026 \u2014 Gridline",
+        "url": "https://wieslawsoltes.github.io/Gridline/",
+        "elements": 365,
+        "textLength": 699,
+        "canvases": 1,
+        "controls": 81
+      }
+    },
+    {
+      "repo": "AureliaSlides",
+      "url": "https://wieslawsoltes.github.io/AureliaSlides/",
+      "status": "PASS",
+      "ms": 219,
+      "document": {
+        "title": "The shape of what\u2019s next \u2014 Aurelia Slides",
+        "url": "https://wieslawsoltes.github.io/AureliaSlides/",
+        "elements": 443,
+        "textLength": 1104,
+        "canvases": 10,
+        "controls": 103
+      }
+    },
+    {
+      "repo": "FolioForge",
+      "url": "https://wieslawsoltes.github.io/FolioForge/",
+      "status": "PASS",
+      "ms": 606,
+      "document": {
+        "title": "FORM \u2014 The Architecture Issue \u2014 FolioForge",
+        "url": "https://wieslawsoltes.github.io/FolioForge/",
+        "elements": 361,
+        "textLength": 900,
+        "canvases": 10,
+        "controls": 90
+      }
+    },
+    {
+      "repo": "FolioPro",
+      "url": "https://wieslawsoltes.github.io/FolioPro/",
+      "status": "PASS",
+      "ms": 330,
+      "document": {
+        "title": "Northstar \u2014 Strategy 2026.pdf \u2014 Folio Pro",
+        "url": "https://wieslawsoltes.github.io/FolioPro/",
+        "elements": 524,
+        "textLength": 1923,
+        "canvases": 9,
+        "controls": 102
+      }
+    },
+    {
+      "repo": "MeridianPlan",
+      "url": "https://wieslawsoltes.github.io/MeridianPlan/",
+      "status": "PASS",
+      "ms": 515,
+      "document": {
+        "title": "Meridian Plan \u00b7 Project scheduling",
+        "url": "https://wieslawsoltes.github.io/MeridianPlan/",
+        "elements": 99,
+        "textLength": 256,
+        "canvases": 0,
+        "controls": 16
+      }
+    },
+    {
+      "repo": "NexoraDiagram",
+      "url": "https://wieslawsoltes.github.io/NexoraDiagram/",
+      "status": "PASS",
+      "ms": 1238,
+      "document": {
+        "title": "Purchase approval workflow \u2014 Nexora Diagram",
+        "url": "https://wieslawsoltes.github.io/NexoraDiagram/",
+        "elements": 551,
+        "textLength": 1860,
+        "canvases": 5,
+        "controls": 132
+      }
+    },
+    {
+      "repo": "VeyraWorkspace",
+      "url": "https://wieslawsoltes.github.io/VeyraWorkspace/",
+      "status": "PASS",
+      "ms": 786,
+      "document": {
+        "title": "Veyra \u00b7 Your space to work together",
+        "url": "https://wieslawsoltes.github.io/VeyraWorkspace/",
+        "elements": 328,
+        "textLength": 927,
+        "canvases": 0,
+        "controls": 58
+      }
+    },
+    {
+      "repo": "TwinForge",
+      "url": "https://wieslawsoltes.github.io/TwinForge/",
+      "status": "PASS",
+      "ms": 313,
+      "document": {
+        "title": "TwinForge \u2014 Dual-pane file manager",
+        "url": "https://wieslawsoltes.github.io/TwinForge/",
+        "elements": 161,
+        "textLength": 468,
+        "canvases": 0,
+        "controls": 41
+      }
+    },
+    {
+      "repo": "NotepadXP",
+      "url": "https://wieslawsoltes.github.io/NotepadXP/",
+      "status": "PASS",
+      "ms": 779,
+      "document": {
+        "title": "Untitled - Notepad",
+        "url": "https://wieslawsoltes.github.io/NotepadXP/",
+        "elements": 65,
+        "textLength": 45,
+        "canvases": 2,
+        "controls": 15
+      }
+    },
+    {
+      "repo": "ForgeStudio",
+      "url": "https://wieslawsoltes.github.io/ForgeStudio/",
+      "status": "PASS",
+      "ms": 728,
+      "document": {
+        "title": "ParticleSystem.cs \u2014 Forge Studio",
+        "url": "https://wieslawsoltes.github.io/ForgeStudio/",
+        "elements": 576,
+        "textLength": 1067,
+        "canvases": 1,
+        "controls": 95
+      }
+    },
+    {
+      "repo": "PageForgeStudio",
+      "url": "https://wieslawsoltes.github.io/PageForgeStudio/",
+      "status": "PASS",
+      "ms": 249,
+      "document": {
+        "title": "Monograph Studio \u2014 PageForge Studio",
+        "url": "https://wieslawsoltes.github.io/PageForgeStudio/",
+        "elements": 674,
+        "textLength": 1304,
+        "canvases": 1,
+        "controls": 126
+      }
+    },
+    {
+      "repo": "Asteria",
+      "url": "https://wieslawsoltes.github.io/Asteria/",
+      "status": "PASS",
+      "ms": 336,
+      "document": {
+        "title": "Asteria \u2014 Binary Analysis Workbench",
+        "url": "https://wieslawsoltes.github.io/Asteria/",
+        "elements": 298,
+        "textLength": 670,
+        "canvases": 2,
+        "controls": 43
+      }
+    },
+    {
+      "repo": "Fluxweave",
+      "url": "https://wieslawsoltes.github.io/Fluxweave/",
+      "status": "PASS",
+      "ms": 821,
+      "document": {
+        "title": "Chromatic currents \u00b7 Fluxweave",
+        "url": "https://wieslawsoltes.github.io/Fluxweave/",
+        "elements": 714,
+        "textLength": 2076,
+        "canvases": 14,
+        "controls": 176
+      }
+    },
+    {
+      "repo": "LatticeAnalytics",
+      "url": "https://wieslawsoltes.github.io/LatticeAnalytics/",
+      "status": "PASS",
+      "ms": 232,
+      "document": {
+        "title": "Lattice Analytics \u2014 Commerce workbook",
+        "url": "https://wieslawsoltes.github.io/LatticeAnalytics/",
+        "elements": 168,
+        "textLength": 401,
+        "canvases": 0,
+        "controls": 40
+      }
+    },
+    {
+      "repo": "AureonTerminal",
+      "url": "https://wieslawsoltes.github.io/AureonTerminal/",
+      "status": "PASS",
+      "ms": 545,
+      "document": {
+        "title": "BTCUSD \u00b7 Aureon Terminal",
+        "url": "https://wieslawsoltes.github.io/AureonTerminal/",
+        "elements": 473,
+        "textLength": 1834,
+        "canvases": 3,
+        "controls": 117
+      }
+    },
+    {
+      "repo": "Branchglass",
+      "url": "https://wieslawsoltes.github.io/Branchglass/",
+      "status": "PASS",
+      "ms": 738,
+      "document": {
+        "title": "Branchglass \u2014 Your code, in perspective",
+        "url": "https://wieslawsoltes.github.io/Branchglass/",
+        "elements": 482,
+        "textLength": 1885,
+        "canvases": 1,
+        "controls": 68
+      }
+    },
+    {
+      "repo": "Jailbreak",
+      "url": "https://wieslawsoltes.github.io/Jailbreak/",
+      "status": "PASS",
+      "ms": 344,
+      "document": {
+        "title": "Jailbreak Studio \u2014 C# \u00b7 XAML \u00b7 JavaScript",
+        "url": "https://wieslawsoltes.github.io/Jailbreak/",
+        "elements": 1215,
+        "textLength": 8265,
+        "canvases": 0,
+        "controls": 270
+      }
+    },
+    {
+      "repo": "Frameforge",
+      "url": "https://wieslawsoltes.github.io/Frameforge/",
+      "status": "PASS",
+      "ms": 614,
+      "document": {
+        "title": "Frameforge \u2014 Beyond",
+        "url": "https://wieslawsoltes.github.io/Frameforge/",
+        "elements": 397,
+        "textLength": 538,
+        "canvases": 2,
+        "controls": 70
+      }
+    },
+    {
+      "repo": "PulsegridStudio",
+      "url": "https://wieslawsoltes.github.io/PulsegridStudio/",
+      "status": "PASS",
+      "ms": 672,
+      "document": {
+        "title": "Pulsegrid \u2014 After Hours",
+        "url": "https://wieslawsoltes.github.io/PulsegridStudio/",
+        "elements": 353,
+        "textLength": 706,
+        "canvases": 2,
+        "controls": 66
+      }
+    },
+    {
+      "repo": "SonoraStudio",
+      "url": "https://wieslawsoltes.github.io/SonoraStudio/",
+      "status": "PASS",
+      "ms": 224,
+      "document": {
+        "title": "Sonora Studio \u2014 Audio, in its element.",
+        "url": "https://wieslawsoltes.github.io/SonoraStudio/",
+        "elements": 428,
+        "textLength": 1053,
+        "canvases": 4,
+        "controls": 63
+      }
+    },
+    {
+      "repo": "SignalForgeStudio",
+      "url": "https://wieslawsoltes.github.io/SignalForgeStudio/",
+      "status": "PASS",
+      "ms": 1015,
+      "document": {
+        "title": "SignalForge Studio \u2014 Live production, reimagined",
+        "url": "https://wieslawsoltes.github.io/SignalForgeStudio/",
+        "elements": 325,
+        "textLength": 827,
+        "canvases": 3,
+        "controls": 49
+      }
+    },
+    {
+      "repo": "Railbound",
+      "url": "https://wieslawsoltes.github.io/Railbound/",
+      "status": "PASS",
+      "ms": 203,
+      "document": {
+        "title": "Railbound Adventures \u00b7 Big adventures. Little engineers.",
+        "url": "https://wieslawsoltes.github.io/Railbound/",
+        "elements": 785,
+        "textLength": 860,
+        "canvases": 1,
+        "controls": 76
+      }
+    },
+    {
+      "repo": "RailboundAdventures",
+      "url": "https://wieslawsoltes.github.io/RailboundAdventures/",
+      "status": "PASS",
+      "ms": 1029,
+      "document": {
+        "title": "Railbound Adventures \u00b7 The railway is yours",
+        "url": "https://wieslawsoltes.github.io/RailboundAdventures/",
+        "elements": 310,
+        "textLength": 788,
+        "canvases": 2,
+        "controls": 37
+      }
+    },
+    {
+      "repo": "VantaForge",
+      "url": "https://wieslawsoltes.github.io/VantaForge/",
+      "status": "PASS",
+      "ms": 827,
+      "document": {
+        "title": "Vanta Forge \u2014 Aether Relay",
+        "url": "https://wieslawsoltes.github.io/VantaForge/",
+        "elements": 1529,
+        "textLength": 5108,
+        "canvases": 2,
+        "controls": 186
+      }
+    },
+    {
+      "repo": "VoltWeaveCircuitStudio",
+      "url": "https://wieslawsoltes.github.io/VoltWeaveCircuitStudio/",
+      "status": "PASS",
+      "ms": 387,
+      "document": {
+        "title": "Active low-pass filter \u00b7 VoltWeave",
+        "url": "https://wieslawsoltes.github.io/VoltWeaveCircuitStudio/",
+        "elements": 527,
+        "textLength": 1850,
+        "canvases": 6,
+        "controls": 90
+      }
+    },
+    {
+      "repo": "StratumIntelligence",
+      "url": "https://wieslawsoltes.github.io/StratumIntelligence/",
+      "status": "PASS",
+      "ms": 682,
+      "document": {
+        "title": "Stratum Intelligence \u00b7 P&ID Studio",
+        "url": "https://wieslawsoltes.github.io/StratumIntelligence/",
+        "elements": 449,
+        "textLength": 2088,
+        "canvases": 2,
+        "controls": 79
+      }
+    },
+    {
+      "repo": "Veldra3D",
+      "url": "https://wieslawsoltes.github.io/Veldra3D/",
+      "status": "PASS",
+      "ms": 800,
+      "document": {
+        "title": "Veldra 3D \u2014 Canopy study",
+        "url": "https://wieslawsoltes.github.io/Veldra3D/",
+        "elements": 407,
+        "textLength": 1145,
+        "canvases": 2,
+        "controls": 98
+      }
+    },
+    {
+      "repo": "AvolithStudio",
+      "url": "https://wieslawsoltes.github.io/AvolithStudio/",
+      "status": "PASS",
+      "ms": 864,
+      "document": {
+        "title": "Avolith Studio \u2014 Direct Modeling",
+        "url": "https://wieslawsoltes.github.io/AvolithStudio/",
+        "elements": 407,
+        "textLength": 1307,
+        "canvases": 2,
+        "controls": 80
+      }
+    },
+    {
+      "repo": "AureonStudio",
+      "url": "https://wieslawsoltes.github.io/AureonStudio/",
+      "status": "PASS",
+      "ms": 1011,
+      "document": {
+        "title": "Aureon Studio \u2014 Orbit study",
+        "url": "https://wieslawsoltes.github.io/AureonStudio/",
+        "elements": 619,
+        "textLength": 1995,
+        "canvases": 1,
+        "controls": 115
+      }
+    },
+    {
+      "repo": "Velsign",
+      "url": "https://wieslawsoltes.github.io/Velsign/",
+      "actionableControl": "Upload a document",
+      "status": "PASS",
+      "ms": 1868,
+      "document": {
+        "title": "Velsign \u2014 Browser-local signing workspace",
+        "url": "https://wieslawsoltes.github.io/Velsign/",
+        "elements": 249,
+        "textLength": 1384,
+        "canvases": 0,
+        "controls": 27
+      }
+    },
+    {
+      "repo": "Folio",
+      "url": "https://wieslawsoltes.github.io/Folio/",
+      "actionableControl": "Share",
+      "status": "PASS",
+      "ms": 835,
+      "document": {
+        "title": "Workspace home \u2014 Folio",
+        "url": "https://wieslawsoltes.github.io/Folio/",
+        "elements": 268,
+        "textLength": 979,
+        "canvases": 0,
+        "controls": 62
+      }
+    },
+    {
+      "repo": "MirevaStudio",
+      "url": "https://wieslawsoltes.github.io/MirevaStudio/",
+      "actionableControl": "Preview",
+      "status": "PASS",
+      "ms": 300,
+      "document": {
+        "title": "Serein \u00b7 Wellness app \u00b7 Mireva Studio",
+        "url": "https://wieslawsoltes.github.io/MirevaStudio/",
+        "elements": 370,
+        "textLength": 1081,
+        "canvases": 1,
+        "controls": 86
+      }
+    },
+    {
+      "repo": "Orivane",
+      "url": "https://wieslawsoltes.github.io/Orivane/",
+      "actionableControl": "Workspace",
+      "status": "PASS",
+      "ms": 1606,
+      "document": {
+        "title": "Atlas \u00b7 Product discovery \u00b7 Orivane",
+        "url": "https://wieslawsoltes.github.io/Orivane/#board=board_e7c7ce0a-f47f-4aec-8bec-21a130e1f0ea",
+        "elements": 184,
+        "textLength": 88,
+        "canvases": 3,
+        "controls": 39
+      }
+    },
+    {
+      "repo": "Velora",
+      "url": "https://wieslawsoltes.github.io/Velora/",
+      "actionableControl": "Present",
+      "status": "PASS",
+      "ms": 2352,
+      "document": {
+        "title": "Velora \u2014 Design Studio",
+        "url": "https://wieslawsoltes.github.io/Velora/?project=5cdc1491-9a6a-465f-b3f4-f28fbae975a3",
+        "elements": 222,
+        "textLength": 576,
+        "canvases": 10,
+        "controls": 56
+      }
+    }
+  ],
+  "passed": 84
+}
