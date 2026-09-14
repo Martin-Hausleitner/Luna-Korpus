@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Build themed Aster using its unmodified standard-library build tool."""
+"""Build the themed Aster desktop and Pages entry points."""
 from pathlib import Path
 import subprocess, shutil, sys
 r=Path(__file__).resolve().parent
-subprocess.run([sys.executable,str(r/'theme-source/build.py'),'--output',str(r/'Luna-Korpus.html')],check=True)
-shutil.copyfile(r/'Luna-Korpus.html',r/'index.html')
-print('Luna-Korpus.html and Pages index.html are identical.')
+out=r/'Luna-Korpus.html'
+subprocess.run([sys.executable,str(r/'theme-source/build.py'),'--output',str(out)],check=True)
+for name in ('index.html','Luna.html'):
+    shutil.copyfile(out,r/name)
+print('Built Luna-Korpus.html; Pages index.html and Luna.html are byte-identical aliases.')
