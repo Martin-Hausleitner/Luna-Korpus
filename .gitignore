@@ -1,0 +1,8 @@
+__pycache__/
+.DS_Store
+*.pyc
+release/
+*.zip
+theme-source/Aster.html
+theme-source/tests/results.json
+theme-source/tests/.cache/

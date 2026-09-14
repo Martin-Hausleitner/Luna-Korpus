@@ -1,0 +1,12 @@
+/* Luna paint on the existing Aster Windows chrome. No app-frame styles. */
+body.luna-active[data-profile=windows] #taskbar{background:#1c1c1c;--taskbar:#1c1c1c;border-top:1px solid #ffffff20}
+body.luna-active[data-profile=windows] .window:not(.inactive)>.titlebar{background:#0078c8;color:#fff}
+body.luna-active[data-profile=windows] .window:not(.inactive)>.titlebar .window-title{color:#fff}
+body.luna-active[data-profile=windows] #desktop-icons{grid-auto-columns:148px;grid-template-rows:repeat(auto-fill,106px);padding:20px 16px;gap:5px 8px}
+body.luna-active[data-profile=windows] .desktop-icon{width:140px;min-height:98px;padding:9px 5px;gap:7px}
+body.luna-active[data-profile=windows] .desktop-icon>span{max-width:138px;white-space:normal;line-height:1.35;overflow:visible;word-break:normal;text-wrap:balance;font-size:12px;text-shadow:0 1px 5px #001321}
+.luna-product-word{font-size:15px;letter-spacing:2px;color:#fff;font-weight:750;margin-left:4px}
+body.luna-active .task-left{gap:8px}
+body.luna-active .task-left>div{display:none}
+body:not(.luna-active) .luna-product-word{display:none}
+@media(max-width:760px){body.luna-active[data-profile=windows] #desktop-icons{grid-auto-columns:128px;padding:12px 8px}body.luna-active[data-profile=windows] .desktop-icon{width:122px}}

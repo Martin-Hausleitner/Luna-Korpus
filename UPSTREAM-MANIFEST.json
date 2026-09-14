@@ -1,0 +1,350 @@
+{
+  "aster": {
+    "repository": "https://github.com/wieslawsoltes/Aster",
+    "commit": "a7cca00c03837f8f94e2f6b1cccc2f82830e32fc",
+    "build_sha256": "3a3915ac1dd94f631661762527f0ecf670e33d333ca93a3b15bc7af28d5d5d71"
+  },
+  "apps": [
+    {
+      "id": "tabelle",
+      "title": "Tabelle (Gridline)",
+      "original": "Gridline",
+      "repo": "Gridline",
+      "upstream": "https://github.com/wieslawsoltes/Gridline",
+      "commit": "dab377510f5e3600b228e0fb1baba2e131e0ec47",
+      "source_path": "dist/index.html",
+      "path": "Apps/tabelle.html",
+      "sha256": "31aa5e1ed31ba6e428ffd86c7ed4c734b71b3589d89a8f5d909b68e037c2d6de",
+      "bytes": 233169,
+      "source_kind": "official portable HTML",
+      "runtime_base": null,
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "planung",
+      "title": "Planung (MeridianPlan)",
+      "original": "MeridianPlan",
+      "repo": "MeridianPlan",
+      "upstream": "https://github.com/wieslawsoltes/MeridianPlan",
+      "commit": "3704572d1d193f431eb652c660ce5e85486813e6",
+      "source_path": "dist/meridian-plan.html",
+      "path": "Apps/planung.html",
+      "sha256": "56df9a77c12c603e5ffb6a25d009933c7d71950565583e1bf910eea3b9afdfd3",
+      "bytes": 234900,
+      "source_kind": "official portable HTML",
+      "runtime_base": null,
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "office",
+      "title": "Office (MeridianOffice)",
+      "original": "MeridianOffice",
+      "repo": "MeridianOffice",
+      "upstream": "https://github.com/wieslawsoltes/MeridianOffice",
+      "commit": "ab77468b2a0a7b109fad6aaf87d1a4071b991f0e",
+      "source_path": "dist/meridian-office.html",
+      "path": "Apps/office.html",
+      "sha256": "3a0e4675ee91caf6e30f21085c227bcaf237f2a536cd17d6ea6387cd38cfa885",
+      "bytes": 259539,
+      "source_kind": "official portable HTML",
+      "runtime_base": null,
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "dateien",
+      "title": "Dateien (TwinForge)",
+      "original": "TwinForge",
+      "repo": "TwinForge",
+      "upstream": "https://github.com/wieslawsoltes/TwinForge",
+      "commit": "3aa545597ac6725686a109b97354d887b41d516c",
+      "source_path": "TwinForge.html",
+      "path": "Apps/dateien.html",
+      "sha256": "4500f74c6bbd142a7dd42589c56cc31e8b0b3af6c32e112714ea7572ed82ac87",
+      "bytes": 181339,
+      "source_kind": "official portable HTML",
+      "runtime_base": null,
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "akte",
+      "title": "Akte (Folio)",
+      "original": "Folio",
+      "repo": "Folio",
+      "upstream": "https://github.com/wieslawsoltes/Folio",
+      "commit": "f4aa4ece80c8db13c4cb456bbd41aed6fdc0efbd",
+      "source_path": "pages-dist/index.html",
+      "path": "Apps/akte.html",
+      "sha256": "a3f7154e814b9a5d235be6dfdc495728e01e4f084f19fccda6b7caf5ea7cf7a5",
+      "bytes": 567,
+      "source_kind": "official HTML entry + unmodified local runtime assets",
+      "runtime_base": "Apps/resources/Folio/",
+      "byte_identical_to_upstream_output": true,
+      "license_files": []
+    },
+    {
+      "id": "pdf",
+      "title": "PDF (FolioPro)",
+      "original": "FolioPro",
+      "repo": "FolioPro",
+      "upstream": "https://github.com/wieslawsoltes/FolioPro",
+      "commit": "588b26b15d05135b1197e0b7afef417df89be6b6",
+      "source_path": "dist/folio-pro.html",
+      "path": "Apps/pdf.html",
+      "sha256": "b97a999c900eaf7cb29ffa583606a5ff278f091a06861491352c965a563266bf",
+      "bytes": 281292,
+      "source_kind": "official portable HTML",
+      "runtime_base": null,
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "mail",
+      "title": "Mail (Quire)",
+      "original": "Quire",
+      "repo": "Quire",
+      "upstream": "https://github.com/wieslawsoltes/Quire",
+      "commit": "2b132ed2c279977c35f88b1c0c2943377e01fc9b",
+      "source_path": "Quire.html",
+      "path": "Apps/mail.html",
+      "sha256": "926a26348f2a38c012b112d2e7bcbe779ada5dd290f56a4e3cf08388e5cf52a8",
+      "bytes": 242877,
+      "source_kind": "official portable HTML",
+      "runtime_base": null,
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "text",
+      "title": "Text (NotepadXP)",
+      "original": "NotepadXP",
+      "repo": "NotepadXP",
+      "upstream": "https://github.com/wieslawsoltes/NotepadXP",
+      "commit": "7bf4eb24426e5436bd8089e031a08376973ef9e8",
+      "source_path": "NotepadXP.html",
+      "path": "Apps/text.html",
+      "sha256": "44e40442a9369f3b25f8c36081dee70492e05feb92c59f23d2eba577b887f401",
+      "bytes": 184514,
+      "source_kind": "official portable HTML",
+      "runtime_base": null,
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "auswertung",
+      "title": "Auswertung (LatticeAnalytics)",
+      "original": "LatticeAnalytics",
+      "repo": "LatticeAnalytics",
+      "upstream": "https://github.com/wieslawsoltes/LatticeAnalytics",
+      "commit": "553295d74c4397c08eda776dcbd4d2b58743b796",
+      "source_path": "dist/lattice.html",
+      "path": "Apps/auswertung.html",
+      "sha256": "b8bf1e6b70e782896ccb14c642d661b79247b449be8a7b9be4e64f11a29a8f6f",
+      "bytes": 230839,
+      "source_kind": "official portable HTML",
+      "runtime_base": null,
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "rechenblatt",
+      "title": "Rechenblatt (AxiomWorksheet)",
+      "original": "AxiomWorksheet",
+      "repo": "AxiomWorksheet",
+      "upstream": "https://github.com/wieslawsoltes/AxiomWorksheet",
+      "commit": "483dcf606e685fc3cbba43fdb725b416ededdee0",
+      "source_path": "dist/index.html",
+      "path": "Apps/rechenblatt.html",
+      "sha256": "a35994b859c598628a25089cec5fa220c7f3504953af9237d4a8156b24e09062",
+      "bytes": 230256,
+      "source_kind": "official portable HTML",
+      "runtime_base": null,
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "zeichnung",
+      "title": "Zeichnung (Draftline)",
+      "original": "Draftline",
+      "repo": "Draftline",
+      "upstream": "https://github.com/wieslawsoltes/Draftline",
+      "commit": "cdb4f81a832b89bbb5f278a8c08adccf0cb61dc0",
+      "source_path": "Draftline.html",
+      "path": "Apps/zeichnung.html",
+      "sha256": "f60d7a4e4a326c8284d991d97fee8adc2361e71ef97a72063efc8cb4c7692278",
+      "bytes": 224999,
+      "source_kind": "official portable HTML",
+      "runtime_base": null,
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "id": "cad",
+      "title": "CAD (KestrelCAD)",
+      "original": "KestrelCAD",
+      "repo": "KestrelCAD",
+      "upstream": "https://github.com/wieslawsoltes/KestrelCAD",
+      "commit": "7a1e84c67fd24410c22f0d1a45b2e54120b32d0e",
+      "source_path": "Kestrel-CAD.html",
+      "path": "Apps/cad.html",
+      "sha256": "2b0540122c005c6930592136e0420aedb61163ad6bb2e34a12ce5e25e764c886",
+      "bytes": 1331535,
+      "source_kind": "official portable HTML",
+      "runtime_base": null,
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "aufmass",
+      "title": "Aufmaß (PlanforgeReview)",
+      "original": "PlanforgeReview",
+      "repo": "PlanforgeReview",
+      "upstream": "https://github.com/wieslawsoltes/PlanforgeReview",
+      "commit": "f6b4978c65ef8a8f3ff35687d154fcc40687101f",
+      "source_path": "dist/index.html",
+      "path": "Apps/aufmass.html",
+      "sha256": "8bfde19ee7e113a87a5c93de218819038b5af8b6d753869d5960d1f3ceec6aef",
+      "bytes": 7345,
+      "source_kind": "official HTML entry + unmodified local runtime assets",
+      "runtime_base": "Apps/resources/PlanforgeReview/",
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "id": "tafel",
+      "title": "Tafel (Orivane)",
+      "original": "Orivane",
+      "repo": "Orivane",
+      "upstream": "https://github.com/wieslawsoltes/Orivane",
+      "commit": "af71000f3b44aab5bc7638b21cfee3e1733df233",
+      "source_path": "dist/Orivane.html",
+      "path": "Apps/tafel.html",
+      "sha256": "af0ed56a09db28ab9dfbfb2de6c73540c4d2dbf21cc8d62bd302a6a5dbd6dce6",
+      "bytes": 363056,
+      "source_kind": "official portable HTML",
+      "runtime_base": null,
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "gespraech",
+      "title": "Gespräch (Veyra Workspace)",
+      "original": "Veyra Workspace",
+      "repo": "VeyraWorkspace",
+      "upstream": "https://github.com/wieslawsoltes/VeyraWorkspace",
+      "commit": "328dbc75cb754ab809ece30c4c79913619245267",
+      "source_path": "dist/index.html",
+      "path": "Apps/gespraech.html",
+      "sha256": "18c9b4148c58adf79c63851c07ac821adcc67fe28dbb349efde23ee3742e7795",
+      "bytes": 1488,
+      "source_kind": "official HTML entry + unmodified local runtime assets",
+      "runtime_base": "Apps/resources/VeyraWorkspace/",
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "signatur",
+      "title": "Signatur (Velsign)",
+      "original": "Velsign",
+      "repo": "Velsign",
+      "upstream": "https://github.com/wieslawsoltes/Velsign",
+      "commit": "8365539ca7c151c8e43034e56136b003f3a6f9ac",
+      "source_path": "dist-pages/index.html",
+      "path": "Apps/signatur.html",
+      "sha256": "93c39f71808185dd5e1f2daff06a6648bf49d815cbed7cd50ca90fe45b868e97",
+      "bytes": 690,
+      "source_kind": "official HTML entry + unmodified local runtime assets",
+      "runtime_base": "Apps/resources/Velsign/",
+      "byte_identical_to_upstream_output": true,
+      "license_files": []
+    },
+    {
+      "id": "korpus",
+      "title": "Korpus (Formalyth)",
+      "original": "Formalyth",
+      "repo": "Formalyth",
+      "upstream": "https://github.com/wieslawsoltes/Formalyth",
+      "commit": "14f32d9fa468a158cafc60707d6f3593220576b8",
+      "source_path": "_site/index.html",
+      "path": "Apps/korpus.html",
+      "sha256": "1385d5092a32e2ca78a1c9b252d650b144b7bcb04eb98307fe990122f34df4ef",
+      "bytes": 702,
+      "source_kind": "official HTML entry + unmodified local runtime assets",
+      "runtime_base": "Apps/resources/Formalyth/",
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "material",
+      "title": "Material (StrataForge)",
+      "original": "StrataForge",
+      "repo": "StrataForge",
+      "upstream": "https://github.com/wieslawsoltes/StrataForge",
+      "commit": "b4e16db998aa64ff40488848a24815978e6c0210",
+      "source_path": "index.html",
+      "path": "Apps/material.html",
+      "sha256": "75fe77825d6e3165bdb42ece7277c31be935e6beec788029d84ef9f28b79227e",
+      "bytes": 10886,
+      "source_kind": "official HTML entry + unmodified local runtime assets",
+      "runtime_base": "Apps/resources/StrataForge/",
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "modell",
+      "title": "Modell (Avolith Studio)",
+      "original": "Avolith Studio",
+      "repo": "AvolithStudio",
+      "upstream": "https://github.com/wieslawsoltes/AvolithStudio",
+      "commit": "d91304cc80070fe77eea36268719dfd3f90fa96e",
+      "source_path": "dist/Avolith-Studio.html",
+      "path": "Apps/modell.html",
+      "sha256": "9406611dcc750711a215b446cd16102249479be394711d651b080de6f749e531",
+      "bytes": 291196,
+      "source_kind": "official portable HTML",
+      "runtime_base": null,
+      "byte_identical_to_upstream_output": true,
+      "license_files": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ]
+    }
+  ]
+}

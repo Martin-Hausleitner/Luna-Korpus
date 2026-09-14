@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#222426"><meta name="description" content="StrataForge — procedural material authoring with native WebGPU compute, typed node graphs, and real-time PBR previews.">
+<title>StrataForge — Material Studio</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%23eaaa67'/%3E%3Cpath d='M9 14 20 8 31 14 20 20zM9 21l11 6 11-6M9 28l11 6 11-6' fill='none' stroke='%23242729' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <header class="titlebar">
+    <div class="brand"><svg viewBox="0 0 34 34" aria-hidden="true"><path d="M5 11 17 5l12 6-12 6zM5 18l12 6 12-6M5 25l12 6 12-6"/></svg><strong>STRATA<span>FORGE</span></strong><span class="edition">MATERIAL STUDIO</span></div>
+    <div class="title-project"><span class="tiny-dot"></span><span id="title-project">Oxidized Copper</span><span class="muted">— Procedural Material</span></div>
+    <button class="icon-button" id="help-button" title="Keyboard shortcuts and help">?</button>
+  </header>
+  <nav class="menubar" aria-label="Application menu">
+    <button data-menu="file">File</button><button data-menu="edit">Edit</button><button data-menu="graph">Graph</button><button data-menu="view">View</button><button data-action="export">Publish</button><button data-action="help">Help</button>
+    <span class="menu-spacer"></span><span class="session-label">LOCAL WORKSPACE</span><span class="save-state" id="save-state">● All changes saved</span>
+  </nav>
+  <div class="toolbar">
+    <div class="tool-group"><button data-action="new" title="New material">＋ <span>New</span></button><button data-action="open" title="Open project (Ctrl+O)">▱ <span>Open</span></button><button data-action="save" title="Save project (Ctrl+S)">▣ <span>Save</span></button></div>
+    <div class="tool-group"><button id="undo" data-action="undo" title="Undo (Ctrl+Z)">↶</button><button id="redo" data-action="redo" title="Redo (Ctrl+Shift+Z)">↷</button></div>
+    <div class="tool-group"><label class="toolbar-label">OUTPUT SIZE <select id="resolution"><option value="128">128 × 128</option><option value="256">256 × 256</option><option value="512" selected>512 × 512</option><option value="1024">1K × 1K</option><option value="2048">2K × 2K</option></select></label></div>
+    <div class="tool-group"><button data-action="reseed" title="Randomize project seed">⚄ <span>Randomize</span></button><button data-action="compile" title="Inspect generated WGSL">⌘ <span>Shader</span></button></div>
+    <span class="menu-spacer"></span><span class="engine-chip" id="engine-chip"><i></i> INITIALIZING</span><button class="primary-button" data-action="export">↗ <span>Export textures</span></button>
+  </div>
+  <main class="workspace">
+    <aside class="left-column">
+      <section class="explorer panel">
+        <div class="panel-header"><span>EXPLORER</span><div><button class="icon-button" data-action="new" title="New material">＋</button></div></div>
+        <div class="package-line"><span class="accent">▣</span><strong id="package-name">oxidized_copper.sforge</strong></div>
+        <button class="tree-row active" id="material-row"><span>⌄</span><span class="accent">◇</span><span id="explorer-name">Oxidized Copper</span><span class="tree-badge">GRAPH</span></button>
+        <div class="tree-outputs" id="tree-outputs"></div>
+        <div class="assets-heading"><span>RESOURCES</span><button class="icon-button" data-action="bitmap" title="Import bitmap">＋</button></div><div id="asset-list" class="asset-list"></div>
+      </section>
+      <section class="library panel">
+        <div class="panel-header"><span>LIBRARY</span><span class="muted" id="library-count">24 nodes</span></div>
+        <div class="library-tabs"><button class="active" data-lib-tab="nodes">Nodes</button><button data-lib-tab="materials">Materials</button><button data-lib-tab="subgraphs">Graphs</button></div>
+        <div class="search-wrap"><span>⌕</span><input id="library-search" type="search" placeholder="Search library…" aria-label="Search node library"><kbd>Tab</kbd></div>
+        <div class="category-filter" id="category-filter"></div><div id="library-content" class="library-content"></div>
+        <div class="library-footer">Double-click or drag into the graph</div>
+      </section>
+    </aside>
+    <div class="left-splitter splitter" data-split="left" aria-label="Resize left sidebar"></div>
+    <section class="center-column">
+      <div class="preview-row">
+        <section class="panel viewport-panel">
+          <div class="panel-header"><span><i class="panel-icon">◈</i> 3D VIEW</span><div class="view-tabs"><button class="active" data-preview="material">Material</button><button id="preview-settings-toggle" title="Preview settings">⚙</button></div></div>
+          <div class="viewport-toolbar"><select id="mesh" aria-label="Preview geometry"><option value="0">◉ Sphere</option><option value="1">◇ Cube</option><option value="2">▱ Plane</option></select><select id="environment" aria-label="Lighting environment"><option value="0">Studio · Warm</option><option value="1">Studio · Cool</option></select><span class="menu-spacer"></span><button id="reset-3d" title="Reset camera">⌖</button></div>
+          <div class="canvas-wrap" id="wrap-3d"><canvas id="preview-3d" aria-label="Interactive physically based material preview"></canvas><div class="viewport-badge"><i></i> PBR · METALLIC / ROUGHNESS</div><div class="viewport-corner"><div class="axis"><b>X</b><b>Y</b><b>Z</b></div></div><div class="view-hint">Drag to orbit <span>·</span> Scroll to zoom</div>
+          <div class="preview-settings hidden" id="preview-settings"><label>Exposure <input id="exposure" type="range" min="-2" max="2" step=".1" value="0"></label><label>UV tiling <input id="uv-tiling" type="range" min="1" max="8" step=".25" value="1"></label><label>Normal Y <select id="normal-y"><option value="1">OpenGL (+Y)</option><option value="-1">DirectX (−Y)</option></select></label></div></div>
+          <div class="viewport-status"><span id="material-preview-name">Oxidized Copper</span><span>GGX / Smith / Schlick</span></div>
+        </section>
+        <div class="preview-splitter splitter" data-split="previews"></div>
+        <section class="panel viewport-panel">
+          <div class="panel-header"><span><i class="panel-icon">▧</i> 2D VIEW</span><span id="texture-kind" class="muted">sRGB</span></div>
+          <div class="viewport-toolbar"><select id="view-channel" aria-label="Texture channel"></select><span class="menu-spacer"></span><button id="tile-toggle" title="Toggle seamless tiling">▦</button><button id="reset-2d" title="Fit texture">⌖</button><button data-action="export-selected" title="Export displayed texture">↗</button></div>
+          <div class="canvas-wrap" id="wrap-2d"><canvas id="preview-2d" aria-label="Selected node texture preview"></canvas><div class="texture-label" id="texture-label">Base Color</div><div class="view-hint">Double-click a node to inspect its output</div></div>
+          <div class="viewport-status"><span id="texture-dimensions">512 × 512</span><span>RGBA16F <span class="muted">· LINEAR WORKING SPACE</span></span></div>
+        </section>
+      </div>
+      <div class="horizontal-splitter splitter" data-split="graph"></div>
+      <section class="panel graph-panel">
+        <div class="panel-header graph-header"><span><i class="panel-icon">⌘</i> GRAPH <span class="graph-tab" id="graph-name">Oxidized Copper <span>×</span></span></span><div class="graph-actions"><button data-action="add" title="Add node (Tab)">＋ Add node</button><button data-action="subgraph" title="Package selected nodes as a reusable graph">▧ Subgraph</button><button data-action="fit" title="Frame all (F)">⌖</button><button data-action="layout" title="Auto arrange nodes">☷</button></div></div>
+        <div class="graph-canvas" id="graph-canvas" tabindex="0" aria-label="Material node graph editor">
+          <div class="graph-world" id="graph-world"><svg class="wires" id="wires"><g id="wire-paths"></g><path id="pending-wire"/></svg><div id="nodes"></div><div id="selection-box" class="selection-box hidden"></div></div>
+          <div class="graph-breadcrumb"><span>▣</span> <span id="graph-breadcrumb">Oxidized Copper</span><span class="muted">/ Material graph</span></div>
+          <div class="graph-empty hidden" id="graph-empty"><strong>Every surface starts here.</strong><span>Press Tab to add a generator, then connect its output.</span></div>
+          <div class="graph-help">Pan: middle mouse / Space <span>·</span> Connect: drag ports <span>·</span> Disconnect: Alt-click input</div>
+          <div class="graph-zoom"><button id="zoom-out">−</button><span id="graph-zoom">100%</span><button id="zoom-in">＋</button></div>
+        </div>
+        <div class="graph-bottom"><span id="graph-summary">10 nodes · 12 connections</span><span id="eval-summary">Preparing compute pipelines…</span></div>
+      </section>
+    </section>
+    <div class="right-splitter splitter" data-split="right"></div>
+    <aside class="properties panel">
+      <div class="panel-header"><span>PROPERTIES</span><button class="icon-button" id="deselect" title="Show material parameters">⌂</button></div>
+      <div class="property-tabs"><button id="node-tab" class="active">Selection</button><button id="material-tab">Material</button></div>
+      <div id="properties-content" class="properties-content"></div>
+    </aside>
+  </main>
+  <footer class="statusbar"><span class="status-message"><i class="status-dot"></i><span id="status-message">Initializing material engine</span></span><span class="status-details"><span id="gpu-memory">—</span><span id="status-resolution">512 × 512</span><span>STRATAFORGE 1.0</span></span></footer>
+</div>
+<div id="toast-container" aria-live="polite"></div>
+<div id="context-menu" class="context-menu hidden"></div>
+<dialog id="main-dialog"><div class="dialog-title"><h2 id="dialog-title"></h2><button id="close-dialog" class="icon-button">×</button></div><div id="dialog-body"></div></dialog>
+<dialog id="palette-dialog"><div class="palette-search"><span>⌕</span><input id="palette-search" placeholder="Search nodes…" aria-label="Search nodes"><kbd>Esc</kbd></div><div id="palette-results"></div><div class="palette-footer">↑ ↓ Navigate <span>↵ Add node</span></div></dialog>
+<input type="file" id="open-file" accept=".sforge,.json" hidden><input type="file" id="bitmap-file" accept="image/png,image/jpeg,image/webp" hidden>
+<script type="module" src="src/app.js"></script>
+</body>
+</html>

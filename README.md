@@ -1,93 +1,95 @@
-# LUNA KORPUS
+Skin + German labels for Aster.  
+Every application is the original HTML from Aster or a vendored wieslawsoltes repo.  
+Luna.html-from-scratch is rejected.  
+Not licensed WAWI. MIT for Luna integration and Aster; upstream applications and dependencies retain their own licenses.
 
-**Unofficial theme + desktop for Aster. Not affiliated as a product release of EDV Hausleitner unless they say so. Not licensed WAWI. All applications belong to Aster / wieslawsoltes and their upstream authors; Luna only names and paints them.**
+# LUNA Korpus · EDV Hausleitner
 
-**Inoffizielles Theme und Tischler-Desktop für Aster. Keine autorisierte Produktveröffentlichung von EDV Hausleitner, solange EDV Hausleitner dies nicht ausdrücklich bestätigt. Keine lizenzierte WAWI. Sämtliche Programme stammen aus Aster / von wieslawsoltes und ihren jeweiligen Urhebern; Luna ändert nur Namen, Gestaltung und die Arbeitsplatz-Anordnung.**
+**Holztechnik · Korpus · Stückliste**
 
-Aster is the operating environment. Luna is not a new OS, window manager, spreadsheet, CAD program, or cabinet generator. Gridline, Formalyth, Draftline, the other catalog apps, the built-in programs and the WebGPU compositor remain their original implementations.
+[Open the published desktop](https://martin-hausleitner.github.io/Luna-Korpus/) · [Original-app manifest](UPSTREAM-MANIFEST.json) · [Browser QA](qa/REPORT.md) · [Screenshots](qa/)
 
-## Open / Öffnen
+This is the real **Aster Desktop**, with its Windows profile selected, a Luna theme, German launcher/caption labels and locally installed original applications. It is not a new desktop, cabinet engine, spreadsheet, file manager or calendar. Aster's Start, taskbar, right-hand caption controls, Snap, Alt+Tab, File Explorer, Calendar and App Center remain its original implementations.
 
-The Pages root serves the complete themed desktop directly, not a marketing page or iframe wrapper. `index.html` is byte-identical to `Luna-Korpus.html`.
+## Run the complete delivery
 
-Download `Luna-Korpus.html` and open it in a current desktop browser. The desktop and built-in apps are embedded in that one file. **Catalog applications are not bundled offline:** the original Aster launcher loads their real HTTPS sites only when opened. They require internet or their own app-specific offline cache. Browser permissions, WebGPU availability, local file pickers and each upstream app's capabilities still apply.
-
-Die Pages-Startseite öffnet unmittelbar den Desktop. Alternativ `Luna-Korpus.html` herunterladen und im Browser öffnen. Integrierte Programme sind enthalten; Katalogprogramme laden ihre echten, separat gehosteten Webseiten. Keine zusätzliche Maschinenanbindung, kein Backend und kein Cloud-Konto werden eingerichtet.
-
-## Theme and desktop / Theme und Arbeitsplatz
-
-First Luna boot selects **Windows → Luna Korpus**, blue focused captions (`#0078C8`), navy shop-grid wallpaper (`#0B3A5B`), dark taskbar (`#1C1C1C`), EDV/Hausleitner branding and a clean desktop. All original profiles remain available: Windows, macOS 26 and Ubuntu GNOME. Subsequent user changes are preserved.
-
-The desktop has 16 application shortcuts plus the real virtual text file `/Desktop/Tipps-Tischler.txt`. Start pins are grouped as **Büro / Werkstatt / Planung / System**. Original games, Terminal, EDA, audio tools and the remaining catalog stay available through **Start → Alle Apps → Alle Webprogramme**, or search. App Center remains the original Aster application.
-
-All source files implementing applications, the reviewed catalog, the window manager, file services, theme engine and renderer are checked byte-for-byte against the upstream commit in `qa/source-integrity.json`. The only existing source edits are shell labels/default layout, the HTML boot/branding surface and favicon. Added `luna-theme.js` and `luna-theme.css` are a theme/layout overlay. No catalog app code is copied, rebuilt, mocked or remotely restyled.
-
-## Import the portable theme / Theme importieren
-
-1. Open stock Aster, then **Settings → Personalization → Themes**.
-2. Choose **Import**, select `Luna-Korpus.astertheme`, inspect the preview and apply it.
-3. Save it as **Luna Korpus** in the theme library when desired.
-
-Die Datei ist ein echtes `aster-theme`-JSON, Version 1, validiert mit dem originalen Aster-Theme-Modell. Das kleine PNG-Hintergrundbild ist eingebettet; es werden keine externen Theme-Assets geladen.
-
-**Portable-format boundary:** stock Aster imports its supported profile, colors, caption settings, metrics and wallpaper. The stock theme format intentionally cannot execute CSS or install launcher layouts. German shortcut names, Start grouping, EDV logo placement and the exact taskbar CSS paint are part of the themed desktop build, not an executable extension hidden in the `.astertheme` file.
-
-**Grenze des Theme-Imports:** Die Standarddatei überträgt die vom Original unterstützten Theme-Einstellungen und das Hintergrundbild. Desktop-Verknüpfungen, Start-Gruppen und Logo-Anordnung werden nur mit `Luna-Korpus.html` ausgeliefert. Der Import verändert keine App-Funktionen und installiert keine Programme.
-
-## Application map / Zuordnung
-
-| Desktop label | Original source |
-|---|---|
-| Explorer (File Explorer) | https://github.com/wieslawsoltes/Aster |
-| Dateien (TwinForge) | https://github.com/wieslawsoltes/TwinForge |
-| Tabelle (Gridline) | https://github.com/wieslawsoltes/Gridline |
-| Planung (MeridianPlan) | https://github.com/wieslawsoltes/MeridianPlan |
-| Kalender (Calendar) | https://github.com/wieslawsoltes/Aster |
-| Akte (Folio) | https://github.com/wieslawsoltes/Folio |
-| PDF (FolioPro) | https://github.com/wieslawsoltes/FolioPro |
-| Notizen (Notepad) | https://github.com/wieslawsoltes/Aster |
-| Rechner (Calculator) | https://github.com/wieslawsoltes/Aster |
-| Zeichnung (Draftline) | https://github.com/wieslawsoltes/Draftline |
-| CAD (KestrelCAD) | https://github.com/wieslawsoltes/KestrelCAD |
-| Korpus (Formalyth) | https://github.com/wieslawsoltes/Formalyth |
-| Material (StrataForge) | https://github.com/wieslawsoltes/StrataForge |
-| Aufmaß (PlanforgeReview) | https://github.com/wieslawsoltes/PlanforgeReview |
-| Tafel (Orivane) | https://github.com/wieslawsoltes/Orivane |
-| Einstellungen (Settings) | https://github.com/wieslawsoltes/Aster |
-| Tipps (Notepad) | https://github.com/wieslawsoltes/Aster — local `/Desktop/Tipps-Tischler.txt` |
-
-## Reproduce / Nachbauen
-
-Upstream: https://github.com/wieslawsoltes/Aster
-
-The exact source commit is recorded in `qa/source-integrity.json`.
+Download the full repository/archive, keep the `Apps/` directory, then run:
 
 ```sh
-git clone https://github.com/wieslawsoltes/Aster.git Aster
-cd Aster
-git checkout a7cca00c03837f8f94e2f6b1cccc2f82830e32fc
-git apply ../Luna-Korpus/luna-overlay.patch
-cp ../Luna-Korpus/theme-source/luna-theme.js src/
-cp ../Luna-Korpus/theme-source/luna-theme.css src/
-python3 build.py
-cp Aster.html ../Luna-Korpus/Luna-Korpus.html
-cp Aster.html ../Luna-Korpus/index.html
+python3 serve.py
 ```
 
-Build uses Python's standard library. No npm or CDN dependency is added to the desktop. The original single-file build preserves the real Win32 assets and WebGPU path; it is not a tiny screenshot reproduction.
+Open `http://127.0.0.1:8080/`. The server binds to localhost only. No npm or frontend build is needed to run the delivery. GitHub Pages serves the same files over HTTPS.
 
-## Data and permissions / Daten
+**Important packaging distinction:** `Luna-Korpus.html` is the single-file themed Aster build. The 19 original entry HTMLs are also embedded for installation in Aster's virtual `/Apps` folder. **13 upstream projects supply true portable HTMLs. Six supply multi-file static web apps instead:** Folio, PlanforgeReview, VeyraWorkspace, Velsign, Formalyth and StrataForge. Their original entry HTMLs and complete runtime resources are vendored under `Apps/resources/<Repo>/`. These six require the delivered resource folders and HTTP/HTTPS hosting. Downloading just the shell HTML is not a fully offline 19-application distribution. No replacement single-file toy was invented to conceal this distinction.
 
-The original Aster storage and permission model is retained. No virtual user files are erased. On first Luna setup, existing theme/layout metadata is retained under `luna-previous-theme-v1` and `luna-previous-layout-v1` before the requested new defaults are applied. Aster's IndexedDB is browser-origin scoped. Export important Aster files and separately export documents from each catalog app. Luna does not aggregate or upload them.
+## Exact Aster base and reproducible build
 
-## QA
+Upstream: https://github.com/wieslawsoltes/Aster  
+Pinned commit: `a7cca00c03837f8f94e2f6b1cccc2f82830e32fc`  
+Original builder SHA-256: `3a3915ac1dd94f631661762527f0ecf670e33d333ca93a3b15bc7af28d5d5d71`
 
-See `qa/` for source integrity, actual browser screenshots and test results. **Only recorded checks establish PASS; source preservation does not certify every editing feature, machine workflow or backend of every upstream application.**
+```sh
+python3 build.py
+python3 tools/verify_upstream.py
+```
 
-## Not WAWI / Keine Warenwirtschaft
+The root wrapper invokes the **unchanged** `theme-source/build.py`, producing `Luna-Korpus.html`; `index.html` is a byte-identical copy for Pages. The fresh Aster source is in `theme-source/`. The previous build's CSS was not used.
 
-A real licensed WAWI remains responsible for articles, purchasing, stock, orders, accounting and the company's production integrations. Formalyth is the real upstream design/manufacturing workbench launched under the label **Korpus**; the label is not a claim of cabinet generation or CNC certification. Gridline remains the real upstream spreadsheet under **Tabelle**. Luna supplies the theme and desktop organization only. No Cabinet Vision, imos or HOMAG integration is implied.
+`SOURCE-INTEGRITY.json` compares all original Aster `src/` files. 80 remain byte-identical. The seven changed source files contain launcher metadata, About text, the reviewed-local-app URL hook, the isolated IndexedDB name, caption labels and fresh-boot behavior. `index.html` includes the extension. New Luna files contain theme declarations, original HTML payloads and integration only. File Explorer (`apps-files.js`), Calendar (`apps-tools.js`), renderer, theme engine, application library and creative-app engines remain byte-identical to this upstream snapshot. `luna-overlay.patch` records only the changes against that fresh base; the four new files are separately readable.
 
-## License and credit
+## App Store and desktop
 
-MIT. The original Aster MIT copyright notice is preserved in `LICENSE`. Luna-specific overlay code is also MIT. All third-party rights and upstream application licenses remain with their respective authors. Credit: https://github.com/wieslawsoltes/Aster
+The complete original **84-app catalog** remains in App Store (App Center), together with **20 visible Aster built-ins**. The 19 mapped apps are additionally installed through Aster's actual HTML app library. They are not substitutes for, or deletions from, the catalog. Mines and Win32 remain in the built-in store view and are not pinned. Every visible launcher has a `German (Original)` name; unmapped catalog applications use `OriginalTitle (Repo)`.
+
+The desktop contains exactly the requested 13 application shortcuts: Explorer, Dateien, Tabelle, Planung, Kalender, Mail, Akte, Zeichnung, CAD, Korpus, Material, Aufmaß and Einstellungen, each followed by its original name in parentheses. Other applications remain available in the store. The original app interiors retain upstream branding and behavior; only Aster chrome/launcher/caption labels are themed.
+
+## Every local HTML and its upstream
+
+All 19 `Apps/*.html` files are byte-identical to the copied upstream file or output of that repo's own build tool. Exact upstream commits, input paths, byte counts and SHA-256 values are in `UPSTREAM-MANIFEST.json`. Runtime resources have an additional `RESOURCE-MANIFEST.json`.
+
+| Launcher | Local file | Official repository | Original entry/output | Packaging |
+|---|---|---|---|---|
+| Tabelle (Gridline) | [`Apps/tabelle.html`](Apps/tabelle.html) | [Gridline](https://github.com/wieslawsoltes/Gridline) | `dist/index.html` | Original portable HTML |
+| Planung (MeridianPlan) | [`Apps/planung.html`](Apps/planung.html) | [MeridianPlan](https://github.com/wieslawsoltes/MeridianPlan) | `dist/meridian-plan.html` | Original portable HTML |
+| Office (MeridianOffice) | [`Apps/office.html`](Apps/office.html) | [MeridianOffice](https://github.com/wieslawsoltes/MeridianOffice) | `dist/meridian-office.html` | Original portable HTML |
+| Dateien (TwinForge) | [`Apps/dateien.html`](Apps/dateien.html) | [TwinForge](https://github.com/wieslawsoltes/TwinForge) | `TwinForge.html` | Original portable HTML |
+| Akte (Folio) | [`Apps/akte.html`](Apps/akte.html) | [Folio](https://github.com/wieslawsoltes/Folio) | `pages-dist/index.html` | Original HTML + local resources |
+| PDF (FolioPro) | [`Apps/pdf.html`](Apps/pdf.html) | [FolioPro](https://github.com/wieslawsoltes/FolioPro) | `dist/folio-pro.html` | Original portable HTML |
+| Mail (Quire) | [`Apps/mail.html`](Apps/mail.html) | [Quire](https://github.com/wieslawsoltes/Quire) | `Quire.html` | Original portable HTML |
+| Text (NotepadXP) | [`Apps/text.html`](Apps/text.html) | [NotepadXP](https://github.com/wieslawsoltes/NotepadXP) | `NotepadXP.html` | Original portable HTML |
+| Auswertung (LatticeAnalytics) | [`Apps/auswertung.html`](Apps/auswertung.html) | [LatticeAnalytics](https://github.com/wieslawsoltes/LatticeAnalytics) | `dist/lattice.html` | Original portable HTML |
+| Rechenblatt (AxiomWorksheet) | [`Apps/rechenblatt.html`](Apps/rechenblatt.html) | [AxiomWorksheet](https://github.com/wieslawsoltes/AxiomWorksheet) | `dist/index.html` | Original portable HTML |
+| Zeichnung (Draftline) | [`Apps/zeichnung.html`](Apps/zeichnung.html) | [Draftline](https://github.com/wieslawsoltes/Draftline) | `Draftline.html` | Original portable HTML |
+| CAD (KestrelCAD) | [`Apps/cad.html`](Apps/cad.html) | [KestrelCAD](https://github.com/wieslawsoltes/KestrelCAD) | `Kestrel-CAD.html` | Original portable HTML |
+| Aufmaß (PlanforgeReview) | [`Apps/aufmass.html`](Apps/aufmass.html) | [PlanforgeReview](https://github.com/wieslawsoltes/PlanforgeReview) | `dist/index.html` | Original HTML + local resources |
+| Tafel (Orivane) | [`Apps/tafel.html`](Apps/tafel.html) | [Orivane](https://github.com/wieslawsoltes/Orivane) | `dist/Orivane.html` | Original portable HTML |
+| Gespräch (Veyra Workspace) | [`Apps/gespraech.html`](Apps/gespraech.html) | [VeyraWorkspace](https://github.com/wieslawsoltes/VeyraWorkspace) | `dist/index.html` | Original HTML + local resources |
+| Signatur (Velsign) | [`Apps/signatur.html`](Apps/signatur.html) | [Velsign](https://github.com/wieslawsoltes/Velsign) | `dist-pages/index.html` | Original HTML + local resources |
+| Korpus (Formalyth) | [`Apps/korpus.html`](Apps/korpus.html) | [Formalyth](https://github.com/wieslawsoltes/Formalyth) | `_site/index.html` | Original HTML + local resources |
+| Material (StrataForge) | [`Apps/material.html`](Apps/material.html) | [StrataForge](https://github.com/wieslawsoltes/StrataForge) | `index.html` | Original HTML + local resources |
+| Modell (Avolith Studio) | [`Apps/modell.html`](Apps/modell.html) | [AvolithStudio](https://github.com/wieslawsoltes/AvolithStudio) | `dist/Avolith-Studio.html` | Original portable HTML |
+
+### Gridline, not a clone
+
+`Apps/tabelle.html` is the original 233,169-byte Gridline portable HTML. SHA-256: `31aa5e1ed31ba6e428ffd86c7ed4c734b71b3589d89a8f5d909b68e037c2d6de`. The browser tests hash the HTML actually loaded by every application iframe and compare it with its original file. Gridline's ribbon, formula input and sheet tabs are checked as real visible DOM. There is no homemade 30×40 spreadsheet, no replacement calculation engine, and no added “keine XLSX” disclaimer.
+
+**Tabelle == Gridline original HTML: YES**
+
+## Theme and trust model
+
+`Luna-Korpus.astertheme` is an Aster-native theme export. Luna is a first-class preset alongside the original Windows, macOS and Ubuntu presets. Luna uses Windows profile, blue `#0078C8` focused captions, `#1C1C1C` taskbar and `#0B3A5B` background. Only Aster chrome receives these rules; no styles are injected into app documents. The decorative wallpaper is an embedded PNG. No installed system font files are distributed.
+
+Aster's normal arbitrary-HTML importer keeps its opaque-origin sandbox. Only the 19 bundled original files with matching SHA-256 are launched using Aster's existing reviewed-catalog host, so their own browser storage, workers and WebGPU are not broken by a replacement sandbox. Modified imported files fall back to the normal HTML importer. Reviewed app frames have same-origin capability; this is **not a security isolation boundary**. Use an isolated browser profile for untrusted or experimental work. The shell's IndexedDB has its own `luna-korpus-aster-desktop` namespace, without touching another Aster project's stored data.
+
+## Functional scope: upstream means upstream
+
+This is an unofficial Aster skin and original-app distribution, **not licensed WAWI and not a production ERP**. Original sample projects and demo data are not EDV Hausleitner customer records. The requested name **Mail (Quire)** launches real Quire: upstream Quire is a document editor, not an added IMAP/SMTP service. Formalyth remains its original design/manufacturing app, not a new joinery-specific cabinet generator. Static Veyra, Folio and Velsign editions do not acquire collaboration/signing servers from being installed in a desktop. Avolith's official portable output is its faceted offline edition. External integrations, authentication, native file access, WebGPU and production workflows retain the requirements and limitations of their upstream projects. None are represented as completed business integrations by these smoke tests.
+
+## QA and attribution
+
+Unmodified Aster baseline: **13/13 catalog tests and 54/54 browser smoke checks**. The baseline browser harness's occupied localhost port was changed in memory from 8766 to 18766; its test logic and application source were not changed. Logs are in `qa/upstream/`.
+
+This delivery's local integration QA: **84/84 checks passed** at 1920×1080 in real Chromium/Chrome. `qa/results.json` includes per-app executed HTML hashes, frame titles, element counts, actual Snap geometry, storage checks and all request errors. Public Pages is tested separately; see `qa/live/results.json` once published. This is smoke/integration QA, not certification of every upstream feature.
+
+Copyright and credit remain with Aster and each linked upstream repository. Original licenses/notices are in `LICENSE`, `theme-source/LICENSE`, `theme-source/third-party/` and `licenses/<Repo>/`; vendored dependency notices remain with their resources. Some upstream snapshots contain no top-level license; their `SOURCE-NOTICE.md` states that absence instead of inventing an MIT grant. The Luna integration is MIT. Aster reference: https://wieslawsoltes.github.io/Aster/ .

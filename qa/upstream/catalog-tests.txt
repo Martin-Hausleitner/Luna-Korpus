@@ -1,0 +1,21 @@
+✔ Every audited web project appears exactly once; only Aster itself is excluded (1.787541ms)
+✔ The inclusive Sunday–Tuesday window uses Warsaw time, not UTC midnight (0.293416ms)
+✔ Category submenus cover all projects and never contain an empty folder (0.141792ms)
+✔ Launch URLs, repository identity, descriptions and deployment evidence agree (0.878ms)
+✔ Catalog objects and collections are immutable (0.130875ms)
+✔ All projects register real mounts without DOM, network or eager iframe creation (2.089667ms)
+✔ The host rejects arbitrary origins, schemes, credentials and altered paths (2.929916ms)
+✔ Static and standalone loaders include catalog before launcher and shell (8.168042ms)
+✔ Requested Veyra Workspace and Asterion EDA entries keep their category and media scope (1.044916ms)
+✔ The five requested tools are unique, categorized and searchable without added media access (0.847417ms)
+✔ September 10 requested additions remain unique, searchable, scoped and explicitly audited (0.821291ms)
+✔ Requested workspace and design apps are unique, searchable and do not gain media access (1.017791ms)
+✔ The standalone embeds the exact same catalog, including all five additions (7.096958ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 89.567583

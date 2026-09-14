@@ -1,0 +1,157 @@
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/file-workflows.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/shell-launch.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/themes.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/shell-design.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/web-app-chrome.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/ui-refinement.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/visual-profiles.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/desktop-refinement.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/file-picker.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/web-io.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/app-store.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/orbit.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/clipboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/core.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/desktop-models.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/archives.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/input-models.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/desktop-services.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/clipboard-service.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/clipboard-ui.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/renderer.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/windows.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/file-operations.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/explorer-operations.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/web-navigation.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/web-io-models.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/web-io-client.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/file-picker-models.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/file-picker.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/web-io-host.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/apps-files.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/apps-creative.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/apps-tools.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/apps-system.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/apps-desktop.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/apps-recorder.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/apps-accessibility.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/win32/gdi.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/win32/gui-host.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/apps-win32.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/app-library-models.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/apps-web.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/web-app-catalog.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/app-library.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/app-store.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/orbit-models.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/orbit-service.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/webviews.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/apps-browser.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/integrated-desktop.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/shell-command-models.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/shell-launch.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/web-app-settings.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/web-io-shell.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/theme-models.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/theme-assets.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/theme-settings.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/theme-engine.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/theme-packs.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/shell-experience.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/shell.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/material-optics.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/theme-shell.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/profile-artwork.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/liquid-material.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/desktop-refinement.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /src/desktop-refinement-models.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:44] "GET /assets/icon.svg HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /sw.js HTTP/1.1" 200 -
+PASS Boot with 29 built-in apps and 84 lazy web app entries
+PASS Virtual file CRUD, subtree copy, move, recycle, restore
+PASS Protected folders and invalid destinations reject safely
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/clipboard-client.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /sdk/aster-clipboard.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /sdk/aster-webview.js HTTP/1.1" 200 -
+PASS Calculator parser arithmetic, scientific functions and errors
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /sdk/aster-files.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /manifest.webmanifest HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /assets/icon-192.png HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /assets/icon-512.png HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/resources.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/registry.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/gui.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/bitmaps.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/third-party/winemine.exe HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/third-party/NOTICE.txt HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /third-party/winemine/winemine-source.zip HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/pe.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/runtime.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/third-party/7zr.exe HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/compat.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/third-party/tcc.exe HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/third-party/tcc-files.json HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/worker.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/x86.wasm HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/examples/hello.exe HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/examples/pad.exe HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/examples/gdi.exe HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2026 11:37:45] "GET /src/win32/examples/compute.exe HTTP/1.1" 200 -
+PASS App mount: clipboard-tools
+PASS App mount: files
+PASS App mount: notepad
+PASS App mount: terminal
+PASS App mount: paint
+PASS App mount: photos
+PASS App mount: media
+PASS App mount: code
+PASS App mount: snips
+PASS App mount: calculator
+PASS App mount: calendar
+PASS App mount: clock
+PASS App mount: tasks
+PASS App mount: mines
+PASS App mount: settings
+PASS App mount: taskmanager
+PASS App mount: welcome
+PASS App mount: clipboard
+PASS App mount: focus
+PASS App mount: widgets
+PASS App mount: workspaces
+PASS App mount: history
+PASS App mount: storage
+PASS App mount: archives
+PASS App mount: accessibility
+PASS App mount: recorder
+PASS App mount: win32
+PASS App mount: store
+PASS App mount: browser
+PASS Notepad actual typing and Ctrl+S save
+PASS Unsaved document close can be cancelled
+PASS Terminal commands manipulate real virtual files
+PASS Window manager pointer drag, resize and state transitions
+PASS Virtual desktop switching and window transfer
+PASS Start menu app search and keyboard launch
+PASS File Explorer searches actual saved file
+PASS Paint pointer drawing and real PNG save
+PASS Photos decodes the newly created PNG
+PASS Code Studio executes sandbox app and saves project
+PASS Orbit Browser runs local HTML application
+PASS Media Player actual audio decode and playback
+PASS Tasks and Calendar store editable records
+PASS Mines game logic and completion
+PASS Settings views, themes and 12-hour preference
+PASS Backup JSON text and binary round-trip
+PASS HTML app installation and sandbox registration
+PASS Timer expiry notification
+PASS Visual lock resumes without losing windows
+PASS Narrow-screen layout
+PASS No uncaught JavaScript exceptions
+{
+  "passed": 54,
+  "failed": 0,
+  "report": "/Users/mh/Documents/Luna-Korpus-build-20260914/Aster/tests/results.json"
+}
