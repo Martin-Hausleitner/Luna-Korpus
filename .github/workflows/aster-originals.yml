@@ -1,0 +1,25 @@
+name: Aster originals build
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, build/aster-originals-20260914]
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build themed upstream Aster when sources are present
+        run: |
+          if [ -f build.py ]; then python3 build.py; fi
+      - name: Package original-app evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: luna-originals-evidence
+          path: |
+            qa/
+            Luna-Korpus.html
+            Luna-Korpus.astertheme
+            app-mapping.json
+          retention-days: 7
