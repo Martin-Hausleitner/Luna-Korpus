@@ -11,6 +11,8 @@ Not licensed WAWI. MIT for Luna integration and Aster; upstream applications and
 
 This is the real **Aster Desktop**, with its Windows profile selected, a Luna theme, German launcher/caption labels and locally installed original applications. It is not a new desktop, cabinet engine, spreadsheet, file manager or calendar. Aster's Start, taskbar, right-hand caption controls, Snap, Alt+Tab, File Explorer, Calendar and App Center remain its original implementations.
 
+Active delivery branch: `release/aster-originals-20260914` (repository default and Pages source). Concurrent `main` work remains untouched; see [preserved deliveries](ARCHIVED-DELIVERIES.md).
+
 ## Run the complete delivery
 
 Download the full repository/archive, keep the `Apps/` directory, then run:
