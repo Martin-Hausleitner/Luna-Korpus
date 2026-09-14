@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#eaf0fc">
-  <meta name="description" content="Aster: an independent, local-first browser desktop with WebGPU graphics and working apps.">
-  <title>LUNA KORPUS · EDV Hausleitner</title>
+  <meta name="theme-color" content="#07131d">
+  <meta name="description" content="LUNA · EDV Hausleitner — moderner Aster-Arbeitsplatz für Planung, Konstruktion, Produktion und Service.">
+  <title>LUNA · EDV Hausleitner</title>
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="src/styles.css">
@@ -22,12 +22,15 @@
   <link rel="stylesheet" href="src/app-store.css">
   <link rel="stylesheet" href="src/orbit.css">
   <link rel="stylesheet" href="src/clipboard.css">
-<link rel="stylesheet" href="src/luna.css">
+  <link rel="stylesheet" href="src/luna.css">
 </head>
 <body data-theme="light">
   <canvas id="compositor" aria-hidden="true"></canvas>
   <div id="brightness" aria-hidden="true"></div>
-  <div id="luna-wallmark" aria-hidden="true"><div class="luna-company"><b>EDV</b> Hausleitner</div><div class="luna-product">LUNA</div><div class="luna-claim">Holztechnik · Korpus · Stückliste</div><div class="luna-origin">ASTER DESKTOP · ORIGINAL APPLICATIONS</div></div>
+  <div id="luna-wallmark" aria-hidden="true">
+    <span class="luna-mark"></span>
+    <div class="luna-wording"><div class="luna-product">LUNA</div><div class="luna-company">EDV HAUSLEITNER</div><div class="luna-claim">Planung · Konstruktion · Produktion · Service</div><div class="luna-origin">ASTER DESKTOP · ORIGINAL APPLICATIONS</div></div>
+  </div>
   <main id="desktop" aria-label="Desktop"><div id="desktop-icons" role="group" aria-label="Desktop shortcuts"></div></main>
   <div id="window-layer" aria-label="Application windows"></div>
   <div id="snap-preview" hidden></div>
@@ -36,8 +39,8 @@
   <div id="context-menu" class="flyout context-menu" role="menu" hidden></div>
   <div id="dialog-layer"></div>
   <nav id="taskbar" aria-label="Taskbar"></nav>
-  <div id="boot"><div class="aster-symbol"></div><strong>LUNA</strong><span class="boot-spinner"></span><small>EDV Hausleitner · Holztechnik · Korpus · Stückliste</small></div>
-  <noscript>Aster requires JavaScript. All built-in apps run locally in your browser.</noscript>
+  <div id="boot"><div class="aster-symbol"></div><strong>LUNA</strong><span class="boot-spinner"></span><small>EDV Hausleitner · Planung · Konstruktion · Produktion · Service</small></div>
+  <noscript>Luna benötigt JavaScript. Die integrierten Aster-Werkzeuge laufen lokal im Browser.</noscript>
   <script src="src/core.js"></script>
   <script src="src/desktop-models.js"></script>
   <script src="src/archives.js"></script>
@@ -66,34 +69,34 @@
   <script src="src/win32/gui-host.js"></script>
   <script src="src/apps-win32.js"></script>
   <script src="src/web-app-catalog.js"></script>
-<script src="src/apps-web.js"></script>
-<script src="src/app-library-models.js"></script>
-<script src="src/app-library.js"></script>
-<script src="src/app-store.js"></script>
-<script src="src/orbit-models.js"></script>
-<script src="src/orbit-service.js"></script>
-<script src="src/webviews.js"></script>
-<script src="src/apps-browser.js"></script>
-<script src="src/integrated-desktop.js"></script>
-<script src="src/shell-command-models.js"></script>
-<script src="src/shell-launch.js"></script>
-<script src="src/web-app-settings.js"></script>
-<script src="src/web-io-shell.js"></script>
-<script src="src/theme-models.js"></script>
-<script src="src/theme-packs.js"></script>
-<script src="src/theme-assets.js"></script>
-<script src="src/theme-engine.js"></script>
-<script src="src/theme-settings.js"></script>
-<script src="src/luna-config.js"></script>
-<script src="src/luna-vendor.js"></script>
-<script src="src/luna.js"></script>
-<script src="src/shell.js"></script>
-<script src="src/shell-experience.js"></script>
-<script src="src/theme-shell.js"></script>
-<script src="src/material-optics.js"></script>
-<script src="src/profile-artwork.js"></script>
-<script src="src/liquid-material.js"></script>
-<script src="src/desktop-refinement-models.js"></script>
-<script src="src/desktop-refinement.js"></script>
+  <script src="src/apps-web.js"></script>
+  <script src="src/app-library-models.js"></script>
+  <script src="src/app-library.js"></script>
+  <script src="src/app-store.js"></script>
+  <script src="src/orbit-models.js"></script>
+  <script src="src/orbit-service.js"></script>
+  <script src="src/webviews.js"></script>
+  <script src="src/apps-browser.js"></script>
+  <script src="src/integrated-desktop.js"></script>
+  <script src="src/shell-command-models.js"></script>
+  <script src="src/shell-launch.js"></script>
+  <script src="src/web-app-settings.js"></script>
+  <script src="src/web-io-shell.js"></script>
+  <script src="src/theme-models.js"></script>
+  <script src="src/theme-packs.js"></script>
+  <script src="src/theme-assets.js"></script>
+  <script src="src/theme-engine.js"></script>
+  <script src="src/theme-settings.js"></script>
+  <script src="src/luna-config.js"></script>
+  <script src="src/luna-vendor.js"></script>
+  <script src="src/luna.js"></script>
+  <script src="src/shell.js"></script>
+  <script src="src/shell-experience.js"></script>
+  <script src="src/theme-shell.js"></script>
+  <script src="src/material-optics.js"></script>
+  <script src="src/profile-artwork.js"></script>
+  <script src="src/liquid-material.js"></script>
+  <script src="src/desktop-refinement-models.js"></script>
+  <script src="src/desktop-refinement.js"></script>
 </body>
 </html>
