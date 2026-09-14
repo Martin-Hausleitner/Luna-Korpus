@@ -10,10 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Build themed upstream Aster when sources are present
-        run: |
-          if [ -f build.py ]; then python3 build.py; fi
-      - name: Package original-app evidence
+      - name: Build themed upstream Aster
+        run: python3 build.py
+      - name: Verify original applications and native Aster source
+        run: python3 qa/verify.py
+      - name: Package original-app delivery and evidence
         uses: actions/upload-artifact@v4
         with:
           name: luna-originals-evidence
@@ -22,4 +23,7 @@ jobs:
             Luna-Korpus.html
             Luna-Korpus.astertheme
             app-mapping.json
-          retention-days: 7
+            README.md
+            LICENSE
+            PROVENANCE.json
+          retention-days: 14
