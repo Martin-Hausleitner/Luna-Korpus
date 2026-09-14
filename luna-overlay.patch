@@ -1,0 +1,195 @@
+diff --git a/assets/icon.svg b/assets/icon.svg
+index e60bfdb..fa614bf 100644
+--- a/assets/icon.svg
++++ b/assets/icon.svg
+@@ -1 +1 @@
+-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><defs><linearGradient id="a" x2="1" y2="1"><stop stop-color="#55b8ff"/><stop offset="1" stop-color="#3656e8"/></linearGradient></defs><rect width="128" height="128" rx="30" fill="#eef4ff"/><path d="m64 19 13 31 32 14-32 13-13 32-14-32-31-13 31-14z" fill="url(#a)"/><path d="m64 42 7 15 15 7-15 7-7 15-7-15-15-7 15-7z" fill="#fff" opacity=".92"/></svg>
++<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><rect width="32" height="32" rx="3" fill="#f3f6f9"/><path fill="#0078c8" d="M0 0h4v32H0z"/><text x="18" y="20" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" font-weight="800" fill="#0b3a5b">EDV</text></svg>
+\ No newline at end of file
+diff --git a/index.html b/index.html
+index 260b3e3..f1092b4 100644
+--- a/index.html
++++ b/index.html
+@@ -1,11 +1,11 @@
+ <!doctype html>
+-<html lang="en">
++<html lang="de">
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+-  <meta name="theme-color" content="#eaf0fc">
+-  <meta name="description" content="Aster: an independent, local-first browser desktop with WebGPU graphics and working apps.">
+-  <title>Aster Desktop</title>
++  <meta name="theme-color" content="#0B3A5B">
++  <meta name="description" content="Luna Korpus: inoffizielles Theme und Tischler-Arbeitsplatz auf Aster. Keine lizenzierte WAWI.">
++  <title>LUNA KORPUS · EDV Hausleitner</title>
+   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+   <link rel="manifest" href="manifest.webmanifest">
+   <link rel="stylesheet" href="src/styles.css">
+@@ -22,11 +22,12 @@
+   <link rel="stylesheet" href="src/app-store.css">
+   <link rel="stylesheet" href="src/orbit.css">
+   <link rel="stylesheet" href="src/clipboard.css">
++  <link rel="stylesheet" href="src/luna-theme.css">
+ </head>
+ <body data-theme="light">
+   <canvas id="compositor" aria-hidden="true"></canvas>
+   <div id="brightness" aria-hidden="true"></div>
+-  <main id="desktop" aria-label="Desktop"><div id="desktop-icons" role="group" aria-label="Desktop shortcuts"></div></main>
++  <main id="desktop" aria-label="Desktop"><div id="desktop-icons" role="group" aria-label="Desktop shortcuts"></div><div id="luna-desktop-sign"><span class="luna-brand"><span class="luna-logo-mark">EDV</span><span class="luna-brand-words">Hausleitner<small>LUNA KORPUS</small></span></span><p>Holztechnik · Korpus · Stückliste</p></div><div id="luna-disclaimer">LUNA KORPUS · Aster-Arbeitsplatz · Theme-Demo · kein Ersatz der lizenzierten WAWI · EDV Hausleitner GmbH Linz</div></main>
+   <div id="window-layer" aria-label="Application windows"></div>
+   <div id="snap-preview" hidden></div>
+   <div id="panel-layer"></div>
+@@ -34,8 +35,8 @@
+   <div id="context-menu" class="flyout context-menu" role="menu" hidden></div>
+   <div id="dialog-layer"></div>
+   <nav id="taskbar" aria-label="Taskbar"></nav>
+-  <div id="boot"><div class="aster-symbol"></div><strong>Aster</strong><span class="boot-spinner"></span><small>Your space. Your pace.</small></div>
+-  <noscript>Aster requires JavaScript. All built-in apps run locally in your browser.</noscript>
++  <div id="boot"><div class="aster-symbol"></div><span class="luna-logo-mark">EDV</span><strong>LUNA KORPUS · EDV Hausleitner</strong><span class="boot-spinner"></span><small>Holztechnik · Korpus · Stückliste</small></div>
++  <noscript>Luna Korpus benötigt JavaScript. Die integrierten Programme laufen lokal im Browser.</noscript>
+   <script src="src/core.js"></script>
+   <script src="src/desktop-models.js"></script>
+   <script src="src/archives.js"></script>
+@@ -82,6 +83,7 @@
+ <script src="src/theme-assets.js"></script>
+ <script src="src/theme-engine.js"></script>
+ <script src="src/theme-settings.js"></script>
++<script src="src/luna-theme.js"></script>
+ <script src="src/shell.js"></script>
+ <script src="src/shell-experience.js"></script>
+ <script src="src/theme-shell.js"></script>
+diff --git a/src/shell.js b/src/shell.js
+index 14c2e28..38feb87 100644
+--- a/src/shell.js
++++ b/src/shell.js
+@@ -29,19 +29,20 @@
+         e.preventDefault();
+         resume.focus();
+     } }; resume.focus(); };
+-    OS.restart = async () => { if (!await OS.confirm('Restart Aster?', 'Your virtual files are kept. Save open drawings and other unsaved work before restarting the browser desktop.', 'Restart'))
++    OS.restart = async () => { if (!await OS.confirm('Luna Korpus neu starten?', 'Your virtual files are kept. Save open drawings and other unsaved work before restarting the browser desktop.', 'Restart'))
+         return; await OS.persistSessionNow(); await OS.themes?.playSound('SystemExit'); OS.ignoreUnload = true; location.reload(); };
+-    const powerMenu = e => OS.context(e, [{ text: 'Lock desktop', icon: 'lock', action: OS.lock }, { text: 'Restart Aster', icon: 'refresh', action: OS.restart }, { text: 'Close all apps', icon: 'power', action: async () => { for (const w of Array.from(OS.windows.values()))
++    const powerMenu = e => OS.context(e, [{ text: 'Lock desktop', icon: 'lock', action: OS.lock }, { text: 'Luna Korpus neu starten', icon: 'refresh', action: OS.restart }, { text: 'Close all apps', icon: 'power', action: async () => { for (const w of Array.from(OS.windows.values()))
+                 await w.close(); } }]);
+     OS.toggleStart = (focusSearch = false) => {
+         if (panel === 'start' && !focusSearch) {
+             OS.closePanels();
+             return;
+         }
+-        const start = OS.el('section', { class: 'panel start-menu flyout', role: 'dialog', 'aria-label': 'Start menu' }), searchWrap = OS.el('div', { class: 'start-search' }), searchField = OS.el('div', { class: 'search-field', html: OS.icon('search', 17) }), input = OS.el('input', { placeholder: 'Search for apps, files, and settings', 'aria-label': 'Search apps and files', autocomplete: 'off' }), main = OS.el('div', { class: 'start-main' }), footer = OS.el('div', { class: 'start-footer' });
++        const start = OS.el('section', { class: 'panel start-menu flyout', role: 'dialog', 'aria-label': 'Startmenü' }), searchWrap = OS.el('div', { class: 'start-search' }), searchField = OS.el('div', { class: 'search-field', html: OS.icon('search', 17) }), input = OS.el('input', { placeholder: 'Programme, Dateien und Einstellungen suchen', 'aria-label': 'Programme und Dateien suchen', autocomplete: 'off' }), main = OS.el('div', { class: 'start-main' }), footer = OS.el('div', { class: 'start-footer' });
+         searchField.append(input);
+         searchWrap.append(searchField);
+         const profile = OS.el('button', { html: `<span class="user-avatar">${esc(OS.settings.username[0] || 'A')}</span><span style="font-size:12px">${esc(OS.settings.username)}</span>`, onclick: () => OS.openApp('settings', { section: 'system' }) });
++        if(OS.luna)profile.replaceChildren(OS.luna.brand());
+         footer.append(profile, OS.el('button', { class: 'icon-button', title: 'Power', 'aria-label': 'Power', html: OS.icon('power', 19), onclick: powerMenu }));
+         start.append(searchWrap, main, footer);
+         mountPanel('start', start);
+@@ -55,8 +56,8 @@
+         };
+         const webEntry = () => OS.el('button', {
+             class: 'web-start-entry', 'aria-label': 'Web apps, ' + (OS.webCatalog?.apps.length || 0) + ' projects',
+-            html: OS.icon('grid', 26) + '<span class="grow"><strong>Your web apps</strong><small>' +
+-                (OS.webCatalog?.apps.length || 0) + ' projects, organized by category</small></span>' + OS.icon('forward', 15),
++            html: OS.icon('grid', 26) + '<span class="grow"><strong>Alle Webprogramme</strong><small>' +
++                (OS.webCatalog?.apps.length || 0) + ' Programme nach Kategorie</small></span>' + OS.icon('forward', 15),
+             onclick: () => showWeb()
+         });
+         start.addEventListener('keydown', e => {
+@@ -77,7 +78,7 @@
+         };
+         const appButton = (id,cls='pinned-app') => {
+             const app=OS.apps.get(id),b=OS.el('button',{class:cls,title:app.description||app.title,'data-start-app':id,
+-                html:OS.appIcon(id,34)+'<span>'+esc(app.title.replace('Welcome to Aster','Welcome'))+'</span>',
++                html:OS.appIcon(id,34)+'<span>'+(OS.luna?OS.luna.label(app.title):esc(app.title.replace('Welcome to Aster','Welcome')))+'</span>',
+                 onclick:()=>OS.openApp(id),oncontextmenu:e=>appContext(e,id),draggable:true});
+             b.ondragstart=e=>{e.dataTransfer.setData('application/x-aster-start-pin',id);e.dataTransfer.effectAllowed='move';};
+             b.ondragover=e=>{if([...e.dataTransfer.types].includes('application/x-aster-start-pin')){e.preventDefault();e.dataTransfer.dropEffect='move';}};
+@@ -89,8 +90,8 @@
+             if (webMode && OS.renderWebAppStart) { showWeb(webCategory, false); return; }
+             main.replaceChildren();
+ 
+-            const head = OS.el('div', { class: 'section-heading' }, OS.el('span', { text: all ? 'All apps' : 'Pinned' }));
+-            head.append(OS.el('button', { html: (all ? 'Back' : 'All apps') + OS.icon(all ? 'back' : 'forward', 11), onclick: () => { all = !all; home(); } }));
++            const head = OS.el('div', { class: 'section-heading' }, OS.el('span', { text: all ? 'Alle Apps' : 'Angeheftet' }));
++            head.append(OS.el('button', { html: (all ? 'Zurück' : 'Alle Apps') + OS.icon(all ? 'back' : 'forward', 11), onclick: () => { all = !all; home(); } }));
+             main.append(head);
+             if (all) {
+                 const list = OS.el('div', { class: 'search-results' });
+@@ -104,15 +105,25 @@
+             }
+             const grid = OS.el('div', { class: 'pinned-grid' });
+             const ids = OS.startPins || ['browser', 'files', 'settings', 'notepad', 'photos', 'store', 'paint', 'calculator', 'terminal', 'calendar', 'tasks', 'media', 'code', 'clock', 'mines', 'snips', 'taskmanager', 'welcome'];
+-            for (const id of ids)
+-                if (OS.apps.has(id))
+-                    grid.append(appButton(id));
++            if(OS.luna){
++                for(const group of OS.luna.groups){
++                    const members=ids.filter(id=>OS.apps.has(id)&&OS.luna.group(id)===group);
++                    if(!members.length&&group!=='System')continue;
++                    grid.append(OS.el('h3',{class:'luna-start-group-title',text:group}));
++                    for(const id of members)grid.append(appButton(id));
++                    if(group==='System')grid.append(OS.el('button',{class:'pinned-app','data-start-file':OS.luna.tipPath,
++                        html:OS.appIcon('notepad',34)+'<span>'+OS.luna.label('Tipps (Notepad)')+'</span>',
++                        onclick:()=>OS.openPath(OS.luna.tipPath)}));
++                }
++            }else{
++                for (const id of ids)if (OS.apps.has(id))grid.append(appButton(id));
++            }
+             main.append(grid);
+             if (OS.renderWebAppStart) main.append(webEntry());
+-            main.append(OS.el('div', { class: 'section-heading', html: '<span>Recommended</span><span class="muted" style="font-weight:400;font-size:10px">Your recent files</span>' }));
++            main.append(OS.el('div', { class: 'section-heading', html: '<span>Zuletzt verwendet</span><span class="muted" style="font-weight:400;font-size:10px">Lokale Dateien</span>' }));
+             const recent = OS.el('div', { class: 'recommended-grid' });
+             main.append(recent);
+-            const paths = OS.shellLaunch?.state.trackRecent === false ? [] : [...new Set([...OS.recent, '/Documents/Welcome to Aster.md', '/Documents/Ideas.txt', '/Projects/Hello Aster.html', '/Music/First light.wav'])].slice(0, 4);
++            const paths = OS.shellLaunch?.state.trackRecent === false ? [] : [...new Set([...OS.recent, OS.luna?.tipPath || '/Documents/Welcome to Aster.md'])].slice(0, 4);
+             if (!paths.length) recent.append(OS.el('button', { class: 'recommended-item', text: 'Recent documents are turned off. Manage recent items.', onclick: () => OS.openApp('settings', { section: 'recentitems' }) }));
+             for (const path of paths) {
+                 const file = await OS.fs.stat(path).catch(() => null);
+@@ -135,7 +146,7 @@
+             if (version !== searchVersion || !start.isConnected)
+                 return;
+             main.replaceChildren();
+-            main.append(OS.el('div', { class: 'section-heading', text: 'Best matches' }));
++            main.append(OS.el('div', { class: 'section-heading', text: 'Suchergebnisse' }));
+             const list = OS.el('div', { class: 'search-results' });
+             for (const app of apps)
+                 list.append(OS.el('button', { class: 'search-result', html: OS.appIcon(app.id, 35) + `<div><strong style="font-size:12px;font-weight:500">${esc(app.title)}</strong><small>App · ${esc(app.category || 'Your apps')}</small></div>`, onclick: () => OS.openApp(app.id),oncontextmenu:e=>appContext(e,app.id) }));
+@@ -167,7 +178,7 @@
+         } };
+         main.onkeydown = e => { if (webMode) return; if (!['ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight'].includes(e.key))
+             return; const items = OS.$$('button.pinned-app,button.search-result', main), index = items.indexOf(document.activeElement); if (index < 0)
+-            return; const columns = input.value || all ? 1 : innerWidth <= 500 ? 4 : 6, delta = { ArrowDown: columns, ArrowUp: -columns, ArrowLeft: -1, ArrowRight: 1 }[e.key]; e.preventDefault(); const next = index + delta; if (next < 0)
++            return; const columns = input.value || all ? 1 : innerWidth <= (OS.luna?780:500) ? 4 : 6, delta = { ArrowDown: columns, ArrowUp: -columns, ArrowLeft: -1, ArrowRight: 1 }[e.key]; e.preventDefault(); const next = index + delta; if (next < 0)
+             input.focus();
+         else
+             items[Math.min(items.length - 1, next)]?.focus(); };
+@@ -251,7 +262,7 @@
+         bar.replaceChildren();
+         bar.classList.toggle('taskbar-left', OS.settings.align === 'left');
+         const now = new Date(), left = OS.el('button', { class: 'task-left', title: 'Your day', 'aria-label': 'Open your day widgets', html: OS.icon('sun', 25) + `<div style="text-align:left"><strong>${esc(now.toLocaleDateString(undefined, { weekday: 'long' }))}</strong><small>${esc(now.toLocaleDateString(undefined, { month: 'short', day: 'numeric' }))} · Your day</small></div>`, onclick: () => OS.showWidgets() });
+-        const center = OS.el('div', { class: 'task-center' }), start = OS.el('button', { class: 'task-button', id: 'start-button', title: 'Start (Ctrl + Space)', 'aria-label': 'Start', html: '<div class="aster-symbol" style="width:27px;height:27px"></div>', onclick: () => OS.toggleStart() }), search = OS.el('button', { class: 'task-search', title: 'Search', 'aria-label': 'Search apps and files', html: OS.icon('search', 18) + '<span>Search</span>', onclick: () => OS.toggleStart(true) }), taskview = OS.el('button', { class: 'task-button', title: 'Task View', 'aria-label': 'Task View', html: OS.icon('taskview', 23), onclick: () => OS.showTaskView() });
++        const center = OS.el('div', { class: 'task-center' }), start = OS.el('button', { class: 'task-button', id: 'start-button', title: 'Start (Ctrl + Space)', 'aria-label': 'Start', html: OS.luna ? '<span class="luna-logo-mark">EDV</span>' : '<div class="aster-symbol" style="width:27px;height:27px"></div>', onclick: () => OS.toggleStart() }), search = OS.el('button', { class: 'task-search', title: 'Search', 'aria-label': 'Programme und Dateien suchen', html: OS.icon('search', 18) + '<span>Suchen</span>', onclick: () => OS.toggleStart(true) }), taskview = OS.el('button', { class: 'task-button', title: 'Task View', 'aria-label': 'Task View', html: OS.icon('taskview', 23), onclick: () => OS.showTaskView() });
+         center.append(start, search, taskview);
+         const apps = [...new Set([...OS.pins.filter(id => OS.apps.has(id) && !OS.apps.get(id).systemFeature), ...Array.from(OS.windows.values()).map(w => w.appId)])];
+         const max = innerWidth > 1200 ? 11 : innerWidth > 900 ? 8 : innerWidth > 700 ? 6 : 5;
+@@ -602,7 +613,7 @@
+             }
+             OS.switchDesktop(OS.desktops[0].id);
+         }
+-        else
++        else if (!OS.luna)
+             OS.openApp('files');
+         await OS.runStartup?.();
+         clockInterval = setInterval(() => { updateClock(); timerTick(); }, 1000);
+@@ -622,6 +633,6 @@
+         }
+         return OS;
+     })().catch(error => { console.error('Aster startup:', error); const boot = $('#boot'); if (boot) {
+-        boot.replaceChildren(OS.el('h1', { text: 'Aster could not start' }), OS.el('p', { text: error.message, style: 'max-width:550px;text-align:center;padding:20px' }), OS.el('button', { class: 'primary', text: 'Try again', onclick: () => location.reload() }));
++        boot.replaceChildren(OS.el('h1', { text: 'Luna Korpus konnte nicht starten' }), OS.el('p', { text: error.message, style: 'max-width:550px;text-align:center;padding:20px' }), OS.el('button', { class: 'primary', text: 'Try again', onclick: () => location.reload() }));
+     } throw error; });
+ })();

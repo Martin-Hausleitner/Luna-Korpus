@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Explorer",
+    "original": "File Explorer",
+    "builtinId": "files",
+    "group": "Büro",
+    "repository": "https://github.com/wieslawsoltes/Aster"
+  },
+  {
+    "name": "Dateien",
+    "original": "TwinForge",
+    "builtinId": null,
+    "group": "Büro",
+    "repository": "https://github.com/wieslawsoltes/TwinForge"
+  },
+  {
+    "name": "Tabelle",
+    "original": "Gridline",
+    "builtinId": null,
+    "group": "Büro",
+    "repository": "https://github.com/wieslawsoltes/Gridline"
+  },
+  {
+    "name": "Planung",
+    "original": "MeridianPlan",
+    "builtinId": null,
+    "group": "Planung",
+    "repository": "https://github.com/wieslawsoltes/MeridianPlan"
+  },
+  {
+    "name": "Kalender",
+    "original": "Calendar",
+    "builtinId": "calendar",
+    "group": "Planung",
+    "repository": "https://github.com/wieslawsoltes/Aster"
+  },
+  {
+    "name": "Akte",
+    "original": "Folio",
+    "builtinId": null,
+    "group": "Büro",
+    "repository": "https://github.com/wieslawsoltes/Folio"
+  },
+  {
+    "name": "PDF",
+    "original": "FolioPro",
+    "builtinId": null,
+    "group": "Büro",
+    "repository": "https://github.com/wieslawsoltes/FolioPro"
+  },
+  {
+    "name": "Notizen",
+    "original": "Notepad",
+    "builtinId": "notepad",
+    "group": "Büro",
+    "repository": "https://github.com/wieslawsoltes/Aster"
+  },
+  {
+    "name": "Rechner",
+    "original": "Calculator",
+    "builtinId": "calculator",
+    "group": "Büro",
+    "repository": "https://github.com/wieslawsoltes/Aster"
+  },
+  {
+    "name": "Zeichnung",
+    "original": "Draftline",
+    "builtinId": null,
+    "group": "Werkstatt",
+    "repository": "https://github.com/wieslawsoltes/Draftline"
+  },
+  {
+    "name": "CAD",
+    "original": "KestrelCAD",
+    "builtinId": null,
+    "group": "Werkstatt",
+    "repository": "https://github.com/wieslawsoltes/KestrelCAD"
+  },
+  {
+    "name": "Korpus",
+    "original": "Formalyth",
+    "builtinId": null,
+    "group": "Werkstatt",
+    "repository": "https://github.com/wieslawsoltes/Formalyth"
+  },
+  {
+    "name": "Material",
+    "original": "StrataForge",
+    "builtinId": null,
+    "group": "Werkstatt",
+    "repository": "https://github.com/wieslawsoltes/StrataForge"
+  },
+  {
+    "name": "Aufmaß",
+    "original": "PlanforgeReview",
+    "builtinId": null,
+    "group": "Werkstatt",
+    "repository": "https://github.com/wieslawsoltes/PlanforgeReview"
+  },
+  {
+    "name": "Tafel",
+    "original": "Orivane",
+    "builtinId": null,
+    "group": "Werkstatt",
+    "repository": "https://github.com/wieslawsoltes/Orivane"
+  },
+  {
+    "name": "Einstellungen",
+    "original": "Settings",
+    "builtinId": "settings",
+    "group": "System",
+    "repository": "https://github.com/wieslawsoltes/Aster"
+  },
+  {
+    "name": "Tipps",
+    "original": "Notepad",
+    "path": "/Desktop/Tipps-Tischler.txt",
+    "repository": "https://github.com/wieslawsoltes/Aster"
+  }
+]
