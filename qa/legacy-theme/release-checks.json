@@ -1,0 +1,144 @@
+{
+  "createdAt": "2026-09-14T09:47:29.710656+00:00",
+  "runtimeSha256": "557d2d02d507bf52bff7c40a2bc13b6488fb428fa0d0aa46b421abd57f463049",
+  "runtimeBytes": 6114324,
+  "pagesPayloadEqualsLocal": true,
+  "screenshots": [
+    {
+      "path": "qa/01-desktop.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "fac7da33949b61e2f751388bda5643e461d516baff738e03c8b6a5260f13d65f"
+    },
+    {
+      "path": "qa/02-start.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "6addb41a12d8758feacdbbbe525d3d32db665f5b1132b476b33830c6b98017d2"
+    },
+    {
+      "path": "qa/03-explorer.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "7cac0af47b6b66a78ce178013db446800ef859eff2fd5c3e30a7c3e4d088d728"
+    },
+    {
+      "path": "qa/04-tabelle.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "402b8a231a862dbcc895d6b8d2db1e7b5a081c7356bc10f1198d21f8c7766c83"
+    },
+    {
+      "path": "qa/05-korpus.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "a9b27469ed135b9589a68e02346099c86557b918a7b623e5ab8bde995198f32c"
+    },
+    {
+      "path": "qa/06-zeichnung.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "544cc3f49a99aff7d8aa63caf271990a032280bb461ad5bb4ccf222b53d2a220"
+    },
+    {
+      "path": "qa/07-multiwindow.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "cf1535d46ce45889feb0e939fd7f6351f4c2b0c63df589ba3b6854ad39f0e04c"
+    },
+    {
+      "path": "qa/08-themes.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "8d60f48f23cb282b5dc1bbb0fe3f5166fada9c0a3cce50bba76404a138acf3a9"
+    },
+    {
+      "path": "qa/09-all-apps.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "eb9db13b2b65600edde66c9c7a135c9314e89b67a7942c97de57992bd4dd6fd1"
+    },
+    {
+      "path": "qa/10-tipps.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "dd71b49fc2f31830cee026331712e6c4edfd10b3f31f0aa3f54ffb8b36e0d1ea"
+    },
+    {
+      "path": "qa/11-app-center.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "b03310d3c48901952c36f93e4ef705cbdc4e988b4f7b1f9e9b88f0fc3a037adf"
+    },
+    {
+      "path": "qa/12-stock-import.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "28be778dda2c2cdfb3be8abc5c784e4c075738c66c545c7a33f073305801679e"
+    },
+    {
+      "path": "qa/13-file-protocol.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "44545fe3adb7bfc883995df87c5d90880989e4d77187bf4ae9d22b04f101ad77"
+    },
+    {
+      "path": "qa/14-file-gridline.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "b88f124e8ffdd850ce50bed941e97d88908ccc4f492da145b6be29da8f4e7e0c"
+    },
+    {
+      "path": "qa/15-gridline-calculation.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "bb7b7e27d207deb98e6fe004aee889e6287e64e18c487c9a1cbea4b4da24cb22"
+    },
+    {
+      "path": "qa/live/01-desktop.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "66c7026839e6c9acd303b1e7868eeec5407052f0548695abcc34a5fb9dc52711"
+    },
+    {
+      "path": "qa/live/05-korpus.png",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "4cd73342f27f70691a11ac2c83b008fddb0d091d41dfa4d97d559c4d2f9cfcf1"
+    }
+  ],
+  "protectedSourceFiles": 86,
+  "catalogStartup": {
+    "passed": 84,
+    "total": 84,
+    "loggedPageErrors": 8
+  },
+  "modelTests": {
+    "passed": 32,
+    "failed": 0
+  },
+  "stockImport": {
+    "title": "Luna Korpus",
+    "profile": "windows",
+    "accent": "#0078c8",
+    "embeddedAssets": 1
+  },
+  "registeredApps": 113,
+  "appCenterBuiltinCount": 20,
+  "gridlineCalculation": {
+    "cell": "L30",
+    "formula": "=32*5",
+    "result": 160
+  },
+  "renderer": "WebGPU",
+  "visionReview": {
+    "local": "PASS",
+    "pages": "PASS",
+    "scope": "Requested Luna theme, launcher and screenshot rubric; catalog startup scope and logged errors are documented",
+    "fixIterations": 2,
+    "checkedLiveCaptures": [
+      "qa/live/01-desktop.png",
+      "qa/live/05-korpus.png"
+    ]
+  }
+}

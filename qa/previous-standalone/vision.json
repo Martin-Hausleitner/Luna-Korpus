@@ -1,0 +1,155 @@
+{
+  "application": "LUNA KORPUS",
+  "review_date": "2026-09-14",
+  "source_sha256": "d542ef15c97f719698be2705278a0ba8730e5b7a5cedab8b0b4adf1ba534f482",
+  "review_method": "Visual review of actual captured browser screenshots, including downloaded native macOS and deployed GitHub Pages evidence. Pixel review is separate from the automated browser assertions.",
+  "local_result": "PASS",
+  "pages_result": "PASS",
+  "rubric": [
+    {
+      "criterion": "Windows 11-inspired chrome, not a landing page",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Blue focused title bars and readable EDV / Hausleitner / LUNA KORPUS",
+      "result": "PASS"
+    },
+    {
+      "criterion": "German UI and millimetre labels",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Cabinet-shaped 3D geometry",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Explosion visibly separates actual parts",
+      "result": "PASS"
+    },
+    {
+      "criterion": "BOM matches displayed model, independently checked numerically",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Required disclaimer visible in workstation",
+      "result": "PASS"
+    },
+    {
+      "criterion": "No Aster branding or empty canvas in reviewed product views",
+      "result": "PASS"
+    }
+  ],
+  "reviewed_screenshots": [
+    {
+      "scope": "local",
+      "path": "01-desktop.png",
+      "result": "PASS",
+      "file": "01-desktop.png",
+      "sha256": "d569f73b84c04a95a869ee11ac953a363b96cf615da200d231f7ea888e97c53d",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "scope": "local",
+      "path": "02-korpus-solid.png",
+      "result": "PASS",
+      "file": "02-korpus-solid.png",
+      "sha256": "21fbb81a568e8d2462a8c71929ffe64221a6e915d87e6fb0844dce3308729d6f",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "scope": "local",
+      "path": "03-explode.png",
+      "result": "PASS",
+      "file": "03-explode.png",
+      "sha256": "b65550ac3a4e3d9383f62d3225493ff45b1e2a1e2d960ee6375456ae31d71cd6",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "scope": "local",
+      "path": "04-bom.png",
+      "result": "PASS",
+      "file": "04-bom.png",
+      "sha256": "591668896a04cbfb899aa0c50ef2c7cbc65b1f5e822443a9b81bc46f506906af",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "scope": "local",
+      "path": "05-32mm.png",
+      "result": "PASS",
+      "file": "05-32mm.png",
+      "sha256": "9b85359b7e8fb5f9d95c6b722d3a87e95641d36333e412b70c76cfa2cff5011a",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "scope": "local",
+      "path": "06-zeile.png",
+      "result": "PASS",
+      "file": "06-zeile.png",
+      "sha256": "047d52ff7ea1adfd08560559e265b2cfb85595a2f6232dbb705d2b0ea219ad0d",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "scope": "local",
+      "path": "07-multiwindow.png",
+      "result": "PASS",
+      "file": "07-multiwindow.png",
+      "sha256": "19b5264f3e0c7c2d73f865ce8247d053a025741ced856ad7c1cb38bec92d515c",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "scope": "local",
+      "path": "08-settings.png",
+      "result": "PASS",
+      "file": "08-settings.png",
+      "sha256": "e45c4a919234cad21fb7c73cbf9176a76cc2efd6f616e94d6313adc51da50895",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "scope": "local",
+      "path": "10-korpus-1440.png",
+      "result": "PASS",
+      "file": "10-korpus-1440.png",
+      "sha256": "1d2f7ffc21d3e509497639e64ccf4a8cc353a41694b2865caad363c01a1a68b8",
+      "width": 1440,
+      "height": 900,
+      "renderer": "WebGPU"
+    },
+    {
+      "scope": "live",
+      "path": "live/01-desktop.png",
+      "result": "PASS",
+      "file": "01-desktop.png",
+      "sha256": "988331878986326ac92054928e86c226b94aa1b9042f14ca258a31c6735200a3",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "scope": "live",
+      "path": "live/03-explode.png",
+      "result": "PASS",
+      "file": "03-explode.png",
+      "sha256": "92b1d62f755e78728ef13e40a74d996fe155fe93acea154724e54d857bc3d82f",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    }
+  ],
+  "scope_note": "All eight required local images and the 1440x900 image were visually reviewed. The specifically required live images 01 and 03 were visually reviewed. Both complete browser suites passed 70 assertions; not every additional live image is individually claimed as visually reviewed."
+}

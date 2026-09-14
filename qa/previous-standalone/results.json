@@ -1,0 +1,552 @@
+{
+  "application": "LUNA KORPUS",
+  "source_sha256": "d542ef15c97f719698be2705278a0ba8730e5b7a5cedab8b0b4adf1ba534f482",
+  "observed_at": "2026-09-14T09:59:12.000635+00:00",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "execution": "browser navigation / real origin",
+  "url": "http://127.0.0.1:55980/Luna-Korpus.html",
+  "checks": [
+    {
+      "name": "Native WebGPU adapter, shader and draw",
+      "status": "PASS",
+      "category": "native",
+      "detail": ""
+    },
+    {
+      "name": "Native localStorage read/write",
+      "status": "PASS",
+      "category": "native",
+      "detail": ""
+    },
+    {
+      "name": "Bootstrap <= 700 ms",
+      "status": "PASS",
+      "category": "browser",
+      "detail": "69.5 ms"
+    },
+    {
+      "name": "First cabinet render < 1 s",
+      "status": "PASS",
+      "category": "browser",
+      "detail": "69.5 ms"
+    },
+    {
+      "name": "Required architecture namespaces",
+      "status": "PASS",
+      "category": "source",
+      "detail": ""
+    },
+    {
+      "name": "80–250 KB single runtime file",
+      "status": "PASS",
+      "category": "source",
+      "detail": "139780 bytes"
+    },
+    {
+      "name": "No iframe / external script / external font",
+      "status": "PASS",
+      "category": "source",
+      "detail": ""
+    },
+    {
+      "name": "No runtime network dependencies",
+      "status": "PASS",
+      "category": "browser",
+      "detail": "['http://127.0.0.1:55980/Luna-Korpus.html']"
+    },
+    {
+      "name": "600 base: every part matches independent dimensions",
+      "status": "PASS",
+      "category": "model",
+      "detail": ""
+    },
+    {
+      "name": "600 base: independently calculated totals",
+      "status": "PASS",
+      "category": "model",
+      "detail": "{\"area\": 2.6033799999999996, \"purchaseArea\": 2.6033799999999996, \"edgeM\": 6.3100000000000005, \"materialCost\": 177.02983999999998, \"edgeCost\": 9.1495, \"hardwareCost\": 42.81999999999999, \"woodQty\": 8, \"hardwareQty\": 13, \"wastePercent\": 0, \"total\": 228.99933999999996}"
+    },
+    {
+      "name": "BOM panel volume equals visible panel geometry",
+      "status": "PASS",
+      "category": "model",
+      "detail": ""
+    },
+    {
+      "name": "Hole schedule: 80 holes, 32-mm steps, 37-mm front datum",
+      "status": "PASS",
+      "category": "model",
+      "detail": ""
+    },
+    {
+      "name": "Hardware: 2 hinges + 2 plates + 4 pins + 4 feet + handle",
+      "status": "PASS",
+      "category": "model",
+      "detail": ""
+    },
+    {
+      "name": "No hardware accidentally selected in initial view",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Width input drives CAD and BOM live",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Invalid dimension rejected without corrupting model",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Independent back thickness changes carcass depth allocation",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Side thickness input safely adjusts door overlay",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Two real door leaves and four hinges",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Door grain direction changes model and export",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Selected-part edge override updates raw cut size",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Door removal removes door panels and door hardware",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "12% waste applies only to panel material",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Undo restores model/waste state",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Redo restores last change",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "White material changes all panels and prices",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Plywood preset sets all six thicknesses to 15",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Tree selection highlights BOM row",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "3D ray picking selects the actual right panel",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Orbit drag changes camera",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Wheel zoom changes camera distance",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Shift-drag pans camera",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Explode really separates side panel by 169 mm",
+      "status": "PASS",
+      "category": "geometry",
+      "detail": ""
+    },
+    {
+      "name": "Explode preserves exact BOM dimensions",
+      "status": "PASS",
+      "category": "model",
+      "detail": ""
+    },
+    {
+      "name": "Explosion slider controls part separation",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Door slider rotates real geometry closed",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Door slider rotates real geometry open",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "System-32 inspector and 3D hole display",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Preset wall: valid panels and finite totals",
+      "status": "PASS",
+      "category": "model",
+      "detail": "9 panels"
+    },
+    {
+      "name": "Preset tall: valid panels and finite totals",
+      "status": "PASS",
+      "category": "model",
+      "detail": "11 panels"
+    },
+    {
+      "name": "Tall unit hinge-height rule",
+      "status": "PASS",
+      "category": "model",
+      "detail": ""
+    },
+    {
+      "name": "Preset shelf: valid panels and finite totals",
+      "status": "PASS",
+      "category": "model",
+      "detail": "9 panels"
+    },
+    {
+      "name": "Preset corner: valid panels and finite totals",
+      "status": "PASS",
+      "category": "model",
+      "detail": "14 panels"
+    },
+    {
+      "name": "L-corner is two abutting rectangular arms",
+      "status": "PASS",
+      "category": "model",
+      "detail": ""
+    },
+    {
+      "name": "48 dimension combinations: valid generated panels and totals",
+      "status": "PASS",
+      "category": "model",
+      "detail": "{'count': 48, 'errors': []}"
+    },
+    {
+      "name": "Kitchen library loads 3 base + 2 wall modules",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Kitchen switcher retains per-module edits",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "CSV download contains actual parts, hardware and total",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "JSON export contains model, BOM, hole schedule, no CNC",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "2D drawing is generated from the active model",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "SVG drawing export is a real standalone SVG",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "DXF export contains model-derived millimetre LINE entities",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "JSON import recalculates instead of trusting supplied totals",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Invalid import leaves existing model unchanged",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Native handoff writes contract key and actual BOM",
+      "status": "PASS",
+      "category": "native",
+      "detail": ""
+    },
+    {
+      "name": "Native reload restores stored model",
+      "status": "PASS",
+      "category": "native",
+      "detail": ""
+    },
+    {
+      "name": "Settings force real Canvas fallback without losing model",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Theme changes shared window tokens",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Start search filters app registry",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Start launches an in-process window",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Caption minimize hides window",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Taskbar restores minimized window",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Caption maximize changes window state",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Caption drag moves window",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Caption close removes auxiliary window",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "1440×900 window remains inside usable desktop",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "1440×900 footer and 3D canvas are visible",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "Narrow-screen main window fits browser width",
+      "status": "PASS",
+      "category": "browser",
+      "detail": ""
+    },
+    {
+      "name": "No JavaScript runtime errors",
+      "status": "PASS",
+      "category": "browser",
+      "detail": "[]"
+    },
+    {
+      "name": "Application error collector is empty",
+      "status": "PASS",
+      "category": "browser",
+      "detail": "[]"
+    }
+  ],
+  "console_errors": [],
+  "screenshots": [
+    {
+      "file": "02-korpus-solid.png",
+      "sha256": "21fbb81a568e8d2462a8c71929ffe64221a6e915d87e6fb0844dce3308729d6f",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "file": "03-explode.png",
+      "sha256": "b65550ac3a4e3d9383f62d3225493ff45b1e2a1e2d960ee6375456ae31d71cd6",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "file": "04-bom.png",
+      "sha256": "591668896a04cbfb899aa0c50ef2c7cbc65b1f5e822443a9b81bc46f506906af",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "file": "05-32mm.png",
+      "sha256": "9b85359b7e8fb5f9d95c6b722d3a87e95641d36333e412b70c76cfa2cff5011a",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "file": "06-zeile.png",
+      "sha256": "047d52ff7ea1adfd08560559e265b2cfb85595a2f6232dbb705d2b0ea219ad0d",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "file": "07-multiwindow.png",
+      "sha256": "19b5264f3e0c7c2d73f865ce8247d053a025741ced856ad7c1cb38bec92d515c",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "file": "08-settings.png",
+      "sha256": "e45c4a919234cad21fb7c73cbf9176a76cc2efd6f616e94d6313adc51da50895",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "file": "01-desktop.png",
+      "sha256": "d569f73b84c04a95a869ee11ac953a363b96cf615da200d231f7ea888e97c53d",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "file": "09-drawing.png",
+      "sha256": "d8b2c1210b72d711522f2388f6e996643475a88e9036cc68afc2c834d516d95a",
+      "width": 1920,
+      "height": 1080,
+      "renderer": "WebGPU"
+    },
+    {
+      "file": "10-korpus-1440.png",
+      "sha256": "1d2f7ffc21d3e509497639e64ccf4a8cc353a41694b2865caad363c01a1a68b8",
+      "width": 1440,
+      "height": 900,
+      "renderer": "WebGPU"
+    },
+    {
+      "file": "11-mobile.png",
+      "sha256": "67f7274890d16d5132b23423d4cce57d5b0581ee5e7a6637a2a7fab238d70bc7",
+      "width": 390,
+      "height": 844,
+      "renderer": "WebGPU"
+    }
+  ],
+  "limitations": [],
+  "browser_launch": {
+    "backend": "native",
+    "flags": [
+      "--no-sandbox",
+      "--enable-unsafe-webgpu"
+    ],
+    "host": "Darwin"
+  },
+  "startup_metrics": {
+    "bootMs": 69.5,
+    "firstFrameMs": 69.5,
+    "webgpuFrameMs": 552.0999999940395,
+    "renderMs": 9.5
+  },
+  "gpu": {
+    "active": true,
+    "reason": "",
+    "adapter": {
+      "vendor": "apple",
+      "architecture": "metal-3",
+      "description": ""
+    }
+  },
+  "native_storage": true,
+  "application_errors": [],
+  "final_metrics": {
+    "bootMs": 14.299999997019768,
+    "firstFrameMs": 14.299999997019768,
+    "webgpuFrameMs": 115.09999999403954,
+    "renderMs": 1
+  },
+  "summary": {
+    "passed": 70,
+    "failed": 0,
+    "blocked": 0,
+    "functional_result": "PASS",
+    "full_acceptance": "PASS"
+  }
+}

@@ -1,0 +1,40 @@
+✔ Twelve independent presets use supported profiles and round-trip normalized descriptors (2.740083ms)
+✔ Declarative themes reject unsupported versions and discard executable CSS properties (0.234083ms)
+✔ Metrics and taskbar bounds are enforced without arbitrary CSS injection (0.112917ms)
+✔ Windows, macOS and Ubuntu reserve distinct work areas including side/right docks (0.192959ms)
+✔ Auto-hide work-area reserves a reveal edge; contrast text follows luminance (0.175167ms)
+✔ All presets round-trip through Windows INI with a non-executable Aster extension (3.652542ms)
+✔ Windows INI maps standard colors, wallpaper style and colorization (0.35375ms)
+✔ Missing required INI sections, unsafe colors and corrupt extensions are errors (0.833375ms)
+✔ Portable assets round-trip, while companion-less .theme imports report omissions (1.922792ms)
+✔ Asset paths, MIME types, duplicate semantics and allocation quotas are bounded (0.354542ms)
+✔ INI decoding supports UTF-16 BOM and rejects malformed input and excessive text (1.439083ms)
+✔ CUR hotspots, bounded ANI frame sequence and WAV headers validate (0.819333ms)
+✔ Malformed cursor offsets, hotspots, RIFF lengths and huge image dimensions reject (0.361666ms)
+✔ Stored CAB is binary exact across multiple blocks and Unicode paths (14.109042ms)
+✔ CAB traversal, case-insensitive duplicates and file/directory conflicts reject (0.364041ms)
+✔ CAB corruption, unsupported compression and truncated blocks are explicit errors (0.258916ms)
+✔ Original raw DEFLATE decoder agrees with independent zlib for stored/fixed/dynamic blocks (6.459ms)
+✔ MSZIP dictionary decoding agrees with zlib and rejects absent history/output overruns (1.315416ms)
+✔ Asset-rich theme packs round-trip without network or executable dependencies (1.384125ms)
+✔ Every audited web project appears exactly once; only Aster itself is excluded (1.048875ms)
+✔ The inclusive Sunday–Tuesday window uses Warsaw time, not UTC midnight (0.282083ms)
+✔ Category submenus cover all projects and never contain an empty folder (0.13275ms)
+✔ Launch URLs, repository identity, descriptions and deployment evidence agree (0.865ms)
+✔ Catalog objects and collections are immutable (0.127958ms)
+✔ All projects register real mounts without DOM, network or eager iframe creation (2.421167ms)
+✔ The host rejects arbitrary origins, schemes, credentials and altered paths (3.642459ms)
+✔ Static and standalone loaders include catalog before launcher and shell (19.847292ms)
+✔ Requested Veyra Workspace and Asterion EDA entries keep their category and media scope (1.26025ms)
+✔ The five requested tools are unique, categorized and searchable without added media access (1.20525ms)
+✔ September 10 requested additions remain unique, searchable, scoped and explicitly audited (0.915292ms)
+✔ Requested workspace and design apps are unique, searchable and do not gain media access (1.137083ms)
+✔ The standalone embeds the exact same catalog, including all five additions (74.061375ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 190.161542

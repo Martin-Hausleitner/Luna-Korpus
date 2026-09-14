@@ -1,0 +1,1678 @@
+{
+  "schema": "luna.korpus/v1",
+  "model": {
+    "type": "base",
+    "width": 600,
+    "height": 720,
+    "depth": 560,
+    "side": 19,
+    "top": 19,
+    "bottom": 19,
+    "back": 19,
+    "shelf": 19,
+    "front": 19,
+    "plinth": 120,
+    "reveal": 2,
+    "overlay": 17,
+    "doors": 1,
+    "shelves": 1,
+    "grain": "vertical",
+    "material": "oak",
+    "edge": 1,
+    "edges": [
+      "L1"
+    ],
+    "edgeOverrides": {},
+    "cornerLeg": 350
+  },
+  "settings": {
+    "theme": "light",
+    "contrast": false,
+    "reducedMotion": false,
+    "autoSave": true,
+    "quality": 1.5,
+    "forceCanvas": false
+  },
+  "view": {
+    "mode": "solid",
+    "explode": 0.65,
+    "doorAngle": 108,
+    "dimensions": true,
+    "holes": false,
+    "grid": true
+  },
+  "waste": false,
+  "run": null,
+  "runIndex": 0,
+  "handedOff": null,
+  "exportedAt": "2026-09-14T10:07:37.481Z",
+  "product": "LUNA KORPUS",
+  "version": "1.0.0",
+  "units": "mm",
+  "currency": "EUR",
+  "parts": [
+    {
+      "id": "S01",
+      "name": "Seite links",
+      "L": 720,
+      "W": 541,
+      "T": 19,
+      "qty": 1,
+      "material": "Eiche furniert",
+      "materialId": "oak",
+      "grain": "vertikal",
+      "edges": [
+        "L1"
+      ],
+      "edgeThickness": 1,
+      "area": 0.38952,
+      "edgeM": 0.72,
+      "costPerM2": 68,
+      "materialCost": 26.48736,
+      "edgeCost": 1.044,
+      "cost": 27.53136,
+      "cutL": 720,
+      "cutW": 540
+    },
+    {
+      "id": "S02",
+      "name": "Seite rechts",
+      "L": 720,
+      "W": 541,
+      "T": 19,
+      "qty": 1,
+      "material": "Eiche furniert",
+      "materialId": "oak",
+      "grain": "vertikal",
+      "edges": [
+        "L1"
+      ],
+      "edgeThickness": 1,
+      "area": 0.38952,
+      "edgeM": 0.72,
+      "costPerM2": 68,
+      "materialCost": 26.48736,
+      "edgeCost": 1.044,
+      "cost": 27.53136,
+      "cutL": 720,
+      "cutW": 540
+    },
+    {
+      "id": "B01",
+      "name": "Unterboden",
+      "L": 562,
+      "W": 541,
+      "T": 19,
+      "qty": 1,
+      "material": "Eiche furniert",
+      "materialId": "oak",
+      "grain": "horizontal",
+      "edges": [
+        "L1"
+      ],
+      "edgeThickness": 1,
+      "area": 0.304042,
+      "edgeM": 0.562,
+      "costPerM2": 68,
+      "materialCost": 20.674856,
+      "edgeCost": 0.8149000000000001,
+      "cost": 21.489756,
+      "cutL": 562,
+      "cutW": 540
+    },
+    {
+      "id": "B02",
+      "name": "Oberboden",
+      "L": 562,
+      "W": 541,
+      "T": 19,
+      "qty": 1,
+      "material": "Eiche furniert",
+      "materialId": "oak",
+      "grain": "horizontal",
+      "edges": [
+        "L1"
+      ],
+      "edgeThickness": 1,
+      "area": 0.304042,
+      "edgeM": 0.562,
+      "costPerM2": 68,
+      "materialCost": 20.674856,
+      "edgeCost": 0.8149000000000001,
+      "cost": 21.489756,
+      "cutL": 562,
+      "cutW": 540
+    },
+    {
+      "id": "R01",
+      "name": "Rückwand",
+      "L": 720,
+      "W": 600,
+      "T": 19,
+      "qty": 1,
+      "material": "Eiche furniert",
+      "materialId": "oak",
+      "grain": "vertikal",
+      "edges": [],
+      "edgeThickness": 1,
+      "area": 0.432,
+      "edgeM": 0,
+      "costPerM2": 68,
+      "materialCost": 29.376,
+      "edgeCost": 0,
+      "cost": 29.376,
+      "cutL": 720,
+      "cutW": 600
+    },
+    {
+      "id": "F01",
+      "name": "Fachboden 1",
+      "L": 560,
+      "W": 518,
+      "T": 19,
+      "qty": 1,
+      "material": "Eiche furniert",
+      "materialId": "oak",
+      "grain": "horizontal",
+      "edges": [
+        "L1"
+      ],
+      "edgeThickness": 1,
+      "area": 0.29008,
+      "edgeM": 0.56,
+      "costPerM2": 68,
+      "materialCost": 19.72544,
+      "edgeCost": 0.812,
+      "cost": 20.53744,
+      "cutL": 560,
+      "cutW": 517
+    },
+    {
+      "id": "P01",
+      "name": "Sockelblende",
+      "L": 562,
+      "W": 120,
+      "T": 19,
+      "qty": 1,
+      "material": "Eiche furniert",
+      "materialId": "oak",
+      "grain": "horizontal",
+      "edges": [
+        "L1"
+      ],
+      "edgeThickness": 1,
+      "area": 0.06744,
+      "edgeM": 0.562,
+      "costPerM2": 68,
+      "materialCost": 4.58592,
+      "edgeCost": 0.8149000000000001,
+      "cost": 5.4008199999999995,
+      "cutL": 562,
+      "cutW": 119
+    },
+    {
+      "id": "D01",
+      "name": "Tür",
+      "L": 716,
+      "W": 596,
+      "T": 19,
+      "qty": 1,
+      "material": "Eiche furniert",
+      "materialId": "oak",
+      "grain": "vertikal",
+      "edges": [
+        "L1",
+        "L2",
+        "B1",
+        "B2"
+      ],
+      "edgeThickness": 1,
+      "area": 0.426736,
+      "edgeM": 2.624,
+      "costPerM2": 68,
+      "materialCost": 29.018048,
+      "edgeCost": 3.8048,
+      "cost": 32.822848,
+      "cutL": 714,
+      "cutW": 594
+    }
+  ],
+  "hardware": [
+    {
+      "id": "H01",
+      "name": "Topfscharnier, schematisch",
+      "qty": 2,
+      "unitPrice": 6.8,
+      "note": "Blum-artiger 110°-Beschlag; Anzahl nur Höhenregel, nicht herstellerfreigegeben.",
+      "total": 13.6
+    },
+    {
+      "id": "H02",
+      "name": "Montageplatte",
+      "qty": 2,
+      "unitPrice": 1.9,
+      "note": "Eine Platte je Scharnier; keine Artikelnummer.",
+      "total": 3.8
+    },
+    {
+      "id": "H03",
+      "name": "Fachbodenträger Ø 5 mm",
+      "qty": 4,
+      "unitPrice": 0.18,
+      "note": "Vier Träger je Fachboden.",
+      "total": 0.72
+    },
+    {
+      "id": "H04",
+      "name": "Sockelfuß, schematisch",
+      "qty": 4,
+      "unitPrice": 3.8,
+      "note": "Vier Füße je Korpus; Tragfähigkeit nicht nachgewiesen.",
+      "total": 15.2
+    },
+    {
+      "id": "H05",
+      "name": "Stangengriff, 128 mm",
+      "qty": 1,
+      "unitPrice": 9.5,
+      "note": "Bohrabstand 128 mm; Montage nur visualisiert.",
+      "total": 9.5
+    }
+  ],
+  "totals": {
+    "area": 2.6033799999999996,
+    "purchaseArea": 2.6033799999999996,
+    "edgeM": 6.3100000000000005,
+    "materialCost": 177.02983999999998,
+    "edgeCost": 9.1495,
+    "hardwareCost": 42.81999999999999,
+    "woodQty": 8,
+    "hardwareQty": 13,
+    "wastePercent": 0,
+    "total": 228.99933999999996
+  },
+  "holeSchedule": [
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 1,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 176,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 2,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 208,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 3,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 240,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 4,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 272,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 5,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 304,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 6,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 336,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 7,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 368,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 8,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 400,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 9,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 432,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 10,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 464,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 11,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 496,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 12,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 528,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 13,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 560,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 14,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 592,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 15,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 624,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 16,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 656,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 17,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 688,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 18,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 720,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 19,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 752,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "vorn",
+      "index": 20,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 784,
+      "z": 243,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 1,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 176,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 2,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 208,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 3,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 240,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 4,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 272,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 5,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 304,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 6,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 336,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 7,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 368,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 8,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 400,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 9,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 432,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 10,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 464,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 11,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 496,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 12,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 528,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 13,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 560,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 14,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 592,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 15,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 624,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 16,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 656,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 17,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 688,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 18,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 720,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 19,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 752,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S01",
+      "row": "hinten",
+      "index": 20,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": -281,
+      "y": 784,
+      "z": -224,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 1,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 176,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 2,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 208,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 3,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 240,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 4,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 272,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 5,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 304,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 6,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 336,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 7,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 368,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 8,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 400,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 9,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 432,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 10,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 464,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 11,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 496,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 12,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 528,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 13,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 560,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 14,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 592,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 15,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 624,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 16,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 656,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 17,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 688,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 18,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 720,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 19,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 752,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "vorn",
+      "index": 20,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 784,
+      "z": 243,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 1,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 176,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 2,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 208,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 3,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 240,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 4,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 272,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 5,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 304,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 6,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 336,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 7,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 368,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 8,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 400,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 9,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 432,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 10,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 464,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 11,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 496,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 12,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 528,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 13,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 560,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 14,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 592,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 15,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 624,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 16,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 656,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 17,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 688,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 18,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 720,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 19,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 752,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "partId": "S02",
+      "row": "hinten",
+      "index": 20,
+      "diameter": 5,
+      "depth": 12,
+      "datumFront": 37,
+      "step": 32,
+      "x": 281,
+      "y": 784,
+      "z": -224,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    }
+  ],
+  "shelfLevels": [
+    {
+      "id": "F01",
+      "y": 466.5,
+      "pinY": 464,
+      "systemIndex": 10
+    }
+  ],
+  "conventions": {
+    "units": "mm",
+    "height": "Korpus ohne Sockel",
+    "depth": "Korpus einschließlich aufgesetzter Rückwand, ohne Tür",
+    "panels": "Fertigmaße; Kantenabzug getrennt im Export",
+    "holes": "37 mm ab Korpusvorderkante; vertikal 37 mm über Unterboden, Raster 32 mm",
+    "corner": "Zwei rechteckige Korpusse, stumpf verbunden"
+  },
+  "priceNotice": "Unverbindliche Demo-Einkaufspreise in EUR netto. Keine USt., Arbeit, Lieferkosten oder CNC-Leistungen. Verschnitt nur auf Plattenmaterial.",
+  "warnings": [
+    "Scharnierzahl ist eine Demo-Höhenregel. Türgewicht, Öffnungswinkel und Aufschlag müssen fachlich geprüft werden."
+  ],
+  "manufacturingApproved": false,
+  "cnc": false
+}
