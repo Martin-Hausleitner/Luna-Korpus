@@ -1,0 +1,59 @@
+PASS Boot with 29 built-in apps and 84 lazy web app entries
+PASS Virtual file CRUD, subtree copy, move, recycle, restore
+PASS Protected folders and invalid destinations reject safely
+PASS Calculator parser arithmetic, scientific functions and errors
+PASS App mount: clipboard-tools
+PASS App mount: files
+PASS App mount: notepad
+PASS App mount: terminal
+PASS App mount: paint
+PASS App mount: photos
+PASS App mount: media
+PASS App mount: code
+PASS App mount: snips
+PASS App mount: calculator
+PASS App mount: calendar
+PASS App mount: clock
+PASS App mount: tasks
+PASS App mount: mines
+PASS App mount: settings
+PASS App mount: taskmanager
+PASS App mount: welcome
+PASS App mount: clipboard
+PASS App mount: focus
+PASS App mount: widgets
+PASS App mount: workspaces
+PASS App mount: history
+PASS App mount: storage
+PASS App mount: archives
+PASS App mount: accessibility
+PASS App mount: recorder
+PASS App mount: win32
+PASS App mount: store
+PASS App mount: browser
+PASS Notepad actual typing and Ctrl+S save
+PASS Unsaved document close can be cancelled
+PASS Terminal commands manipulate real virtual files
+PASS Window manager pointer drag, resize and state transitions
+PASS Virtual desktop switching and window transfer
+PASS Start menu app search and keyboard launch
+PASS File Explorer searches actual saved file
+PASS Paint pointer drawing and real PNG save
+PASS Photos decodes the newly created PNG
+PASS Code Studio executes sandbox app and saves project
+PASS Orbit Browser runs local HTML application
+PASS Media Player actual audio decode and playback
+PASS Tasks and Calendar store editable records
+PASS Mines game logic and completion
+PASS Settings views, themes and 12-hour preference
+PASS Backup JSON text and binary round-trip
+PASS HTML app installation and sandbox registration
+PASS Timer expiry notification
+PASS Visual lock resumes without losing windows
+PASS Narrow-screen layout
+PASS No uncaught JavaScript exceptions
+{
+  "passed": 54,
+  "failed": 0,
+  "report": "/Users/mh/.local/share/luna-korpus-rebuild-20260914/Aster/tests/results.json"
+}

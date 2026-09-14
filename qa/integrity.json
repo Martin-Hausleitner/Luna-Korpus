@@ -1,0 +1,256 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "Exactly nineteen original entries",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Tabelle (Gridline) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/tabelle.html",
+        "sha256": "31aa5e1ed31ba6e428ffd86c7ed4c734b71b3589d89a8f5d909b68e037c2d6de"
+      }
+    },
+    {
+      "name": "Planung (MeridianPlan) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/planung.html",
+        "sha256": "56df9a77c12c603e5ffb6a25d009933c7d71950565583e1bf910eea3b9afdfd3"
+      }
+    },
+    {
+      "name": "Office (MeridianOffice) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/office.html",
+        "sha256": "3a0e4675ee91caf6e30f21085c227bcaf237f2a536cd17d6ea6387cd38cfa885"
+      }
+    },
+    {
+      "name": "Dateien (TwinForge) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/dateien.html",
+        "sha256": "4500f74c6bbd142a7dd42589c56cc31e8b0b3af6c32e112714ea7572ed82ac87"
+      }
+    },
+    {
+      "name": "Akte (Folio) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/akte.html",
+        "sha256": "a3f7154e814b9a5d235be6dfdc495728e01e4f084f19fccda6b7caf5ea7cf7a5"
+      }
+    },
+    {
+      "name": "Folio exact modular assets",
+      "pass": true,
+      "details": {
+        "count": 14,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "PDF (FolioPro) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/pdf.html",
+        "sha256": "b97a999c900eaf7cb29ffa583606a5ff278f091a06861491352c965a563266bf"
+      }
+    },
+    {
+      "name": "Mail (Quire) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/mail.html",
+        "sha256": "926a26348f2a38c012b112d2e7bcbe779ada5dd290f56a4e3cf08388e5cf52a8"
+      }
+    },
+    {
+      "name": "Text (NotepadXP) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/text.html",
+        "sha256": "44e40442a9369f3b25f8c36081dee70492e05feb92c59f23d2eba577b887f401"
+      }
+    },
+    {
+      "name": "Auswertung (LatticeAnalytics) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/auswertung.html",
+        "sha256": "b8bf1e6b70e782896ccb14c642d661b79247b449be8a7b9be4e64f11a29a8f6f"
+      }
+    },
+    {
+      "name": "Rechenblatt (AxiomWorksheet) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/rechenblatt.html",
+        "sha256": "a35994b859c598628a25089cec5fa220c7f3504953af9237d4a8156b24e09062"
+      }
+    },
+    {
+      "name": "Zeichnung (Draftline) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/zeichnung.html",
+        "sha256": "f60d7a4e4a326c8284d991d97fee8adc2361e71ef97a72063efc8cb4c7692278"
+      }
+    },
+    {
+      "name": "CAD (KestrelCAD) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/cad.html",
+        "sha256": "2b0540122c005c6930592136e0420aedb61163ad6bb2e34a12ce5e25e764c886"
+      }
+    },
+    {
+      "name": "Aufmaß (PlanforgeReview) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/aufmass.html",
+        "sha256": "8bfde19ee7e113a87a5c93de218819038b5af8b6d753869d5960d1f3ceec6aef"
+      }
+    },
+    {
+      "name": "PlanforgeReview exact modular assets",
+      "pass": true,
+      "details": {
+        "count": 219,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Tafel (Orivane) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/tafel.html",
+        "sha256": "af0ed56a09db28ab9dfbfb2de6c73540c4d2dbf21cc8d62bd302a6a5dbd6dce6"
+      }
+    },
+    {
+      "name": "Gespräch (Veyra Workspace) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/gespraech.html",
+        "sha256": "18c9b4148c58adf79c63851c07ac821adcc67fe28dbb349efde23ee3742e7795"
+      }
+    },
+    {
+      "name": "VeyraWorkspace exact modular assets",
+      "pass": true,
+      "details": {
+        "count": 21,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Signatur (Velsign) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/signatur.html",
+        "sha256": "93c39f71808185dd5e1f2daff06a6648bf49d815cbed7cd50ca90fe45b868e97"
+      }
+    },
+    {
+      "name": "Velsign exact modular assets",
+      "pass": true,
+      "details": {
+        "count": 221,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Korpus (Formalyth) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/korpus.html",
+        "sha256": "1385d5092a32e2ca78a1c9b252d650b144b7bcb04eb98307fe990122f34df4ef"
+      }
+    },
+    {
+      "name": "Formalyth exact modular assets",
+      "pass": true,
+      "details": {
+        "count": 104,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Material (StrataForge) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/material.html",
+        "sha256": "75fe77825d6e3165bdb42ece7277c31be935e6beec788029d84ef9f28b79227e"
+      }
+    },
+    {
+      "name": "StrataForge exact modular assets",
+      "pass": true,
+      "details": {
+        "count": 20,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Modell (Avolith Studio) exact upstream HTML",
+      "pass": true,
+      "details": {
+        "path": "Apps/modell.html",
+        "sha256": "9406611dcc750711a215b446cd16102249479be394711d651b080de6f749e531"
+      }
+    },
+    {
+      "name": "Stock Aster builder SHA-256",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Native engine unchanged: src/apps-files.js",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Native engine unchanged: src/apps-tools.js",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Native engine unchanged: src/apps-creative.js",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Native engine unchanged: src/renderer.js",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Pages entry equals themed Aster",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "The rejected Luna.html is absent",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Export is native Aster theme format",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Export uses Windows and requested accent",
+      "pass": true,
+      "details": null
+    }
+  ],
+  "entrySha256": "1879e3bba5b607579046e337bd16f414757271e1c465b174f3138f81d588afe3"
+}

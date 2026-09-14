@@ -1,0 +1,178 @@
+{
+  "format": "strataforge",
+  "version": 1,
+  "id": "fb770cee-0060-469c-b921-55a35fe9f47b",
+  "name": "Volcanic Stone",
+  "resolution": 512,
+  "seed": 17,
+  "nodes": [
+    {
+      "id": "354d59cc-b39b-4563-997a-d9bdb0000450",
+      "type": "cells",
+      "x": 0,
+      "y": 55,
+      "label": "Mineral structure",
+      "params": {
+        "scale": 24,
+        "jitter": 1,
+        "seed": 4,
+        "mode": "edges"
+      },
+      "scale": 0
+    },
+    {
+      "id": "c38981a7-f71d-46cc-93dd-a09cd9033712",
+      "type": "noise",
+      "x": 0,
+      "y": 265,
+      "label": "Surface grain",
+      "params": {
+        "scale": 48,
+        "octaves": 4,
+        "roughness": 0.55,
+        "seed": 22,
+        "contrast": 1.8
+      },
+      "scale": 0
+    },
+    {
+      "id": "83e15d52-fe20-4344-9313-7c552ea3a263",
+      "type": "blend",
+      "x": 240,
+      "y": 135,
+      "label": "Surface relief",
+      "params": {
+        "mode": "multiply",
+        "opacity": 0.35
+      },
+      "scale": 0
+    },
+    {
+      "id": "d2885b60-4d73-43d0-8a86-5c84e540f69f",
+      "type": "gradientMap",
+      "x": 490,
+      "y": 0,
+      "label": "Material colors",
+      "params": {
+        "dark": "#111820",
+        "mid": "#323b42",
+        "light": "#626661",
+        "position": 0.52
+      },
+      "scale": 0
+    },
+    {
+      "id": "70401f33-945e-4242-9cf4-7b2b5678faf2",
+      "type": "normal",
+      "x": 490,
+      "y": 195,
+      "label": "Surface normal",
+      "params": {
+        "strength": 2.5,
+        "format": "OpenGL"
+      },
+      "scale": 0
+    },
+    {
+      "id": "ea84cc91-d2b3-4ab7-acf7-c52b28eda7a8",
+      "type": "levels",
+      "x": 490,
+      "y": 395,
+      "label": "Surface roughness",
+      "params": {
+        "low": 0,
+        "high": 1,
+        "gamma": 1,
+        "outLow": 0.7,
+        "outHigh": 0.9
+      },
+      "scale": 0
+    },
+    {
+      "id": "574cf5ac-2f19-412f-84cb-01f5b7b85176",
+      "type": "ao",
+      "x": 730,
+      "y": 195,
+      "label": "Grout / cavity AO",
+      "params": {
+        "radius": 1.2,
+        "strength": 4
+      },
+      "scale": 0
+    },
+    {
+      "id": "4d6b3d78-5608-4295-a497-1532a029a1ac",
+      "type": "value",
+      "x": 730,
+      "y": 395,
+      "label": "Dielectric",
+      "params": {
+        "value": 0
+      },
+      "scale": 0
+    }
+  ],
+  "edges": [
+    {
+      "id": "5548986b-5158-4760-a5dd-bf45a55fecd8",
+      "from": "354d59cc-b39b-4563-997a-d9bdb0000450",
+      "to": "83e15d52-fe20-4344-9313-7c552ea3a263",
+      "input": 0
+    },
+    {
+      "id": "67b53329-1f41-4cb9-8563-bb3539c7c806",
+      "from": "c38981a7-f71d-46cc-93dd-a09cd9033712",
+      "to": "83e15d52-fe20-4344-9313-7c552ea3a263",
+      "input": 1
+    },
+    {
+      "id": "22e87b5b-a69c-40d0-b255-f0576dd4ddc9",
+      "from": "83e15d52-fe20-4344-9313-7c552ea3a263",
+      "to": "d2885b60-4d73-43d0-8a86-5c84e540f69f",
+      "input": 0
+    },
+    {
+      "id": "55b0ba9d-429e-40bf-bf3c-91cf44e3e1c9",
+      "from": "83e15d52-fe20-4344-9313-7c552ea3a263",
+      "to": "70401f33-945e-4242-9cf4-7b2b5678faf2",
+      "input": 0
+    },
+    {
+      "id": "1e73be97-5f0f-44f1-8ef4-56ed30aa9997",
+      "from": "83e15d52-fe20-4344-9313-7c552ea3a263",
+      "to": "ea84cc91-d2b3-4ab7-acf7-c52b28eda7a8",
+      "input": 0
+    },
+    {
+      "id": "07c620ce-39cc-4a94-9418-b4a4ee81853e",
+      "from": "83e15d52-fe20-4344-9313-7c552ea3a263",
+      "to": "574cf5ac-2f19-412f-84cb-01f5b7b85176",
+      "input": 0
+    }
+  ],
+  "outputs": {
+    "baseColor": "d2885b60-4d73-43d0-8a86-5c84e540f69f",
+    "normal": "70401f33-945e-4242-9cf4-7b2b5678faf2",
+    "roughness": "ea84cc91-d2b3-4ab7-acf7-c52b28eda7a8",
+    "metallic": "4d6b3d78-5608-4295-a497-1532a029a1ac",
+    "height": "83e15d52-fe20-4344-9313-7c552ea3a263",
+    "ao": "574cf5ac-2f19-412f-84cb-01f5b7b85176"
+  },
+  "exposed": [
+    {
+      "id": "997c10d6-ad43-4798-ae06-60bfddcb9f93",
+      "label": "Surface relief",
+      "node": "70401f33-945e-4242-9cf4-7b2b5678faf2",
+      "param": "strength"
+    },
+    {
+      "id": "2b208bdb-c7a7-4cad-ae33-f37d6f9bed3e",
+      "label": "Grain blend",
+      "node": "83e15d52-fe20-4344-9313-7c552ea3a263",
+      "param": "opacity"
+    }
+  ],
+  "subgraphs": {},
+  "assets": {},
+  "description": "Dark cellular stone with fine, porous mineral detail."
+}

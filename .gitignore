@@ -1,0 +1,5 @@
+
+# Generated duplicate and Python caches
+aster/Aster.html
+**/__pycache__/
+*.pyc

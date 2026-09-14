@@ -1,0 +1,237 @@
+{
+  "format": "strataforge",
+  "version": 1,
+  "id": "6bf8f532-40cc-4870-9692-6e741390b78b",
+  "name": "Oxidized Copper",
+  "resolution": 512,
+  "seed": 17,
+  "nodes": [
+    {
+      "id": "2c4a7e3b-c833-4f26-91f3-2a8e036ba4ec",
+      "type": "noise",
+      "x": 0,
+      "y": 70,
+      "label": "Oxidation field",
+      "params": {
+        "scale": 7,
+        "octaves": 6,
+        "roughness": 0.62,
+        "seed": 28,
+        "contrast": 1.55
+      },
+      "scale": 0
+    },
+    {
+      "id": "8287a5b2-8fc1-41bd-8c5b-1a6b648528da",
+      "type": "noise",
+      "x": 0,
+      "y": 270,
+      "label": "Surface grain",
+      "params": {
+        "scale": 36,
+        "octaves": 4,
+        "roughness": 0.65,
+        "seed": 43,
+        "contrast": 1.6
+      },
+      "scale": 0
+    },
+    {
+      "id": "296d6ddb-04d8-45d5-8372-1c1ec928a9ff",
+      "type": "warp",
+      "x": 215,
+      "y": 70,
+      "label": "Organic distortion",
+      "params": {
+        "strength": 0.04,
+        "angle": 37
+      },
+      "scale": 0
+    },
+    {
+      "id": "91373f4e-ba5a-4095-8b81-8d27303cc5ba",
+      "type": "threshold",
+      "x": 430,
+      "y": 70,
+      "label": "Patina coverage",
+      "params": {
+        "position": 0.5,
+        "width": 0.24
+      },
+      "scale": 0
+    },
+    {
+      "id": "0d4c216b-6585-4ac2-bdf1-23ab6baf7b1d",
+      "type": "gradientMap",
+      "x": 650,
+      "y": 15,
+      "label": "Copper / verdigris",
+      "params": {
+        "dark": "#173e34",
+        "mid": "#4c8b72",
+        "light": "#d7985c",
+        "position": 0.52
+      },
+      "scale": 0
+    },
+    {
+      "id": "1db4625b-cc15-4138-8d72-cce149dd2139",
+      "type": "blend",
+      "x": 430,
+      "y": 290,
+      "label": "Corrosion relief",
+      "params": {
+        "mode": "multiply",
+        "opacity": 0.36
+      },
+      "scale": 0
+    },
+    {
+      "id": "abbf0e4c-861e-4f01-8a7a-3da62c4bb350",
+      "type": "normal",
+      "x": 650,
+      "y": 220,
+      "label": "Micro-surface normal",
+      "params": {
+        "strength": 2.3,
+        "format": "OpenGL"
+      },
+      "scale": 0
+    },
+    {
+      "id": "a523bb7a-f9a7-48f0-8de6-ac5cd63e3028",
+      "type": "levels",
+      "x": 650,
+      "y": 415,
+      "label": "Oxide roughness",
+      "params": {
+        "low": 0,
+        "high": 1,
+        "gamma": 1,
+        "outLow": 0.82,
+        "outHigh": 0.28
+      },
+      "scale": 0
+    },
+    {
+      "id": "842e3279-75ab-4752-bbec-af5f64047164",
+      "type": "levels",
+      "x": 865,
+      "y": 75,
+      "label": "Exposed metal",
+      "params": {
+        "low": 0.1,
+        "high": 0.85,
+        "gamma": 1,
+        "outLow": 0.08,
+        "outHigh": 0.98
+      },
+      "scale": 0
+    },
+    {
+      "id": "d53f8b5e-8d6d-433e-b3ff-22905113ced9",
+      "type": "ao",
+      "x": 865,
+      "y": 300,
+      "label": "Cavity occlusion",
+      "params": {
+        "radius": 1.4,
+        "strength": 3
+      },
+      "scale": 0
+    }
+  ],
+  "edges": [
+    {
+      "id": "d1b48e31-55e1-44b7-9b3b-65cf060318d1",
+      "from": "2c4a7e3b-c833-4f26-91f3-2a8e036ba4ec",
+      "to": "296d6ddb-04d8-45d5-8372-1c1ec928a9ff",
+      "input": 0
+    },
+    {
+      "id": "7f4b0ff9-1787-4d35-a819-f15a6a0ba93d",
+      "from": "8287a5b2-8fc1-41bd-8c5b-1a6b648528da",
+      "to": "296d6ddb-04d8-45d5-8372-1c1ec928a9ff",
+      "input": 1
+    },
+    {
+      "id": "91150606-d1a4-4fc1-a328-f2decaeca888",
+      "from": "296d6ddb-04d8-45d5-8372-1c1ec928a9ff",
+      "to": "91373f4e-ba5a-4095-8b81-8d27303cc5ba",
+      "input": 0
+    },
+    {
+      "id": "38af13ae-ff28-405a-b674-24352e097634",
+      "from": "91373f4e-ba5a-4095-8b81-8d27303cc5ba",
+      "to": "0d4c216b-6585-4ac2-bdf1-23ab6baf7b1d",
+      "input": 0
+    },
+    {
+      "id": "6c56147d-54bb-4edd-abf5-1b8309676e82",
+      "from": "296d6ddb-04d8-45d5-8372-1c1ec928a9ff",
+      "to": "1db4625b-cc15-4138-8d72-cce149dd2139",
+      "input": 0
+    },
+    {
+      "id": "a7e64b7b-a1fe-402d-ae0c-ed3347f9604e",
+      "from": "8287a5b2-8fc1-41bd-8c5b-1a6b648528da",
+      "to": "1db4625b-cc15-4138-8d72-cce149dd2139",
+      "input": 1
+    },
+    {
+      "id": "546d1d3c-d046-43be-99d4-09ccfd75409e",
+      "from": "1db4625b-cc15-4138-8d72-cce149dd2139",
+      "to": "abbf0e4c-861e-4f01-8a7a-3da62c4bb350",
+      "input": 0
+    },
+    {
+      "id": "18dd5d59-b462-47bc-b860-fc8fa2efb730",
+      "from": "91373f4e-ba5a-4095-8b81-8d27303cc5ba",
+      "to": "a523bb7a-f9a7-48f0-8de6-ac5cd63e3028",
+      "input": 0
+    },
+    {
+      "id": "604f03e9-c752-4208-a42e-fe107db36b5d",
+      "from": "91373f4e-ba5a-4095-8b81-8d27303cc5ba",
+      "to": "842e3279-75ab-4752-bbec-af5f64047164",
+      "input": 0
+    },
+    {
+      "id": "9330bf0d-11a1-4cde-8d5e-e25c5ababbad",
+      "from": "1db4625b-cc15-4138-8d72-cce149dd2139",
+      "to": "d53f8b5e-8d6d-433e-b3ff-22905113ced9",
+      "input": 0
+    }
+  ],
+  "outputs": {
+    "baseColor": "0d4c216b-6585-4ac2-bdf1-23ab6baf7b1d",
+    "normal": "abbf0e4c-861e-4f01-8a7a-3da62c4bb350",
+    "roughness": "a523bb7a-f9a7-48f0-8de6-ac5cd63e3028",
+    "metallic": "842e3279-75ab-4752-bbec-af5f64047164",
+    "height": "1db4625b-cc15-4138-8d72-cce149dd2139",
+    "ao": "d53f8b5e-8d6d-433e-b3ff-22905113ced9"
+  },
+  "exposed": [
+    {
+      "id": "9b723c43-ce44-415c-9b2f-da86578f79a7",
+      "label": "Patina coverage",
+      "node": "91373f4e-ba5a-4095-8b81-8d27303cc5ba",
+      "param": "position"
+    },
+    {
+      "id": "a36d2322-acae-44ed-b4e3-2044c2bf5c8f",
+      "label": "Surface detail",
+      "node": "abbf0e4c-861e-4f01-8a7a-3da62c4bb350",
+      "param": "strength"
+    },
+    {
+      "id": "a434eff7-ba53-4968-b36b-9abbfb09d0a8",
+      "label": "Oxidation scale",
+      "node": "2c4a7e3b-c833-4f26-91f3-2a8e036ba4ec",
+      "param": "scale"
+    }
+  ],
+  "subgraphs": {},
+  "assets": {},
+  "description": "Layered verdigris over warm, exposed copper."
+}

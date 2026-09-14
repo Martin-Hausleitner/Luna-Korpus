@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "acorn": "^8.15.0",
+    "esbuild": "^0.25.10"
+  }
+}

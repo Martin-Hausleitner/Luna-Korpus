@@ -1,0 +1,20 @@
+/* Chrome-only paint. Aster owns the desktop, windows and applications. MIT. */
+body[data-luna="true"] #taskbar { background:#1c1c1c!important; border-top:1px solid #ffffff20; }
+body[data-luna="true"] .window:not(.inactive)>.titlebar,
+body[data-luna="true"] .window.focused>.titlebar {background:#0078c8!important;color:#fff!important;}
+body[data-luna="true"] .window:not(.inactive)>.titlebar button,
+body[data-luna="true"] .window.focused>.titlebar button {color:#fff;}
+body[data-luna="true"] .task-left strong{letter-spacing:.12em;font-size:15px;}
+body[data-luna="true"] #desktop-icons .desktop-icon {width:126px;min-height:94px;}
+body[data-luna="true"] #desktop-icons .desktop-icon>span:last-child {max-width:122px;white-space:normal;overflow-wrap:normal;font-size:12px;line-height:1.3;}
+#luna-wallmark{display:none;position:fixed;right:9%;top:27%;z-index:0;pointer-events:none;color:#fff;text-align:left;}
+body[data-luna="true"] #luna-wallmark{display:block;}
+.luna-company{font-size:22px;font-weight:300;letter-spacing:.02em;opacity:.8;}
+.luna-company b{font-weight:750;margin-right:7px;}
+.luna-product{font-size:clamp(80px,10vw,168px);font-weight:250;letter-spacing:.10em;line-height:1.35;margin-left:-7px;}
+.luna-claim{font-size:19px;letter-spacing:.03em;opacity:.9;}
+.luna-origin{margin-top:30px;font-size:9px;letter-spacing:.22em;opacity:.4;}
+body[data-luna="true"] .library-card-title {line-height:1.35;}
+@media(max-width:800px){#luna-wallmark{right:6%;top:34%;opacity:.5}.luna-product{font-size:64px}.luna-company{font-size:16px}.luna-claim{font-size:11px}.luna-origin{display:none}}
+
+body[data-luna="true"] #desktop-icons {grid-auto-columns:134px;column-gap:8px;}

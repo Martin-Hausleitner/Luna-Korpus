@@ -1,0 +1,58 @@
+{
+  "index.html": {
+    "sha256": "a3f7154e814b9a5d235be6dfdc495728e01e4f084f19fccda6b7caf5ea7cf7a5",
+    "bytes": 567
+  },
+  "runtime.js": {
+    "sha256": "42d5507422d97529de73254e68cfa4b61cd620afb737a824d922ac8f90f3d450",
+    "bytes": 116
+  },
+  "core.js": {
+    "sha256": "fa4ccd25538abee28262bc47353b3309cb4fd3cce885643d0b7cd1c4105436f5",
+    "bytes": 9906
+  },
+  "local-sync.js": {
+    "sha256": "e2cf4094ca92cab31dcd2c78090f925d2896be5f83556eb08b7a90a1622950e3",
+    "bytes": 7230
+  },
+  "sync.js": {
+    "sha256": "03cd7cbfdeef284a39c54a6902f868de70a1e37c3934b7e7b651e0c2228e77c8",
+    "bytes": 5567
+  },
+  ".nojekyll": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "folio.css": {
+    "sha256": "bab7ada2b114edc3917d5bf875e02f4a475d27fdb917ec0b60879c9f79423282",
+    "bytes": 28574
+  },
+  "gpu.js": {
+    "sha256": "6abc41748a1066d21f48d129adc8d6bda139821c0b1ac2d6c15f1e334131848c",
+    "bytes": 5316
+  },
+  "validation.js": {
+    "sha256": "f1e980c42441170a521e8b92521d38dd46ad170f7d5b83e48d2c1bf7a5f8d91a",
+    "bytes": 2491
+  },
+  "seed.js": {
+    "sha256": "1cb0a44595f798d77c59ca91e320bfdc13c68ceb47940d291bf2ec3a8b20ff35",
+    "bytes": 5458
+  },
+  "pages-sw.js": {
+    "sha256": "97d9d327c47f0269a8d801b5b242d3d2153ea50f8763e47177315b369ce53ded",
+    "bytes": 1147
+  },
+  "workspace.html": {
+    "sha256": "a3f7154e814b9a5d235be6dfdc495728e01e4f084f19fccda6b7caf5ea7cf7a5",
+    "bytes": 567
+  },
+  "app.js": {
+    "sha256": "5a625855a4b584619b5b75cf3277a745f352d41003ed97a0c352b18d9157e8a7",
+    "bytes": 102899
+  },
+  "favicon.svg": {
+    "sha256": "b1b735bc28133c4be07fc3de8bfedc0a6d8a16ea45f14346bf71900c966ccab8",
+    "bytes": 188
+  }
+}

@@ -1,0 +1,35 @@
+PASS Exactly nineteen original entries
+PASS Tabelle (Gridline) exact upstream HTML
+PASS Planung (MeridianPlan) exact upstream HTML
+PASS Office (MeridianOffice) exact upstream HTML
+PASS Dateien (TwinForge) exact upstream HTML
+PASS Akte (Folio) exact upstream HTML
+PASS Folio exact modular assets
+PASS PDF (FolioPro) exact upstream HTML
+PASS Mail (Quire) exact upstream HTML
+PASS Text (NotepadXP) exact upstream HTML
+PASS Auswertung (LatticeAnalytics) exact upstream HTML
+PASS Rechenblatt (AxiomWorksheet) exact upstream HTML
+PASS Zeichnung (Draftline) exact upstream HTML
+PASS CAD (KestrelCAD) exact upstream HTML
+PASS Aufmaß (PlanforgeReview) exact upstream HTML
+PASS PlanforgeReview exact modular assets
+PASS Tafel (Orivane) exact upstream HTML
+PASS Gespräch (Veyra Workspace) exact upstream HTML
+PASS VeyraWorkspace exact modular assets
+PASS Signatur (Velsign) exact upstream HTML
+PASS Velsign exact modular assets
+PASS Korpus (Formalyth) exact upstream HTML
+PASS Formalyth exact modular assets
+PASS Material (StrataForge) exact upstream HTML
+PASS StrataForge exact modular assets
+PASS Modell (Avolith Studio) exact upstream HTML
+PASS Stock Aster builder SHA-256
+PASS Native engine unchanged: src/apps-files.js
+PASS Native engine unchanged: src/apps-tools.js
+PASS Native engine unchanged: src/apps-creative.js
+PASS Native engine unchanged: src/renderer.js
+PASS Pages entry equals themed Aster
+PASS The rejected Luna.html is absent
+PASS Export is native Aster theme format
+PASS Export uses Windows and requested accent

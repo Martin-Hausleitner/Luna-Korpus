@@ -1,0 +1,179 @@
+{
+  "format": "strataforge",
+  "version": 1,
+  "id": "987d93aa-6225-468f-9c25-86f5e9caaf99",
+  "name": "Glazed Ceramic",
+  "resolution": 512,
+  "seed": 17,
+  "nodes": [
+    {
+      "id": "f4e092da-06a7-4c71-9749-65a9c1c54b29",
+      "type": "tiles",
+      "x": 0,
+      "y": 55,
+      "label": "Ceramic tiles",
+      "params": {
+        "count": 7,
+        "gap": 0.04,
+        "bevel": 0.045,
+        "variation": 0.2,
+        "seed": 8
+      },
+      "scale": 0
+    },
+    {
+      "id": "be3f3001-8345-4953-a493-dcfbf642b142",
+      "type": "noise",
+      "x": 0,
+      "y": 265,
+      "label": "Surface grain",
+      "params": {
+        "scale": 32,
+        "octaves": 4,
+        "roughness": 0.55,
+        "seed": 22,
+        "contrast": 1.8
+      },
+      "scale": 0
+    },
+    {
+      "id": "af46ef58-c5c0-46fc-a449-25ab5a30983d",
+      "type": "blend",
+      "x": 240,
+      "y": 135,
+      "label": "Surface relief",
+      "params": {
+        "mode": "multiply",
+        "opacity": 0.08
+      },
+      "scale": 0
+    },
+    {
+      "id": "6da1f60a-2f2d-4edf-a07e-fc569b377f4b",
+      "type": "gradientMap",
+      "x": 490,
+      "y": 0,
+      "label": "Material colors",
+      "params": {
+        "dark": "#25292e",
+        "mid": "#174052",
+        "light": "#397d88",
+        "position": 0.15
+      },
+      "scale": 0
+    },
+    {
+      "id": "e997b9a4-3fc8-4eb2-8d74-10de70f0bc28",
+      "type": "normal",
+      "x": 490,
+      "y": 195,
+      "label": "Surface normal",
+      "params": {
+        "strength": 1.6,
+        "format": "OpenGL"
+      },
+      "scale": 0
+    },
+    {
+      "id": "bab3afac-92fc-46af-96b4-05387ade499b",
+      "type": "levels",
+      "x": 490,
+      "y": 395,
+      "label": "Surface roughness",
+      "params": {
+        "low": 0,
+        "high": 1,
+        "gamma": 1,
+        "outLow": 0.65,
+        "outHigh": 0.19
+      },
+      "scale": 0
+    },
+    {
+      "id": "bda31fee-90f3-4d41-885b-e8780811d6d7",
+      "type": "ao",
+      "x": 730,
+      "y": 195,
+      "label": "Grout / cavity AO",
+      "params": {
+        "radius": 1.2,
+        "strength": 4
+      },
+      "scale": 0
+    },
+    {
+      "id": "e8fc670b-fef6-4962-a56c-ffb60318ab39",
+      "type": "value",
+      "x": 730,
+      "y": 395,
+      "label": "Dielectric",
+      "params": {
+        "value": 0
+      },
+      "scale": 0
+    }
+  ],
+  "edges": [
+    {
+      "id": "a6f594ab-2de3-4b8d-9b76-2fd5b6bbb460",
+      "from": "f4e092da-06a7-4c71-9749-65a9c1c54b29",
+      "to": "af46ef58-c5c0-46fc-a449-25ab5a30983d",
+      "input": 0
+    },
+    {
+      "id": "a515397a-7f61-4213-925c-622ec1c24e0d",
+      "from": "be3f3001-8345-4953-a493-dcfbf642b142",
+      "to": "af46ef58-c5c0-46fc-a449-25ab5a30983d",
+      "input": 1
+    },
+    {
+      "id": "7452781e-85a3-4911-9b1a-4753ce9abc2e",
+      "from": "af46ef58-c5c0-46fc-a449-25ab5a30983d",
+      "to": "6da1f60a-2f2d-4edf-a07e-fc569b377f4b",
+      "input": 0
+    },
+    {
+      "id": "17b0eaca-7fea-4ae5-b746-d9c5499fb0db",
+      "from": "af46ef58-c5c0-46fc-a449-25ab5a30983d",
+      "to": "e997b9a4-3fc8-4eb2-8d74-10de70f0bc28",
+      "input": 0
+    },
+    {
+      "id": "a5748fa0-bdef-42e2-b217-09f67acb97e6",
+      "from": "af46ef58-c5c0-46fc-a449-25ab5a30983d",
+      "to": "bab3afac-92fc-46af-96b4-05387ade499b",
+      "input": 0
+    },
+    {
+      "id": "134986bd-4ace-455d-b4b5-228162c227c5",
+      "from": "af46ef58-c5c0-46fc-a449-25ab5a30983d",
+      "to": "bda31fee-90f3-4d41-885b-e8780811d6d7",
+      "input": 0
+    }
+  ],
+  "outputs": {
+    "baseColor": "6da1f60a-2f2d-4edf-a07e-fc569b377f4b",
+    "normal": "e997b9a4-3fc8-4eb2-8d74-10de70f0bc28",
+    "roughness": "bab3afac-92fc-46af-96b4-05387ade499b",
+    "metallic": "e8fc670b-fef6-4962-a56c-ffb60318ab39",
+    "height": "af46ef58-c5c0-46fc-a449-25ab5a30983d",
+    "ao": "bda31fee-90f3-4d41-885b-e8780811d6d7"
+  },
+  "exposed": [
+    {
+      "id": "1d973ff1-1e3e-4244-bf1c-3edb264c8810",
+      "label": "Surface relief",
+      "node": "e997b9a4-3fc8-4eb2-8d74-10de70f0bc28",
+      "param": "strength"
+    },
+    {
+      "id": "4621d585-6de1-45a4-a533-a3d3f1576d05",
+      "label": "Grain blend",
+      "node": "af46ef58-c5c0-46fc-a449-25ab5a30983d",
+      "param": "opacity"
+    }
+  ],
+  "subgraphs": {},
+  "assets": {},
+  "description": "Deep blue ceramic tiles, beveled grout, subtle glaze variation."
+}

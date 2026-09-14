@@ -1,0 +1,369 @@
+{
+  "environment": {
+    "storage": "IndexedDB",
+    "renderer": "WebGPU",
+    "secureContext": true,
+    "gpuAPI": true,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36"
+  },
+  "mode": "localhost",
+  "tests": [
+    {
+      "test": "Boot with 29 built-in apps and 84 lazy web app entries",
+      "status": "PASS",
+      "seconds": 0.003,
+      "detail": "WebGPU"
+    },
+    {
+      "test": "Virtual file CRUD, subtree copy, move, recycle, restore",
+      "status": "PASS",
+      "seconds": 0.021,
+      "detail": "Unicode content and nested folder structure preserved"
+    },
+    {
+      "test": "Protected folders and invalid destinations reject safely",
+      "status": "PASS",
+      "seconds": 0.005,
+      "detail": "5 rejected operations"
+    },
+    {
+      "test": "Calculator parser arithmetic, scientific functions and errors",
+      "status": "PASS",
+      "seconds": 0.008,
+      "detail": "9 arithmetic and 5 rejection cases"
+    },
+    {
+      "test": "App mount: clipboard-tools",
+      "status": "PASS",
+      "seconds": 0.119,
+      "detail": "20 controls"
+    },
+    {
+      "test": "App mount: files",
+      "status": "PASS",
+      "seconds": 0.114,
+      "detail": "45 controls"
+    },
+    {
+      "test": "App mount: notepad",
+      "status": "PASS",
+      "seconds": 0.115,
+      "detail": "12 controls"
+    },
+    {
+      "test": "App mount: terminal",
+      "status": "PASS",
+      "seconds": 0.192,
+      "detail": "1 controls"
+    },
+    {
+      "test": "App mount: paint",
+      "status": "PASS",
+      "seconds": 0.183,
+      "detail": "31 controls"
+    },
+    {
+      "test": "App mount: photos",
+      "status": "PASS",
+      "seconds": 0.175,
+      "detail": "13 controls"
+    },
+    {
+      "test": "App mount: media",
+      "status": "PASS",
+      "seconds": 0.195,
+      "detail": "6 controls"
+    },
+    {
+      "test": "App mount: code",
+      "status": "PASS",
+      "seconds": 0.195,
+      "detail": "13 controls"
+    },
+    {
+      "test": "App mount: snips",
+      "status": "PASS",
+      "seconds": 0.244,
+      "detail": "4 controls"
+    },
+    {
+      "test": "App mount: calculator",
+      "status": "PASS",
+      "seconds": 0.177,
+      "detail": "44 controls"
+    },
+    {
+      "test": "App mount: calendar",
+      "status": "PASS",
+      "seconds": 0.128,
+      "detail": "46 controls"
+    },
+    {
+      "test": "App mount: clock",
+      "status": "PASS",
+      "seconds": 0.128,
+      "detail": "10 controls"
+    },
+    {
+      "test": "App mount: tasks",
+      "status": "PASS",
+      "seconds": 0.105,
+      "detail": "15 controls"
+    },
+    {
+      "test": "App mount: mines",
+      "status": "PASS",
+      "seconds": 0.102,
+      "detail": "83 controls"
+    },
+    {
+      "test": "App mount: settings",
+      "status": "PASS",
+      "seconds": 0.105,
+      "detail": "13 controls"
+    },
+    {
+      "test": "App mount: taskmanager",
+      "status": "PASS",
+      "seconds": 0.115,
+      "detail": "4 controls"
+    },
+    {
+      "test": "App mount: welcome",
+      "status": "PASS",
+      "seconds": 0.121,
+      "detail": "6 controls"
+    },
+    {
+      "test": "App mount: clipboard",
+      "status": "PASS",
+      "seconds": 0.119,
+      "detail": "7 controls"
+    },
+    {
+      "test": "App mount: focus",
+      "status": "PASS",
+      "seconds": 0.127,
+      "detail": "10 controls"
+    },
+    {
+      "test": "App mount: widgets",
+      "status": "PASS",
+      "seconds": 0.109,
+      "detail": "25 controls"
+    },
+    {
+      "test": "App mount: workspaces",
+      "status": "PASS",
+      "seconds": 0.104,
+      "detail": "13 controls"
+    },
+    {
+      "test": "App mount: history",
+      "status": "PASS",
+      "seconds": 0.114,
+      "detail": "2 controls"
+    },
+    {
+      "test": "App mount: storage",
+      "status": "PASS",
+      "seconds": 0.118,
+      "detail": "14 controls"
+    },
+    {
+      "test": "App mount: archives",
+      "status": "PASS",
+      "seconds": 0.124,
+      "detail": "3 controls"
+    },
+    {
+      "test": "App mount: accessibility",
+      "status": "PASS",
+      "seconds": 0.393,
+      "detail": "13 controls"
+    },
+    {
+      "test": "App mount: recorder",
+      "status": "PASS",
+      "seconds": 0.12,
+      "detail": "6 controls"
+    },
+    {
+      "test": "App mount: win32",
+      "status": "PASS",
+      "seconds": 0.252,
+      "detail": "11 controls"
+    },
+    {
+      "test": "App mount: store",
+      "status": "PASS",
+      "seconds": 0.197,
+      "detail": "259 controls"
+    },
+    {
+      "test": "App mount: browser",
+      "status": "PASS",
+      "seconds": 0.175,
+      "detail": "20 controls"
+    },
+    {
+      "test": "Notepad actual typing and Ctrl+S save",
+      "status": "PASS",
+      "seconds": 0.577,
+      "detail": "Ctrl+S saved Unicode text"
+    },
+    {
+      "test": "Unsaved document close can be cancelled",
+      "status": "PASS",
+      "seconds": 0.117,
+      "detail": null
+    },
+    {
+      "test": "Terminal commands manipulate real virtual files",
+      "status": "PASS",
+      "seconds": 0.033,
+      "detail": "Quoted names, redirection, cp, mv and cat"
+    },
+    {
+      "test": "Window manager pointer drag, resize and state transitions",
+      "status": "PASS",
+      "seconds": 0.574,
+      "detail": "Pointer drag/resize and snap/minimize/maximize/restore"
+    },
+    {
+      "test": "Virtual desktop switching and window transfer",
+      "status": "PASS",
+      "seconds": 0.163,
+      "detail": "3 desktops"
+    },
+    {
+      "test": "Start menu app search and keyboard launch",
+      "status": "PASS",
+      "seconds": 0.326,
+      "detail": "Start search launches app"
+    },
+    {
+      "test": "File Explorer searches actual saved file",
+      "status": "PASS",
+      "seconds": 0.222,
+      "detail": "File search finds saved document"
+    },
+    {
+      "test": "Paint pointer drawing and real PNG save",
+      "status": "PASS",
+      "seconds": 0.473,
+      "detail": "Pointer drawing saved as a real PNG (17416 bytes)"
+    },
+    {
+      "test": "Photos decodes the newly created PNG",
+      "status": "PASS",
+      "seconds": 0.02,
+      "detail": [
+        "960\u00d7600",
+        "1600\u00d71000",
+        "1600\u00d71000",
+        "1600\u00d71000",
+        "960\u00d7600"
+      ]
+    },
+    {
+      "test": "Code Studio executes sandbox app and saves project",
+      "status": "PASS",
+      "seconds": 0.35,
+      "detail": "Real sandbox JS ran; parent access denied; project saved"
+    },
+    {
+      "test": "Orbit Browser runs local HTML application",
+      "status": "PASS",
+      "seconds": 0.089,
+      "detail": "Local HTML button executed"
+    },
+    {
+      "test": "Media Player actual audio decode and playback",
+      "status": "PASS",
+      "seconds": 0.623,
+      "detail": "WAV duration 12 seconds; playback clock advances"
+    },
+    {
+      "test": "Tasks and Calendar store editable records",
+      "status": "PASS",
+      "seconds": 0.059,
+      "detail": "Tasks and calendar written to workspace store"
+    },
+    {
+      "test": "Mines game logic and completion",
+      "status": "PASS",
+      "seconds": 0.022,
+      "detail": "Safe first click, correct mine count and win detection"
+    },
+    {
+      "test": "Settings views, themes and 12-hour preference",
+      "status": "PASS",
+      "seconds": 0.39,
+      "detail": "All 16 integrated Settings pages and boolean clock preference"
+    },
+    {
+      "test": "Backup JSON text and binary round-trip",
+      "status": "PASS",
+      "seconds": 0.051,
+      "detail": "31 file/folder records; text and binary round-trip"
+    },
+    {
+      "test": "HTML app installation and sandbox registration",
+      "status": "PASS",
+      "seconds": 0.446,
+      "detail": "custom-8cc6c724-9b04-4ac2-b2cb-b22ab63fdd6a"
+    },
+    {
+      "test": "Timer expiry notification",
+      "status": "PASS",
+      "seconds": 1.409,
+      "detail": "Expired timer triggers a real desktop notification"
+    },
+    {
+      "test": "Visual lock resumes without losing windows",
+      "status": "PASS",
+      "seconds": 0.076,
+      "detail": "Visual lock and resume"
+    },
+    {
+      "test": "Narrow-screen layout",
+      "status": "PASS",
+      "seconds": 0.301,
+      "detail": "390\u00d7844 Start menu stays within viewport"
+    },
+    {
+      "test": "No uncaught JavaScript exceptions",
+      "status": "PASS",
+      "seconds": 0.01,
+      "detail": null
+    }
+  ],
+  "uncaughtErrors": [],
+  "console": [
+    {
+      "level": "log",
+      "text": "Hello from your Aster app!"
+    },
+    {
+      "level": "log",
+      "text": "Hello from your Aster app!"
+    },
+    {
+      "level": "log",
+      "text": "Button clicked 1"
+    },
+    {
+      "level": "warning",
+      "text": "Allow attribute will take precedence over 'allowfullscreen'."
+    },
+    {
+      "level": "log",
+      "text": "Hello from your Aster app!"
+    }
+  ],
+  "limitations": [
+    "Native folder and screen capture permission dialogs are not automated.",
+    "No physical-GPU performance benchmark was performed."
+  ]
+}

@@ -1,0 +1,2263 @@
+{
+  "url": "http://127.0.0.1:64634/Luna-Korpus.html",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "checks": [
+    {
+      "name": "Real Aster boot",
+      "pass": true,
+      "details": {
+        "version": "2.4",
+        "seconds": 3.38
+      }
+    },
+    {
+      "name": "Windows profile and Luna selected",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Nineteen native HTML installations",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Exactly thirteen desktop pins",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Desktop names have original parentheses",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Mines and Win32 kept off desktop",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Every catalog entry registered",
+      "pass": true,
+      "details": 84
+    },
+    {
+      "name": "Mines and Win32 visible in Store",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "German-pattern launcher titles",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Nineteen workspace files equal upstream bytes",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Native full App Center inventory",
+      "pass": true,
+      "details": {
+        "cards": 123,
+        "visibleRegistry": 123
+      }
+    },
+    {
+      "name": "Original Aster Explorer",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "tabelle original UI mounted",
+      "pass": true,
+      "details": {
+        "title": "Revenue operations · FY2026 — Gridline",
+        "buttons": 70,
+        "canvas": 1
+      }
+    },
+    {
+      "name": "Gridline is not rejected toy",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Gridline formula bar and sheets",
+      "pass": true,
+      "details": [
+        "app",
+        "autosave",
+        "autosave-toggle",
+        "workbook-title",
+        "save-status",
+        "ribbon-tabs",
+        "ribbon",
+        "font-family",
+        "font-size",
+        "number-format",
+        "name-box",
+        "formula-input",
+        "workspace",
+        "grid-host",
+        "chart-layer",
+        "chart-trend",
+        "chart-channel",
+        "cell-editor",
+        "formula-suggestions",
+        "v-scrollbar",
+        "v-thumb",
+        "h-scrollbar",
+        "h-thumb",
+        "active-cell-description",
+        "side-panel",
+        "sheet-tabs",
+        "mode-status",
+        "renderer-status",
+        "backend-label",
+        "selection-stats",
+        "zoom-slider",
+        "zoom-value",
+        "context-menu",
+        "toast",
+        "dialog",
+        "dialog-content",
+        "file-input",
+        "fill-picker",
+        "text-picker",
+        "print-area"
+      ]
+    },
+    {
+      "name": "mail original UI mounted",
+      "pass": true,
+      "details": {
+        "title": "Quire — The clarity report",
+        "buttons": 84,
+        "canvas": 1
+      }
+    },
+    {
+      "name": "korpus original UI mounted",
+      "pass": true,
+      "details": {
+        "title": "Formalyth — Design & Manufacturing",
+        "buttons": 62,
+        "canvas": 1
+      }
+    },
+    {
+      "name": "Original Aster Calendar mounted",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Theme library retains Windows macOS Ubuntu Luna",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Focused caption Luna blue",
+      "pass": true,
+      "details": {
+        "color": "rgb(0, 120, 200)",
+        "controls": 1696,
+        "left": 756,
+        "width": 1078
+      }
+    },
+    {
+      "name": "Caption controls remain on right",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Taskbar product word LUNA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "No shell boot exception",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "apps": {
+    "tabelle": {
+      "title": "Revenue operations · FY2026 — Gridline",
+      "text": "Gridline\nAutoSave\nSaved on this device\nSearch tools, actions, and help\n⌘ K\nGL\nFile\nHome\nInsert\nPage Layout\nFormulas\nData\nReview\nView\nHelp\nNotes\nEditing\nExport\n⌄\nPaste\n⌄\nCut\nCopy\nFormat painter\nClipboard\nAptos\nArial\nGeorgia\nVerdana\nCourier New\n8\n9\n10\n11\n12\n14\n16\n18\n20\n24\n28\n32\n36\n48\nA⁺\nA⁻\nB\nI\nU\nA\nFont\nWrap text\nMerge & center\nAlignment\nGeneral\nNumber\nCurrency\nPercentage\nShort date\nInteger\n$\n,\n.0←\n→.00\nNumber\nConditional\nformatting\n⌄\nFormat as\ntable\n⌄\nNormal\nGood\nHeading\nWarning\nStyles\nInsert\n⌄\nDelete\n⌄\nCells\nAutoSum\nClear\nSort &\nfilter\n⌄\nFind &\nselect\n⌄\nEditing\n⌄\n×\n✓\nƒx\n⌄\nRevenue momentum\nMonthly revenue · USD\n×\n0\n300k\n600k\n900k\n657k\n726k\n804k\nJanuary\nFebruary\nMarch\nA balanced portfolio\nQ1 revenue by sales channel\n×\nEnterprise\n555k\nDirect sales\n408k\nE-commerce\n319k\nPartnerships\n259k\nMid-market\n221k\nResellers\n176k\nMarketplace\n144k\nSelf-service\n105k\nRevenue overview. G13. $408,000. Formula =SUM(D13:F13)\n‹\n›\nRevenue overview\nSales data\nAssumptions\n＋\nYour data stays on your device\nReady\nWebGPU accelerated\n−\n＋\n100%",
+      "buttons": 70,
+      "canvas": 1,
+      "inputs": 7,
+      "ids": [
+        "app",
+        "autosave",
+        "autosave-toggle",
+        "workbook-title",
+        "save-status",
+        "ribbon-tabs",
+        "ribbon",
+        "font-family",
+        "font-size",
+        "number-format",
+        "name-box",
+        "formula-input",
+        "workspace",
+        "grid-host",
+        "chart-layer",
+        "chart-trend",
+        "chart-channel",
+        "cell-editor",
+        "formula-suggestions",
+        "v-scrollbar",
+        "v-thumb",
+        "h-scrollbar",
+        "h-thumb",
+        "active-cell-description",
+        "side-panel",
+        "sheet-tabs",
+        "mode-status",
+        "renderer-status",
+        "backend-label",
+        "selection-stats",
+        "zoom-slider",
+        "zoom-value",
+        "context-menu",
+        "toast",
+        "dialog",
+        "dialog-content",
+        "file-input",
+        "fill-picker",
+        "text-picker",
+        "print-area"
+      ],
+      "sha256": "31aa5e1ed31ba6e428ffd86c7ed4c734b71b3589d89a8f5d909b68e037c2d6de"
+    },
+    "mail": {
+      "title": "Quire — The clarity report",
+      "text": "q\nQuire\nSaved on this device\nSearch tools and commands\nCtrl K\nY\nFile\nHome\nInsert\nDraw\nDesign\nLayout\nReferences\nReview\nView\nComments\n0\nEditing\nExport\nPaste\nCut\nCopy\nFormat painter\nClipboard\nSegoe UI\nArial\nCalibri\nGeorgia\nTimes New Roman\nVerdana\nTrebuchet MS\nCourier New\n8\n9\n10\n11\n12\n14\n16\n18\n20\n24\n28\n32\n36\n48\n60\n72\nA\n+\nA\n−\nAa\nx₂\nx²\nFont\n¶\nParagraph\nAaBb\nNormal\nAa\nTitle\nAaBb\nHeading 1\nAaBb\nHeading 2\nAaBb\nQuote\nStyles\nFind\nReplace\nSelect all\nEditing\nNavigation\nCtrl F\nHeadings\nPages\nResults\nIN THIS DOCUMENT\nExecutive summary01   The opportunityWhat we heard02   What we learned03   A way forwardStart with the essentialsBuild, listen, refine04   Next stepsClosing thoughts\nYour words. Your workspace.\n\nPrivate by default. Saved locally.\n\nTHE CLARITY REPORT\n/\nDocument\nA4\n·\nPortrait\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\nNORTHSTAR   /   RESEARCH & STRATEGY\nWORKING PAPER   ·   2026\n\nPERSPECTIVES   /   01\n\nA little clarity.\nA world of possibility.\n\nGood ideas deserve room to grow. A perspective on building\nmore thoughtful products, teams, and everyday experiences.\n\nPrepared by\nDesign & Research\nPublished\nSeptember 2026\nReading time\n4 minutes\n24\nConversations\n\nReal people, real perspectives\n\n06\nEmerging themes\n\nFrom complexity to clarity\n\n01\nShared direction\n\nA more considered future\n\nExecutive summary\n\nThe best work does not start with more. It starts with a better question. As our tools become more capable and our days more connected, the opportunity is not simply to move faster. It is to make space for what matters.\n\nThis report explores a simple idea: clarity is a competitive advantage. When we remove unnecessary friction, connect our decisions to real needs, and give people room to think, better outcomes follow.\n\n“Make the important things clear, and the clear things meaningful.”\n\nAn editable sample document. All research figures in this report are illustrative.\n\n\n\nThe clarity report   /   2026\n01\nNORTHSTAR   /   RESEARCH & STRATEGY\nTHE CLARITY REPORT   ·   02\n\nUNDERSTANDING THE OPPORTUNITY\n\nLess noise.\nMore intention.\n01   The opportunity\n\nEvery handoff, approval, and interface asks for a little of our attention. Individually, these demands seem small. Together, they shape how much energy we have left for the work that only people can do: noticing, connecting, imagining, and deciding.\n\nOur illustrative research brings together 24 conversations across product, design, and operations. Although the contexts differ, the underlying needs are remarkably consistent. People want to understand the next step, trust the information in front of them, and see how their work contributes to a larger purpose.\n\nWhat we heard\nGive me a clear starting point. A little structure creates confidence without limiting possibility.\nKeep the important things close. Context should travel with the work, not live in another tab.\nLet me focus. Fewer interruptions make room for deeper thinking and more considered decisions.\n02   What we learned\n\nClarity is not the absence of detail. It is the right detail, at the right moment, presented in a way that helps someone move forward. The strongest experiences combine a clear hierarchy with thoughtful defaults and an easy path to more depth.\n\nTheme\tWhat it means\tDesign response\nPurpose\tKnow why the work matters\tMake the goal visible\nContinuity\tKeep context across tasks\tConnect the workflow\nConfidence\tAct without second-guessing\tOffer useful feedback\nFocus\tSpend attention intentionally\tReduce avoidable noise\n\nTable 1. Illustrative themes translated into practical design principles.\n\n\n\nThe clarity report   /   2026\n02\nNORTHSTAR   /   RESEARCH & STRATEGY\nTHE CLARITY REPORT   ·   03\n\nFROM INSIGHT TO ACTION\n\nA thoughtful way forward.\n03   A way forward\n\nWe recommend a small, deliberate beginning. Choose one important journey, understand where people lose confidence, and improve it end to end. A focused intervention teaches us more than a collection of disconnected changes.\n\nStart with the essentials\n\nBring the team together around a shared question. Map the current experience. Identify the moments that matter most, then decide what should become simpler, what should become more visible, and what can be removed altogether.\n\nBuild, listen, refine\n\nCreate a working version early. Put it in front of the people who will actually use it. Watch what they do, listen to what they expect, and use the distance between the two as a guide for the next iteration.\n\nA useful principle\nStart with the smallest change that creates a meaningful improvement. Make it real. Learn from it. Then make the next thoughtful move.\n04   Next steps\nAlign on the question. Agree on the outcome we want to make possible.\nChoose the first journey. Prioritize a clear need with room for measurable improvement.\nMake an early version. Turn a promising direction into something people can use.\nLearn in the open. Share observations, document decisions, and refine together.\nClosing thoughts\n\nProgress is often quieter than we expect. A clearer sentence. A more useful default. A conversation that connects two perspectives. These small choices create the conditions for bigger possibilities.\n\nLet us make more of them.\n\nThe clarity report   /   2026\n03\nA little space for your next big idea.\nPage 1 of 3\n651 words\nEnglish (US)\nWebGPU accelerated\n85%",
+      "buttons": 84,
+      "canvas": 1,
+      "inputs": 6,
+      "ids": [
+        "dynamic-print",
+        "app",
+        "document-title",
+        "save-indicator",
+        "comment-count",
+        "editing-mode",
+        "ribbon",
+        "font-family",
+        "font-size",
+        "navigation",
+        "nav-search",
+        "replace-controls",
+        "replace-input",
+        "search-status",
+        "nav-content",
+        "editor-area",
+        "workspace-name",
+        "ruler-wrap",
+        "ruler",
+        "viewport",
+        "gpu-canvas",
+        "page-stack",
+        "heading-0",
+        "heading-1",
+        "heading-2",
+        "heading-3",
+        "heading-4",
+        "heading-5",
+        "heading-6",
+        "heading-7",
+        "heading-8",
+        "review-panel",
+        "page-status",
+        "word-count",
+        "engine-status",
+        "print-view",
+        "read-view",
+        "zoom",
+        "zoom-label",
+        "popover",
+        "modal",
+        "modal-content",
+        "toasts",
+        "file-input",
+        "image-input"
+      ],
+      "sha256": "926a26348f2a38c012b112d2e7bcbe779ada5dd290f56a4e3cf08388e5cf52a8"
+    },
+    "korpus": {
+      "title": "Formalyth — Design & Manufacturing",
+      "text": "F\nFormalyth\nEdit\nView\nHelp\nBearing housing\nLOCAL PROJECT\nDesign\nSurface\nMesh\nSheet Metal\nAssemble\nManufacture\nAdditive\nSimulation\nDrawing\nElectronics\nSOLID\nSURFACE\nMESH\nSHEET METAL\n0.6\nDESIGN & MANUFACTURE\nCreate sketch\nSKETCH\n⌄\nExtrude / cut\nBox\nCREATE\n⌄\nEdge chamfer\nShell / hollow\nMODIFY\n⌄\nConstruction plane\nCONSTRUCT\n⌄\nMeasure distance\nINSPECT\n⌄\nPick bodies\nPick faces\nPick edges\nSELECT\n⌄\nParameter table\nMANAGE\n⌄\nAll tools\nS\nBROWSER\nBearing housing\n›\nFeatures\n6\n⌄\nBodies\n1\nFastener holes\nSaved locally · 12:22:05\nBearing housing\nDesign · orthographic · WebGPU\nFRONT\nTOP\nRIGHT\nISO\nFORMALYTH / DESIGN & MANUFACTURING\nDrag to orbit · Shift-drag to pan · Wheel or pinch to zoom\nPROPERTIES\nDesign\nReady to design\n1\nbodies\n6\nfeatures\n\nSelect a body, face or feature to edit. Press S to find any tool.\n\nCreate sketch\nParameter table\nLocal projects\nVIEW\nNamed views\nFit model\nRECENT TOOLS\n\nLocal project · mm · Experimental geometry. Review manufacturing and analysis output independently.\n\nFEATURE HISTORY\nRight-click for actions\n6 features · End\nReady\n1 bodies\n509.2 ms · 0 reused\nWebGPU\nmm",
+      "buttons": 62,
+      "canvas": 1,
+      "inputs": 2,
+      "ids": [
+        "app",
+        "document-title",
+        "ribbon",
+        "browser",
+        "tree-node-0",
+        "tree-node-3",
+        "tree-node-1",
+        "tree-node-2",
+        "save-status",
+        "viewport",
+        "canvas",
+        "viewport-title",
+        "viewport-subtitle",
+        "busy",
+        "busy-title",
+        "inspector",
+        "timeline",
+        "status",
+        "geometry",
+        "performance",
+        "backend"
+      ],
+      "sha256": "1385d5092a32e2ca78a1c9b252d650b144b7bcb04eb98307fe990122f34df4ef"
+    }
+  },
+  "pageErrors": [],
+  "requestFailures": [],
+  "bootSeconds": 3.38,
+  "inventory": {
+    "catalog": [
+      {
+        "id": "web-vellum",
+        "title": "Vellum (Vellum)",
+        "repo": "Vellum"
+      },
+      {
+        "id": "web-forma",
+        "title": "Forma (Forma)",
+        "repo": "Forma"
+      },
+      {
+        "id": "web-vectora",
+        "title": "Vectora (Vectora)",
+        "repo": "Vectora"
+      },
+      {
+        "id": "web-lumaforge",
+        "title": "LumaForge (LumaForge)",
+        "repo": "LumaForge"
+      },
+      {
+        "id": "web-prismforge",
+        "title": "PrismForge (PrismForge)",
+        "repo": "PrismForge"
+      },
+      {
+        "id": "web-prismstudio",
+        "title": "PrismStudio (PrismStudio)",
+        "repo": "PrismStudio"
+      },
+      {
+        "id": "web-paintxp",
+        "title": "PaintXP (PaintXP)",
+        "repo": "PaintXP"
+      },
+      {
+        "id": "web-selvedgestudio",
+        "title": "SELVEDGEStudio (SELVEDGEStudio)",
+        "repo": "SELVEDGEStudio"
+      },
+      {
+        "id": "web-aethermotion",
+        "title": "AetherMotion (AetherMotion)",
+        "repo": "AetherMotion"
+      },
+      {
+        "id": "web-celestastudio",
+        "title": "CelestaStudio (CelestaStudio)",
+        "repo": "CelestaStudio"
+      },
+      {
+        "id": "web-kinetrastudio",
+        "title": "KinetraStudio (KinetraStudio)",
+        "repo": "KinetraStudio"
+      },
+      {
+        "id": "web-lithicsculpt",
+        "title": "LithicSculpt (LithicSculpt)",
+        "repo": "LithicSculpt"
+      },
+      {
+        "id": "web-vertexforge",
+        "title": "VertexForge (VertexForge)",
+        "repo": "VertexForge"
+      },
+      {
+        "id": "web-vortexfx",
+        "title": "VortexFX (VortexFX)",
+        "repo": "VortexFX"
+      },
+      {
+        "id": "web-strataforge",
+        "title": "Material (StrataForge)",
+        "repo": "StrataForge"
+      },
+      {
+        "id": "web-alloystudio",
+        "title": "AlloyStudio (AlloyStudio)",
+        "repo": "AlloyStudio"
+      },
+      {
+        "id": "web-aureoncad",
+        "title": "AureonCAD (AureonCAD)",
+        "repo": "AureonCAD"
+      },
+      {
+        "id": "web-axiomcad",
+        "title": "AxiomCAD (AxiomCAD)",
+        "repo": "AxiomCAD"
+      },
+      {
+        "id": "web-axiomcam",
+        "title": "AxiomCAM (AxiomCAM)",
+        "repo": "AxiomCAM"
+      },
+      {
+        "id": "web-draftline",
+        "title": "Zeichnung (Draftline)",
+        "repo": "Draftline"
+      },
+      {
+        "id": "web-kestrelcad",
+        "title": "CAD (KestrelCAD)",
+        "repo": "KestrelCAD"
+      },
+      {
+        "id": "web-stratumcad",
+        "title": "StratumCAD (StratumCAD)",
+        "repo": "StratumCAD"
+      },
+      {
+        "id": "web-asterioneda",
+        "title": "Asterion EDA (AsterionEDA)",
+        "repo": "AsterionEDA"
+      },
+      {
+        "id": "web-formalyth",
+        "title": "Korpus (Formalyth)",
+        "repo": "Formalyth"
+      },
+      {
+        "id": "web-aetherdiscovery",
+        "title": "AetherDiscovery (AetherDiscovery)",
+        "repo": "AetherDiscovery"
+      },
+      {
+        "id": "web-aetherfield",
+        "title": "AetherField (AetherField)",
+        "repo": "AetherField"
+      },
+      {
+        "id": "web-aetheroptics",
+        "title": "AetherOptics (AetherOptics)",
+        "repo": "AetherOptics"
+      },
+      {
+        "id": "web-fluxlab",
+        "title": "FluxLab (FluxLab)",
+        "repo": "FluxLab"
+      },
+      {
+        "id": "web-fluxworksstudio",
+        "title": "FluxWorksStudio (FluxWorksStudio)",
+        "repo": "FluxWorksStudio"
+      },
+      {
+        "id": "web-stratumframe",
+        "title": "StratumFrame (StratumFrame)",
+        "repo": "StratumFrame"
+      },
+      {
+        "id": "web-astercas",
+        "title": "AsterCAS (AsterCAS)",
+        "repo": "AsterCAS"
+      },
+      {
+        "id": "web-axiomstudio",
+        "title": "AxiomStudio (AxiomStudio)",
+        "repo": "AxiomStudio"
+      },
+      {
+        "id": "web-axiomworksheet",
+        "title": "Rechenblatt (AxiomWorksheet)",
+        "repo": "AxiomWorksheet"
+      },
+      {
+        "id": "web-aureliaprocess",
+        "title": "AureliaProcess (AureliaProcess)",
+        "repo": "AureliaProcess"
+      },
+      {
+        "id": "web-vaporaprocessstudio",
+        "title": "VaporaProcessStudio (VaporaProcessStudio)",
+        "repo": "VaporaProcessStudio"
+      },
+      {
+        "id": "web-axiompid",
+        "title": "AxiomPID (AxiomPID)",
+        "repo": "AxiomPID"
+      },
+      {
+        "id": "web-axiomplant",
+        "title": "AxiomPlant (AxiomPlant)",
+        "repo": "AxiomPlant"
+      },
+      {
+        "id": "web-nexoraengineering",
+        "title": "NexoraEngineering (NexoraEngineering)",
+        "repo": "NexoraEngineering"
+      },
+      {
+        "id": "web-relayforgeautomation",
+        "title": "RelayForgeAutomation (RelayForgeAutomation)",
+        "repo": "RelayForgeAutomation"
+      },
+      {
+        "id": "web-voltweave",
+        "title": "VoltWeave (VoltWeave)",
+        "repo": "VoltWeave"
+      },
+      {
+        "id": "web-voltweavestudio",
+        "title": "VoltWeaveStudio (VoltWeaveStudio)",
+        "repo": "VoltWeaveStudio"
+      },
+      {
+        "id": "web-silicorestudio",
+        "title": "SilicoreStudio (SilicoreStudio)",
+        "repo": "SilicoreStudio"
+      },
+      {
+        "id": "web-kineforgestudio",
+        "title": "KineforgeStudio (KineforgeStudio)",
+        "repo": "KineforgeStudio"
+      },
+      {
+        "id": "web-convergestudio",
+        "title": "ConvergeStudio (ConvergeStudio)",
+        "repo": "ConvergeStudio"
+      },
+      {
+        "id": "web-stratumbim",
+        "title": "StratumBIM (StratumBIM)",
+        "repo": "StratumBIM"
+      },
+      {
+        "id": "web-planforgereview",
+        "title": "Aufmaß (PlanforgeReview)",
+        "repo": "PlanforgeReview"
+      },
+      {
+        "id": "web-meridiangisstudio",
+        "title": "MeridianGISStudio (MeridianGISStudio)",
+        "repo": "MeridianGISStudio"
+      },
+      {
+        "id": "web-wayline",
+        "title": "Wayline (Wayline)",
+        "repo": "Wayline"
+      },
+      {
+        "id": "web-meridianoffice",
+        "title": "Office (MeridianOffice)",
+        "repo": "MeridianOffice"
+      },
+      {
+        "id": "web-quire",
+        "title": "Mail (Quire)",
+        "repo": "Quire"
+      },
+      {
+        "id": "web-gridline",
+        "title": "Tabelle (Gridline)",
+        "repo": "Gridline"
+      },
+      {
+        "id": "web-aureliaslides",
+        "title": "AureliaSlides (AureliaSlides)",
+        "repo": "AureliaSlides"
+      },
+      {
+        "id": "web-folioforge",
+        "title": "FolioForge (FolioForge)",
+        "repo": "FolioForge"
+      },
+      {
+        "id": "web-foliopro",
+        "title": "PDF (FolioPro)",
+        "repo": "FolioPro"
+      },
+      {
+        "id": "web-meridianplan",
+        "title": "Planung (MeridianPlan)",
+        "repo": "MeridianPlan"
+      },
+      {
+        "id": "web-nexoradiagram",
+        "title": "NexoraDiagram (NexoraDiagram)",
+        "repo": "NexoraDiagram"
+      },
+      {
+        "id": "web-veyraworkspace",
+        "title": "Gespräch (Veyra Workspace)",
+        "repo": "VeyraWorkspace"
+      },
+      {
+        "id": "web-twinforge",
+        "title": "Dateien (TwinForge)",
+        "repo": "TwinForge"
+      },
+      {
+        "id": "web-notepadxp",
+        "title": "Text (NotepadXP)",
+        "repo": "NotepadXP"
+      },
+      {
+        "id": "web-forgestudio",
+        "title": "ForgeStudio (ForgeStudio)",
+        "repo": "ForgeStudio"
+      },
+      {
+        "id": "web-pageforgestudio",
+        "title": "PageForgeStudio (PageForgeStudio)",
+        "repo": "PageForgeStudio"
+      },
+      {
+        "id": "web-asteria",
+        "title": "Asteria (Asteria)",
+        "repo": "Asteria"
+      },
+      {
+        "id": "web-fluxweave",
+        "title": "Fluxweave (Fluxweave)",
+        "repo": "Fluxweave"
+      },
+      {
+        "id": "web-latticeanalytics",
+        "title": "Auswertung (LatticeAnalytics)",
+        "repo": "LatticeAnalytics"
+      },
+      {
+        "id": "web-aureonterminal",
+        "title": "AureonTerminal (AureonTerminal)",
+        "repo": "AureonTerminal"
+      },
+      {
+        "id": "web-branchglass",
+        "title": "Branchglass (Branchglass)",
+        "repo": "Branchglass"
+      },
+      {
+        "id": "web-jailbreak",
+        "title": "Jailbreak (Jailbreak)",
+        "repo": "Jailbreak"
+      },
+      {
+        "id": "web-frameforge",
+        "title": "Frameforge (Frameforge)",
+        "repo": "Frameforge"
+      },
+      {
+        "id": "web-pulsegridstudio",
+        "title": "PulsegridStudio (PulsegridStudio)",
+        "repo": "PulsegridStudio"
+      },
+      {
+        "id": "web-sonorastudio",
+        "title": "SonoraStudio (SonoraStudio)",
+        "repo": "SonoraStudio"
+      },
+      {
+        "id": "web-signalforgestudio",
+        "title": "SignalForgeStudio (SignalForgeStudio)",
+        "repo": "SignalForgeStudio"
+      },
+      {
+        "id": "web-railbound",
+        "title": "Railbound (Classic) (Railbound)",
+        "repo": "Railbound"
+      },
+      {
+        "id": "web-railboundadventures",
+        "title": "RailboundAdventures (RailboundAdventures)",
+        "repo": "RailboundAdventures"
+      },
+      {
+        "id": "web-vantaforge",
+        "title": "VantaForge (VantaForge)",
+        "repo": "VantaForge"
+      },
+      {
+        "id": "web-voltweavecircuitstudio",
+        "title": "VoltWeave Circuit Studio (VoltWeaveCircuitStudio)",
+        "repo": "VoltWeaveCircuitStudio"
+      },
+      {
+        "id": "web-stratumintelligence",
+        "title": "Stratum Intelligence (StratumIntelligence)",
+        "repo": "StratumIntelligence"
+      },
+      {
+        "id": "web-veldra3d",
+        "title": "Veldra 3D + Weave (Veldra3D)",
+        "repo": "Veldra3D"
+      },
+      {
+        "id": "web-avolithstudio",
+        "title": "Modell (Avolith Studio)",
+        "repo": "AvolithStudio"
+      },
+      {
+        "id": "web-aureonstudio",
+        "title": "Aureon Studio (AureonStudio)",
+        "repo": "AureonStudio"
+      },
+      {
+        "id": "web-velsign",
+        "title": "Signatur (Velsign)",
+        "repo": "Velsign"
+      },
+      {
+        "id": "web-folio",
+        "title": "Akte (Folio)",
+        "repo": "Folio"
+      },
+      {
+        "id": "web-mirevastudio",
+        "title": "Mireva Studio (MirevaStudio)",
+        "repo": "MirevaStudio"
+      },
+      {
+        "id": "web-orivane",
+        "title": "Tafel (Orivane)",
+        "repo": "Orivane"
+      },
+      {
+        "id": "web-velora",
+        "title": "Velora Design Studio (Velora)",
+        "repo": "Velora"
+      }
+    ],
+    "registry": [
+      {
+        "id": "clipboard-tools",
+        "title": "Clipboard Utilities (clipboard-tools)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "files",
+        "title": "Explorer (File Explorer)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "notepad",
+        "title": "Notizen (Notepad)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "terminal",
+        "title": "Eingabe (Terminal)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "paint",
+        "title": "Farbe (Paint)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "photos",
+        "title": "Fotos (Photos)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "media",
+        "title": "Medien (Media Player)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "code",
+        "title": "Code (Code Studio)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "snips",
+        "title": "Ausschnitt (Snips)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "calculator",
+        "title": "Rechner (Calculator)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "calendar",
+        "title": "Kalender (Calendar)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "clock",
+        "title": "Uhr (Clock)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "tasks",
+        "title": "Aufgaben (Tasks)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "mines",
+        "title": "Minen (Mines)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "settings",
+        "title": "Einstellungen (Settings)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "taskmanager",
+        "title": "Prozesse (Task Manager)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "welcome",
+        "title": "Willkommen (Welcome)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "clipboard",
+        "title": "Zwischenablage (Clipboard History)",
+        "custom": false,
+        "webApp": false,
+        "hidden": true
+      },
+      {
+        "id": "focus",
+        "title": "Fokus (Focus Sessions)",
+        "custom": false,
+        "webApp": false,
+        "hidden": true
+      },
+      {
+        "id": "widgets",
+        "title": "Übersicht (Widget Board)",
+        "custom": false,
+        "webApp": false,
+        "hidden": true
+      },
+      {
+        "id": "workspaces",
+        "title": "Fenstergruppen (Window Groups)",
+        "custom": false,
+        "webApp": false,
+        "hidden": true
+      },
+      {
+        "id": "history",
+        "title": "Dateiverlauf (File History)",
+        "custom": false,
+        "webApp": false,
+        "hidden": true
+      },
+      {
+        "id": "storage",
+        "title": "Speicher (Storage Manager)",
+        "custom": false,
+        "webApp": false,
+        "hidden": true
+      },
+      {
+        "id": "archives",
+        "title": "Archive (ZIP Archives)",
+        "custom": false,
+        "webApp": false,
+        "hidden": true
+      },
+      {
+        "id": "accessibility",
+        "title": "Bedienung (Accessibility Tools)",
+        "custom": false,
+        "webApp": false,
+        "hidden": true
+      },
+      {
+        "id": "recorder",
+        "title": "Aufnahme (Screen Recorder)",
+        "custom": false,
+        "webApp": false,
+        "hidden": true
+      },
+      {
+        "id": "win32",
+        "title": "Win32 (Win32 Lab)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "web-vellum",
+        "title": "Vellum (Vellum)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-forma",
+        "title": "Forma (Forma)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-vectora",
+        "title": "Vectora (Vectora)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-lumaforge",
+        "title": "LumaForge (LumaForge)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-prismforge",
+        "title": "PrismForge (PrismForge)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-prismstudio",
+        "title": "PrismStudio (PrismStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-paintxp",
+        "title": "PaintXP (PaintXP)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-selvedgestudio",
+        "title": "SELVEDGEStudio (SELVEDGEStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-aethermotion",
+        "title": "AetherMotion (AetherMotion)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-celestastudio",
+        "title": "CelestaStudio (CelestaStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-kinetrastudio",
+        "title": "KinetraStudio (KinetraStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-lithicsculpt",
+        "title": "LithicSculpt (LithicSculpt)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-vertexforge",
+        "title": "VertexForge (VertexForge)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-vortexfx",
+        "title": "VortexFX (VortexFX)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-strataforge",
+        "title": "Material (StrataForge)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-alloystudio",
+        "title": "AlloyStudio (AlloyStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-aureoncad",
+        "title": "AureonCAD (AureonCAD)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-axiomcad",
+        "title": "AxiomCAD (AxiomCAD)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-axiomcam",
+        "title": "AxiomCAM (AxiomCAM)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-draftline",
+        "title": "Zeichnung (Draftline)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-kestrelcad",
+        "title": "CAD (KestrelCAD)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-stratumcad",
+        "title": "StratumCAD (StratumCAD)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-asterioneda",
+        "title": "Asterion EDA (AsterionEDA)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-formalyth",
+        "title": "Korpus (Formalyth)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-aetherdiscovery",
+        "title": "AetherDiscovery (AetherDiscovery)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-aetherfield",
+        "title": "AetherField (AetherField)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-aetheroptics",
+        "title": "AetherOptics (AetherOptics)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-fluxlab",
+        "title": "FluxLab (FluxLab)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-fluxworksstudio",
+        "title": "FluxWorksStudio (FluxWorksStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-stratumframe",
+        "title": "StratumFrame (StratumFrame)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-astercas",
+        "title": "AsterCAS (AsterCAS)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-axiomstudio",
+        "title": "AxiomStudio (AxiomStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-axiomworksheet",
+        "title": "Rechenblatt (AxiomWorksheet)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-aureliaprocess",
+        "title": "AureliaProcess (AureliaProcess)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-vaporaprocessstudio",
+        "title": "VaporaProcessStudio (VaporaProcessStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-axiompid",
+        "title": "AxiomPID (AxiomPID)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-axiomplant",
+        "title": "AxiomPlant (AxiomPlant)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-nexoraengineering",
+        "title": "NexoraEngineering (NexoraEngineering)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-relayforgeautomation",
+        "title": "RelayForgeAutomation (RelayForgeAutomation)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-voltweave",
+        "title": "VoltWeave (VoltWeave)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-voltweavestudio",
+        "title": "VoltWeaveStudio (VoltWeaveStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-silicorestudio",
+        "title": "SilicoreStudio (SilicoreStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-kineforgestudio",
+        "title": "KineforgeStudio (KineforgeStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-convergestudio",
+        "title": "ConvergeStudio (ConvergeStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-stratumbim",
+        "title": "StratumBIM (StratumBIM)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-planforgereview",
+        "title": "Aufmaß (PlanforgeReview)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-meridiangisstudio",
+        "title": "MeridianGISStudio (MeridianGISStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-wayline",
+        "title": "Wayline (Wayline)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-meridianoffice",
+        "title": "Office (MeridianOffice)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-quire",
+        "title": "Mail (Quire)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-gridline",
+        "title": "Tabelle (Gridline)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-aureliaslides",
+        "title": "AureliaSlides (AureliaSlides)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-folioforge",
+        "title": "FolioForge (FolioForge)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-foliopro",
+        "title": "PDF (FolioPro)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-meridianplan",
+        "title": "Planung (MeridianPlan)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-nexoradiagram",
+        "title": "NexoraDiagram (NexoraDiagram)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-veyraworkspace",
+        "title": "Gespräch (Veyra Workspace)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-twinforge",
+        "title": "Dateien (TwinForge)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-notepadxp",
+        "title": "Text (NotepadXP)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-forgestudio",
+        "title": "ForgeStudio (ForgeStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-pageforgestudio",
+        "title": "PageForgeStudio (PageForgeStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-asteria",
+        "title": "Asteria (Asteria)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-fluxweave",
+        "title": "Fluxweave (Fluxweave)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-latticeanalytics",
+        "title": "Auswertung (LatticeAnalytics)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-aureonterminal",
+        "title": "AureonTerminal (AureonTerminal)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-branchglass",
+        "title": "Branchglass (Branchglass)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-jailbreak",
+        "title": "Jailbreak (Jailbreak)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-frameforge",
+        "title": "Frameforge (Frameforge)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-pulsegridstudio",
+        "title": "PulsegridStudio (PulsegridStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-sonorastudio",
+        "title": "SonoraStudio (SonoraStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-signalforgestudio",
+        "title": "SignalForgeStudio (SignalForgeStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-railbound",
+        "title": "Railbound (Classic) (Railbound)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-railboundadventures",
+        "title": "RailboundAdventures (RailboundAdventures)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-vantaforge",
+        "title": "VantaForge (VantaForge)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-voltweavecircuitstudio",
+        "title": "VoltWeave Circuit Studio (VoltWeaveCircuitStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-stratumintelligence",
+        "title": "Stratum Intelligence (StratumIntelligence)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-veldra3d",
+        "title": "Veldra 3D + Weave (Veldra3D)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-avolithstudio",
+        "title": "Modell (Avolith Studio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-aureonstudio",
+        "title": "Aureon Studio (AureonStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-velsign",
+        "title": "Signatur (Velsign)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-folio",
+        "title": "Akte (Folio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-mirevastudio",
+        "title": "Mireva Studio (MirevaStudio)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-orivane",
+        "title": "Tafel (Orivane)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "web-velora",
+        "title": "Velora Design Studio (Velora)",
+        "custom": false,
+        "webApp": true,
+        "hidden": false
+      },
+      {
+        "id": "store",
+        "title": "App Store (App Center)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "browser",
+        "title": "Browser (Orbit Browser)",
+        "custom": false,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-tabelle",
+        "title": "Tabelle (Gridline)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-planung",
+        "title": "Planung (MeridianPlan)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-office",
+        "title": "Office (MeridianOffice)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-dateien",
+        "title": "Dateien (TwinForge)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-akte",
+        "title": "Akte (Folio)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-pdf",
+        "title": "PDF (FolioPro)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-mail",
+        "title": "Mail (Quire)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-text",
+        "title": "Text (NotepadXP)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-auswertung",
+        "title": "Auswertung (LatticeAnalytics)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-rechenblatt",
+        "title": "Rechenblatt (AxiomWorksheet)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-zeichnung",
+        "title": "Zeichnung (Draftline)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-cad",
+        "title": "CAD (KestrelCAD)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-aufmass",
+        "title": "Aufmaß (PlanforgeReview)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-tafel",
+        "title": "Tafel (Orivane)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-gespraech",
+        "title": "Gespräch (Veyra Workspace)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-signatur",
+        "title": "Signatur (Velsign)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-korpus",
+        "title": "Korpus (Formalyth)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-material",
+        "title": "Material (StrataForge)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      },
+      {
+        "id": "custom-luna-modell",
+        "title": "Modell (Avolith Studio)",
+        "custom": true,
+        "webApp": false,
+        "hidden": false
+      }
+    ],
+    "installed": [
+      {
+        "schema": 2,
+        "id": "custom-luna-tabelle",
+        "kind": "html",
+        "title": "Tabelle (Gridline)",
+        "description": "Spreadsheet calculationsVendored Gridline · dab377510f5e",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "dab377510f5e",
+        "favorite": false,
+        "installedAt": 1789381308952,
+        "updatedAt": 1789381308952,
+        "revision": 1,
+        "path": "/Apps/tabelle.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-planung",
+        "kind": "html",
+        "title": "Planung (MeridianPlan)",
+        "description": "Project planning and schedulingVendored MeridianPlan · 3704572d1d19",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "3704572d1d19",
+        "favorite": false,
+        "installedAt": 1789381308970,
+        "updatedAt": 1789381308970,
+        "revision": 1,
+        "path": "/Apps/planung.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-office",
+        "kind": "html",
+        "title": "Office (MeridianOffice)",
+        "description": "Documents, spreadsheets and presentationsVendored MeridianOffice · ab77468b2a0a",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "ab77468b2a0a",
+        "favorite": false,
+        "installedAt": 1789381308990,
+        "updatedAt": 1789381308990,
+        "revision": 1,
+        "path": "/Apps/office.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-dateien",
+        "kind": "html",
+        "title": "Dateien (TwinForge)",
+        "description": "Dual-pane file manager with tabs, archives and permission-based local-folder accessVendored TwinForge · 3aa545597ac6",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "3aa545597ac6",
+        "favorite": false,
+        "installedAt": 1789381309003,
+        "updatedAt": 1789381309003,
+        "revision": 1,
+        "path": "/Apps/dateien.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-akte",
+        "kind": "html",
+        "title": "Akte (Folio)",
+        "description": "Local-first documents, knowledge pages, project databases and notesVendored Folio · f4aa4ece80c8",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "f4aa4ece80c8",
+        "favorite": false,
+        "installedAt": 1789381309005,
+        "updatedAt": 1789381309005,
+        "revision": 1,
+        "path": "/Apps/akte.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-pdf",
+        "kind": "html",
+        "title": "PDF (FolioPro)",
+        "description": "PDF editing and annotationVendored FolioPro · 588b26b15d05",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "588b26b15d05",
+        "favorite": false,
+        "installedAt": 1789381309025,
+        "updatedAt": 1789381309025,
+        "revision": 1,
+        "path": "/Apps/pdf.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-mail",
+        "kind": "html",
+        "title": "Mail (Quire)",
+        "description": "Original Quire document editor. The requested Mail label does not add email features. Vendored Quire · 2b132ed2c279",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "2b132ed2c279",
+        "favorite": false,
+        "installedAt": 1789381309042,
+        "updatedAt": 1789381309042,
+        "revision": 1,
+        "path": "/Apps/mail.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-text",
+        "kind": "html",
+        "title": "Text (NotepadXP)",
+        "description": "Classic plain-text editor with find, replace, encodings and WebGPU text renderingVendored NotepadXP · 7bf4eb24426e",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "7bf4eb24426e",
+        "favorite": false,
+        "installedAt": 1789381309055,
+        "updatedAt": 1789381309055,
+        "revision": 1,
+        "path": "/Apps/text.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-auswertung",
+        "kind": "html",
+        "title": "Auswertung (LatticeAnalytics)",
+        "description": "Data analysis and interactive workbooksVendored LatticeAnalytics · 553295d74c43",
+        "category": "Development & Data",
+        "icon": "code",
+        "color": "violet",
+        "publisher": "wieslawsoltes",
+        "version": "553295d74c43",
+        "favorite": false,
+        "installedAt": 1789381309070,
+        "updatedAt": 1789381309070,
+        "revision": 1,
+        "path": "/Apps/auswertung.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-rechenblatt",
+        "kind": "html",
+        "title": "Rechenblatt (AxiomWorksheet)",
+        "description": "Engineering calculations and worksheetsVendored AxiomWorksheet · 483dcf606e68",
+        "category": "Science & Simulation",
+        "icon": "spark",
+        "color": "teal",
+        "publisher": "wieslawsoltes",
+        "version": "483dcf606e68",
+        "favorite": false,
+        "installedAt": 1789381309086,
+        "updatedAt": 1789381309086,
+        "revision": 1,
+        "path": "/Apps/rechenblatt.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-zeichnung",
+        "kind": "html",
+        "title": "Zeichnung (Draftline)",
+        "description": "Precision 2D draftingVendored Draftline · cdb4f81a832b",
+        "category": "CAD & Manufacturing",
+        "icon": "rect",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "cdb4f81a832b",
+        "favorite": false,
+        "installedAt": 1789381309107,
+        "updatedAt": 1789381309107,
+        "revision": 1,
+        "path": "/Apps/zeichnung.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-cad",
+        "kind": "html",
+        "title": "CAD (KestrelCAD)",
+        "description": "2D and 3D CAD with DXF workflowsVendored KestrelCAD · 7a1e84c67fd2",
+        "category": "CAD & Manufacturing",
+        "icon": "rect",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "7a1e84c67fd2",
+        "favorite": false,
+        "installedAt": 1789381309199,
+        "updatedAt": 1789381309199,
+        "revision": 1,
+        "path": "/Apps/cad.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-aufmass",
+        "kind": "html",
+        "title": "Aufmaß (PlanforgeReview)",
+        "description": "Construction document review and takeoffVendored PlanforgeReview · f6b4978c65ef",
+        "category": "Buildings & Maps",
+        "icon": "globe",
+        "color": "green",
+        "publisher": "wieslawsoltes",
+        "version": "f6b4978c65ef",
+        "favorite": false,
+        "installedAt": 1789381309206,
+        "updatedAt": 1789381309206,
+        "revision": 1,
+        "path": "/Apps/aufmass.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-tafel",
+        "kind": "html",
+        "title": "Tafel (Orivane)",
+        "description": "Local-first whiteboards, sticky notes, diagrams and presentationsVendored Orivane · af71000f3b44",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "af71000f3b44",
+        "favorite": false,
+        "installedAt": 1789381309233,
+        "updatedAt": 1789381309233,
+        "revision": 1,
+        "path": "/Apps/tafel.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-gespraech",
+        "kind": "html",
+        "title": "Gespräch (Veyra Workspace)",
+        "description": "Collaboration workspace with chat, meetings, shared notes and a WebGPU whiteboardVendored VeyraWorkspace · 328dbc75cb75",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "328dbc75cb75",
+        "favorite": false,
+        "installedAt": 1789381309237,
+        "updatedAt": 1789381309237,
+        "revision": 1,
+        "path": "/Apps/gespraech.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-signatur",
+        "kind": "html",
+        "title": "Signatur (Velsign)",
+        "description": "Prepare agreements, place signature fields and manage browser-local signing demosVendored Velsign · 8365539ca7c1",
+        "category": "Office & Productivity",
+        "icon": "file",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "8365539ca7c1",
+        "favorite": false,
+        "installedAt": 1789381309240,
+        "updatedAt": 1789381309240,
+        "revision": 1,
+        "path": "/Apps/signatur.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-korpus",
+        "kind": "html",
+        "title": "Korpus (Formalyth)",
+        "description": "Parametric CAD design and manufacturing workbenchVendored Formalyth · 14f32d9fa468",
+        "category": "CAD & Manufacturing",
+        "icon": "rect",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "14f32d9fa468",
+        "favorite": false,
+        "installedAt": 1789381309242,
+        "updatedAt": 1789381309242,
+        "revision": 1,
+        "path": "/Apps/korpus.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-material",
+        "kind": "html",
+        "title": "Material (StrataForge)",
+        "description": "Materials and procedural texturesVendored StrataForge · b4e16db998aa",
+        "category": "3D & Animation",
+        "icon": "gpu",
+        "color": "teal",
+        "publisher": "wieslawsoltes",
+        "version": "b4e16db998aa",
+        "favorite": false,
+        "installedAt": 1789381309245,
+        "updatedAt": 1789381309245,
+        "revision": 1,
+        "path": "/Apps/material.html"
+      },
+      {
+        "schema": 2,
+        "id": "custom-luna-modell",
+        "kind": "html",
+        "title": "Modell (Avolith Studio)",
+        "description": "Direct and analytic 3D modeling, sheet metal and CAD exchangeVendored AvolithStudio · d91304cc8007",
+        "category": "CAD & Manufacturing",
+        "icon": "rect",
+        "color": "blue",
+        "publisher": "wieslawsoltes",
+        "version": "d91304cc8007",
+        "favorite": false,
+        "installedAt": 1789381309271,
+        "updatedAt": 1789381309271,
+        "revision": 1,
+        "path": "/Apps/modell.html"
+      }
+    ],
+    "shortcuts": [
+      {
+        "app": "files",
+        "title": "Explorer (File Explorer)"
+      },
+      {
+        "app": "custom-luna-dateien",
+        "title": "Dateien (TwinForge)"
+      },
+      {
+        "app": "custom-luna-tabelle",
+        "title": "Tabelle (Gridline)"
+      },
+      {
+        "app": "custom-luna-planung",
+        "title": "Planung (MeridianPlan)"
+      },
+      {
+        "app": "calendar",
+        "title": "Kalender (Calendar)"
+      },
+      {
+        "app": "custom-luna-mail",
+        "title": "Mail (Quire)"
+      },
+      {
+        "app": "custom-luna-akte",
+        "title": "Akte (Folio)"
+      },
+      {
+        "app": "custom-luna-zeichnung",
+        "title": "Zeichnung (Draftline)"
+      },
+      {
+        "app": "custom-luna-cad",
+        "title": "CAD (KestrelCAD)"
+      },
+      {
+        "app": "custom-luna-korpus",
+        "title": "Korpus (Formalyth)"
+      },
+      {
+        "app": "custom-luna-material",
+        "title": "Material (StrataForge)"
+      },
+      {
+        "app": "custom-luna-aufmass",
+        "title": "Aufmaß (PlanforgeReview)"
+      },
+      {
+        "app": "settings",
+        "title": "Einstellungen (Settings)"
+      }
+    ],
+    "profile": "windows",
+    "theme": {
+      "version": 1,
+      "id": "luna-korpus",
+      "title": "Luna Korpus",
+      "profile": "windows",
+      "shellMode": "dark",
+      "appMode": "light",
+      "accent": "#0078c8",
+      "selection": "#0078c8",
+      "autoAccent": false,
+      "accentOnShell": false,
+      "accentOnTitle": true,
+      "transparency": true,
+      "motion": true,
+      "optics": {
+        "quality": "balanced",
+        "bend": 65,
+        "dispersion": 8,
+        "magnify": true
+      },
+      "glass": "clear",
+      "iconStyle": "colorful",
+      "iconFamily": "windows",
+      "font": "system",
+      "fontSize": 13,
+      "titleHeight": 36,
+      "borderWidth": 1,
+      "radius": 8,
+      "scrollbarWidth": 10,
+      "taskbar": {
+        "position": "bottom",
+        "align": "center",
+        "size": 40,
+        "autoHide": false,
+        "showSearch": true,
+        "showTaskView": true,
+        "showWidgets": true
+      },
+      "assets": {},
+      "background": {
+        "type": "color",
+        "builtin": "bloom",
+        "color": "#0b3a5b",
+        "fit": "fill",
+        "images": [],
+        "interval": 60000,
+        "shuffle": false
+      },
+      "desktopBackgrounds": {},
+      "cursor": {
+        "scheme": "default",
+        "size": 24,
+        "custom": {}
+      },
+      "sounds": {
+        "enabled": false,
+        "scheme": "aster",
+        "volume": 35,
+        "events": {}
+      },
+      "contrast": {
+        "enabled": false,
+        "colors": {
+          "background": "#000000",
+          "text": "#ffffff",
+          "link": "#ffff00",
+          "disabled": "#9f9f9f",
+          "selection": "#00ffff",
+          "selectedText": "#000000",
+          "button": "#000000"
+        }
+      },
+      "colors": {
+        "ActiveTitle": "#0078c8",
+        "TitleText": "#ffffff"
+      },
+      "icons": {}
+    },
+    "storage": "IndexedDB",
+    "renderer": {
+      "fps": 30,
+      "frameMs": 0.20000000298023224,
+      "drawCalls": 1,
+      "mode": "WebGPU",
+      "frames": [
+        30
+      ]
+    }
+  },
+  "sourceHashes": [
+    {
+      "id": "tabelle",
+      "expected": "31aa5e1ed31ba6e428ffd86c7ed4c734b71b3589d89a8f5d909b68e037c2d6de",
+      "actual": "31aa5e1ed31ba6e428ffd86c7ed4c734b71b3589d89a8f5d909b68e037c2d6de",
+      "bytes": 233169
+    },
+    {
+      "id": "planung",
+      "expected": "56df9a77c12c603e5ffb6a25d009933c7d71950565583e1bf910eea3b9afdfd3",
+      "actual": "56df9a77c12c603e5ffb6a25d009933c7d71950565583e1bf910eea3b9afdfd3",
+      "bytes": 234900
+    },
+    {
+      "id": "office",
+      "expected": "3a0e4675ee91caf6e30f21085c227bcaf237f2a536cd17d6ea6387cd38cfa885",
+      "actual": "3a0e4675ee91caf6e30f21085c227bcaf237f2a536cd17d6ea6387cd38cfa885",
+      "bytes": 259539
+    },
+    {
+      "id": "dateien",
+      "expected": "4500f74c6bbd142a7dd42589c56cc31e8b0b3af6c32e112714ea7572ed82ac87",
+      "actual": "4500f74c6bbd142a7dd42589c56cc31e8b0b3af6c32e112714ea7572ed82ac87",
+      "bytes": 181339
+    },
+    {
+      "id": "akte",
+      "expected": "a3f7154e814b9a5d235be6dfdc495728e01e4f084f19fccda6b7caf5ea7cf7a5",
+      "actual": "a3f7154e814b9a5d235be6dfdc495728e01e4f084f19fccda6b7caf5ea7cf7a5",
+      "bytes": 567
+    },
+    {
+      "id": "pdf",
+      "expected": "b97a999c900eaf7cb29ffa583606a5ff278f091a06861491352c965a563266bf",
+      "actual": "b97a999c900eaf7cb29ffa583606a5ff278f091a06861491352c965a563266bf",
+      "bytes": 281292
+    },
+    {
+      "id": "mail",
+      "expected": "926a26348f2a38c012b112d2e7bcbe779ada5dd290f56a4e3cf08388e5cf52a8",
+      "actual": "926a26348f2a38c012b112d2e7bcbe779ada5dd290f56a4e3cf08388e5cf52a8",
+      "bytes": 242877
+    },
+    {
+      "id": "text",
+      "expected": "44e40442a9369f3b25f8c36081dee70492e05feb92c59f23d2eba577b887f401",
+      "actual": "44e40442a9369f3b25f8c36081dee70492e05feb92c59f23d2eba577b887f401",
+      "bytes": 184514
+    },
+    {
+      "id": "auswertung",
+      "expected": "b8bf1e6b70e782896ccb14c642d661b79247b449be8a7b9be4e64f11a29a8f6f",
+      "actual": "b8bf1e6b70e782896ccb14c642d661b79247b449be8a7b9be4e64f11a29a8f6f",
+      "bytes": 230839
+    },
+    {
+      "id": "rechenblatt",
+      "expected": "a35994b859c598628a25089cec5fa220c7f3504953af9237d4a8156b24e09062",
+      "actual": "a35994b859c598628a25089cec5fa220c7f3504953af9237d4a8156b24e09062",
+      "bytes": 230256
+    },
+    {
+      "id": "zeichnung",
+      "expected": "f60d7a4e4a326c8284d991d97fee8adc2361e71ef97a72063efc8cb4c7692278",
+      "actual": "f60d7a4e4a326c8284d991d97fee8adc2361e71ef97a72063efc8cb4c7692278",
+      "bytes": 224999
+    },
+    {
+      "id": "cad",
+      "expected": "2b0540122c005c6930592136e0420aedb61163ad6bb2e34a12ce5e25e764c886",
+      "actual": "2b0540122c005c6930592136e0420aedb61163ad6bb2e34a12ce5e25e764c886",
+      "bytes": 1331535
+    },
+    {
+      "id": "aufmass",
+      "expected": "8bfde19ee7e113a87a5c93de218819038b5af8b6d753869d5960d1f3ceec6aef",
+      "actual": "8bfde19ee7e113a87a5c93de218819038b5af8b6d753869d5960d1f3ceec6aef",
+      "bytes": 7345
+    },
+    {
+      "id": "tafel",
+      "expected": "af0ed56a09db28ab9dfbfb2de6c73540c4d2dbf21cc8d62bd302a6a5dbd6dce6",
+      "actual": "af0ed56a09db28ab9dfbfb2de6c73540c4d2dbf21cc8d62bd302a6a5dbd6dce6",
+      "bytes": 363056
+    },
+    {
+      "id": "gespraech",
+      "expected": "18c9b4148c58adf79c63851c07ac821adcc67fe28dbb349efde23ee3742e7795",
+      "actual": "18c9b4148c58adf79c63851c07ac821adcc67fe28dbb349efde23ee3742e7795",
+      "bytes": 1488
+    },
+    {
+      "id": "signatur",
+      "expected": "93c39f71808185dd5e1f2daff06a6648bf49d815cbed7cd50ca90fe45b868e97",
+      "actual": "93c39f71808185dd5e1f2daff06a6648bf49d815cbed7cd50ca90fe45b868e97",
+      "bytes": 690
+    },
+    {
+      "id": "korpus",
+      "expected": "1385d5092a32e2ca78a1c9b252d650b144b7bcb04eb98307fe990122f34df4ef",
+      "actual": "1385d5092a32e2ca78a1c9b252d650b144b7bcb04eb98307fe990122f34df4ef",
+      "bytes": 702
+    },
+    {
+      "id": "material",
+      "expected": "75fe77825d6e3165bdb42ece7277c31be935e6beec788029d84ef9f28b79227e",
+      "actual": "75fe77825d6e3165bdb42ece7277c31be935e6beec788029d84ef9f28b79227e",
+      "bytes": 10886
+    },
+    {
+      "id": "modell",
+      "expected": "9406611dcc750711a215b446cd16102249479be394711d651b080de6f749e531",
+      "actual": "9406611dcc750711a215b446cd16102249479be394711d651b080de6f749e531",
+      "bytes": 291196
+    }
+  ]
+}

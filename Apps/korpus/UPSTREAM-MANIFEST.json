@@ -1,0 +1,418 @@
+{
+  "build-info.json": {
+    "sha256": "f28280f259c3d26e02a7ebfbeb55e60f0cc048bf74d16e14a9ee991ac9500206",
+    "bytes": 145
+  },
+  "index.html": {
+    "sha256": "1385d5092a32e2ca78a1c9b252d650b144b7bcb04eb98307fe990122f34df4ef",
+    "bytes": 702
+  },
+  "LICENSE": {
+    "sha256": "35390a64161bcb1c2913e30383c6aebc730aca165b1cd168c3198d46bf628612",
+    "bytes": 1079
+  },
+  "README.md": {
+    "sha256": "c13edca502e9eb3d0d41d28766ecf1c616ffcbdb607628d6d4072d4ecc1ce5b3",
+    "bytes": 4029
+  },
+  ".nojekyll": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "app/workbench-actions.js": {
+    "sha256": "31a535adaa41d93e4bb4802668272bf1a1e6371c6dce29e0e31dd56052a2dd7e",
+    "bytes": 12298
+  },
+  "app/construction.js": {
+    "sha256": "71c6f7b44b4b48dcd2c850890629a1f0ee4e95893198bc9f60d74c3c34445e4f",
+    "bytes": 5274
+  },
+  "app/extra.css": {
+    "sha256": "4f137601a9a6d35733fec7bea6710ade70f96c285186da873f2ad91845328f9e",
+    "bytes": 2986
+  },
+  "app/main.js": {
+    "sha256": "10e56a7269b7fe80cdfb53aaa8346d43cf84f0ecfebdefda61f0b17e044c15b3",
+    "bytes": 17310
+  },
+  "app/workspaces.js": {
+    "sha256": "0ce023bee4403bd6ac00f8fd25605f0f4962b4cf25f8eb921afa2ea98f77ecf6",
+    "bytes": 21472
+  },
+  "app/engine.worker.js": {
+    "sha256": "adbb592875bed771b3b5255265722060fadf9f1eb141acf7a392878267ebd407",
+    "bytes": 471
+  },
+  "app/workbench-shared.js": {
+    "sha256": "8744eb46084c2355cecf395acffcb4f111ba2b9e38fb2663b1d7e3b4c49fcc59",
+    "bytes": 2575
+  },
+  "app/workbench-ui.js": {
+    "sha256": "36900222fbc4ce4f24ff6c91935e222b4d308a9efb0b8a620fc6d49c6a69565c",
+    "bytes": 16948
+  },
+  "app/style.css": {
+    "sha256": "0ebb23734ef95ec5a601cddca9710b0aeed4bb241422a0f3d88894a9229deb57",
+    "bytes": 20920
+  },
+  "app/feature-tools.js": {
+    "sha256": "28389beafa3c357c8af29e7f874cc8104d2dd545ed57ed4e13885b69c82f93b0",
+    "bytes": 2119
+  },
+  "app/workbench-panels.js": {
+    "sha256": "a22b2e757d58f1293f7642190cda7065dd07fe2688f0ff127936dea0acd70dd2",
+    "bytes": 14693
+  },
+  "app/model.js": {
+    "sha256": "84c1e193981708e275bb434cd0a94911a75f603dcfc55ce0141b73f57721cfe1",
+    "bytes": 11525
+  },
+  "app/topology.js": {
+    "sha256": "2cb433ba0d03f30a1f61191ea250f5dd9f7b7ed7a301235f5cfa92d7a3ca035f",
+    "bytes": 10401
+  },
+  "app/solid-editing.js": {
+    "sha256": "ed1f6f6d373852f7b1ba0ffbf710c25eb867d73b2a45229a9bf4b8ff89a67a83",
+    "bytes": 8060
+  },
+  "app/workbench.css": {
+    "sha256": "d5d2b48d9b5df1c3becb56ddccd424e19f6232b32c449a794cf0adfed74f8d84",
+    "bytes": 17487
+  },
+  "docs/FORMATS.md": {
+    "sha256": "dff88028d78b8cc0a09023d7f87ed0c4d0e8c5406de823b2596012abc3bf7f1e",
+    "bytes": 2978
+  },
+  "docs/ADDITIVE-PRECISION.md": {
+    "sha256": "ce7e5f3df7b10180b06c58a232f0d2e2567823d50e54d4676b962568905cce7d",
+    "bytes": 1324
+  },
+  "docs/CONTINUATION-0.6.md": {
+    "sha256": "694f89a76dc3373ad8f30621ed9564ac77f36772157c231bfb19d04d37a29c9c",
+    "bytes": 7605
+  },
+  "docs/PROJECTS-AND-TASKS.md": {
+    "sha256": "4f67fa10d0efc7b5ce2f07292e75dd3705ce6a631d59bf2d5d51bbf760cdb1fc",
+    "bytes": 2003
+  },
+  "docs/TOPOLOGY.md": {
+    "sha256": "eefe94f64910f368af3fcdd9223b973abda67eaa54a0c4cd829d7a5ab791e1b4",
+    "bytes": 2935
+  },
+  "docs/ARCHITECTURE.md": {
+    "sha256": "ffe0320b5a6254e82607f2505eb8a02f7188ca11a6df15c2f16edbfcf0692508",
+    "bytes": 7722
+  },
+  "docs/API.md": {
+    "sha256": "59fb1708d5d3203b3b97144cb56fbc72766d8c7318921c3ba5b25b2507503bc0",
+    "bytes": 4965
+  },
+  "docs/CONTINUATION-0.3.md": {
+    "sha256": "8593f89f322f1aef9461bdb7e75d08701490bfd1cb7f2cb43d101c7544497fd9",
+    "bytes": 6494
+  },
+  "docs/BOOLEAN-PERFORMANCE.md": {
+    "sha256": "a9f33c0aedab93f5dde91ddd40ea8b84dc3307cd4f98d0a4aec885596672d85c",
+    "bytes": 2221
+  },
+  "docs/SAFETY.md": {
+    "sha256": "e748e7e0c034a4c58b321fbd625d23c095b626c3852ad5dbf524826c14a9fd45",
+    "bytes": 2761
+  },
+  "docs/GRAPHICS-VALIDATION.md": {
+    "sha256": "dbfebb03c3969ce36f21cbc53a65f067be69457fd0d7ef762c8617958e6686b6",
+    "bytes": 1654
+  },
+  "docs/README.md": {
+    "sha256": "2a05d47a85990ab62e9fe5047dd67ea1b23869d612e5204ad612e4f20949c354",
+    "bytes": 1751
+  },
+  "docs/RECOVERY.md": {
+    "sha256": "9827060c41b1a3c1e750927798e60138e635f39e572c4fff6f2b6a2e4be1607e",
+    "bytes": 1026
+  },
+  "docs/ROADMAP.md": {
+    "sha256": "38771bd5f8049bca8fb7ae6bf0edcb4424004c4c4bf0120b831c9c789b3110d7",
+    "bytes": 3266
+  },
+  "docs/CONTINUATION-0.4.md": {
+    "sha256": "bb999f0157783b9bed6e24444114c5574f5958ff9803599b2bf6d8aadbb215ea",
+    "bytes": 7073
+  },
+  "docs/FEATURES.md": {
+    "sha256": "349cc201cc6dbb2ef0aad8a1d06f85cb3a741a14bf6d880c43a28765a21f2469",
+    "bytes": 7816
+  },
+  "docs/DEVELOPMENT.md": {
+    "sha256": "718700467df3797fe6aa791ef93ade57144f7eb9f54077dca7dec69886e90ceb",
+    "bytes": 3457
+  },
+  "docs/REGIONS.md": {
+    "sha256": "6af8c7bcdeaea3b199a0f42f85a52771347b1026297df4fbcaf80db26585b55d",
+    "bytes": 1300
+  },
+  "docs/CONTINUATION-0.5.md": {
+    "sha256": "fb4c56bc8c1927bc55f569f1f70cbd2b567c76eb15abd862953cc7573d6bbf56",
+    "bytes": 7979
+  },
+  "packages/ui/preferences.js": {
+    "sha256": "c739fccfa8d0b3f80b5963774e24afa5b1a8872f8cb75f84bc51d147c1de622b",
+    "bytes": 1216
+  },
+  "packages/ui/fields.js": {
+    "sha256": "a465ef1a428f1f5e921f70968c96c3874cd3f3e1c6521808581303c87f900652",
+    "bytes": 2884
+  },
+  "packages/ui/index.js": {
+    "sha256": "d35bc4b5f189f7bbdc1c85bc0398bcf387f517cd94a56fabb957f70638a9b905",
+    "bytes": 5917
+  },
+  "packages/ui/constraints.js": {
+    "sha256": "fa49d0f7636efd9343a4655d9e4ecc4b7901f613f5ef935e4e408bf3a81368e0",
+    "bytes": 8302
+  },
+  "packages/ui/sketch.js": {
+    "sha256": "f08f21cda514dffd3f0d706c6fdda67f05249e26a793335bc015738be9ec2547",
+    "bytes": 6850
+  },
+  "packages/ui/menu.js": {
+    "sha256": "96281f1bfe00309ce62885ea65c74d9dd914669c62d4586aaaad9cc685d44c2e",
+    "bytes": 3503
+  },
+  "packages/ui/forms.js": {
+    "sha256": "787f088c6431f4bc90dd237adb0d043d46cee918f3b68c480d954d2bd5c0b0b4",
+    "bytes": 5959
+  },
+  "packages/ui/inspect.js": {
+    "sha256": "86990d238296c4db8ef2f9f8838b6d811cfcbee231c699e5c1f12aa3950f3ae1",
+    "bytes": 2295
+  },
+  "packages/ui/scheduling.js": {
+    "sha256": "4a016688c723f114edbe1a2dd5dd870b330166e262ed717556b46efcf3ee8952",
+    "bytes": 1347
+  },
+  "packages/ui/virtual-list.js": {
+    "sha256": "2b776b905608d10d04f1e51344550c6365a6ef015806bfb22b1e2dce69cf6e19",
+    "bytes": 3081
+  },
+  "packages/topology/halfspaces.js": {
+    "sha256": "5b1f2f39445d392c18dfb963b49d137fe617f39a8575569ccf9485d4609d86b0",
+    "bytes": 3993
+  },
+  "packages/topology/features.js": {
+    "sha256": "9b2abc94aee136ad4b56b43ebba63663929e75ac047202c465c29f7245338c14",
+    "bytes": 1158
+  },
+  "packages/topology/index.js": {
+    "sha256": "53adf68f3490f5ea26d09b111f607afaad6730c396fd55250e65b207d76f38ae",
+    "bytes": 9069
+  },
+  "packages/topology/editing.js": {
+    "sha256": "3dfff0c9b0b65a45f282bf70c893f14bc0400060acbf029228eb33d046adc7cd",
+    "bytes": 12028
+  },
+  "packages/topology/projection.js": {
+    "sha256": "04253cd0aab25e7da66c3806ea65b58c44becbe3943a09f82b71a1b795d432a4",
+    "bytes": 933
+  },
+  "packages/topology/editing-features.js": {
+    "sha256": "094587559f505c9dbb208d1cee51024ee73170d40cc3c0bef000de439f438b48",
+    "bytes": 1572
+  },
+  "packages/topology/operations.js": {
+    "sha256": "8ae70fc9fbb851ca649a316b4782714327f527db98a82bfd03db37db7cfba998",
+    "bytes": 7060
+  },
+  "packages/topology/picking.js": {
+    "sha256": "82e987aafbe584e0b1f104c20eb784715cd818ce796228a4c58904a9af88052b",
+    "bytes": 1270
+  },
+  "packages/drawing/index.js": {
+    "sha256": "e7b0442191b5d4307337976810d6aea23e0eb0a0449d1a2e029efd7b47ca55cc",
+    "bytes": 10260
+  },
+  "packages/renderer/draw-order.js": {
+    "sha256": "da78ea56db1b47184c9ef381f205ef200175bc8ee1816821a2221032d1ddd743",
+    "bytes": 802
+  },
+  "packages/renderer/index.js": {
+    "sha256": "97f82c59f2eb4a96826e431b468d3a19611327d0e2866d8bc01a6f993ba5f197",
+    "bytes": 20460
+  },
+  "packages/renderer/projection.js": {
+    "sha256": "c3427b6c06e6a85df5c259e9fbd7400d366c0fbf8f822c71c152a9679a1ad1b3",
+    "bytes": 1789
+  },
+  "packages/renderer/scene-bounds.js": {
+    "sha256": "2fda60eca607df7827c10c4a3cded89a00c989a6653967dfab7ba6689c53306f",
+    "bytes": 483
+  },
+  "packages/renderer/prepare.js": {
+    "sha256": "84332e078e609735288d383c3ae6c328d2aa55e3c18a728e1f778fbe003be366",
+    "bytes": 2224
+  },
+  "packages/renderer/camera.js": {
+    "sha256": "b57ada0d5215833a45836b4d14087f333b8dc33a14bea63c3cc27358b1dd93b5",
+    "bytes": 2266
+  },
+  "packages/exchange/ply.js": {
+    "sha256": "1b615a049c4e1696a0cbb1c3f968ce8fbc2a438a42bb6d3c21858ac4b23e1abb",
+    "bytes": 5430
+  },
+  "packages/exchange/gltf.js": {
+    "sha256": "6bebc33b88e5ca37a42c6e8392191191289d53efbe2bdecac06b4b548c3a5864",
+    "bytes": 13867
+  },
+  "packages/exchange/index.js": {
+    "sha256": "b59a2a184f24f69190810d81a4b70238f772e0c29133fa8d55eb2129a6b19dc5",
+    "bytes": 2048
+  },
+  "packages/exchange/stl.js": {
+    "sha256": "128d8ed46209885488d9dc9ad37ae0e81e92f5deefb9d5bbc96abe2c29112768",
+    "bytes": 3347
+  },
+  "packages/exchange/common.js": {
+    "sha256": "438e8dee49609b60f0fea9bd38d97dafa2e44c69f1ed5a09f150c760c59f1390",
+    "bytes": 3871
+  },
+  "packages/exchange/step.js": {
+    "sha256": "dea5ecd0e7c3ed9909025ddf081316626746bee16c91a0d095f63f89e15fa817",
+    "bytes": 10854
+  },
+  "packages/exchange/zip.js": {
+    "sha256": "8e2c57c0c58ad691e4bcdb834d5c44635588b22e20b6681128b52ab0ef199942",
+    "bytes": 2408
+  },
+  "packages/exchange/dxf.js": {
+    "sha256": "227910185507d2c7c00c8af09120e823b501173eb7d3379056761b170fb57620",
+    "bytes": 11662
+  },
+  "packages/exchange/obj.js": {
+    "sha256": "f466523356bb04553d1c9639cf0dfc7e8b12ced94846f4a182ba93178a4c302a",
+    "bytes": 2867
+  },
+  "packages/regions/classify.js": {
+    "sha256": "cced3dfc583306da6fc6bc1fc1f569caed87273c2561fbadef74bc8b5bf5ab0d",
+    "bytes": 3607
+  },
+  "packages/regions/index.js": {
+    "sha256": "7f41d43819c254e57a2479bd3332f81ec0fb13f029d4b1cb7510f2b680b1890f",
+    "bytes": 1747
+  },
+  "packages/tasks/index.js": {
+    "sha256": "b35d1ad8bf31afd154d2d07af7038b367ffb350335676873d9a6b269e56560e1",
+    "bytes": 4904
+  },
+  "packages/tasks/engine.js": {
+    "sha256": "72dcc70da74850ff9132e40f340c2231e756d541ff00b8ff16e399ced3d59e12",
+    "bytes": 10554
+  },
+  "packages/analysis/index.js": {
+    "sha256": "46ca8924ccc24bd1ab6db2d3441a724e3c55fcfe4c2b1d33354be85f74bf3ed3",
+    "bytes": 14518
+  },
+  "packages/electronics/index.js": {
+    "sha256": "55c94f8ce7c8ccc571a4f6e956c317dc194befa82d0c73c3a4f1af811c779a91",
+    "bytes": 7313
+  },
+  "packages/assembly/index.js": {
+    "sha256": "db6c56b9472f0f82d1a572ce210998526c3c715b30b8e8e5ac1dee27349e0d78",
+    "bytes": 7311
+  },
+  "packages/solver/expressions.js": {
+    "sha256": "9cd83827d9e0b2713357c7e8b2e8dee867ba7b5d6e046974a90ffe5080463fef",
+    "bytes": 4817
+  },
+  "packages/solver/index.js": {
+    "sha256": "29709c9c290a8f7ef1f01994f7baf0851dc74e8ae1e145cb045c78ff71534e45",
+    "bytes": 7146
+  },
+  "packages/document/graph.js": {
+    "sha256": "9fd646613128d4ee637b8f9c312fb846942ef970e3c9cc163162e5c8d92f2100",
+    "bytes": 5474
+  },
+  "packages/document/index.js": {
+    "sha256": "dd27458923d028a25c52c88c3dac97c33034f26c1f684fbb662ad03ba1ff52a2",
+    "bytes": 15457
+  },
+  "packages/document/storage.js": {
+    "sha256": "a58bc2e6899553545e5f795ef2fb6c00e83d96437c56cd8a483658d81698d557",
+    "bytes": 1719
+  },
+  "packages/math/index.js": {
+    "sha256": "9e4253d94d16596b9f92a13b173ba9d86ba10a1d65684e475ca15bfabd4e5010",
+    "bytes": 7142
+  },
+  "packages/manufacturing/index.js": {
+    "sha256": "26fd39bde486e711b231b05e787729b7d69c63d4768041c8b78166a977119f3e",
+    "bytes": 14361
+  },
+  "packages/manufacturing/additive.js": {
+    "sha256": "92115e4b6189be7fb0977a0d55b093ff16a225376266c922fa609fa350b4f8b4",
+    "bytes": 6435
+  },
+  "packages/manufacturing/geometry.js": {
+    "sha256": "9b7e6ee676f847a439ed9e8b7e5d725480d7f5007b2e13bb3e03d03250e4220d",
+    "bytes": 5710
+  },
+  "packages/project/autosave.js": {
+    "sha256": "0dd2fa75a9280224c92c34e7eaa51838f9bde2234aab5730d3c49576f663375f",
+    "bytes": 2024
+  },
+  "packages/project/index.js": {
+    "sha256": "cd54407ec58516ccc416ec685eb1663400d469065047ce7ab556bea49d51b952",
+    "bytes": 10661
+  },
+  "packages/project/storage.js": {
+    "sha256": "62ead0ffdd0de106520cd7e2130e980cf5a103e94ad6106700d7ded5a8c4db33",
+    "bytes": 3524
+  },
+  "packages/workbench/edit-session.js": {
+    "sha256": "8f14f16424cc758177decc1732704e79ee26098b1065da6b120584f91adb2cd9",
+    "bytes": 3395
+  },
+  "packages/workbench/index.js": {
+    "sha256": "92b86d846871c4b58f8584d32bfb9135c6684caf3b49b94cb04d2a029ac8de91",
+    "bytes": 8045
+  },
+  "packages/workbench/examples.js": {
+    "sha256": "372914b457d9b5959432d2ea04f74c2879ec8faf12e88e099d1367394b838c8e",
+    "bytes": 1184
+  },
+  "packages/construction/index.js": {
+    "sha256": "a2ce2ac15969c11d2939fae60f31ab162abe44268d8c700a08e249dd8070f370",
+    "bytes": 1893
+  },
+  "packages/construction/frames.js": {
+    "sha256": "aed42defa3ba558202bb852324edeefb49718aef621338810a562cc18dee48a2",
+    "bytes": 3490
+  },
+  "packages/sheet/index.js": {
+    "sha256": "11af2244ca515deee9f5bdec6b2a4c274293cf933550182e1d53b92be871e519",
+    "bytes": 3271
+  },
+  "packages/sketch/constraints.js": {
+    "sha256": "bb80cb6fdf16749a1d82cc6d6cc3149bfafb25241e691f03c62bacc6f57df3b0",
+    "bytes": 3448
+  },
+  "packages/kernel/spatial.js": {
+    "sha256": "ca7a63a3ed2eaa2d3201f14a7cd7f2e23c74f8c3bb6fa6149c640c6cef5d6f3e",
+    "bytes": 1944
+  },
+  "packages/kernel/csg.js": {
+    "sha256": "8be0d4f7a2a91dab7198ca7ec254e78cdc61d0628489958be05e061ef1a91f34",
+    "bytes": 7542
+  },
+  "packages/kernel/index.js": {
+    "sha256": "8c087d9df45283914769c74756f478398183ec199f6bf93ccbf9089c72ba69fe",
+    "bytes": 16559
+  },
+  "packages/kernel/edge-index.js": {
+    "sha256": "cf3b6aa9a5ff5d2343b542467cc0b5a9c61c19d2e15dbbf73682ff2bd06eafdb",
+    "bytes": 3059
+  },
+  "packages/kernel/curves.js": {
+    "sha256": "c4e6aabd57e5e870329acb26d1134ee17e198f23733882732f5aaaa4066e53f5",
+    "bytes": 4845
+  }
+}

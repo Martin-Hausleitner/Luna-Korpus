@@ -1,0 +1,541 @@
+{
+  "asterRepository": "https://github.com/wieslawsoltes/Aster",
+  "asterCommit": "a7cca00c03837f8f94e2f6b1cccc2f82830e32fc",
+  "stockBuilderIdentical": true,
+  "untouchedEngineFiles": [
+    "build.py",
+    "src/apps-files.js",
+    "src/apps-tools.js",
+    "src/apps-creative.js",
+    "src/renderer.js"
+  ],
+  "sourceFiles": [
+    {
+      "path": "src/app-library-models.js",
+      "upstreamSha256": "e2c931e2166a2822f7741e99edc4d1a605cde1cf99e7c137974faf5463332c89",
+      "releaseSha256": "e2c931e2166a2822f7741e99edc4d1a605cde1cf99e7c137974faf5463332c89",
+      "identical": true
+    },
+    {
+      "path": "src/app-library.js",
+      "upstreamSha256": "f83073980dd44e568296b2350ce3f36687fa71d74352474570923267b10cd510",
+      "releaseSha256": "8faa6247a8256875a906113be2bd2680fdb09c5187ea1f52348dfdf25f0126c1",
+      "identical": false
+    },
+    {
+      "path": "src/app-store.css",
+      "upstreamSha256": "c15cb4fc713463069780d3bb1e91dbf81f8f57a3bd0d3694f99b7ba423e467bd",
+      "releaseSha256": "c15cb4fc713463069780d3bb1e91dbf81f8f57a3bd0d3694f99b7ba423e467bd",
+      "identical": true
+    },
+    {
+      "path": "src/app-store.js",
+      "upstreamSha256": "fbbe50f55d2de2f9b99b596539d8f51f4275bc480994fbf52d54bb3b6766e831",
+      "releaseSha256": "4354c4add22eaa5dd1206f3b0e9c801d1818f2627ef2712ecc83833ba6e020e3",
+      "identical": false
+    },
+    {
+      "path": "src/apps-accessibility.js",
+      "upstreamSha256": "0b86d7f94891e16c77d5d801940c45a1c91cc751b3334cff968ac6d7a09f9c4d",
+      "releaseSha256": "0b86d7f94891e16c77d5d801940c45a1c91cc751b3334cff968ac6d7a09f9c4d",
+      "identical": true
+    },
+    {
+      "path": "src/apps-browser.js",
+      "upstreamSha256": "311a95f9a7db28a0a6bad4f9dc552a204f7df4196b29d31e2e33d72388f7b889",
+      "releaseSha256": "311a95f9a7db28a0a6bad4f9dc552a204f7df4196b29d31e2e33d72388f7b889",
+      "identical": true
+    },
+    {
+      "path": "src/apps-creative.js",
+      "upstreamSha256": "ca85469378b01fc1114b63a56ae0f10202b800a5a4fbcc3887288666a1c79132",
+      "releaseSha256": "ca85469378b01fc1114b63a56ae0f10202b800a5a4fbcc3887288666a1c79132",
+      "identical": true
+    },
+    {
+      "path": "src/apps-desktop.js",
+      "upstreamSha256": "104321df47e5e1ac6c28cb744a6254ef5a592c9b565bd069a470df373bf374b7",
+      "releaseSha256": "104321df47e5e1ac6c28cb744a6254ef5a592c9b565bd069a470df373bf374b7",
+      "identical": true
+    },
+    {
+      "path": "src/apps-files.js",
+      "upstreamSha256": "3986dcb73048b0f634bf5b2f53a8e4554d2e62093840dc4d00ed5357c978b8c6",
+      "releaseSha256": "3986dcb73048b0f634bf5b2f53a8e4554d2e62093840dc4d00ed5357c978b8c6",
+      "identical": true
+    },
+    {
+      "path": "src/apps-recorder.js",
+      "upstreamSha256": "a1e5b6fd03bcecf4c1a8682bf5a8b3316e60b1d31b64ee2c238e55b098d28d74",
+      "releaseSha256": "a1e5b6fd03bcecf4c1a8682bf5a8b3316e60b1d31b64ee2c238e55b098d28d74",
+      "identical": true
+    },
+    {
+      "path": "src/apps-system.js",
+      "upstreamSha256": "79eb8e3a8c0d6253102b5a436efe2c7029d09cf4d76623fd8eaa9ed3004e69b6",
+      "releaseSha256": "6542fb294468e9a65305df338106bdd28a4e6bdc3b8e6e70b1e81e53b704e4f8",
+      "identical": false
+    },
+    {
+      "path": "src/apps-tools.js",
+      "upstreamSha256": "bec3e037ad25fccfebd4f9e9f1e87374d8f6770f70df5c71761079d27614ac56",
+      "releaseSha256": "bec3e037ad25fccfebd4f9e9f1e87374d8f6770f70df5c71761079d27614ac56",
+      "identical": true
+    },
+    {
+      "path": "src/apps-web.js",
+      "upstreamSha256": "0448a29789535413db736f97d0315fa7f2258970bd38f9878aecd4bb395d3688",
+      "releaseSha256": "0448a29789535413db736f97d0315fa7f2258970bd38f9878aecd4bb395d3688",
+      "identical": true
+    },
+    {
+      "path": "src/apps-win32.js",
+      "upstreamSha256": "03ecd676229146b43c35728154bfac18ca8bf5aacc87b852a1967e968aa2863c",
+      "releaseSha256": "03ecd676229146b43c35728154bfac18ca8bf5aacc87b852a1967e968aa2863c",
+      "identical": true
+    },
+    {
+      "path": "src/archives.js",
+      "upstreamSha256": "9b4e8e81966d01603b2224e452e3a2680e6a501e7a6bca52d6b29dc604ac4372",
+      "releaseSha256": "9b4e8e81966d01603b2224e452e3a2680e6a501e7a6bca52d6b29dc604ac4372",
+      "identical": true
+    },
+    {
+      "path": "src/clipboard-client.js",
+      "upstreamSha256": "7332b8bcde9661a080464e269644dc96c0def799a3d0fa873ec55f15834aa50c",
+      "releaseSha256": "7332b8bcde9661a080464e269644dc96c0def799a3d0fa873ec55f15834aa50c",
+      "identical": true
+    },
+    {
+      "path": "src/clipboard-service.js",
+      "upstreamSha256": "14fea4fe44d45910b03f6c858f3ab43be74d3a4519a8cb4c10881fb9e7e26829",
+      "releaseSha256": "14fea4fe44d45910b03f6c858f3ab43be74d3a4519a8cb4c10881fb9e7e26829",
+      "identical": true
+    },
+    {
+      "path": "src/clipboard-ui.js",
+      "upstreamSha256": "7c3c7dc365fb564fdb74d564a54b5d4562f2f334ecd8344048f73e00d1e54fb7",
+      "releaseSha256": "7c3c7dc365fb564fdb74d564a54b5d4562f2f334ecd8344048f73e00d1e54fb7",
+      "identical": true
+    },
+    {
+      "path": "src/clipboard.css",
+      "upstreamSha256": "d9fe61f8dc20fc962dba363a76dc5a3df35da817ac974e6a0d2b5ff439497e91",
+      "releaseSha256": "d9fe61f8dc20fc962dba363a76dc5a3df35da817ac974e6a0d2b5ff439497e91",
+      "identical": true
+    },
+    {
+      "path": "src/core.js",
+      "upstreamSha256": "94f96d9fb0bea1039294dac2d7ac56b7b3e00b382372634fd32e5fb5796b8750",
+      "releaseSha256": "da3d5fd13d7badbec3f34e7eda24b04ca804de257880e8962b6d0252df67f306",
+      "identical": false
+    },
+    {
+      "path": "src/desktop-models.js",
+      "upstreamSha256": "5e295783d48c4202c666318e2cf832171de22160a404d2b03489c7cc08af7dcf",
+      "releaseSha256": "5e295783d48c4202c666318e2cf832171de22160a404d2b03489c7cc08af7dcf",
+      "identical": true
+    },
+    {
+      "path": "src/desktop-refinement-models.js",
+      "upstreamSha256": "7d6a7a22eb1e6b3982f359b16dfb9f1b05f96d765d239ac6efb8d8e221117a8a",
+      "releaseSha256": "7d6a7a22eb1e6b3982f359b16dfb9f1b05f96d765d239ac6efb8d8e221117a8a",
+      "identical": true
+    },
+    {
+      "path": "src/desktop-refinement.css",
+      "upstreamSha256": "339a7dc721149c9ade308e247f6d2cae15ac57fb40927024a47cdfbabf559b6d",
+      "releaseSha256": "339a7dc721149c9ade308e247f6d2cae15ac57fb40927024a47cdfbabf559b6d",
+      "identical": true
+    },
+    {
+      "path": "src/desktop-refinement.js",
+      "upstreamSha256": "e7ac207086a304e8cf91e435228094e97cfd3cb41b7ea392980eb11e2c112916",
+      "releaseSha256": "e7ac207086a304e8cf91e435228094e97cfd3cb41b7ea392980eb11e2c112916",
+      "identical": true
+    },
+    {
+      "path": "src/desktop-services.js",
+      "upstreamSha256": "7312371ecb75ec1613eb4d06c48688c0cd12d7a4884b4407a9006d0f21ba05e7",
+      "releaseSha256": "7312371ecb75ec1613eb4d06c48688c0cd12d7a4884b4407a9006d0f21ba05e7",
+      "identical": true
+    },
+    {
+      "path": "src/explorer-operations.js",
+      "upstreamSha256": "2953983e44ac9f80bee73afbc66a581bf364a3892107126c1205c2f7babbb2a9",
+      "releaseSha256": "2953983e44ac9f80bee73afbc66a581bf364a3892107126c1205c2f7babbb2a9",
+      "identical": true
+    },
+    {
+      "path": "src/file-operations.js",
+      "upstreamSha256": "41374b01e2bedabf9efa908bbed1632edd49d711550629f7db78d38b0b0bda66",
+      "releaseSha256": "41374b01e2bedabf9efa908bbed1632edd49d711550629f7db78d38b0b0bda66",
+      "identical": true
+    },
+    {
+      "path": "src/file-picker-models.js",
+      "upstreamSha256": "9090cb7bb6e2e1835f489346fabce99a07994e071da1ec48d57f7b6eb9bd3777",
+      "releaseSha256": "9090cb7bb6e2e1835f489346fabce99a07994e071da1ec48d57f7b6eb9bd3777",
+      "identical": true
+    },
+    {
+      "path": "src/file-picker.css",
+      "upstreamSha256": "6896879992dbd1fe8d7a0416d93513300667537e118190c6686f225c7cc28bd6",
+      "releaseSha256": "6896879992dbd1fe8d7a0416d93513300667537e118190c6686f225c7cc28bd6",
+      "identical": true
+    },
+    {
+      "path": "src/file-picker.js",
+      "upstreamSha256": "03d7ffd9164f06e353b96cd01f378dbcb56cafa7c9875df6cea1adbd3ce0d282",
+      "releaseSha256": "03d7ffd9164f06e353b96cd01f378dbcb56cafa7c9875df6cea1adbd3ce0d282",
+      "identical": true
+    },
+    {
+      "path": "src/file-workflows.css",
+      "upstreamSha256": "7dbf09c96eab22acf9d93b66d2b5aec9a644e21cec9325f4e3387b6cd0258b83",
+      "releaseSha256": "7dbf09c96eab22acf9d93b66d2b5aec9a644e21cec9325f4e3387b6cd0258b83",
+      "identical": true
+    },
+    {
+      "path": "src/input-models.js",
+      "upstreamSha256": "5a747305ea21a09662cf8fbbdf280a1a946ae9ae3b1745013d2a08f2270ea3dc",
+      "releaseSha256": "5a747305ea21a09662cf8fbbdf280a1a946ae9ae3b1745013d2a08f2270ea3dc",
+      "identical": true
+    },
+    {
+      "path": "src/integrated-desktop.js",
+      "upstreamSha256": "edec67ad550292fae4b9ec9a6d26bb57d16b6186175d82d4eaa074fcae0a0da7",
+      "releaseSha256": "edec67ad550292fae4b9ec9a6d26bb57d16b6186175d82d4eaa074fcae0a0da7",
+      "identical": true
+    },
+    {
+      "path": "src/liquid-material.js",
+      "upstreamSha256": "78f5ba971803cb1578da8cf78d0fe656688fffe586d655cd849a7e9d90d5bad0",
+      "releaseSha256": "78f5ba971803cb1578da8cf78d0fe656688fffe586d655cd849a7e9d90d5bad0",
+      "identical": true
+    },
+    {
+      "path": "src/material-optics.js",
+      "upstreamSha256": "fd1a6917df9897d21c241b54b5aa8a2a9e22e552918274b4c82315c21e4b62fe",
+      "releaseSha256": "fd1a6917df9897d21c241b54b5aa8a2a9e22e552918274b4c82315c21e4b62fe",
+      "identical": true
+    },
+    {
+      "path": "src/orbit-models.js",
+      "upstreamSha256": "a9df2b17d3f0888bf9851f678de8be920bb60a08794bade650a8c45632db05dc",
+      "releaseSha256": "a9df2b17d3f0888bf9851f678de8be920bb60a08794bade650a8c45632db05dc",
+      "identical": true
+    },
+    {
+      "path": "src/orbit-service.js",
+      "upstreamSha256": "4a290857737adf57b500ed3fa51e2c20770a61ee675da3a158e4653b0cc721ed",
+      "releaseSha256": "4a290857737adf57b500ed3fa51e2c20770a61ee675da3a158e4653b0cc721ed",
+      "identical": true
+    },
+    {
+      "path": "src/orbit.css",
+      "upstreamSha256": "254845288eb5808e343d7caaae566df84d8318efc6c435694142657d8495e26c",
+      "releaseSha256": "254845288eb5808e343d7caaae566df84d8318efc6c435694142657d8495e26c",
+      "identical": true
+    },
+    {
+      "path": "src/profile-artwork.js",
+      "upstreamSha256": "cfecf04be11742552fd0cbbfd876ad0f830ca6f967215bf3e789e20763d1bd30",
+      "releaseSha256": "cfecf04be11742552fd0cbbfd876ad0f830ca6f967215bf3e789e20763d1bd30",
+      "identical": true
+    },
+    {
+      "path": "src/renderer.js",
+      "upstreamSha256": "377421088be46aabae7ba456278b703fea87215025f3467a9ad7f36694f31c6a",
+      "releaseSha256": "377421088be46aabae7ba456278b703fea87215025f3467a9ad7f36694f31c6a",
+      "identical": true
+    },
+    {
+      "path": "src/shell-command-models.js",
+      "upstreamSha256": "95db550ad3da59ae593e6a8e832bbb0ab9671ce3cc2b5ce8f544cb1356d86a45",
+      "releaseSha256": "95db550ad3da59ae593e6a8e832bbb0ab9671ce3cc2b5ce8f544cb1356d86a45",
+      "identical": true
+    },
+    {
+      "path": "src/shell-design.css",
+      "upstreamSha256": "b521d4cec256ce31a8794bf3cb181bf22b0967f0128fe201d4a2a009b8a08ee2",
+      "releaseSha256": "b521d4cec256ce31a8794bf3cb181bf22b0967f0128fe201d4a2a009b8a08ee2",
+      "identical": true
+    },
+    {
+      "path": "src/shell-experience.js",
+      "upstreamSha256": "5b944eba1e6b4020108ba2927ccb119c92d71900bd678095b12bc22ba4073c75",
+      "releaseSha256": "5b944eba1e6b4020108ba2927ccb119c92d71900bd678095b12bc22ba4073c75",
+      "identical": true
+    },
+    {
+      "path": "src/shell-launch.css",
+      "upstreamSha256": "b2b52c5125ea65a23e28cbd3aa899a57ca0eb06579355b1e9cdc9ab3aed251d8",
+      "releaseSha256": "b2b52c5125ea65a23e28cbd3aa899a57ca0eb06579355b1e9cdc9ab3aed251d8",
+      "identical": true
+    },
+    {
+      "path": "src/shell-launch.js",
+      "upstreamSha256": "09b994c78a392f2bd86d31225d38167f02646aead510486e8025733ad89f604d",
+      "releaseSha256": "09b994c78a392f2bd86d31225d38167f02646aead510486e8025733ad89f604d",
+      "identical": true
+    },
+    {
+      "path": "src/shell.js",
+      "upstreamSha256": "491f6c155f527064ebaf5807b162467f9009a73e1f736d26496852c4af28fcdc",
+      "releaseSha256": "bbcafcc88b93d0bdd12718167b94ddfd746be04951abd721cf1434bde5ec1d26",
+      "identical": false
+    },
+    {
+      "path": "src/styles.css",
+      "upstreamSha256": "38cccc6a07ebbe1faf4ff1a1cb1a28b9b93b3c45c486a504f00f758a4be9d387",
+      "releaseSha256": "38cccc6a07ebbe1faf4ff1a1cb1a28b9b93b3c45c486a504f00f758a4be9d387",
+      "identical": true
+    },
+    {
+      "path": "src/theme-assets.js",
+      "upstreamSha256": "182778a8911cb6985e57bef25a55269124b3f76bbd929639526d2a2eeea0a5b0",
+      "releaseSha256": "182778a8911cb6985e57bef25a55269124b3f76bbd929639526d2a2eeea0a5b0",
+      "identical": true
+    },
+    {
+      "path": "src/theme-engine.js",
+      "upstreamSha256": "02bb2d1668ae1d9ca2532369613f28ac09a3232f3febf3926c27c03c455d93d8",
+      "releaseSha256": "02bb2d1668ae1d9ca2532369613f28ac09a3232f3febf3926c27c03c455d93d8",
+      "identical": true
+    },
+    {
+      "path": "src/theme-models.js",
+      "upstreamSha256": "52b0704b57f28212c373c9e3272b7dfb0f98d8c5ce73d2812d98d3000a5fdb5f",
+      "releaseSha256": "656998ec4538b123df3040b2aa7f1aa10908e5091058173808cee2ecea80f5b1",
+      "identical": false
+    },
+    {
+      "path": "src/theme-packs.js",
+      "upstreamSha256": "d411883ab232f95c7b855b54466de7456a47717e32d1f77bf05cd27ced4d6ba5",
+      "releaseSha256": "d411883ab232f95c7b855b54466de7456a47717e32d1f77bf05cd27ced4d6ba5",
+      "identical": true
+    },
+    {
+      "path": "src/theme-settings.js",
+      "upstreamSha256": "c791c50f3e2dded53687626b84cb5f80441bbf991a431da9a272add156940c2e",
+      "releaseSha256": "c791c50f3e2dded53687626b84cb5f80441bbf991a431da9a272add156940c2e",
+      "identical": true
+    },
+    {
+      "path": "src/theme-shell.js",
+      "upstreamSha256": "7b3b78a2a8f32797d31a75372c173731938a5c821d2c69de99808684120c6ecc",
+      "releaseSha256": "7b3b78a2a8f32797d31a75372c173731938a5c821d2c69de99808684120c6ecc",
+      "identical": true
+    },
+    {
+      "path": "src/themes.css",
+      "upstreamSha256": "54e97b6291c7a933302e890a56a58d09772b8f66a65e8897f9505873e446b5e0",
+      "releaseSha256": "54e97b6291c7a933302e890a56a58d09772b8f66a65e8897f9505873e446b5e0",
+      "identical": true
+    },
+    {
+      "path": "src/ui-refinement.css",
+      "upstreamSha256": "547779f145f3ec0ed7e951eccbec30e1ed4512c019b3bcc5f382ef5b0817eb62",
+      "releaseSha256": "547779f145f3ec0ed7e951eccbec30e1ed4512c019b3bcc5f382ef5b0817eb62",
+      "identical": true
+    },
+    {
+      "path": "src/visual-profiles.css",
+      "upstreamSha256": "78c263333fa213c4f30999d92582596706a3cba9deb0a8e461438d6f1e534bf3",
+      "releaseSha256": "78c263333fa213c4f30999d92582596706a3cba9deb0a8e461438d6f1e534bf3",
+      "identical": true
+    },
+    {
+      "path": "src/web-app-catalog.js",
+      "upstreamSha256": "da8c6a9f47cc31faa7c6febcbe8bbf112700c2032ebe7fc38a015d1b0ea6cb3a",
+      "releaseSha256": "43f3ba1c59e086bb277f2c173baf9efe1fa5e9823d6dfa738ab35600f56ad733",
+      "identical": false
+    },
+    {
+      "path": "src/web-app-chrome.css",
+      "upstreamSha256": "01b02913e628dc0991b2f80ea991c4214a407edc6e42abf851ae7af29e652b43",
+      "releaseSha256": "01b02913e628dc0991b2f80ea991c4214a407edc6e42abf851ae7af29e652b43",
+      "identical": true
+    },
+    {
+      "path": "src/web-app-settings.js",
+      "upstreamSha256": "e96ac627dd00dcce3a25ba057fdab1645b36709f39eed6a6c168a387e9ad69f6",
+      "releaseSha256": "e96ac627dd00dcce3a25ba057fdab1645b36709f39eed6a6c168a387e9ad69f6",
+      "identical": true
+    },
+    {
+      "path": "src/web-io-client.js",
+      "upstreamSha256": "925b62721e3108a42146222e127109e0cbe971bf2b7052ce06e823fbe43d15c4",
+      "releaseSha256": "925b62721e3108a42146222e127109e0cbe971bf2b7052ce06e823fbe43d15c4",
+      "identical": true
+    },
+    {
+      "path": "src/web-io-host.js",
+      "upstreamSha256": "8313b5b33242df9f86248be0b6db994916909a107b8da149083c38181303722e",
+      "releaseSha256": "8313b5b33242df9f86248be0b6db994916909a107b8da149083c38181303722e",
+      "identical": true
+    },
+    {
+      "path": "src/web-io-models.js",
+      "upstreamSha256": "509d4fe26de5786a6633c7da165de63a63dcf565ff2272fb107557f69634e011",
+      "releaseSha256": "509d4fe26de5786a6633c7da165de63a63dcf565ff2272fb107557f69634e011",
+      "identical": true
+    },
+    {
+      "path": "src/web-io-shell.js",
+      "upstreamSha256": "d329aaa08603abe8184719738474a69c19188f2a3fec9c7081d1462f1fceb770",
+      "releaseSha256": "d329aaa08603abe8184719738474a69c19188f2a3fec9c7081d1462f1fceb770",
+      "identical": true
+    },
+    {
+      "path": "src/web-io.css",
+      "upstreamSha256": "b4ecc392fbe788f06b1244f55b4a47f5937de3da965d60ca03b5bedc81137c69",
+      "releaseSha256": "b4ecc392fbe788f06b1244f55b4a47f5937de3da965d60ca03b5bedc81137c69",
+      "identical": true
+    },
+    {
+      "path": "src/web-navigation.js",
+      "upstreamSha256": "1e8f5bf69f50fe5eae114a65770e1ab66382477876a6dc0dd9a3f6f1dea6a26d",
+      "releaseSha256": "1e8f5bf69f50fe5eae114a65770e1ab66382477876a6dc0dd9a3f6f1dea6a26d",
+      "identical": true
+    },
+    {
+      "path": "src/webviews.js",
+      "upstreamSha256": "d641d0402488f9f42f9010fba68b63c1f44f87032be0606554e8b8b2a5483e02",
+      "releaseSha256": "d641d0402488f9f42f9010fba68b63c1f44f87032be0606554e8b8b2a5483e02",
+      "identical": true
+    },
+    {
+      "path": "src/win32/bitmaps.js",
+      "upstreamSha256": "80e75e93fc95f92688fb1968fa7ef55440bad5ad039afc3cda13d4e0dda966ac",
+      "releaseSha256": "80e75e93fc95f92688fb1968fa7ef55440bad5ad039afc3cda13d4e0dda966ac",
+      "identical": true
+    },
+    {
+      "path": "src/win32/compat.js",
+      "upstreamSha256": "196a4d04242a44c7606711a733c8534adced6562b0197a6049b53f7f0f41a34f",
+      "releaseSha256": "196a4d04242a44c7606711a733c8534adced6562b0197a6049b53f7f0f41a34f",
+      "identical": true
+    },
+    {
+      "path": "src/win32/examples/compute.exe",
+      "upstreamSha256": "56af2ed81cc5bac6dda9d5d97dea9f405e4895ca0a6b96a0fbfd29c40a62922e",
+      "releaseSha256": "56af2ed81cc5bac6dda9d5d97dea9f405e4895ca0a6b96a0fbfd29c40a62922e",
+      "identical": true
+    },
+    {
+      "path": "src/win32/examples/gdi.exe",
+      "upstreamSha256": "5b55ff60a866bf0b5bc137da45d230303e6f26dbcc32fc64c0b97cc862efcc1b",
+      "releaseSha256": "5b55ff60a866bf0b5bc137da45d230303e6f26dbcc32fc64c0b97cc862efcc1b",
+      "identical": true
+    },
+    {
+      "path": "src/win32/examples/hello.exe",
+      "upstreamSha256": "06bce63ca93cc465cd2eedf567c0b0473f56c3a437ee8d571dd4174216cbb7dd",
+      "releaseSha256": "06bce63ca93cc465cd2eedf567c0b0473f56c3a437ee8d571dd4174216cbb7dd",
+      "identical": true
+    },
+    {
+      "path": "src/win32/examples/pad.exe",
+      "upstreamSha256": "f2f8fd71b9e2c70dd632d9653244c402671ece48cdb36fc7b8c3d84ed386308a",
+      "releaseSha256": "f2f8fd71b9e2c70dd632d9653244c402671ece48cdb36fc7b8c3d84ed386308a",
+      "identical": true
+    },
+    {
+      "path": "src/win32/gdi.js",
+      "upstreamSha256": "6814fe47ebc6a63fcd971123223f6435346ec5f49191d8793651ad310448b6bd",
+      "releaseSha256": "6814fe47ebc6a63fcd971123223f6435346ec5f49191d8793651ad310448b6bd",
+      "identical": true
+    },
+    {
+      "path": "src/win32/gui-host.js",
+      "upstreamSha256": "aa69c7470150e00157e350a79f7572160278cd736c3488b48052a79c68cfead6",
+      "releaseSha256": "aa69c7470150e00157e350a79f7572160278cd736c3488b48052a79c68cfead6",
+      "identical": true
+    },
+    {
+      "path": "src/win32/gui.js",
+      "upstreamSha256": "9003b9ee3b409704e93accb60973eaa540e1e6c66592f5398b7893e31e5be9c5",
+      "releaseSha256": "9003b9ee3b409704e93accb60973eaa540e1e6c66592f5398b7893e31e5be9c5",
+      "identical": true
+    },
+    {
+      "path": "src/win32/pe.js",
+      "upstreamSha256": "a987890e4e25b08314a54b4240f7dd41521bdddeafeff79314314fcd6e71c3a5",
+      "releaseSha256": "a987890e4e25b08314a54b4240f7dd41521bdddeafeff79314314fcd6e71c3a5",
+      "identical": true
+    },
+    {
+      "path": "src/win32/registry.js",
+      "upstreamSha256": "52765729fec5f86dee4068092175d757ff1f39bba29cabfd9799ae3173378480",
+      "releaseSha256": "52765729fec5f86dee4068092175d757ff1f39bba29cabfd9799ae3173378480",
+      "identical": true
+    },
+    {
+      "path": "src/win32/resources.js",
+      "upstreamSha256": "846ef281b27c92eb01532e0ddf0b8b17336cb83d31f802b55fdaba1c92309826",
+      "releaseSha256": "846ef281b27c92eb01532e0ddf0b8b17336cb83d31f802b55fdaba1c92309826",
+      "identical": true
+    },
+    {
+      "path": "src/win32/runtime.js",
+      "upstreamSha256": "257fe8a991c7c7135cdc6f57dc96237cb2e58f2e1859b59efe61ada89b32d7c9",
+      "releaseSha256": "257fe8a991c7c7135cdc6f57dc96237cb2e58f2e1859b59efe61ada89b32d7c9",
+      "identical": true
+    },
+    {
+      "path": "src/win32/third-party/7zr.exe",
+      "upstreamSha256": "ad4c82fadcbdf93c03b4fc440f300509c7d60c5c2f4d183e35d9d70d6957037d",
+      "releaseSha256": "ad4c82fadcbdf93c03b4fc440f300509c7d60c5c2f4d183e35d9d70d6957037d",
+      "identical": true
+    },
+    {
+      "path": "src/win32/third-party/NOTICE.txt",
+      "upstreamSha256": "b6dec4a88c18d1934984be378166ca4eb2211d26027c9d50f65406b5cc601007",
+      "releaseSha256": "b6dec4a88c18d1934984be378166ca4eb2211d26027c9d50f65406b5cc601007",
+      "identical": true
+    },
+    {
+      "path": "src/win32/third-party/tcc-files.json",
+      "upstreamSha256": "28c65465f65e0727ea770d1e8f14aa9bca1d30c962d67c35aef2f484af6383b6",
+      "releaseSha256": "28c65465f65e0727ea770d1e8f14aa9bca1d30c962d67c35aef2f484af6383b6",
+      "identical": true
+    },
+    {
+      "path": "src/win32/third-party/tcc.exe",
+      "upstreamSha256": "11b86934bb2833f57fa0453a605ca342aee9207e193faea9b973baa2b2b4c35b",
+      "releaseSha256": "11b86934bb2833f57fa0453a605ca342aee9207e193faea9b973baa2b2b4c35b",
+      "identical": true
+    },
+    {
+      "path": "src/win32/third-party/winemine.exe",
+      "upstreamSha256": "2d170125877b81b6a5313276dfa1885f9103ca9f2c8cc1e42d563a75864f813a",
+      "releaseSha256": "2d170125877b81b6a5313276dfa1885f9103ca9f2c8cc1e42d563a75864f813a",
+      "identical": true
+    },
+    {
+      "path": "src/win32/worker.js",
+      "upstreamSha256": "3d3b3ea90885e7818ddfc2964ca120dc936afaa199a9630fb3b4ce4e984b39d3",
+      "releaseSha256": "3d3b3ea90885e7818ddfc2964ca120dc936afaa199a9630fb3b4ce4e984b39d3",
+      "identical": true
+    },
+    {
+      "path": "src/win32/x86.wasm",
+      "upstreamSha256": "26058730fb94feb6ea8a3fc0f219d4654680517e06dfae50bd0c4b35c371482d",
+      "releaseSha256": "26058730fb94feb6ea8a3fc0f219d4654680517e06dfae50bd0c4b35c371482d",
+      "identical": true
+    },
+    {
+      "path": "src/windows.js",
+      "upstreamSha256": "05e07f83c3c1b78691b797eed5f7cd8583271ea03f984f3fa1253b0cd70b7518",
+      "releaseSha256": "5a2f30d5c574522d0bae4f8f8d12d980cfd65352cb4ac3f745c54e8ec975fc53",
+      "identical": false
+    }
+  ],
+  "generatedAt": "2026-09-14T10:20:54.657150+00:00",
+  "applicationCount": 19,
+  "appsManifest": "app-mapping.json",
+  "entryFile": "Luna-Korpus.html",
+  "entrySha256": "1879e3bba5b607579046e337bd16f414757271e1c465b174f3138f81d588afe3"
+}

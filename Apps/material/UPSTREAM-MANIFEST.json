@@ -1,0 +1,82 @@
+{
+  "index.html": {
+    "sha256": "75fe77825d6e3165bdb42ece7277c31be935e6beec788029d84ef9f28b79227e",
+    "bytes": 10886
+  },
+  "styles.css": {
+    "sha256": "20fc90e846863359a5dcab3c5c85c7f82a8395e327ffa576da79a7a2f6543e82",
+    "bytes": 24934
+  },
+  "LICENSE": {
+    "sha256": "e948d5a2f2165456481e04e99e52c2ffbd1b721cafb228daae95e9e6d7a9d081",
+    "bytes": 1081
+  },
+  "src/app.js": {
+    "sha256": "961a0f228872fa7019df015fda803e1c3732f8662b606d44e7e568cb577dba2a",
+    "bytes": 46885
+  },
+  "src/ui/preview.js": {
+    "sha256": "6dd8734354d71a7cda1a6926c7ee9f6a7edc1a0fbec806c478dba363ca2914ec",
+    "bytes": 10006
+  },
+  "src/ui/graph-editor.js": {
+    "sha256": "5f50a1d7efb8654d678977964cb05c488a3bb1a811aa2d6478b1ed2ee4b0ecd4",
+    "bytes": 11182
+  },
+  "src/gpu/shaders.js": {
+    "sha256": "88d32ff8378b2bc38504231288cbaa9e3184d98feea35b956256d3a2a4221c29",
+    "bytes": 12351
+  },
+  "src/gpu/engine.js": {
+    "sha256": "d478b54859f2628b8bf88f84f3b00035b5d93fcee3bee970d7fa7a76bbecc952",
+    "bytes": 9297
+  },
+  "src/core/graph.js": {
+    "sha256": "b91c7ba251c9999b61ce3b2def391d7dd2d59af6961a4828d00efc760ddfcf50",
+    "bytes": 16835
+  },
+  "src/core/presets.js": {
+    "sha256": "19d17ff3b93040a39a1b79cd5037ee2bf79cb36ce0509b1ed87f9cd51ce5664a",
+    "bytes": 3951
+  },
+  "src/core/registry.js": {
+    "sha256": "a001f9c7e3310c16fa53082e20c9f315c348ecf77bf0aa8dbd88e0cf511b3ad7",
+    "bytes": 8418
+  },
+  "src/core/cpu-engine.js": {
+    "sha256": "8be8ba4536fd2adc8abb4aac7f4c3ce3f5b2c2843e455a5731b360316945fba3",
+    "bytes": 1005
+  },
+  "src/core/export.js": {
+    "sha256": "6e3427d3abb21dd94c365e8e08d9168c975e4b9b825272f0b2ccbbc6957a60b5",
+    "bytes": 2772
+  },
+  "src/core/cpu-kernels.js": {
+    "sha256": "7c4dbf50011264854d65a18e4da2ceb1dd24550b34aa77255e7c8d62f5c9fb38",
+    "bytes": 6231
+  },
+  "src/core/persistence.js": {
+    "sha256": "d6bbc6079799cb0dab41e271b5fbc5aeb4faafc6bfa31676c22dee40f184031f",
+    "bytes": 2131
+  },
+  "src/core/cpu-worker.js": {
+    "sha256": "094ca32b5219d8099f6c31cdc02a83acbb0f0c3909902f2adb29eac5daaf735a",
+    "bytes": 2311
+  },
+  "examples/copper.sforge": {
+    "sha256": "b6073903e2982a7c387e999ac1ba83f701ea382ece8de89e9f66a5b7bd4b7d43",
+    "bytes": 5850
+  },
+  "examples/brick.sforge": {
+    "sha256": "c7138d5c353246212e13dabda3125f10a99b761b5c9bdc656d26385dd6854873",
+    "bytes": 4367
+  },
+  "examples/ceramic.sforge": {
+    "sha256": "51e53e407144750173376cdc78604cd61458fb859cf332e940d310f233ad5ba1",
+    "bytes": 4332
+  },
+  "examples/stone.sforge": {
+    "sha256": "1c17cbf83c7b4cefbc4244013547d1e3bdbe93b38191eb34d004f56d01d8cffb",
+    "bytes": 4300
+  }
+}

@@ -1,0 +1,116 @@
+✔ Every audited web project appears exactly once; only Aster itself is excluded (1.348416ms)
+✔ The inclusive Sunday–Tuesday window uses Warsaw time, not UTC midnight (0.277167ms)
+✔ Category submenus cover all projects and never contain an empty folder (0.134042ms)
+✔ Launch URLs, repository identity, descriptions and deployment evidence agree (0.722916ms)
+✔ Catalog objects and collections are immutable (0.113041ms)
+✔ All projects register real mounts without DOM, network or eager iframe creation (1.758667ms)
+✔ The host rejects arbitrary origins, schemes, credentials and altered paths (2.782833ms)
+✔ Static and standalone loaders include catalog before launcher and shell (26.962916ms)
+✖ Requested Veyra Workspace and Asterion EDA entries keep their category and media scope (1.535041ms)
+✖ The five requested tools are unique, categorized and searchable without added media access (0.911625ms)
+✖ September 10 requested additions remain unique, searchable, scoped and explicitly audited (0.73875ms)
+✖ Requested workspace and design apps are unique, searchable and do not gain media access (0.638792ms)
+✔ The standalone embeds the exact same catalog, including all five additions (16.93075ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 9
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 115.790833
+
+✖ failing tests:
+
+test at aster/tests/web-apps/catalog.cjs:87:1
+✖ Requested Veyra Workspace and Asterion EDA entries keep their category and media scope (1.535041ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'Gespräch (Veyra Workspace)'
+  - 'Veyra Workspace'
+  
+      at TestContext.<anonymous> (/Users/mh/.local/share/luna-korpus-rebuild-20260914/release/aster/tests/web-apps/catalog.cjs:94:29)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Gespräch (Veyra Workspace)',
+    expected: 'Veyra Workspace',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at aster/tests/web-apps/catalog.cjs:105:1
+✖ The five requested tools are unique, categorized and searchable without added media access (0.911625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'Dateien (TwinForge)'
+  - 'TwinForge'
+  
+      at TestContext.<anonymous> (/Users/mh/.local/share/luna-korpus-rebuild-20260914/release/aster/tests/web-apps/catalog.cjs:119:16)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Dateien (TwinForge)',
+    expected: 'TwinForge',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at aster/tests/web-apps/catalog.cjs:128:1
+✖ September 10 requested additions remain unique, searchable, scoped and explicitly audited (0.73875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'VoltWeave Circuit Studio (VoltWeaveCircuitStudio)'
+  - 'VoltWeave Circuit Studio'
+                             ^
+  
+      at TestContext.<anonymous> (/Users/mh/.local/share/luna-korpus-rebuild-20260914/release/aster/tests/web-apps/catalog.cjs:134:37)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'VoltWeave Circuit Studio (VoltWeaveCircuitStudio)',
+    expected: 'VoltWeave Circuit Studio',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at aster/tests/web-apps/catalog.cjs:142:1
+✖ Requested workspace and design apps are unique, searchable and do not gain media access (0.638792ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'Signatur (Velsign)'
+  - 'Velsign'
+  
+      at TestContext.<anonymous> (/Users/mh/.local/share/luna-korpus-rebuild-20260914/release/aster/tests/web-apps/catalog.cjs:155:16)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Signatur (Velsign)',
+    expected: 'Velsign',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,106 @@
+TAP version 13
+# Subtest: Every audited web project appears exactly once; only Aster itself is excluded
+ok 1 - Every audited web project appears exactly once; only Aster itself is excluded
+  ---
+  duration_ms: 1.396208
+  type: 'test'
+  ...
+# Subtest: The inclusive Sunday–Tuesday window uses Warsaw time, not UTC midnight
+ok 2 - The inclusive Sunday–Tuesday window uses Warsaw time, not UTC midnight
+  ---
+  duration_ms: 0.279625
+  type: 'test'
+  ...
+# Subtest: Category submenus cover all projects and never contain an empty folder
+ok 3 - Category submenus cover all projects and never contain an empty folder
+  ---
+  duration_ms: 0.6005
+  type: 'test'
+  ...
+# Subtest: Launch URLs, repository identity, descriptions and deployment evidence agree
+ok 4 - Launch URLs, repository identity, descriptions and deployment evidence agree
+  ---
+  duration_ms: 0.351042
+  type: 'test'
+  ...
+# Subtest: Catalog objects and collections are immutable
+ok 5 - Catalog objects and collections are immutable
+  ---
+  duration_ms: 0.091083
+  type: 'test'
+  ...
+# Subtest: All projects register real mounts without DOM, network or eager iframe creation
+ok 6 - All projects register real mounts without DOM, network or eager iframe creation
+  ---
+  duration_ms: 2.127833
+  type: 'test'
+  ...
+# Subtest: The host rejects arbitrary origins, schemes, credentials and altered paths
+ok 7 - The host rejects arbitrary origins, schemes, credentials and altered paths
+  ---
+  duration_ms: 2.915084
+  type: 'test'
+  ...
+# Subtest: Static and standalone loaders include catalog before launcher and shell
+ok 8 - Static and standalone loaders include catalog before launcher and shell
+  ---
+  duration_ms: 49.099292
+  type: 'test'
+  ...
+# Subtest: Requested Veyra Workspace and Asterion EDA entries keep their category and media scope
+ok 9 - Requested Veyra Workspace and Asterion EDA entries keep their category and media scope
+  ---
+  duration_ms: 1.078833
+  type: 'test'
+  ...
+# Subtest: The five requested tools are unique, categorized and searchable without added media access
+ok 10 - The five requested tools are unique, categorized and searchable without added media access
+  ---
+  duration_ms: 0.76525
+  type: 'test'
+  ...
+# Subtest: September 10 requested additions remain unique, searchable, scoped and explicitly audited
+ok 11 - September 10 requested additions remain unique, searchable, scoped and explicitly audited
+  ---
+  duration_ms: 0.725666
+  type: 'test'
+  ...
+# Subtest: Requested workspace and design apps are unique, searchable and do not gain media access
+ok 12 - Requested workspace and design apps are unique, searchable and do not gain media access
+  ---
+  duration_ms: 0.738208
+  type: 'test'
+  ...
+# Subtest: The standalone embeds the exact same catalog, including all five additions
+ok 13 - The standalone embeds the exact same catalog, including all five additions
+  ---
+  duration_ms: 18.662541
+  type: 'test'
+  ...
+# Subtest: All 19 mapped catalog launcher names exactly match the German rename map
+ok 14 - All 19 mapped catalog launcher names exactly match the German rename map
+  ---
+  duration_ms: 0.167125
+  type: 'test'
+  ...
+# Subtest: All other catalog apps retain original names and repository suffix; no app is hidden
+ok 15 - All other catalog apps retain original names and repository suffix; no app is hidden
+  ---
+  duration_ms: 0.197292
+  type: 'test'
+  ...
+# Subtest: The Windows-profile Luna preset does not remove any original platform
+ok 16 - The Windows-profile Luna preset does not remove any original platform
+  ---
+  duration_ms: 0.621833
+  type: 'test'
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 156.028916

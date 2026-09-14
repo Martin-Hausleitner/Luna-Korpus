@@ -1,0 +1,86 @@
+{
+  "index.html": {
+    "sha256": "18c9b4148c58adf79c63851c07ac821adcc67fe28dbb349efde23ee3742e7795",
+    "bytes": 1488
+  },
+  "styles.css": {
+    "sha256": "f3c0180bd7f3c2b43b236ab48dbf11c60ac984ab18bf74bdb8f3c57af2032620",
+    "bytes": 59618
+  },
+  "auth.html": {
+    "sha256": "6bf6033f21c51718c51a77932356a417d7f724e5aa4020e9579b8813aeaac544",
+    "bytes": 412
+  },
+  "config.js": {
+    "sha256": "8a20141d4f2c95c8dec7f925d4dc79e20b91769f2b2939b763b0cacacbf42d91",
+    "bytes": 980
+  },
+  "manifest.webmanifest": {
+    "sha256": "59f4c57aafc220c58426001c354509e927a97b6f8daf2cdbe05c4294a4e6c299",
+    "bytes": 285
+  },
+  "app.js": {
+    "sha256": "21ac4e02279b184e90bf4a89ede333b3adc3fd5889230c2a01a0461046100856",
+    "bytes": 108651
+  },
+  "favicon.svg": {
+    "sha256": "23ab21e9443256152054da7e91ccd5409ead42d984c9a5c810b6c9b653303123",
+    "bytes": 223
+  },
+  "ui/device-panel.js": {
+    "sha256": "9506bacec7fc77e17a55d8d35d774db61b78e793abe9e26c006aaa743fcb63c0",
+    "bytes": 8792
+  },
+  "core/documents.js": {
+    "sha256": "b5c4c669bf7969b621835a1e6314280b0d4f829ac1d725b9bcb8982cca0996ee",
+    "bytes": 3420
+  },
+  "core/icons.js": {
+    "sha256": "c682cf440f612da68480730679e74138cb97549e78d90cdaf47aa908080c1066",
+    "bytes": 5080
+  },
+  "core/renderer.js": {
+    "sha256": "6fd4b80d590bff80e02ab13fa1652413fe4ede559b44e42dfdc4690a173f08af",
+    "bytes": 8352
+  },
+  "core/media.js": {
+    "sha256": "df4e18849a065f1b4132dac80c9025e18489cbb932c3fef1c3a45c73fd64f51d",
+    "bytes": 13959
+  },
+  "core/whiteboard.js": {
+    "sha256": "b098463488564f4058a47959aef9c8691887e707a2158fa7c0ef0741cc4126f4",
+    "bytes": 9635
+  },
+  "core/search-worker.js": {
+    "sha256": "16667b04e3531221f90722bff6d811f0bd50d78111fdcfaf40d664bad91d4a41",
+    "bytes": 884
+  },
+  "core/call-state.js": {
+    "sha256": "ab7fcde77ed814ad57677602e790812f86a837bea03d8916d4a0b3c4b0227111",
+    "bytes": 262
+  },
+  "core/calls.js": {
+    "sha256": "c8c594758bc3d73ecbd88c7b143989967d455bcf7da3a7157992c294f3d9156d",
+    "bytes": 14714
+  },
+  "core/seed.js": {
+    "sha256": "519b68253163ea3ec002dc1f83feb89e278b9909607b2786919baa0123086725",
+    "bytes": 6703
+  },
+  "core/model.js": {
+    "sha256": "f01a5d12893e039e1103fdc8f8ae24b76bb35bbd0fd9ce5d14a18036bfe0d58a",
+    "bytes": 6013
+  },
+  "core/storage.js": {
+    "sha256": "c0a4b3261d3e8d70f764dbf17e8c031ba435ff207860fc037d84d00c003ca7d8",
+    "bytes": 12718
+  },
+  "integrations/microsoft.js": {
+    "sha256": "a65a9886b2da7252f5c82ef8f16d6363a4b0fb88673d2278404c2211ed2de404",
+    "bytes": 20119
+  },
+  "integrations/teams-calling.js": {
+    "sha256": "3bd0f27e2d0e29d30bb56eef5d475d1b0848d818123e31d6c589fcddc2aba703",
+    "bytes": 8289
+  }
+}
