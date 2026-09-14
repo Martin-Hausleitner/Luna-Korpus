@@ -131,5 +131,14 @@
     "result": 160
   },
   "renderer": "WebGPU",
-  "visionReview": "PENDING_FINAL_LIVE_REVIEW"
+  "visionReview": {
+    "local": "PASS",
+    "pages": "PASS",
+    "scope": "Requested Luna theme, launcher and screenshot rubric; catalog startup scope and logged errors are documented",
+    "fixIterations": 2,
+    "checkedLiveCaptures": [
+      "qa/live/01-desktop.png",
+      "qa/live/05-korpus.png"
+    ]
+  }
 }

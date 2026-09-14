@@ -82,7 +82,7 @@ The original Aster storage and permission model is retained. No virtual user fil
 
 ## QA
 
-See `qa/` for source integrity, actual browser screenshots and test results. **Only recorded checks establish PASS; source preservation does not certify every editing feature, machine workflow or backend of every upstream application.**
+See [the QA report](qa/README.md) for source integrity, actual browser screenshots and test results. Local and live Pages visual checks passed after two bounded layout/branding fixes. The 32 upstream model tests passed; all 84 real catalog sites passed startup checks. Eight sandbox/service-worker errors remain explicitly logged in the catalog report. A real Gridline edit test computed `=32*5` as `160`. **Only recorded checks establish PASS; source preservation does not certify every editing feature, machine workflow or backend of every upstream application.**
 
 ## Not WAWI / Keine Warenwirtschaft
 
